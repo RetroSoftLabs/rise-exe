@@ -2781,7 +2781,7 @@
                 }
                 addCell(e) {
                     this.foreground.addChild(e);
-                    console.log(e.gameData;
+                    console.log(e.gameData);
                     if(e._height > 5000) {
                         console.log(e);
                     }
