@@ -2781,8 +2781,8 @@
                 }
                 addCell(e) {
                     this.foreground.addChild(e);
-                    //console.log(e.gameData);
-                    if(e.gameData.size > 5000) {
+                    console.log(e.gameData);
+                    if(1 > 5000) {
                         console.log(e);
                     }
                 }
