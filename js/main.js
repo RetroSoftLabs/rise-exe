@@ -2738,7 +2738,7 @@
             n.options.__file = "src/components/minimap.vue", t.default = n.exports
         }, function(e, t, s) {
             "use strict";
-            s(17).notifyUnsupportedBrowser(), s(1), s(130), s(132), s(142), s(148), s(269), s(267), s(268)
+            //s(17).notifyUnsupportedBrowser(), s(1), s(130), s(132), s(142), s(148), s(269), s(267), s(268)
         }, function(e, t, s) {
             var i = s(2),
                 a = s(120);
