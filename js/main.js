@@ -2658,7 +2658,9 @@
                                             playback: s
                                         } = i;
                                         if (s.dry) {
+                                            if(t > 0){
                                             s.destroyCell(t);
+                                            }
                                             return
                                         }
                                         m(t, e)
