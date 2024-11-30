@@ -635,7 +635,8 @@
                 }
                 static everySecond() {
                     (C.isAlive(!1) || C.isAlive(!0)) && C.timeAlive++, C.nwData > C.nwDataMax && (C.nwDataMax = C.nwData), C.nwDataTotal += C.nwData;
-                    GifSkinManager.check()
+                    //console.log
+                    //GifSkinManager.check()
                     let {
                         connection: e
                     } = C, {
