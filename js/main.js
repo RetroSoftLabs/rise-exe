@@ -2653,6 +2653,7 @@
                                         n = 32 & t ? void 0 : n, r = 64 & t ? void 0 : r, g(15 & t, s, a, n, o, r, l, c, e)
                                     },
                                     destroy(e, t) {
+                                        console.log(t);
                                         let {
                                             playback: s
                                         } = i;
