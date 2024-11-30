@@ -2780,7 +2780,7 @@
                     this.foreground.children.sort((e, t) => (e = e.gameData).size === (t = t.gameData).size ? e.id - t.id : e.size - t.size)
                 }
                 addCell(e) {
-                    console.log(e.gameData.size);
+                    //console.log(e.gameData.size);
                     this.foreground.addChild(e);
                     console.log(Object.getOwnPropertyDescriptor(e.gameData, 'size'));
                     if(1 > 5000) {
