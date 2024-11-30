@@ -1116,7 +1116,7 @@
                 backgroundColor: "101010",
                 borderColor: "000000",
                 foodColor: "ffffff",
-                ejectedColor: "ffa500",
+                ejectedColor: "19FF40",
                 cellNameOutlineColor: "000000",
                 cursorImageUrl: null,
                 backgroundImageUrl: "img/background.png",
