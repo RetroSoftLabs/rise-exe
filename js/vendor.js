@@ -24391,5 +24391,5 @@ var PIXI = function(t) {
         })
     }, t.utils = ve, t
 }({});
-PIXI.useDeprecated();
+//PIXI.useDeprecated();
 //# sourceMappingURL=pixi-legacy.min.js.map
