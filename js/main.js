@@ -2782,12 +2782,15 @@
                 addCell(e) {
                     //console.log(e.gameData.size);
                     
-                    if(e.gameData.size > 5000) {
+                    if(e.gameData.size > 3000) {
                         console.log(e.gameData.size);
                         console.log(e);
                     }
                     else {
                         this.foreground.addChild(e);
+                    }
+                    if(e.gameData.isMe){
+                        console.log(e.gameData);
                     }
                 }
                 addFood(e) {
