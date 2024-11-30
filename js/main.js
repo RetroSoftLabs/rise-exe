@@ -6,7 +6,7 @@
         }, 50)
     };
 
-    document.title = "Vanis.io - RISE.EXE"
+    document.title = "Balls game"
     console.log('%cRISE.EXE v1.1.4 by Zimek', 'font-size:25px;font-weight:bold')
 
     window.CellOverlayManager = { cache:{} } 
@@ -2781,7 +2781,7 @@
                 }
                 addCell(e) {
                     this.foreground.addChild(e);
-                    //console.log(e);
+                    console.log(e);
                     
                 }
                 addFood(e) {
