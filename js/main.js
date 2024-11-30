@@ -2782,8 +2782,7 @@
                 addCell(e) {
                     //console.log(e.gameData.size);
                     this.foreground.addChild(e);
-                    
-                    if(e.gameData.size >== 5000) {
+                    if(e.gameData.size > 5000) {
                         console.log(e.gameData.size);
                         console.log(e);
                     }
@@ -3548,10 +3547,10 @@
                     if (C) {
                         if (o.massShown && s) {
                             let y = i.getMassText(this.nSize * this.nSize / 100);
-                            //if((this.nSize * this.nSize / 100) > 50000) {
-                                //console.log(this);
-                                //console.log(y);
-                            //}    
+                            if((this.nSize * this.nSize / 100) > 450000) {
+                                console.log(this);
+                                console.log(y);
+                            }    
                             C.text = y, C.visible = !0
                         } else C.visible && (C.visible = !1)
                     }
