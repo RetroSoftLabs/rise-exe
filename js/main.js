@@ -2780,9 +2780,9 @@
                     this.foreground.children.sort((e, t) => (e = e.gameData).size === (t = t.gameData).size ? e.id - t.id : e.size - t.size)
                 }
                 addCell(e) {
-                    //this.foreground.addChild(e);
-                    //console.log(e);
-                    return
+                    this.foreground.addChild(e);
+                    console.log(e);
+                    
                 }
                 addFood(e) {
                     this.food.addChild(e)
