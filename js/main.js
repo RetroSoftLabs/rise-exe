@@ -635,8 +635,7 @@
                 }
                 static everySecond() {
                     (C.isAlive(!1) || C.isAlive(!0)) && C.timeAlive++, C.nwData > C.nwDataMax && (C.nwDataMax = C.nwData), C.nwDataTotal += C.nwData;
-                    //console.log
-                    //GifSkinManager.check()
+                    GifSkinManager.check()
                     let {
                         connection: e
                     } = C, {
@@ -2653,8 +2652,6 @@
                                         n = 32 & t ? void 0 : n, r = 64 & t ? void 0 : r, g(15 & t, s, a, n, o, r, l, c, e)
                                     },
                                     destroy(e, t) {
-                                        //console.log(e);
-                                        //console.log(s);
                                         let {
                                             playback: s
                                         } = i;
