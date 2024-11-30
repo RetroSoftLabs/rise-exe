@@ -2653,14 +2653,13 @@
                                         n = 32 & t ? void 0 : n, r = 64 & t ? void 0 : r, g(15 & t, s, a, n, o, r, l, c, e)
                                     },
                                     destroy(e, t) {
-                                        console.log(t);
+                                        console.log(e);
+                                        console.log(s);
                                         let {
                                             playback: s
                                         } = i;
                                         if (s.dry) {
-                                            if(t > 0){
                                             s.destroyCell(t);
-                                            }
                                             return
                                         }
                                         m(t, e)
