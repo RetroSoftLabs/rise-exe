@@ -528,6 +528,7 @@
                     let {
                         dual: t
                     } = this;
+                    console.log(this);
                     return e ? t.opened && t.alive : this.connection.opened && this.alive
                 }
                 get allCells() {
