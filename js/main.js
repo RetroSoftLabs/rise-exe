@@ -2781,7 +2781,7 @@
                 }
                 addCell(e) {
                     this.foreground.addChild(e);
-                    console.log(e);
+                    //console.log(e);
                     
                 }
                 addFood(e) {
@@ -3544,6 +3544,8 @@
                     if (C) {
                         if (o.massShown && s) {
                             let y = i.getMassText(this.nSize * this.nSize / 100);
+                            console.log(this);
+                            console.log(y);
                             C.text = y, C.visible = !0
                         } else C.visible && (C.visible = !1)
                     }
