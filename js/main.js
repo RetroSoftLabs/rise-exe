@@ -2761,7 +2761,9 @@
                     this.foreground.children.sort((e, t) => (e = e.gameData).size === (t = t.gameData).size ? e.id - t.id : e.size - t.size)
                 }
                 addCell(e) {
-                    this.foreground.addChild(e)
+                    if(e.gameData.size<3000){
+                        this.foreground.addChild(e)
+                    }
                 }
                 addFood(e) {
                     this.food.addChild(e)
