@@ -8595,5 +8595,5 @@ Multibox Profile
         })
     })
         
-console.log('Balls game stable 1.13')
+console.log('Balls game unstable 1.13')
 }(window);
