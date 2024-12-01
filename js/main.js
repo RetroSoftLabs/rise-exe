@@ -2493,8 +2493,12 @@
                 } = s(8);
             class u extends d {
                 constructor(e) {
+                    let t = new PIXI.BaseTexture(e),
+                        s = new PIXI.Texture(t);
+                    e.texture = s;
                     //e.texture = PIXI.Texture.from("/img/coin.png"), 
-                    super(e)
+                    super(e);
+                    this.sprite.alpha = .3;
                 }
             }
             u.prototype.type = 9, u.prototype.isCoin = !0;
@@ -3592,7 +3596,7 @@
                 } = s(12);
             class o extends i {
                 constructor(e, t, s) {
-                    e.texture = (s ? a : n).getTexture(t || 4210752), super(e), this.sprite.alpha = .5
+                    e.texture = (s ? a : n).getTexture(t || 4210752), super(e), this.sprite.alpha = .1
                 }
             }
             o.prototype.type = 5, o.prototype.isDead = !0, e.exports = o
@@ -3600,7 +3604,7 @@
             let i = s(14);
             class a extends i {
                 constructor(e) {
-                    e.texture = PIXI.Texture.from("/img/crown.png"), super(e), this.sprite.alpha = .7
+                    e.texture = PIXI.Texture.from("/img/crown.png"), super(e), this.sprite.alpha = .3
                 }
             }
             a.prototype.type = 6, a.prototype.isCrown = !0, e.exports = a
