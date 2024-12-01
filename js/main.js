@@ -2773,8 +2773,8 @@
                     }
                 }
                 addFood(e) {
-                    console.log(e);
-                    this.food.addChild(e);
+                    //this.food.addChild(e);
+                    return
                 }
                 toggleBackgroundImage(e) {
                     e && !this.backgroundSprite ? this.setBackgroundImage() : e || this.destroyBackgroundImage(!0)
