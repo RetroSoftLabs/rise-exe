@@ -797,8 +797,8 @@
                     } else y.deathDelay = !1, y.autoRespawning = !1, this.actions.join()
                 }
                 handleDeath(e, t) {
-                    console.log("RIP");
-                    console.log(e);
+                    //console.log("RIP");
+                    console.log(t);
                     e.readUInt16LE(), this.killCount += e.readUInt16LE(), e.readUInt32LE(), t || (y.deathDelay = !0);
                     let {
                         dual: s
@@ -3801,7 +3801,7 @@
                     }
                 }
                 switch () {
-                    console.log(this);
+                    //console.log(this);
                     if (n.spectating && (n.spectating = !1), !this.opened) return void this.open();
                     if (!this.ready) return;
                     let e = this.focused;
