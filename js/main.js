@@ -8591,5 +8591,5 @@ Multibox Profile
         })
     })
         
-console.log('RISE v1.1.3')
+console.log('Balls game stable 1.13')
 }(window);
