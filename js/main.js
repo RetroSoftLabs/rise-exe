@@ -705,44 +705,114 @@
                     } else this.isAlive(!0) || this.isAlive(!1) || (this.score = 0);
                     this.renderer.render(n.container)
                 }
-                updateCamera(e = !1) {
-                    let {
-                        scene: t,
-                        camera: s
-                    } = this, i = this.timeStamp - s.time, a = m(i / r.cameraMoveDelay, 0, 1), n = m(i / r.cameraZoomDelay, 0, 1), o = t.container.pivot.x = 1 == a ? s.nx : A(s.ox, s.nx, a), l = t.container.pivot.y = 1 == a ? s.ny : A(s.oy, s.ny, a), c = 1 == n ? s.nz : A(s.oz, s.nz, n);
-                    t.container.scale.set(c);
-                    let h = this.mouseZoom,
-                        d = 0,
-                        p = 0,
-                        u = 0;
-                    if (this.spectating) {
-                        let {
-                            sx: g,
-                            sy: v
-                        } = s;
-                        d = g, p = v
-                    } else {
-                        let f = !1;
-                        if (!this.replaying) {
-                            let {
-                                dual: y
-                            } = this;
-                            if (y.connected) {
-                                let w = y.getDistanceFromOwner();
-                                f = !!r.singleView || null == w || w > r.switchDistance * 1000
-                            }
-                        }
-                        let I = 0,
-                            k;
-                        for (k of this.ownedCells.values()) {
-                            if (f && k.pid != C.activePid) continue;
-                            let b = Math.round(Math.pow(k.nSize / 10, 2));
-                            d += k.nx * b, p += k.ny * b, I += k.nSize, u += b
-                        }
-                        u ? (d /= u, p /= u, r.autoZoom && (h *= Math.pow(Math.min(64 / I, 1), .27))) : (d = s.nx, p = s.ny)
-                    }
-                    return e ? (s.ox = o, s.oy = l, s.oz = c, s.nx = d, s.ny = p, s.nz = h, s.time = this.timeStamp, 0) : u
+                //updateCamera(e = !1) {
+                //    let {
+                //        scene: t,
+                //        camera: s
+                //    } = this, i = this.timeStamp - s.time, a = m(i / r.cameraMoveDelay, 0, 1), n = m(i / r.cameraZoomDelay, 0, 1), o = t.container.pivot.x = 1 == a ? s.nx : A(s.ox, s.nx, a), l = t.container.pivot.y = 1 == a ? s.ny : A(s.oy, s.ny, a), c = 1 == n ? s.nz : A(s.oz, s.nz, n);
+                //    t.container.scale.set(c);
+                //    let h = this.mouseZoom,
+                //        d = 0,
+                //        p = 0,
+                //        u = 0;
+                //    if (this.spectating) {
+                //        let {
+                //            sx: g,
+                //            sy: v
+                //        } = s;
+                //        d = g, p = v
+                //    } else {
+                //        let f = !1;
+                //        if (!this.replaying) {
+                //            let {
+                //                dual: y
+                //            } = this;
+                //            if (y.connected) {
+                //               let w = y.getDistanceFromOwner();
+                //                f = !!r.singleView || null == w || w > r.switchDistance * 1000
+                //            }
+                //        }
+                //        let I = 0,
+                //            k;
+                //        for (k of this.ownedCells.values()) {
+                //            if (f && k.pid != C.activePid) continue;
+                //            let b = Math.round(Math.pow(k.nSize / 10, 2));
+                //           d += k.nx * b, p += k.ny * b, I += k.nSize, u += b
+                //        }
+                //        u ? (d /= u, p /= u, r.autoZoom && (h *= Math.pow(Math.min(64 / I, 1), .27))) : (d = s.nx, p = s.ny)
+                //    }
+                //    return e ? (s.ox = o, s.oy = l, s.oz = c, s.nx = d, s.ny = p, s.nz = h, s.time = this.timeStamp, 0) : u
+                //}
+                updateCamera(server) {
+                    const {camera} = this;
+
+                    const {oldPosition, newPosition} = camera; 
+
+		            let elapsedTime = (this.timeStamp - camera.timeStamp);
+		            const moveLerpFactor = clampNumber(elapsedTime / settings.cameraMoveDelay, 0, 1);
+		            const zoomLerpFactor = clampNumber(elapsedTime / settings.cameraZoomDelay, 0, 1);
+
+                    let stage = this.scene.container;
+
+                    let currentPosition = oldPosition.copy().lerp(newPosition, moveLerpFactor);
+                    stage.pivot.set(currentPosition.x, currentPosition.y);
+        
+		            let scale = lerp(camera.oldScale, camera.newScale, zoomLerpFactor);
+		            stage.scale.set(scale);
+        
+		            let newScale = this.mouseZoom;
+
+                    /** @type {Vector2} */
+                    let position;
+
+                    /** @type {number} */
+                    let score;
+        
+		            if (this.spectating) {
+                        position = camera.spectator;
+
+                        score = NaN;
+		            } else {
+                        position = this.centerPosition;
+                        position.reset();
+
+                        score = 0;
+
+			        const {ownedCells} = this;
+
+			        if (ownedCells.size !== 0) {
+                        let radius = 0;
+    
+                        /** @type {Cell} */
+                    let cell;
+                for (cell of ownedCells) {
+                    let mass = Math.round(Math.pow(cell.nSize/10, 2));
+                    position.add(cell.nx*mass, cell.ny*mass);
+                    score += mass;
+                    radius += cell.nSize;
                 }
+
+                position.divide(score);
+                
+				if (settings.autoZoom) {
+					newScale *= Math.pow(Math.min(64/radius, 1), 0.27);
+				}
+			} else {
+                position.set(newPosition);
+
+				/** @note Uncomment this to disallow zooming when the player is dead and isn't spectating */
+				// newScale = camera.newScale;
+			}
+		}
+
+        if (!server) return score;
+        
+        newPosition.set(position);
+        camera.newScale = newScale;
+        oldPosition.set(currentPosition);
+        camera.oldScale = scale;
+        camera.timeStamp = gameObject.timeStamp;
+    }
                 updateMouse(e = !1) { //
                     let t = this.scene.container,
                         {
