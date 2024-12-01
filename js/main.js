@@ -7502,7 +7502,7 @@
                     created() {
                         eD.events.$on("skin-url-edit", this.onSkinUrlChanged.bind(this)), this.skins = this.loadSkins() || this.getDefaultSkins();
                         var e = Number(localStorage.selectedSkinIndex) || 0;
-                        this.selectSkin(e), GAME.skinPanel = this
+                        /*this.selectSkin(e)*/, GAME.skinPanel = this
                     },
                     methods: {
                         loadSkins() {
