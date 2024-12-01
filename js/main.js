@@ -797,6 +797,8 @@
                     } else y.deathDelay = !1, y.autoRespawning = !1, this.actions.join()
                 }
                 handleDeath(e, t) {
+                    console.log("RIP");
+                    console.log(e);
                     e.readUInt16LE(), this.killCount += e.readUInt16LE(), e.readUInt32LE(), t || (y.deathDelay = !0);
                     let {
                         dual: s
