@@ -3798,6 +3798,7 @@
                     }
                 }
                 switch () {
+                    console.log(n);
                     if (n.spectating && (n.spectating = !1), !this.opened) return void this.open();
                     if (!this.ready) return;
                     let e = this.focused;
