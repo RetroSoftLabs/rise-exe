@@ -749,8 +749,8 @@
                     const {oldPosition, newPosition} = camera; 
 
 		            let elapsedTime = (this.timeStamp - camera.timeStamp);
-		            const moveLerpFactor = clampNumber(elapsedTime / settings.cameraMoveDelay, 0, 1);
-		            const zoomLerpFactor = clampNumber(elapsedTime / settings.cameraZoomDelay, 0, 1);
+		            const moveLerpFactor = m(elapsedTime / r.cameraMoveDelay, 0, 1);
+		            const zoomLerpFactor = m(elapsedTime / r.cameraZoomDelay, 0, 1);
 
                     let stage = this.scene.container;
 
