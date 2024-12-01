@@ -5,7 +5,7 @@
         location.href !== t && (location.href = t)
     }
     document.title = "Balls game", window.customModal = (e, t) => {
-        document.getElementsByClassName("fa-clipboard-list")[0].click(), setTimeout(() => {
+        document.getElementsByClassName("fa-clipboard-list")[0].click(), setTimeout(() => {food
             document.getElementsByClassName("content fade-box")[0].getElementsByTagName("div")[0].innerHTML = e, t && setTimeout(t, 50)
         }, 50)
     };
@@ -2773,7 +2773,8 @@
                     }
                 }
                 addFood(e) {
-                    this.food.addChild(e)
+                    console.log(e);
+                    this.food.addChild(e);
                 }
                 toggleBackgroundImage(e) {
                     e && !this.backgroundSprite ? this.setBackgroundImage() : e || this.destroyBackgroundImage(!0)
