@@ -20459,7 +20459,7 @@ var PIXI = function(t) {
                 set: function(t) {
                     var e = ee(this.scale.x) || 1;
                     this.scale.x = e * t / this._texture.orig.width, this._width = t
-                },
+                },r
                 enumerable: !1,
                 configurable: !0
             }), Object.defineProperty(r.prototype, "height", {
@@ -20467,8 +20467,11 @@ var PIXI = function(t) {
                     return Math.abs(this.scale.y) * this._texture.orig.height
                 },
                 set: function(t) {
-                    var e = ee(this.scale.y) || 1;
-                    this.scale.y = e * t / this._texture.orig.height, this._height = t
+                    try{
+                        var e = ee(this.scale.y) || 1;
+                        this.scale.y = e * t / this._texture.orig.height, this._height = t
+                    }
+                    catch{console.log(this); console.log(t); throw new Error("tick shit");}                
                 },
                 enumerable: !1,
                 configurable: !0
