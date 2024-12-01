@@ -20472,7 +20472,9 @@ var PIXI = function(t) {
                         this.scale.y = e * t / this._texture.orig.height, this._height = t;
                     }
                     catch(err){
-                        console.log(err);
+                        console.log(t);
+                        console.log(this);
+                        throw new Error(err);
                     }
                 },
                 enumerable: !1,
