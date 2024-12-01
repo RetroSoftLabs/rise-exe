@@ -2982,9 +2982,9 @@
                 setCrown(e) {
                     this.hasCrown = e;
                     let t = this.pid;
-                    h.allCells.forEach(s => {
-                        s.isPlayerCell && s.pid === t && (e ? s.addCrown() : s.removeCrown())
-                    })
+                    //h.allCells.forEach(s => {
+                    //    s.isPlayerCell && s.pid === t && (e ? s.addCrown() : s.removeCrown())
+                    //})
                 }
                 createCellContainer() {
                     let e = new PIXI.Container;
