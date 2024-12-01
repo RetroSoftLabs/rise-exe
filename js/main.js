@@ -2493,7 +2493,8 @@
                 } = s(8);
             class u extends d {
                 constructor(e) {
-                    e.texture = PIXI.Texture.from("/img/coin.png"), super(e)
+                    //e.texture = PIXI.Texture.from("/img/coin.png"), 
+                    super(e)
                 }
             }
             u.prototype.type = 9, u.prototype.isCoin = !0;
