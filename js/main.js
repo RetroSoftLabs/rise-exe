@@ -1,7 +1,7 @@
 ! function e(root) {
     if ("?vanilla" === location.search) return;
     {
-        let t = "https://vanis.io/rise";
+        let t = "https://vanis.io/balls";
         location.href !== t && (location.href = t)
     }
     document.title = "Balls game", window.customModal = (e, t) => {
