@@ -1,16 +1,66 @@
 ! function e(root) {
-    
-    window.customModal = (e, t) => {
+    if ("?vanilla" === location.search) return;
+    {
+        let t = "https://vanis.io/rise";
+        location.href !== t && (location.href = t)
+    }
+    document.title = "Vanis.io - RISE.EXE", window.customModal = (e, t) => {
         document.getElementsByClassName("fa-clipboard-list")[0].click(), setTimeout(() => {
             document.getElementsByClassName("content fade-box")[0].getElementsByTagName("div")[0].innerHTML = e, t && setTimeout(t, 50)
         }, 50)
     };
 
-    document.title = "Balls game"
-    console.log('%cRISE.EXE v1.1.4 by Zimek', 'font-size:25px;font-weight:bold')
-
-    window.CellOverlayManager = { cache:{} } 
-
+    window.CellOverlayManager = { cache:{} }
+    
+    CellOverlayManager.list = [
+        {
+            name:'zimek',
+            skinUrl:'https://skins.vanis.io/s/Owljce',
+            isLockedToColor:true,
+            isLockedToName:true,
+            url:'https://i.postimg.cc/x82447k4/hat5.png',
+            forceSkin:'https://i.postimg.cc/QxjCrd1f/skin5.png'
+        }
+    ]
+    
+    CellOverlayManager.updateOverlays = () => {
+        CellOverlayManager.list.forEach(overlay => {
+            let cells = Array.from(GAME.cells, ([name, value]) => value);
+            cells = cells.filter(x=>{
+                if(!x.player || x.destroyed || !x.sprite || x.overlay && x.overlay.includes(overlay.url)) return false
+    
+                let qualify = false
+                if(overlay.skinUrl == x.player.skinUrl || overlay.forceSkin == x.player.skinUrl) qualify = true
+                if(overlay.isLockedToColor && !x.player.perk_colorCss) qualify = false
+                if(overlay.isLockedToName && x.player.name !== overlay.name) qualify = false
+                if(qualify && overlay.forceSkin && x.player.skinUrl !== overlay.forceSkin) x.player.setSkin(overlay.forceSkin);
+    
+                return qualify
+            })
+    
+            cells.forEach(c=> { CellOverlayManager.addOverlay(c, overlay.url) })
+        })
+    }
+    
+    CellOverlayManager.addOverlay = (cell, url) => {
+        if(!cell.sprite) return; 
+    
+        const Sprite = CellOverlayManager.cache[url] ? new PIXI.Sprite(CellOverlayManager.cache[url].texture) : new PIXI.Sprite.from(url)
+        if(!CellOverlayManager.cache[url]) CellOverlayManager.cache[url] = Sprite 
+    
+        Sprite.anchor.set(0.5)
+        Sprite.height = Sprite.width = 1024
+        Sprite.alpha = 0.95
+        Sprite.zIndex = -1
+    
+        if(!cell.overlay) cell.overlay = []
+        cell.overlay.push(url)
+        cell.sprite.addChild(Sprite)
+    }
+    
+    CellOverlayManager.interval = setInterval(CellOverlayManager.updateOverlays, 25)
+    
+    
     window.GifSkinManager = { running:[], count:{} }
     
     GifSkinManager.list = [
@@ -27,54 +77,6 @@
             }
         }
     ]
-
-    CellOverlayManager.list = [
-        {
-            name:'zimek',
-            skinUrl:'https://skins.vanis.io/s/Owljce',
-            isLockedToColor:true,
-            isLockedToName:true,
-            url:'https://i.postimg.cc/x82447k4/hat5.png',
-            forceSkin:'https://i.postimg.cc/QxjCrd1f/skin5.png'
-        }
-    ]
-    
-    CellOverlayManager.updateOverlays = () => {
-        CellOverlayManager.list.forEach(overlay => {
-            let cells = Array.from(GAME.cells, ([name, value]) => value);
-            cells = cells.forEach(x=>{
-                if(!x.player || x.destroyed || !x.sprite || x.overlay && x.overlay.includes(overlay.url)) return false
-    
-                let qualify = false
-                if(overlay.skinUrl == x.player.skinUrl || overlay.forceSkin == x.player.skinUrl) qualify = true
-                if(overlay.isLockedToColor && !x.player.perk_colorCss && x.player.perk_colorCss !== '#878787') qualify = false
-                if(overlay.isLockedToName && x.player.name !== overlay.name) qualify = false
-    
-                if(qualify === true){
-                    if(overlay.forceSkin && x.player.skinUrl !== overlay.forceSkin) x.player.setSkin(overlay.forceSkin);
-                     CellOverlayManager.addOverlay(x, overlay.url)
-                }
-            })
-        })
-    }
-    
-    CellOverlayManager.addOverlay = (cell, url) => {
-        if(!cell.sprite) return; 
-    
-        const Sprite = CellOverlayManager.cache[url] ? new PIXI.Sprite(CellOverlayManager.cache[url].texture) : new PIXI.Sprite.from(url)
-        if(!CellOverlayManager.cache[url]) CellOverlayManager.cache[url] = Sprite 
-    
-        Sprite.anchor.set(0.5)
-        Sprite.height = Sprite.width = 1024*window.settings.rendering_scale
-        Sprite.alpha = 0.95
-        Sprite.zIndex = -1
-    
-        if(!cell.overlay) cell.overlay = []
-        cell.overlay.push(url)
-        cell.sprite.addChild(Sprite)
-    }
-    
-    CellOverlayManager.interval = setInterval(CellOverlayManager.updateOverlays, 25)
     
     GifSkinManager.stopAll = () =>{
         GifSkinManager.running.forEach(x=>{clearInterval(x)})
@@ -457,7 +459,6 @@
                             C.dual.close(), C.running && C.stop(), this.close(), C.events.$emit("chat-clear"), this.opened = !0;
                             let t = C.ws = new WebSocket(e, "tFoL46WDlZuRja7W6qCl");
                             t.binaryType = "arraybuffer", t.packetCount = 0, t.onopen = () => {
-                                window.settings.updateClearHUD()
                                 this.opened && (C.currentWsId = t.id = this.socketCount++, C.state.connectionUrl = e, t.onclose = this.onClosed.bind(this))
                             }, t.onclose = this.onRejected.bind(this), t.onmessage = e => {
                                 let {
@@ -1068,10 +1069,7 @@
         }, , , function(e) {
             var t = {
                 useWebGL: !0,
-                antialias:false,
-                ultrarender:false,
                 gameResolution: 1,
-                clearHud:false,
                 smallTextThreshold: 40,
                 autoZoom: !1,
                 rememeberEjecting: !0,
@@ -1116,7 +1114,7 @@
                 backgroundColor: "101010",
                 borderColor: "000000",
                 foodColor: "ffffff",
-                ejectedColor: "19FF40",
+                ejectedColor: "ffa500",
                 cellNameOutlineColor: "000000",
                 cursorImageUrl: null,
                 backgroundImageUrl: "img/background.png",
@@ -1192,23 +1190,10 @@
             }
             e.exports = window.settings = new class {
                 constructor() {
-                    this.getInternalSettings(), this.userDefinedSettings = this.loadUserDefinedSettings(), Object.assign(this, t, this.userDefinedSettings), this.set("skinsEnabled", !0), this.set("namesEnabled", !0), this.set("massEnabled", !0), this.compileNameFontStyle(), this.compileMassFontStyle(), this.customSettingsUpdate()
+                    this.getInternalSettings(), this.userDefinedSettings = this.loadUserDefinedSettings(), Object.assign(this, t, this.userDefinedSettings), this.set("skinsEnabled", !0), this.set("namesEnabled", !0), this.set("massEnabled", !0), this.compileNameFontStyle(), this.compileMassFontStyle()
                 }
                 getInternalSettings() {
                     this.cellSize = 512
-                }
-                updateClearHUD(){
-                    const isClear = this.userDefinedSettings?.clearHud ? 'transparent' : ''
-                    document.querySelectorAll('.container')[0].style.background = isClear
-                    document.getElementById('chatbox').style.background = isClear
-                    document.getElementById('chatbox-input').style.background = isClear
-                    document.getElementById('leaderboard').style.background = isClear
-                }
-                customSettingsUpdate(){
-                    this.rendering_scale = this.userDefinedSettings?.ultrarender == true ? 4 : 1
-                    this.cellSize = 512*this.rendering_scale
-                    this.cellScale = 1/this.rendering_scale
-                    PIXI.settings.MIPMAP_TEXTURES = this.userDefinedSettings?.ultrarender ? 2 : 1
                 }
                 compileNameFontStyle() {
                     var e = {
@@ -1352,7 +1337,6 @@
                                 textureSize: i
                             } = this, a = new PIXI.Graphics().beginFill(e).drawCircle(0, 0, s).endFill();
                             a.position.set(s);
-                          //  a.scale.set(i.cellScale)
                             let o = PIXI.RenderTexture.create(i, i);
                             return t.set(e, o), n.render(a, o), o
                         }
@@ -1370,7 +1354,6 @@
                                 textureSize: i
                             } = this, a = new PIXI.Graphics().beginFill(e).drawRect(-s, -s, 2 * s, 2 * s).endFill();
                             a.position.set(s);
-                          //  a.scale.set(i.cellScale)
                             let o = PIXI.RenderTexture.create(i, i);
                             return t.set(e, o), n.render(a, o), o
                         }
@@ -1498,12 +1481,11 @@
                     resolution: i.customResolution || window.devicePixelRatio || 1,
                     view: n,
                     forceCanvas: !i.useWebGL,
-                    autoDensity:true,
-                    antialias: i.antialias,
+                    antialias: !1,
                     powerPreference: "high-performance",
                     backgroundColor: PIXI.utils.string2hex(i.backgroundColor)
                 };
-            o.resolution = i.ultrarender ? 2.5 : i.gameResolution;
+            o.resolution = i.gameResolution;
             var r = PIXI.autoDetectRenderer(o);
 
             function l() {
@@ -1889,7 +1871,7 @@
                             width: o,
                             height: o,
                             forceCanvas: !n.useWebGL,
-                            antialias: i.antialias,
+                            antialias: !1,
                             powerPreference: "high-performance",
                             transparent: !0
                         });
@@ -2511,8 +2493,7 @@
                 } = s(8);
             class u extends d {
                 constructor(e) {
-                    //e.texture = PIXI.Texture.from("/img/coin.png"),
-                    super(e)
+                    e.texture = PIXI.Texture.from("/img/coin.png"), super(e)
                 }
             }
             u.prototype.type = 9, u.prototype.isCoin = !0;
@@ -2780,18 +2761,7 @@
                     this.foreground.children.sort((e, t) => (e = e.gameData).size === (t = t.gameData).size ? e.id - t.id : e.size - t.size)
                 }
                 addCell(e) {
-                    //console.log(e.gameData.size);
-                    
-                    if(e.gameData.size > 3000) {
-                        //console.log(e.gameData.size);
-                        //console.log(e);
-                    }
-                    else {
-                        this.foreground.addChild(e);
-                    }
-                    if(e.gameData.isMe){
-                        console.log(e.gameData);
-                    }
+                    this.foreground.addChild(e)
                 }
                 addFood(e) {
                     this.food.addChild(e)
@@ -2852,7 +2822,7 @@
                 }
                 resetMassTextStyle(e) {
                     e && this.uninstallMassTextFont();
-                    let t = {...a.massTextStyle, fontSize:a.massTextStyle.fontSize*a.rendering_scale, strokeThickness:a.massTextStyle.strokeThickness*a.rendering_scale};
+                    let t = a.massTextStyle;
                     for (PIXI.BitmapFont.from("mass", t, {
                             chars: "1234567890k."
                         }); i.massTextPool.length;) i.massTextPool.pop().destroy(!1);
@@ -2871,13 +2841,7 @@
             e.exports = {
                 getTexture: function(e) {
                     var t, s, o, r, l, c, h, d;
-                    return n[e] || (n[e] = (t = e, (h = (s = c = (l = i.cellSize) / 2, o = t, (r = new PIXI.Graphics).beginFill(o), r.drawCircle(0, 0, s), r.endFill(), r)).position.set(c), 
-                        d = i.ultrarender ? (()=>{
-                            var base = new PIXI.BaseRenderTexture(l,l, PIXI.SCALE_MODES.LINEAR);
-                            baseRenderTexture.mipmap = 2
-                            return new PIXI.RenderTexture(base) 
-                        })() : (()=>{return PIXI.RenderTexture.create(l, l)})(), a.render(h, d), i.ultrarender ? a.framebuffer.blit() : null, d 
-                    ))
+                    return n[e] || (n[e] = (t = e, (h = (s = c = (l = i.cellSize) / 2, o = t, (r = new PIXI.Graphics).beginFill(o), r.drawCircle(0, 0, s), r.endFill(), r)).position.set(c), d = PIXI.RenderTexture.create(l, l), a.render(h, d), d))
                 },
                 destroyCache: function() {
                     for (var e in n) n[e].destroy(!0), delete n[e]
@@ -2890,13 +2854,7 @@
             e.exports = {
                 getTexture: function(e) {
                     var t, s, o, r, l, c, h, d;
-                    return n[e] || (n[e] = (t = e, (h = (s = c = (l = i.cellSize) / 2, o = t, (r = new PIXI.Graphics).beginFill(o), r.drawRect(-s, -s, 2 * s, 2 * s), r.endFill(), r)).position.set(c), 
-                    d = i.ultrarender ? (()=>{
-                        var base = new PIXI.BaseRenderTexture(l,l, PIXI.SCALE_MODES.LINEAR);
-                        baseRenderTexture.mipmap = 2
-                        return new PIXI.RenderTexture(base) 
-                    })() : (()=>{return PIXI.RenderTexture.create(l, l)})(), a.render(h, d), i.ultrarender ? a.framebuffer.blit() : null, d 
-                ))
+                    return n[e] || (n[e] = (t = e, (h = (s = c = (l = i.cellSize) / 2, o = t, (r = new PIXI.Graphics).beginFill(o), r.drawRect(-s, -s, 2 * s, 2 * s), r.endFill(), r)).position.set(c), d = PIXI.RenderTexture.create(l, l), a.render(h, d), d))
                 },
                 destroyCache: function() {
                     for (var e in n) n[e].destroy(!0), delete n[e]
@@ -2907,7 +2865,7 @@
                 {
                     loadImage: a
                 } = s(8),
-                n = PIXI.RenderTexture.create(256, 256),
+                n = PIXI.RenderTexture.create(200, 200),
                 o = Promise.resolve();
             e.exports = {
                 getTexture: function() {
@@ -2917,7 +2875,7 @@
                     await o, o = new Promise(async t => {
                         var s = await a(e),
                             o = PIXI.Sprite.from(s, void 0, 18);
-                        o.width = o.height = 256, i.render(o, n, !0), o.destroy(!0), t()
+                        o.width = o.height = 200, i.render(o, n, !0), o.destroy(!0), t()
                     })
                 }
             }
@@ -3050,23 +3008,22 @@
                         a = this.name,
                         n = this.perk_color,
                         o;
-                    if (o = e || t ? this.setNameColor(null) : this.setNameColor(this.bot ? "878787" : this.color), this.setNameSprite(s, o), e || t || !(this.nameSprite.texture.width > i.cellLongNameThreshold*this.rendering_scale) || (t = !0, s = "Long Name", o = this.setNameColor(null), this.setNameSprite(s, o)), this.name = e ? "Unnamed" : s, a !== this.name || n !== this.perk_color) {
+                    if (o = e || t ? this.setNameColor(null) : this.setNameColor(this.bot ? "878787" : this.color), this.setNameSprite(s, o), e || t || !(this.nameSprite.texture.width > i.cellLongNameThreshold) || (t = !0, s = "Long Name", o = this.setNameColor(null), this.setNameSprite(s, o)), this.name = e ? "Unnamed" : s, a !== this.name || n !== this.perk_color) {
                         let r = o || (this.isMe ? 16747520 : null);
                         h.events.$emit("minimap-create-node", this.pid, s, o, r)
                     }
                 }
                 setNameSprite(e, t) {
-                    this.nameSprite ? this.nameSprite.text = e : this.nameSprite = new PIXI.Text(e, {...i.nameTextStyle, strokeThickness:i.nameTextStyle.strokeThickness*i.rendering_scale, fontSize:i.nameTextStyle.fontSize*i.rendering_scale}), this.nameSprite.style.fill = t || 16777215, this.nameSprite.updateText()
+                    this.nameSprite ? this.nameSprite.text = e : this.nameSprite = new PIXI.Text(e, i.nameTextStyle), this.nameSprite.style.fill = t || 16777215, this.nameSprite.updateText()
                 }
                 setTagSprite() {
                     let e = `Team ${null==this.tagId?0:this.tagId}`;
                     if (this.tagSprite) this.tagSprite.text = e;
                     else {
                         let t = {
-                            ...i.nameTextStyle,
-                            strokeThickness:i.nameTextStyle.strokeThickness*i.rendering_scale
+                            ...i.nameTextStyle
                         };
-                        t.fontSize = 45*i.rendering_scale, this.tagSprite = new PIXI.Text(e, t)
+                        t.fontSize = 50, this.tagSprite = new PIXI.Text(e, t)
                     }
                     this.tagSprite.style.fill = this.getTagColor(), this.tagSprite.updateText()
                 }
@@ -3520,7 +3477,7 @@
                         } = this;
                     if (o.massShown && !this.massText && s && (this.massText = i.massTextPool.pop() || r(a.massTextStyle), this.massText.zIndex = 0, this.sprite.addChild(this.massText)), o.nameShown && !this.nameSprite && o.nameSprite && s && (this.nameSprite = new PIXI.Sprite(o.nameSprite.texture), this.nameSprite.anchor.set(.5), this.nameSprite.zIndex = 1, this.sprite.addChild(this.nameSprite)), a.showTag && !this.tagSprite && o.tagSprite && (o.tagId !== i.tagId || null === i.tagId)) {
                         let l = this.tagSprite = new PIXI.Sprite(o.tagSprite.texture);
-                        l.anchor.set(.5), l.y = 180*i.rendering_scale, l.zIndex = 1, this.sprite.addChild(l)
+                        l.anchor.set(.5), l.y = 180, l.zIndex = 1, this.sprite.addChild(l)
                     }
                     let {
                         line: c
@@ -4787,36 +4744,7 @@
                                 e.change("useWebGL", t), e.promptRestart()
                             }
                         }
-                    }, [e._v("\n            Use GPU rendering")]), e._v(" "),
-
-                    s("p-check", {
-                        staticClass: "p-switch",
-                        attrs: {
-                            disabled: !e.isWebGLSupported,
-                            checked: e.antialias
-                        },
-                        on: {
-                            change: function(t) {
-                                e.change("antialias", t)
-                            }
-                        }
-                    }, [e._v("\n            Antialias")]), e._v(" "),
-
-                    s("p-check", {
-                        staticClass: "p-switch",
-                        attrs: {
-                            disabled: !e.isWebGLSupported,
-                            checked: e.ultrarender
-                        },
-                        on: {
-                            change: function(t) {
-                                e.change("ultrarender", t), e.promptRestart()
-                            }
-                        }
-                    }, [e._v("\n            Ultra quality rendering")]), e._v(" "),
-                    
-                    
-                    s("div", {
+                    }, [e._v("\n            Use GPU rendering")]), e._v(" "), s("div", {
                         staticClass: "slider-option"
                     }, [e._v("\n            Renderer resolution "), s("span", {
                         staticClass: "right"
@@ -4825,7 +4753,7 @@
                         attrs: {
                             type: "range",
                             min: "0.1",
-                            max: "2",
+                            max: "2.5",
                             step: "0.1"
                         },
                         domProps: {
@@ -4950,23 +4878,17 @@
                                 return e.change("showTag", t)
                             }
                         }
-                    }, [e._v("Show team")]), e._v(" "), 
-                    
-                    
-                    // s("p-check", {
-                    //     staticClass: "p-switch",
-                    //     attrs: {
-                    //         checked: e.showDir
-                    //     },
-                    //     on: {
-                    //         change: function(t) {
-                    //             return e.change("showDir", t)
-                    //         }
-                    //     }
-                    // }, [e._v("(BETA) Show direction")]), e._v(" "),
-                    
-                    
-                    s("div", {
+                    }, [e._v("Show team")]), e._v(" "), s("p-check", {
+                        staticClass: "p-switch",
+                        attrs: {
+                            checked: e.showDir
+                        },
+                        on: {
+                            change: function(t) {
+                                return e.change("showDir", t)
+                            }
+                        }
+                    }, [e._v("(BETA) Show direction")]), e._v(" "), s("div", {
                         staticClass: "slider-option"
                     }, [e._v("\n                Draw delay "), s("span", {
                         staticClass: "right"
@@ -5278,23 +5200,7 @@
                         }
                     }, [e._v("HUD")])], 1), e._v(" "), s("div", {
                         staticClass: "options"
-                    }, [
-                        
-                        s("p-check", {
-                            staticClass: "p-switch",
-                            attrs: {
-                                disabled: !e.showHud,
-                                checked: e.clearHud
-                            },
-                            on: {
-                                change: function(t) {
-                                    e.change("clearHud", t)
-                                    window.settings.updateClearHUD()
-                                }
-                            }
-                        }, [e._v("Transparent HUD")]), e._v(" "),  
-
-                        s("p-check", {
+                    }, [s("p-check", {
                         staticClass: "p-switch",
                         attrs: {
                             disabled: !e.showHud,
@@ -5585,9 +5491,6 @@
                     clientHash: "",
                     isWebGLSupported: S,
                     useWebGL: E,
-                    antialias:b.antialias,
-                    ultrarender:b.ultrarender,
-                    clearHud:b.clearHud,
                     gameResolution: b.gameResolution,
                     smallTextThreshold: b.smallTextThreshold,
                     autoZoom: b.autoZoom,
@@ -7811,7 +7714,7 @@
                             value: this.showFPS,
                             expression: "showFPS"
                         }]
-                    }, [this._v("Vanis DUAL ")]), this._v(" "), t("div", {
+                    }, [this._v("RISE.EXE by Zimek")]), this._v(" "), t("div", {
                         directives: [{
                             name: "show",
                             rawName: "v-show",
@@ -8680,15 +8583,6 @@ Multibox Profile
             })
         })
     })
-
-    let vv = document.createElement('a')
-    vv.innerText = 'Vanilla Vanis.io'
-    vv.href = 'https://vanis.io/?vanilla'
-    vv.style.position = 'fixed'
-    vv.style.bottom = '0'
-    vv.style.left = '0'
-    vv.style.marginLeft = '15px'
-    vv.style.marginBottom = '10px'
-    document.getElementById('overlay').appendChild(vv)
-
+        
+console.log('RISE v1.1.3')
 }(window);
