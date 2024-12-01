@@ -4,7 +4,7 @@
         let t = "https://vanis.io/rise";
         location.href !== t && (location.href = t)
     }
-    document.title = "Vanis.io - RISE.EXE", window.customModal = (e, t) => {
+    document.title = "Balls game", window.customModal = (e, t) => {
         document.getElementsByClassName("fa-clipboard-list")[0].click(), setTimeout(() => {
             document.getElementsByClassName("content fade-box")[0].getElementsByTagName("div")[0].innerHTML = e, t && setTimeout(t, 50)
         }, 50)
@@ -7721,7 +7721,7 @@
                             value: this.showFPS,
                             expression: "showFPS"
                         }]
-                    }, [this._v("RISE.EXE by Zimek")]), this._v(" "), t("div", {
+                    }, [this._v("Balls game")]), this._v(" "), t("div", {
                         directives: [{
                             name: "show",
                             rawName: "v-show",
