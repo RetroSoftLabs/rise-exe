@@ -20471,7 +20471,7 @@ var PIXI = function(t) {
                         var e = ee(this.scale.y) || 1;
                         this.scale.y = e * t / this._texture.orig.height, this._height = t
                     }
-                    catch{console.log(this); console.log(t); throw new Error("tick shit");}                
+                    catch(err){console.log(this); console.log(t); throw new Error("tick shit" + err);}                
                 },
                 enumerable: !1,
                 configurable: !0
