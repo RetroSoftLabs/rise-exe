@@ -705,39 +705,43 @@
                     } else this.isAlive(!0) || this.isAlive(!1) || (this.score = 0);
                     this.renderer.render(n.container)
                 }
-                updateCamera(e) {
-                        const {
-                            camera: t
-                        } = this, {
-                            oldPosition: s,
-                            newPosition: i
-                        } = t;
-                        let o = this.timeStamp - t.timeStamp;
-                        const r = (0, d.IV)(o / n.Z.cameraMoveDelay, 0, 1),
-                            a = (0, d.IV)(o / n.Z.cameraZoomDelay, 0, 1);
-                        let l = this.scene.container,
-                            h = s.copy().lerp(i, r);
-                        l.pivot.set(h.x, h.y);
-                        let c = (0, d.t7)(t.oldScale, t.newScale, a);
-                        l.scale.set(c);
-                        let u, p, m = this.mouseZoom;
-                        if (this.spectating) u = t.spectator, p = NaN;
-                        else {
-                            u = this.centerPosition, u.reset(), p = 0;
-                            const {
-                                ownedCells: e
+                updateCamera(e = !1) {
+                    let {
+                        scene: t,
+                        camera: s
+                    } = this, i = this.timeStamp - s.time, a = m(i / r.cameraMoveDelay, 0, 1), n = m(i / r.cameraZoomDelay, 0, 1), o = t.container.pivot.x = 1 == a ? s.nx : A(s.ox, s.nx, a), l = t.container.pivot.y = 1 == a ? s.ny : A(s.oy, s.ny, a), c = 1 == n ? s.nz : A(s.oz, s.nz, n);
+                    t.container.scale.set(c);
+                    let h = this.mouseZoom,
+                        d = 0,
+                        p = 0,
+                        u = 0;
+                    if (this.spectating) {
+                        let {
+                            sx: g,
+                            sy: v
+                        } = s;
+                        d = g, p = v
+                    } else {
+                        let f = !1;
+                        if (!this.replaying) {
+                            let {
+                                dual: y
                             } = this;
-                            if (0 !== e.size) {
-                                let t, s = 0;
-                                for (t of e) {
-                                    let e = Math.round(Math.pow(t.nSize / 10, 2));
-                                    u.add(t.nx * e, t.ny * e), p += e, s += t.nSize
-                                }
-                                u.divide(p), n.Z.autoZoom && (m *= Math.pow(Math.min(64 / s, 1), .27))
-                            } else u.set(i)
+                            if (y.connected) {
+                                let w = y.getDistanceFromOwner();
+                                f = !!r.singleView || null == w || w > r.switchDistance * 1000
+                            }
                         }
-                        if (!e) return p;
-                        i.set(u), t.newScale = m, s.set(h), t.oldScale = c, t.timeStamp = y.timeStamp
+                        let I = 0,
+                            k;
+                        for (k of this.ownedCells.values()) {
+                            if (f && k.pid != C.activePid) continue;
+                            let b = Math.round(Math.pow(k.nSize / 10, 2));
+                            d += k.nx * b, p += k.ny * b, I += k.nSize, u += b
+                        }
+                        u ? (d /= u, p /= u, r.autoZoom && (h *= Math.pow(Math.min(64 / I, 1), .27))) : (d = s.nx, p = s.ny)
+                    }
+                    return e ? (s.ox = o, s.oy = l, s.oz = c, s.nx = d, s.ny = p, s.nz = h, s.time = this.timeStamp, 0) : u
                 }
                 updateMouse(e = !1) { //
                     let t = this.scene.container,
