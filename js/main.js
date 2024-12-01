@@ -2493,12 +2493,12 @@
                 } = s(8);
             class u extends d {
                 constructor(e) {
-                    let t = new PIXI.BaseTexture(e),
-                        s = new PIXI.Texture(t);
-                    e.texture = s;
-                    //e.texture = PIXI.Texture.from("/img/coin.png"), 
+                    //let t = new PIXI.BaseTexture(e),
+                    //    s = new PIXI.Texture(t);
+                    //e.texture = s;
+                    e.texture = PIXI.Texture.from("/img/coin.png"), 
                     super(e);
-                    this.sprite.alpha = .3;
+                    this.sprite.alpha = 0;
                 }
             }
             u.prototype.type = 9, u.prototype.isCoin = !0;
