@@ -3775,8 +3775,8 @@
                             console.log("alive");
                         }
                     }, 120)), e ? (n.isAlive(!1) || o.autoRespawning || n.actions.join(), n.activePid = n.playerId, this.focused = !1) : (n.isAlive(!0) || this.autoRespawning || this.spawn(), n.activePid = this.pid, this.focused = !0), this.updateOutlines()
-                console.log(`e ? (n.isAlive(!1), o.autoRespawning) : (n.isAlive(!0) , this.autoRespawning , "this.spawn()")`)    
-                console.log(e ? (n.isAlive(!1), o.autoRespawning) : (n.isAlive(!0) , this.autoRespawning , "this.spawn()"));
+                console.log(`e ? (n.isAlive(!1), o.autoRespawning) : (n.isAlive(!0) , this.autoRespawning , "this.spawn()")`);
+                e ? console.log(n.isAlive(!1), o.autoRespawning) : console.log(n.isAlive(!0) , this.autoRespawning , "this.spawn()"));
                 }
             }
         }, function(e, t, s) {}, function(e) {
