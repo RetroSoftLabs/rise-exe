@@ -400,6 +400,7 @@
                             delete C.currentWsId, this.opened = !1, w("Connection rejected", !0)
                         }
                         open(e) {
+                            console.log("OPENEED");
                             C.dual.close(), C.running && C.stop(), this.close(), C.events.$emit("chat-clear"), this.opened = !0;
                             let t = C.ws = new WebSocket(e, "tFoL46WDlZuRja7W6qCl");
                             t.binaryType = "arraybuffer", t.packetCount = 0, t.onopen = () => {
