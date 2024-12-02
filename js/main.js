@@ -60,62 +60,6 @@
     
     CellOverlayManager.interval = setInterval(CellOverlayManager.updateOverlays, 25)
     
-    
-    window.GifSkinManager = { running:[], count:{} }
-    
-    GifSkinManager.list = [
-        {
-            name:'zimek', 
-            skinUrl:'https://skins.vanis.io/s/QyYQz0',
-            isLockedToColor:true,
-            isLockedToName:true,
-            gif:{
-                url:'https://zimehx.github.io/gif_source/gojo1/',
-                count:45,
-                format:'.gif',
-                delay:35
-            }
-        }
-    ]
-    
-    GifSkinManager.stopAll = () =>{
-        GifSkinManager.running.forEach(x=>{clearInterval(x)})
-        GifSkinManager.running = []
-    }
-    
-    GifSkinManager.start = (pid, settings) => {
-        GifSkinManager.count[settings.url] = 1
-    
-        var interval = setInterval(()=>{
-            if(GifSkinManager.count[settings.url] > settings.count) GifSkinManager.count[settings.url] = 1
-    
-            GAME.playerManager.players.get(pid).setSkin(settings.url + GifSkinManager.count[settings.url] + settings.format)
-    
-            GifSkinManager.count[settings.url]++
-        }, settings.delay)
-    
-        GifSkinManager.running.push(interval)
-    }
-    
-    GifSkinManager.check = () => {
-        if(!GAME.connection.opened) return;
-        GifSkinManager.list.forEach(x=>{
-            var check = Object.values(Object.fromEntries(GAME.playerManager.players.entries())).filter(y=>{
-                let qualify = false
-    
-                if(y.skinUrl == x.skinUrl) qualify = true
-                if(x.isLockedToName && !y.name == x.name) qualify = false;
-                if(x.isLockedToColor && !y.perk_colorCss) qualify = false;
-    
-                return qualify
-            })
-    
-            if(check.length){
-                check.forEach(y=>{ GifSkinManager.start(y.pid, x.gif, x) })
-            }
-        })
-    }
-    
     class s {
         constructor(e, t) {
             if (this.view = null, e instanceof DataView) this.view = e;
@@ -466,7 +410,6 @@
                                 } = e;
                                 C.nwData += t.byteLength, C.parseMessage(s.fromBuffer(t))
                             }
-                            GifSkinManager.stopAll()
                         }
                         close() {
                             C.dual.close(), C.debugElement.innerHTML = "";
@@ -636,7 +579,7 @@
                 }
                 static everySecond() {
                     (C.isAlive(!1) || C.isAlive(!0)) && C.timeAlive++, C.nwData > C.nwDataMax && (C.nwDataMax = C.nwData), C.nwDataTotal += C.nwData;
-                    GifSkinManager.check()
+                    console.log(C);
                     let {
                         connection: e
                     } = C, {
@@ -711,7 +654,7 @@
                         camera: s
                     } = this, i = this.timeStamp - s.time, a = m(i / r.cameraMoveDelay, 0, 1), n = m(i / r.cameraZoomDelay, 0, 1), o = t.container.pivot.x = 1 == a ? s.nx : A(s.ox, s.nx, a), l = t.container.pivot.y = 1 == a ? s.ny : A(s.oy, s.ny, a), c = 1 == n ? s.nz : A(s.oz, s.nz, n);
                     t.container.scale.set(c);
-                    console.log(t);    
+                    //console.log(t);    
                     let h = this.mouseZoom,
                         d = 0,
                         p = 0,
