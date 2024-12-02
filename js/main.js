@@ -635,7 +635,9 @@
                     }
                     let a = 0;
                     this.allCells.forEach(e => {
+                        try{
                         e.update(), e.pid == this.activePid && a++
+                        }catch(error){console.log(error);console.log(e);}
                     }), this.cellCount != a && (this.cellCount = a, this.events.$emit("cells-changed", a));
                     let {
                         scene: n
@@ -1334,6 +1336,7 @@
                     l.anchor.set(.5), l.gameData = this, this.x = this.ox = l.position.x = t, this.y = this.oy = this.sprite.position.y = s, this.mainContext = r, this.activeContexts = 1
                 }
                 update() {
+                    
                     let e = i.timeStamp - this.updateStamp,
                         t = o(e / a.drawDelay, 0, 1);
                     if (this.destroyed && (1 === t || this.texture.clearedFromCache)) return !0;
