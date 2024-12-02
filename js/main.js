@@ -2032,6 +2032,7 @@
                         })
                     },
                     respawn() {
+                        console.log("RESPAWNINIG");
                         o.join(i.dual.focused), i.showMenu(!1)
                     },
                     feed: o.feed.bind(o),
