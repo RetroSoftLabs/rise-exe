@@ -381,6 +381,7 @@
                             this.socketCount = 0, this.opened = !1
                         }
                         onClosed(e) {
+                            console.log("closed "+e);
                             delete C.currentWsId, this.opened = !1, C.running && C.stop();
                             let t;
                             if (1003 === e.code) t = 1500, w("Server restarting...", !1);
