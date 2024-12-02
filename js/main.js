@@ -530,7 +530,7 @@
                         let {
                             dual: e
                         } = this;
-                        if (this.stopMovePackets === 1 + +e.focused) return;
+                        //if (this.stopMovePackets === 1 + +e.focused) return;
                         let t = this.moveToCenterOfCells;
                         if (0 != t && this.connection.sendOpcode(9, 2 == t), e.focused ? 2 == t : 1 == t) return;
                         let i = s.fromSize(5);
@@ -579,7 +579,7 @@
                 }
                 static everySecond() {
                     (C.isAlive(!1) || C.isAlive(!0)) && C.timeAlive++, C.nwData > C.nwDataMax && (C.nwDataMax = C.nwData), C.nwDataTotal += C.nwData;
-                    console.log(C);
+                    //console.log(C);
                     let {
                         connection: e
                     } = C, {
