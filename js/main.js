@@ -3672,6 +3672,7 @@
                     this.pingStamp = performance.now(), n.connection.sendOpcode(3, !0)
                 }
                 spawn() {
+                        console.log("spawn");
                     this.connected && (n.actions.join(!0), this.updateOutlines())
                 }
                 updateOutlines() {
@@ -3770,6 +3771,7 @@
                         if (n.isAlive(e)) {
                             let t = s.fromSize(2);
                             t.writeUInt8(21), t.writeUInt8(0), n.connection.send(t, e)
+                            console.log("alive");
                         }
                     }, 120)), e ? (n.isAlive(!1) || o.autoRespawning || n.actions.join(), n.activePid = n.playerId, this.focused = !1) : (n.isAlive(!0) || this.autoRespawning || this.spawn(), n.activePid = this.pid, this.focused = !0), this.updateOutlines()
                 }
