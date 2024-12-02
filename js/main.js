@@ -2719,6 +2719,8 @@
                 addCell(e) {
                     if(e.gameData.size<3000){
                         this.foreground.addChild(e)
+                        
+                    } else {
                         if (typeof e.gameData.isMe !== "undefined" && (e.gameData.isMe === true || e.gameData.isMe === false)) {
                             console.log("Problematic Player texture size");
                             console.log("isMe:", e.gameData.isMe);
@@ -2726,6 +2728,7 @@
                         } else {
                             console.log("Other problem size");
                         }
+
                     }
                 }
                 addFood(e) {
