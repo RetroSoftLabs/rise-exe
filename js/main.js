@@ -1339,7 +1339,7 @@
                     
                     let e = i.timeStamp - this.updateStamp,
                         t = o(e / a.drawDelay, 0, 1);
-                    if (this.destroyed && (1 === t || this.texture.clearedFromCache)) return !0;
+                    if (this.destroyed && (1 === t || this.texture.clearedFromCache)){ console.log("wtf destroyed");return !0; }
                     let s = 2 * (this.size = t * (this.nSize - this.oSize) + this.oSize),
                         {
                             sprite: n
