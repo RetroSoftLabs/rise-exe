@@ -481,12 +481,13 @@
                         {
                             dual: t
                         } = this;
-                    if (true) return e;
-                    //if (!t.opened) return e;
+                    //if (true) return e;
+                    if (!t.opened) return e;
                     e = new Map([...e]);
                     let s = t.cells;
                     return s.forEach((t, s) => {
-                        e.has(s) || e.set(s, t)
+                        //e.has(s) || e.set(s, t)
+                        e.set(s,t)
                     }), e
                 }
                 updateStates(e) {
