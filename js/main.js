@@ -534,7 +534,7 @@
                         let {
                             dual: e
                         } = this;
-                        //if (this.stopMovePackets === 1 + +e.focused) return;
+                        if (this.stopMovePackets === 1 + +e.focused) return;
                         let t = this.moveToCenterOfCells;
                         if (0 != t && this.connection.sendOpcode(9, 2 == t), e.focused ? 2 == t : 1 == t) return;
                         let i = s.fromSize(5);
