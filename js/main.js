@@ -474,7 +474,7 @@
                     let {
                         dual: t
                     } = this;
-                    return e ? t.connection.opened && t.alive : this.connection.opened && this.alive
+                    return e ? t.opened && t.alive : this.connection.opened && this.alive
                 }
                 get allCells() {
                     let e = this.cells,
@@ -622,6 +622,7 @@
                     let {
                         destroyedCells: e
                     } = this;
+                    this.cells.clear();
                     for (; e.length;) e.pop().destroySprite()
                 }
                 onTick() {
