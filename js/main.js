@@ -654,7 +654,7 @@
                     } else this.isAlive(!0) || this.isAlive(!1) || (this.score = 0);
                     this.renderer.render(n.container)
                 }
-                updateCamera(e = !1) {
+                static updateCamera(e = !1) {
                     let {
                         scene: t,
                         camera: s
