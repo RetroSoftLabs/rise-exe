@@ -654,7 +654,7 @@
                     } else this.isAlive(!0) || this.isAlive(!1) || (this.score = 0);
                     this.renderer.render(n.container)
                 }
-                static updateCamera(e = !1) {
+                    updateCamera(e = !1) {
                     let {
                         scene: t,
                         camera: s
@@ -666,6 +666,7 @@
                         p = 0,
                         u = 0;
                     if (this.spectating) {
+                        console.log("spectating");
                         let {
                             sx: g,
                             sy: v
@@ -679,6 +680,7 @@
                             } = this;
                             if (y.connected) {
                                let w = y.getDistanceFromOwner();
+                                console.log(w);
                                 f = !!r.singleView || null == w || w > r.switchDistance * 1000
                             }
                         }
