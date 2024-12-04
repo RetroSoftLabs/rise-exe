@@ -481,7 +481,8 @@
                         {
                             dual: t
                         } = this;
-                    if (!t.opened) return e;
+                    if (true) return e;
+                    //if (!t.opened) return e;
                     e = new Map([...e]);
                     let s = t.cells;
                     return s.forEach((t, s) => {
