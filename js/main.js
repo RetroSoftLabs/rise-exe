@@ -474,7 +474,7 @@
                     let {
                         dual: t
                     } = this;
-                    return e ? t.opened && t.alive : this.connection.opened && this.alive
+                    return e ? t.connection.opened && t.alive : this.connection.opened && this.alive
                 }
                 get allCells() {
                     let e = this.cells,
