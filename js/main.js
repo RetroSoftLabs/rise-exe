@@ -666,7 +666,6 @@
                         p = 0,
                         u = 0;
                     if (this.spectating) {
-                        console.log("spectating");
                         let {
                             sx: g,
                             sy: v
@@ -680,7 +679,6 @@
                             } = this;
                             if (y.connected) {
                                let w = y.getDistanceFromOwner();
-                                console.log(w);
                                 f = !!r.singleView || null == w || w > r.switchDistance * 1000
                             }
                         }
@@ -1107,8 +1105,8 @@
                 gameAlpha: 1,
                 mbName: "",
                 mbUseName: !1,
-                debugStats: !1,
-                clientStats: !1,
+                debugStats: !0,
+                clientStats: !0,
                 playerStats: !0,
                 showCellLines: !1,
                 showTag: !1,
