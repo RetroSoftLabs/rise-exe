@@ -625,35 +625,58 @@
                     for (; e.length;) e.pop().destroySprite()
                 }
                 onTick() {
-                    let e = this.timeStamp = performance.now();
-                    e >= this.moveWaitUntil && (this.updateMouse(), this.splitCount = 0);
-                    let {
-                        destroyedCells: t
-                    } = this, s = t.length;
-                    for (; s--;) {
-                        let i = t[s];
-                        i.update() && (i.destroySprite(), t.splice(s, 1))
-                    }
-                    let a = 0;
-                    this.allCells.forEach(e => {
-                        try{
-                        e.update(), e.pid == this.activePid && a++
-                        }catch(error){console.log(error);console.log(e);}
-                    }), this.cellCount != a && (this.cellCount = a, this.events.$emit("cells-changed", a));
-                    let {
-                        scene: n
-                    } = this;
-                    n.sort();
-                    let o = this.updateCamera();
-                    if (o) {
-                        this.score = o;
+                        const e = this.timeStamp = performance.now();
+                        e >= this.moveWaitUntil && (this.updateMouse(), this.splitCount = 0);
                         let {
-                            highestScore: r
-                        } = this;
-                        this.highestScore = r ? r < o ? o : r : o
-                    } else this.isAlive(!0) || this.isAlive(!1) || (this.score = 0);
-                    this.renderer.render(n.container)
-                }
+                            cellQueue: t
+                        } = this, s = m.pj.size, i = m.u.size, n = Array.from(m.pj), r = 0, a = s, l = 1023;
+                        for (; r < a;) {
+                            const e = n.slice(r, r += l);
+                            t.unshift(...e)
+                        }
+                        for (n = Array.from(m.u.values()), r = 0, a = i, l = 8191; r < a;) {
+                            const e = n.slice(r, r += l);
+                            t.unshift(...e)
+                        }
+                        const h = s + i;
+                        for (let s = 0; s < h; s++) {
+                            let i = t[s];
+                            i.update(e) && m.pj.has(i) && (i.destroySprite(), m.pj.delete(i))
+                        }
+                        t.length = 0, this.scene.sort();
+                        let d = this.updateCamera(!1);
+                        NaN !== d ? (this.score = d, this.highestScore = Math.max(d, this.highestScore || 0)) : (this.score = 0, this.highestScore = 0), o.Z.render(this.scene.container), this.frames++
+                    }
+                //onTick() {
+                //    let e = this.timeStamp = performance.now();
+                //    e >= this.moveWaitUntil && (this.updateMouse(), this.splitCount = 0);
+                //    let {
+                //        destroyedCells: t
+                //    } = this, s = t.length;
+                //    for (; s--;) {
+                //        let i = t[s];
+                //        i.update() && (i.destroySprite(), t.splice(s, 1))
+                //    }
+                //    let a = 0;
+                //    this.allCells.forEach(e => {
+                //        try{
+                //        e.update(), e.pid == this.activePid && a++
+                //        }catch(error){console.log(error);console.log(e);}
+                //    }), this.cellCount != a && (this.cellCount = a, this.events.$emit("cells-changed", a));
+                //    let {
+                //        scene: n
+                //    } = this;
+                //    n.sort();
+                //    let o = this.updateCamera();
+                //    if (o) {
+                //        this.score = o;
+                //        let {
+                //            highestScore: r
+                //        } = this;
+                //        this.highestScore = r ? r < o ? o : r : o
+                //    } else this.isAlive(!0) || this.isAlive(!1) || (this.score = 0);
+                //    this.renderer.render(n.container)
+                //}
                     updateCamera(e = !1) {
                     let {
                         scene: t,
