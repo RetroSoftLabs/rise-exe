@@ -7044,10 +7044,10 @@
                                     };
                                 console.log(l);
                                 if (l.data instanceof ArrayBuffer) {
-                                    const decoder = new TextDecoder("utf-8");
-                                    l.data = decoder.decode(l.data);
+                                    const uint8Array = new Uint8Array(l.data); 
+                                    const base64String = btoa(String.fromCharCode(...uint8Array));
                                     console.log("decoded");
-                                    console.log(l.data); // Output: "Hello"
+                                    console.log(base64String);
                                 } else {
                                     //console.log("The input is not an ArrayBuffer.");
                                 }
