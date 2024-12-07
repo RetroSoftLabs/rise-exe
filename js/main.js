@@ -7060,8 +7060,7 @@
                         // Recombine text prefix and Base64-encoded binary data
                         const result = `${textPart}${base64String}`;
                         console.log(result);
-}
-
+},
                         async updateReplayPage(e) {
                             e && ("number" == typeof e ? this.pageIndex += e : this.pageIndex = parseInt(e.target.value) - 1 || 0), this.pageLoadingCancel && (this.pageLoadingCancel(), this.pageLoadingCancel = null);
                             var t = Math.max(Math.min(this.pageIndex, this.pageCount - 1), 0);
