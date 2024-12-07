@@ -8580,5 +8580,5 @@ Multibox Profile
         })
     })
         
-console.log('Balls game unstable 1.13')
+console.log('Ball game unstable 1.13')
 }(window);
