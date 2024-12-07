@@ -7041,6 +7041,7 @@
                                     const rawString = String.fromCharCode(...uint8Array);
                                 
                                     // Check if the string starts with the expected prefix
+                                    console.log(rawString);
                                     const prefix = "REPLAY|4|data:image/png;base64,";
                                     if (rawString.startsWith(prefix)) {
                                         // Extract the Base64 part
