@@ -7030,37 +7030,6 @@
                             }
                         },
                         async updateReplayPage(e) {
-                                function processArrayBuffer(buffer) {
-                                    if (!(buffer instanceof ArrayBuffer)) {
-                                        console.error("Input is not an ArrayBuffer.");
-                                        return;
-                                    }
-                                
-                                    // Convert the ArrayBuffer to a string
-                                    const uint8Array = new Uint8Array(buffer);
-                                    const rawString = String.fromCharCode(...uint8Array);
-                                
-                                    // Check if the string starts with the expected prefix
-                                    console.log(rawString);
-                                    const prefix = "REPLAY|4|data:image/png;base64,";
-                                    if (rawString.startsWith(prefix)) {
-                                        // Extract the Base64 part
-                                        const base64Data = rawString.slice(prefix.length);
-                                
-                                        try {
-                                            // Decode Base64 back into binary data for further processing if needed
-                                            const binaryString = atob(base64Data);
-                                            console.log("Base64 Data:", base64Data);
-                                            console.log("Decoded Binary String:", binaryString);
-                                        } catch (error) {
-                                            console.error("Invalid Base64 data:", error);
-                                        }
-                                    } else {
-                                        console.error("The input does not match the expected REPLAY format.");
-                                    }
-                                }
-                                
-
                             e && ("number" == typeof e ? this.pageIndex += e : this.pageIndex = parseInt(e.target.value) - 1 || 0), this.pageLoadingCancel && (this.pageLoadingCancel(), this.pageLoadingCancel = null);
                             var t = Math.max(Math.min(this.pageIndex, this.pageCount - 1), 0);
                             this.pageIndex !== t && (this.pageIndex = t), this.pageLoaded = !1;
@@ -7075,11 +7044,19 @@
                                     };
                                 console.log(l);
                                 if (l.data instanceof ArrayBuffer) {
-                                        processArrayBuffer(l.data);
+                                        
+                                        var o = new Uint8Array(l.data, 13, 2),
+                                        gsk = o[0] << 8 | o[1],
+                                        c = new File([l.data.slice(15, 15 + gsk)], 'image.webp', {
+                    type: 'image/webp'
+                  });
+                                s.push(r = URL.createObjectURL(c))
+                
                                 } else {
+                                    
+                                    l.data.startsWith("REPLAY") ? l.image = l.data.split("|")[2] : l.image = "https://vanis.io/img/replay-placeholder.png", s.push(l)
                                     //console.log("The input is not an ArrayBuffer.");
                                 }
-                                l.data.startsWith("REPLAY") ? l.image = l.data.split("|")[2] : l.image = "https://vanis.io/img/replay-placeholder.png", s.push(l)
                             }
                             i || (this.pageData.splice(0, this.pageData.length, ...s), this.pageLoaded = !0)
                         }
