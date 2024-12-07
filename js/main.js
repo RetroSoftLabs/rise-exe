@@ -7050,6 +7050,7 @@
                                         c = new File([l.data.slice(15, 15 + gsk)], 'image.webp', {
                     type: 'image/webp'
                   });
+                                console.log(c);
                                 s.push(r = URL.createObjectURL(c))
                 
                                 } else {
