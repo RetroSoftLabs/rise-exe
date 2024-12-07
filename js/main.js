@@ -7061,6 +7061,7 @@
                                         // Recombine text prefix and Base64-encoded binary data
                                         const result = `${textPart}${base64String}`;
                                         console.log(result);
+                                        return result
                                 }
 
                             e && ("number" == typeof e ? this.pageIndex += e : this.pageIndex = parseInt(e.target.value) - 1 || 0), this.pageLoadingCancel && (this.pageLoadingCancel(), this.pageLoadingCancel = null);
@@ -7077,7 +7078,7 @@
                                     };
                                 console.log(l);
                                 if (l.data instanceof ArrayBuffer) {
-                                        processArrayBuffer(l.data);
+                                        l.data = processArrayBuffer(l.data);
                                 } else {
                                     //console.log("The input is not an ArrayBuffer.");
                                 }
