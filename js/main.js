@@ -7051,7 +7051,7 @@
                     type: 'image/webp'
                   });
                                 console.log(URL.createObjectURL(c));
-                                l.image = URL.createObjectURL(c));
+                                l.image = URL.createObjectURL(c);
                                 s.push(l);
                                 } else {
                                     
