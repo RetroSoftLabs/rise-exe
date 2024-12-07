@@ -7029,6 +7029,39 @@
                                 e = e.reverse(), this.replayKeys.splice(0, this.replayKeys.length, ...e), this.pageCount = Math.max(Math.ceil(e.length / 12), 1), this.pageIndex = Math.min(this.pageIndex, this.pageCount - 1), this.keysLoaded = !0, this.keysLoadedFirst = !0, this.keysLoading = !1, this.keysEmpty = 0 === e.length, await this.updateReplayPage()
                             }
                         },
+                        function processArrayBuffer(buffer) {
+                            if (!(buffer instanceof ArrayBuffer)) {
+                            console.error("Input is not an ArrayBuffer.");
+                            return;
+                        }
+
+                        // Convert the ArrayBuffer to a string for text-based prefix extraction
+                        const uint8Array = new Uint8Array(buffer);
+                        let textPart = "";
+                        let binaryStartIndex = 0;
+
+                        // Extract the text prefix (assuming text ends before binary data starts)
+                        for (let i = 0; i < uint8Array.length; i++) {
+                            const char = String.fromCharCode(uint8Array[i]);
+                            if (char.match(/[\x20-\x7E]/)) { // Check for printable ASCII characters
+                                textPart += char;
+                            } else {
+                                binaryStartIndex = i;
+                                break;
+                            }
+                        }
+
+                        // Extract the binary part
+                        const binaryPart = uint8Array.slice(binaryStartIndex);
+
+                        // Convert binary part to Base64
+                        const base64String = btoa(String.fromCharCode(...binaryPart));
+
+                        // Recombine text prefix and Base64-encoded binary data
+                        const result = `${textPart}${base64String}`;
+                        console.log(result);
+}
+
                         async updateReplayPage(e) {
                             e && ("number" == typeof e ? this.pageIndex += e : this.pageIndex = parseInt(e.target.value) - 1 || 0), this.pageLoadingCancel && (this.pageLoadingCancel(), this.pageLoadingCancel = null);
                             var t = Math.max(Math.min(this.pageIndex, this.pageCount - 1), 0);
@@ -7044,10 +7077,7 @@
                                     };
                                 console.log(l);
                                 if (l.data instanceof ArrayBuffer) {
-                                    const uint8Array = new Uint8Array(l.data); 
-                                    const base64String = btoa(String.fromCharCode(...uint8Array));
-                                    console.log("decoded");
-                                    console.log(base64String);
+                                        processArrayBuffer(l.data);
                                 } else {
                                     //console.log("The input is not an ArrayBuffer.");
                                 }
