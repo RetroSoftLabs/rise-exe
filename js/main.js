@@ -638,6 +638,7 @@
                     let a = 0;
                     this.allCells.forEach(e => {
                         try{
+                        if(e.isMe){console.log(e);}
                         e.update(), e.pid == this.activePid && a++
                         }catch(error){console.log(error);console.log(e);}
                     }), this.cellCount != a && (this.cellCount = a, this.events.$emit("cells-changed", a));
