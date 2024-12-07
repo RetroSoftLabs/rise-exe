@@ -7042,6 +7042,7 @@
                                         name: r,
                                         data: await eh.getItem(r)
                                     };
+                                console.log(l);
                                 l.data.startsWith("REPLAY") ? l.image = l.data.split("|")[2] : l.image = "https://vanis.io/img/replay-placeholder.png", s.push(l)
                             }
                             i || (this.pageData.splice(0, this.pageData.length, ...s), this.pageLoaded = !0)
