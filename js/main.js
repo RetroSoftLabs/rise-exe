@@ -7030,7 +7030,7 @@
                             }
                         },
                         async updateReplayPage(e) {
-                                function processReplayBuffer(buffer) {
+                                function processArrayBuffer(buffer) {
                                     if (!(buffer instanceof ArrayBuffer)) {
                                         console.error("Input is not an ArrayBuffer.");
                                         return;
