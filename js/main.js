@@ -8603,5 +8603,5 @@ Multibox Profile
         })
     })
         
-console.log('RBalls game very unstable 1.13')
+console.log('Balls game unstable 1.13')
 }(window);
