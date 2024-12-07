@@ -7029,7 +7029,7 @@
                                 e = e.reverse(), this.replayKeys.splice(0, this.replayKeys.length, ...e), this.pageCount = Math.max(Math.ceil(e.length / 12), 1), this.pageIndex = Math.min(this.pageIndex, this.pageCount - 1), this.keysLoaded = !0, this.keysLoadedFirst = !0, this.keysLoading = !1, this.keysEmpty = 0 === e.length, await this.updateReplayPage()
                             }
                         },
-                        function processArrayBuffer(buffer) {
+                        processArrayBuffer(buffer) {
                             if (!(buffer instanceof ArrayBuffer)) {
                             console.error("Input is not an ArrayBuffer.");
                             return;
