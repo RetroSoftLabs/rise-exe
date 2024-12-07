@@ -7043,6 +7043,14 @@
                                         data: await eh.getItem(r)
                                     };
                                 console.log(l);
+                                if (l.data instanceof ArrayBuffer) {
+                                    const decoder = new TextDecoder("utf-8");
+                                    l.data = decoder.decode(l.data);
+                                    console.log("decoded");
+                                    console.log(l.data); // Output: "Hello"
+                                } else {
+                                    //console.log("The input is not an ArrayBuffer.");
+                                }
                                 l.data.startsWith("REPLAY") ? l.image = l.data.split("|")[2] : l.image = "https://vanis.io/img/replay-placeholder.png", s.push(l)
                             }
                             i || (this.pageData.splice(0, this.pageData.length, ...s), this.pageLoaded = !0)
