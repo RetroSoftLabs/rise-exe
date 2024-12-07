@@ -7059,6 +7059,7 @@
                                     //console.log("The input is not an ArrayBuffer.");
                                 }
                             }
+                        console.log(s);
                             i || (this.pageData.splice(0, this.pageData.length, ...s), this.pageLoaded = !0)
                         }
                     },
