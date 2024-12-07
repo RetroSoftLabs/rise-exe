@@ -7051,8 +7051,8 @@
                     type: 'image/webp'
                   });
                                 console.log(URL.createObjectURL(c));
-                                s.push(URL.createObjectURL(c))
-                
+                                l.image = URL.createObjectURL(c));
+                                s.push(l);
                                 } else {
                                     
                                     l.data.startsWith("REPLAY") ? l.image = l.data.split("|")[2] : l.image = "https://vanis.io/img/replay-placeholder.png", s.push(l)
