@@ -7059,7 +7059,7 @@
                                         const base64String = btoa(String.fromCharCode(...binaryPart));
 
                                         // Recombine text prefix and Base64-encoded binary data
-                                        const result = `${textPart}${base64String}`;
+                                        const result = `${textPart}data:image/png;base64,${base64String}`;
                                         console.log(result);
                                         return result
                                 }
